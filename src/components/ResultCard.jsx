@@ -17,11 +17,13 @@ const ResultCard = forwardRef(function ResultCard({ score, total, sections }, re
         </div>
         <strong>{messageFor(score.nilai)}</strong>
         <p>{score.right} dari {total} soal benar</p>
-        <ul className="per">
-          {sections.map((s) => (
-            <li key={s.id}>{s.id} · {score.per[s.id][0]}/{score.per[s.id][1]}</li>
-          ))}
-        </ul>
+        {sections.length > 1 && (
+          <ul className="per">
+            {sections.map((s) => (
+              <li key={s.id}>{s.short} · {score.per[s.id][0]}/{score.per[s.id][1]}</li>
+            ))}
+          </ul>
+        )}
       </div>
     </section>
   );

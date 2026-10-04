@@ -1,137 +1,121 @@
-import { useEffect, useMemo, useRef, useState } from "react";
-import { PER_SECTION, SECTION_INFO, buildPool } from "./data/bank.js";
-import { pick, shuffle } from "./lib/random.js";
-import { answerValue, isCorrect, toNilai } from "./lib/grade.js";
-import Question from "./components/Question.jsx";
-import ResultCard from "./components/ResultCard.jsx";
+import { useEffect, useState } from "react";
+import { CHAPTER_QUIZ_SIZE, MIXED_QUIZ_SIZE, SPECIAL, SUBJECTS, resolveRoute } from "./data/catalog.js";
+import Quiz from "./components/Quiz.jsx";
 
-const POOL = buildPool();
-const POOL_SIZE = Object.values(POOL).reduce((n, qs) => n + qs.length, 0);
+const TOTAL = SUBJECTS.reduce((n, s) => n + s.total, 0) + SPECIAL.total;
 
-/* Susun satu set ulangan: PER_SECTION soal acak per materi */
-function drawQuiz() {
-  return SECTION_INFO.map((sec) => ({
-    ...sec,
-    questions: pick(POOL[sec.id], PER_SECTION).map((src, i) => ({
-      id: `${sec.id}${i + 1}`,
-      no: i + 1,
-      sec: sec.id,
-      src,
-      opts: src.o ? (src.keep ? src.o : shuffle(src.o)) : null,
-    })),
-  }));
+function useHash() {
+  const [hash, setHash] = useState(() => window.location.hash);
+  useEffect(() => {
+    const onChange = () => {
+      setHash(window.location.hash);
+      window.scrollTo(0, 0);
+    };
+    window.addEventListener("hashchange", onChange);
+    return () => window.removeEventListener("hashchange", onChange);
+  }, []);
+  return hash;
 }
 
-export default function App() {
-  const [quiz, setQuiz] = useState(drawQuiz);
-  const [answers, setAnswers] = useState({});
-  const [checked, setChecked] = useState(false);
-  const [warned, setWarned] = useState(false);
-  const resultRef = useRef(null);
+function Card({ href, icon, title, text, meta, c, cd }) {
+  return (
+    <a className="card" href={href} style={{ "--c": c, "--cd": cd }}>
+      <span className="card-icon" aria-hidden="true">{icon}</span>
+      <span className="card-body">
+        <strong>{title}</strong>
+        {text && <span className="card-text">{text}</span>}
+        <span className="card-meta">{meta}</span>
+      </span>
+      <span className="card-go" aria-hidden="true">▶</span>
+    </a>
+  );
+}
 
-  const all = useMemo(() => quiz.flatMap((s) => s.questions), [quiz]);
-  const total = all.length;
-  const empty = all.filter((q) => answerValue(q, answers[q.id]) === null);
-
-  const score = useMemo(() => {
-    if (!checked) return null;
-    const per = {};
-    let right = 0;
-    for (const q of all) {
-      per[q.sec] ??= [0, 0];
-      per[q.sec][1]++;
-      if (isCorrect(q, answers[q.id])) {
-        per[q.sec][0]++;
-        right++;
-      }
-    }
-    return { right, per, nilai: toNilai(right, total) };
-  }, [checked, all, answers, total]);
-
-  useEffect(() => {
-    if (checked) resultRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
-  }, [checked]);
-
-  function setAnswer(id, value) {
-    if (checked) return;
-    setAnswers((a) => ({ ...a, [id]: value }));
-    setWarned(false);
-  }
-
-  function check() {
-    if (checked) return;
-    if (empty.length && !warned) {
-      setWarned(true);
-      document.getElementById(`row-${empty[0].id}`)?.scrollIntoView({ behavior: "smooth", block: "center" });
-      return;
-    }
-    setChecked(true);
-  }
-
-  function fresh() {
-    setQuiz(drawQuiz());
-    setAnswers({});
-    setChecked(false);
-    setWarned(false);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-
-  const progress = score
-    ? `Nilai ${score.nilai} · ${score.right} dari ${total} benar`
-    : warned
-      ? `Masih ada ${empty.length} soal kosong. Tekan Periksa jawaban lagi untuk tetap memeriksa.`
-      : `Terjawab ${total - empty.length} dari ${total}`;
-
+function Home() {
   return (
     <div className="wrap">
       <header className="head">
         <p className="mascots" aria-hidden="true">🐯🦎🌧️🍫⭐</p>
-        <p className="date">Ulangan Senin, 5 Oktober 2026</p>
+        <p className="date">Kelas 1 SD</p>
         <h1>
-          <span>Latihan</span> <span>Ulangan</span> <span>Bahasa</span> <span>Indonesia</span>
+          <span>Ayo</span> <span>Latihan</span> <span>Ulangan!</span>
         </h1>
-        <p className="note">
-          {total} soal acak dari bank {POOL_SIZE} soal, {PER_SECTION} soal tiap materi. Jawab semuanya, lalu tekan{" "}
-          <b>Periksa jawaban</b>. Tekan <b>Soal baru</b> atau muat ulang halaman untuk soal yang berbeda. Bagian A
-          sebaiknya dibacakan oleh ayah atau ibu.
-        </p>
+        <p className="note">Pilih pelajaran, lalu pilih bab. Ada {TOTAL} soal, dan soalnya selalu diacak.</p>
       </header>
 
-      {score && <ResultCard ref={resultRef} score={score} total={total} sections={quiz} />}
+      <section className="group">
+        <h2 className="group-title">Ulangan terdekat</h2>
+        <Card
+          href={`#/${SPECIAL.id}`}
+          icon={SPECIAL.icon}
+          title={SPECIAL.title}
+          text={`${SPECIAL.date}. ${SPECIAL.blurb}.`}
+          meta={`${SPECIAL.total} soal`}
+          c="#FFD23F"
+          cd="#E0A800"
+        />
+      </section>
 
-      <form id="quiz" noValidate onSubmit={(e) => e.preventDefault()}>
-        {quiz.map((sec) => (
-          <section className="sheet" key={sec.id} style={{ "--c": sec.c, "--cd": sec.cd }}>
-            <div className="sheet-head">
-              <span className="letter" aria-hidden="true">{sec.icon}</span>
-              <div>
-                <h2>{sec.id}. {sec.title}</h2>
-                <p>{sec.hint}</p>
-              </div>
-            </div>
-            <ol className="qs">
-              {sec.questions.map((q) => (
-                <Question
-                  key={q.id + q.src.t + (q.src.c ?? "")}
-                  q={q}
-                  marks={sec.marks}
-                  value={answers[q.id]}
-                  checked={checked}
-                  onChange={(v) => setAnswer(q.id, v)}
-                />
-              ))}
-            </ol>
-          </section>
+      <section className="group">
+        <h2 className="group-title">Pilih pelajaran</h2>
+        {SUBJECTS.map((s) => (
+          <Card
+            key={s.id}
+            href={`#/${s.id}`}
+            icon={s.icon}
+            title={s.title}
+            text={`${s.blurb}.`}
+            meta={`${s.chapters.length} bab · ${s.total} soal`}
+            c={s.c}
+            cd={s.cd}
+          />
         ))}
-      </form>
-
-      <div className="bar">
-        <p className={warned && !checked ? "warn" : undefined}>{progress}</p>
-        <div className="btns">
-          <button type="button" className="ghost" onClick={fresh}>🎲 Soal baru</button>
-          <button type="button" className="main" onClick={check}>✅ Periksa jawaban</button>
-        </div>
-      </div>
+      </section>
     </div>
   );
+}
+
+function SubjectPage({ subject }) {
+  return (
+    <div className="wrap">
+      <header className="head">
+        <a className="back" href="#/">← Pilih pelajaran lain</a>
+        <p className="mascots" aria-hidden="true">{subject.icon}</p>
+        <h1 className="small">{subject.title}</h1>
+        <p className="note">Pilih bab yang mau dilatih. Tiap bab {CHAPTER_QUIZ_SIZE} soal acak.</p>
+      </header>
+
+      <section className="group">
+        <Card
+          href={`#/${subject.id}/semua`}
+          icon="🎲"
+          title="Campuran semua bab"
+          text={`Sekitar ${MIXED_QUIZ_SIZE} soal dari semua bab.`}
+          meta={`${subject.total} soal`}
+          c="#FFD23F"
+          cd="#E0A800"
+        />
+        {subject.chapters.map((ch) => (
+          <Card
+            key={ch.id}
+            href={`#/${subject.id}/${ch.id}`}
+            icon={ch.icon}
+            title={ch.title}
+            text={ch.hint}
+            meta={`${ch.questions.length} soal`}
+            c={ch.c}
+            cd={ch.cd}
+          />
+        ))}
+      </section>
+    </div>
+  );
+}
+
+export default function App() {
+  const hash = useHash();
+  const route = resolveRoute(hash);
+  if (route.page === "quiz") return <Quiz key={hash} route={route} />;
+  if (route.page === "subject") return <SubjectPage subject={route.subject} />;
+  return <Home />;
 }

@@ -1,0 +1,2692 @@
+{
+  "id": "bi",
+  "title": "Bahasa Indonesia",
+  "chapters": [
+    {
+      "id": "bi-1",
+      "title": "Bab 1: Bunyi Apa?",
+      "hint": "Bunyi di sekitar, huruf kapital dan kecil, suku kata ba bi bu be bo",
+      "icon": "🔔",
+      "questions": [
+        {
+          "t": "Huruf kecil dari B adalah …",
+          "o": [
+            "b",
+            "d",
+            "p"
+          ],
+          "a": "b",
+          "g": "b1-Bb"
+        },
+        {
+          "t": "Huruf kapital dari b adalah …",
+          "o": [
+            "B",
+            "D",
+            "P"
+          ],
+          "a": "B",
+          "g": "b1-Bb"
+        },
+        {
+          "t": "Mana yang huruf kapital?",
+          "o": [
+            "A",
+            "b",
+            "c"
+          ],
+          "a": "A"
+        },
+        {
+          "t": "Mana yang huruf kecil?",
+          "o": [
+            "m",
+            "M",
+            "B"
+          ],
+          "a": "m"
+        },
+        {
+          "t": "Huruf kecil dari A adalah …",
+          "o": [
+            "a",
+            "e",
+            "o"
+          ],
+          "a": "a"
+        },
+        {
+          "t": "Huruf kapital dari e adalah …",
+          "o": [
+            "E",
+            "F",
+            "B"
+          ],
+          "a": "E"
+        },
+        {
+          "t": "Huruf apa yang hilang?",
+          "pre": "a,",
+          "post": ", c",
+          "a": "b"
+        },
+        {
+          "t": "Mana tulisan nama yang benar?",
+          "o": [
+            "Boni",
+            "boni",
+            "bOni"
+          ],
+          "a": "Boni"
+        },
+        {
+          "t": "b + a dibaca …",
+          "o": [
+            "ba",
+            "bi",
+            "bo"
+          ],
+          "a": "ba"
+        },
+        {
+          "t": "b + u dibaca …",
+          "o": [
+            "bu",
+            "ba",
+            "be"
+          ],
+          "a": "bu"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "bo + la =",
+          "a": "bola",
+          "g": "b1-bola"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ba + tu =",
+          "a": "batu",
+          "g": "b1-batu"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "bu + ku =",
+          "a": "buku",
+          "g": "b1-buku"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "bi + ru =",
+          "a": "biru",
+          "g": "b1-biru"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ba + ju =",
+          "a": "baju",
+          "g": "b1-baju"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Benda bundar untuk ditendang ⚽",
+          "post": "– la",
+          "a": "bo",
+          "g": "b1-bola"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Dibaca saat belajar 📖",
+          "post": "– ku",
+          "a": "bu",
+          "g": "b1-buku"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Dipakai di badan 👕",
+          "post": "– ju",
+          "a": "ba",
+          "g": "b1-baju"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Warna langit yang cerah",
+          "post": "– ru",
+          "a": "bi",
+          "g": "b1-biru"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Benda keras, banyak di sungai",
+          "post": "– tu",
+          "a": "ba",
+          "g": "b1-batu"
+        },
+        {
+          "t": "Gambar apa ini? 🐊",
+          "o": [
+            "buaya",
+            "bebek",
+            "burung"
+          ],
+          "a": "buaya"
+        },
+        {
+          "t": "Gambar apa ini? 🐻",
+          "o": [
+            "beruang",
+            "buaya",
+            "bebek"
+          ],
+          "a": "beruang"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata bu?",
+          "o": [
+            "buku",
+            "bola",
+            "batu"
+          ],
+          "a": "buku"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata bo?",
+          "o": [
+            "bola",
+            "biru",
+            "baju"
+          ],
+          "a": "bola"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata be?",
+          "o": [
+            "bebek",
+            "buaya",
+            "balok"
+          ],
+          "a": "bebek",
+          "g": "b1-bebek"
+        },
+        {
+          "t": "Kata \"batu\" terdiri atas suku kata …",
+          "o": [
+            "ba – tu",
+            "bat – u",
+            "b – atu"
+          ],
+          "a": "ba – tu",
+          "g": "b1-batu"
+        },
+        {
+          "t": "Huruf awal kata \"burung\" adalah …",
+          "o": [
+            "b",
+            "u",
+            "r"
+          ],
+          "a": "b"
+        },
+        {
+          "t": "Binatang apa yang berbunyi \"Meong! Meong!\"?",
+          "o": [
+            "kucing",
+            "anjing",
+            "sapi"
+          ],
+          "a": "kucing"
+        },
+        {
+          "t": "Binatang apa yang berbunyi \"Guk! Guk!\"?",
+          "o": [
+            "anjing",
+            "kucing",
+            "ayam"
+          ],
+          "a": "anjing"
+        },
+        {
+          "t": "Binatang apa yang berbunyi \"Muuu! Muuu!\"?",
+          "o": [
+            "sapi",
+            "bebek",
+            "tikus"
+          ],
+          "a": "sapi"
+        },
+        {
+          "t": "Binatang apa yang berbunyi \"Kukuruyuk!\"?",
+          "o": [
+            "ayam jago",
+            "bebek",
+            "sapi"
+          ],
+          "a": "ayam jago"
+        },
+        {
+          "t": "Binatang apa yang berbunyi \"Cit! Cit!\"?",
+          "o": [
+            "tikus",
+            "sapi",
+            "anjing"
+          ],
+          "a": "tikus"
+        },
+        {
+          "t": "Mana bunyi yang keras?",
+          "o": [
+            "bunyi petir",
+            "bunyi bisikan",
+            "bunyi daun jatuh"
+          ],
+          "a": "bunyi petir"
+        },
+        {
+          "t": "Mana bunyi yang pelan?",
+          "o": [
+            "bisikan teman",
+            "klakson truk",
+            "bunyi drum"
+          ],
+          "a": "bisikan teman"
+        },
+        {
+          "t": "Aku melihat dengan …",
+          "o": [
+            "mata",
+            "telinga",
+            "hidung"
+          ],
+          "a": "mata"
+        },
+        {
+          "t": "Aku mendengar bunyi dengan …",
+          "o": [
+            "telinga",
+            "mata",
+            "lidah"
+          ],
+          "a": "telinga"
+        },
+        {
+          "t": "Aku mencium bau dengan …",
+          "o": [
+            "hidung",
+            "telinga",
+            "kulit"
+          ],
+          "a": "hidung"
+        },
+        {
+          "t": "Aku merasakan manisnya permen dengan …",
+          "o": [
+            "lidah",
+            "telinga",
+            "mata"
+          ],
+          "a": "lidah"
+        },
+        {
+          "t": "Pasar yang sibuk adalah pasar yang …",
+          "o": [
+            "ramai orang",
+            "kosong",
+            "tutup"
+          ],
+          "a": "ramai orang"
+        },
+        {
+          "t": "Saat berkenalan, kita berkata …",
+          "o": [
+            "Halo, namaku Boni.",
+            "Bola kena batu.",
+            "Aduh, basah!"
+          ],
+          "a": "Halo, namaku Boni."
+        }
+      ]
+    },
+    {
+      "id": "bi-2",
+      "title": "Bab 2: Ayo, Bermain!",
+      "hint": "Bermain aman, tanda tanya dan tanda seru, huruf h dan c",
+      "icon": "⚽",
+      "questions": [
+        {
+          "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Apakah kamu terluka …\"",
+          "o": [
+            "?",
+            "!"
+          ],
+          "a": "?",
+          "keep": true
+        },
+        {
+          "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Hati-hati …\"",
+          "o": [
+            "?",
+            "!"
+          ],
+          "a": "!",
+          "keep": true
+        },
+        {
+          "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Jangan berlari di tempat ramai …\"",
+          "o": [
+            "?",
+            "!"
+          ],
+          "a": "!",
+          "keep": true
+        },
+        {
+          "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Siapa namamu …\"",
+          "o": [
+            "?",
+            "!"
+          ],
+          "a": "?",
+          "keep": true
+        },
+        {
+          "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Di mana bolaku …\"",
+          "o": [
+            "?",
+            "!"
+          ],
+          "a": "?",
+          "keep": true
+        },
+        {
+          "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Awas, ada lubang …\"",
+          "o": [
+            "?",
+            "!"
+          ],
+          "a": "!",
+          "keep": true
+        },
+        {
+          "t": "Tanda \"?\" bernama …",
+          "o": [
+            "tanda tanya",
+            "tanda seru",
+            "tanda titik"
+          ],
+          "a": "tanda tanya"
+        },
+        {
+          "t": "Tanda \"!\" bernama …",
+          "o": [
+            "tanda seru",
+            "tanda tanya",
+            "tanda titik"
+          ],
+          "a": "tanda seru"
+        },
+        {
+          "t": "Tanda tanya dipakai di akhir kalimat …",
+          "o": [
+            "tanya",
+            "perintah",
+            "larangan"
+          ],
+          "a": "tanya"
+        },
+        {
+          "t": "Tanda seru dipakai di akhir kalimat …",
+          "o": [
+            "larangan atau perintah",
+            "tanya"
+          ],
+          "a": "larangan atau perintah"
+        },
+        {
+          "t": "Mana kalimat tanya?",
+          "o": [
+            "Apakah kamu mau bermain?",
+            "Jangan berebut!",
+            "Tunggu dengan tenang!"
+          ],
+          "a": "Apakah kamu mau bermain?"
+        },
+        {
+          "t": "Mana kalimat larangan?",
+          "o": [
+            "Jangan dorong temanmu!",
+            "Apakah kamu lelah?",
+            "Siapa itu?"
+          ],
+          "a": "Jangan dorong temanmu!"
+        },
+        {
+          "t": "Kata yang dipakai untuk melarang adalah …",
+          "o": [
+            "jangan",
+            "ayo",
+            "halo"
+          ],
+          "a": "jangan"
+        },
+        {
+          "t": "Temanmu jatuh. Kamu bertanya …",
+          "o": [
+            "Apakah kamu terluka?",
+            "Jangan begitu!",
+            "Hore!"
+          ],
+          "a": "Apakah kamu terluka?"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "hu + jan =",
+          "a": "hujan",
+          "wide": true,
+          "g": "b2-hujan"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ha + ti =",
+          "a": "hati",
+          "g": "b2-hati"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ho + tel =",
+          "a": "hotel",
+          "wide": true,
+          "g": "b2-hotel"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "hi + dung =",
+          "a": "hidung",
+          "wide": true,
+          "g": "b2-hidung"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ca + bai =",
+          "a": "cabai",
+          "wide": true
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ce + cak =",
+          "a": "cecak",
+          "wide": true,
+          "g": "b2-cecak"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Air yang turun dari langit",
+          "post": "– jan",
+          "a": "hu",
+          "g": "b2-hujan"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Dipakai untuk mencium bau 👃",
+          "post": "– dung",
+          "a": "hi",
+          "g": "b2-hidung"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Diberikan saat ulang tahun 🎁",
+          "post": "– di – ah",
+          "a": "ha"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Terbang dengan baling-baling 🚁",
+          "post": "– li – kop – ter",
+          "a": "he",
+          "g": "b2-heli"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Tempat menginap saat berlibur 🏨",
+          "post": "– tel",
+          "a": "ho",
+          "g": "b2-hotel"
+        },
+        {
+          "t": "Gambar apa ini? 🚁",
+          "o": [
+            "helikopter",
+            "hotel",
+            "hadiah"
+          ],
+          "a": "helikopter",
+          "g": "b2-heli"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata hi?",
+          "o": [
+            "hijau",
+            "hujan",
+            "hati"
+          ],
+          "a": "hijau"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata ha?",
+          "o": [
+            "hadiah",
+            "hotel",
+            "hidung"
+          ],
+          "a": "hadiah"
+        },
+        {
+          "t": "h + a dibaca …",
+          "o": [
+            "ha",
+            "hu",
+            "ho"
+          ],
+          "a": "ha"
+        },
+        {
+          "t": "Huruf kecil dari H adalah …",
+          "o": [
+            "h",
+            "n",
+            "b"
+          ],
+          "a": "h"
+        },
+        {
+          "t": "Huruf kapital dari c adalah …",
+          "o": [
+            "C",
+            "G",
+            "O"
+          ],
+          "a": "C"
+        },
+        {
+          "t": "Mana tulisan nama yang benar?",
+          "o": [
+            "Caca",
+            "caca",
+            "cAca"
+          ],
+          "a": "Caca"
+        },
+        {
+          "t": "Nama mana yang diawali huruf C?",
+          "o": [
+            "Cika",
+            "Hana",
+            "Boni"
+          ],
+          "a": "Cika"
+        },
+        {
+          "t": "Binatang mana yang namanya diawali huruf c?",
+          "o": [
+            "cecak",
+            "harimau",
+            "bebek"
+          ],
+          "a": "cecak",
+          "g": "b2-cecak"
+        },
+        {
+          "t": "Binatang mana yang namanya diawali huruf h?",
+          "o": [
+            "harimau",
+            "cecak",
+            "kucing"
+          ],
+          "a": "harimau"
+        },
+        {
+          "t": "Kata \"hati\" terdiri atas suku kata …",
+          "o": [
+            "ha – ti",
+            "hat – i",
+            "h – ati"
+          ],
+          "a": "ha – ti",
+          "g": "b2-hati"
+        },
+        {
+          "t": "Cara bermain yang aman adalah …",
+          "o": [
+            "bergantian dengan teman",
+            "berebut mainan",
+            "mendorong teman"
+          ],
+          "a": "bergantian dengan teman"
+        },
+        {
+          "t": "Saat antre bermain perosotan, kita …",
+          "o": [
+            "sabar menunggu giliran",
+            "mendorong teman di depan",
+            "memotong barisan"
+          ],
+          "a": "sabar menunggu giliran"
+        },
+        {
+          "t": "Tempat yang aman untuk bermain adalah …",
+          "o": [
+            "taman bermain",
+            "tengah jalan raya",
+            "rel kereta"
+          ],
+          "a": "taman bermain"
+        },
+        {
+          "t": "Caca berlatih naik sepeda setiap hari sampai bisa. Caca anak yang …",
+          "o": [
+            "rajin berlatih",
+            "mudah menyerah",
+            "pemalas"
+          ],
+          "a": "rajin berlatih"
+        }
+      ]
+    },
+    {
+      "id": "bi-3",
+      "title": "Bab 3: Awas Kuman!",
+      "hint": "Menjaga kebersihan dan suku kata ka ki ku ke ko",
+      "icon": "🧼",
+      "questions": [
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ku + da =",
+          "a": "kuda",
+          "g": "b3-kuda"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ku + man =",
+          "a": "kuman",
+          "wide": true,
+          "g": "b3-kuman"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ka + ca =",
+          "a": "kaca"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ko + tak =",
+          "a": "kotak",
+          "wide": true,
+          "g": "b3-kotak"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ka + tak =",
+          "a": "katak",
+          "wide": true,
+          "g": "b3-katak"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ku + tu =",
+          "a": "kutu"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Binatang yang suka mengeong 🐱",
+          "post": "– cing",
+          "a": "ku",
+          "g": "b3-kucing"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Binatang yang larinya kencang 🐴",
+          "post": "– da",
+          "a": "ku",
+          "g": "b3-kuda"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Binatang kecil yang melompat di kolam 🐸",
+          "post": "– tak",
+          "a": "ka",
+          "g": "b3-katak"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Binatang bertelinga panjang 🐰",
+          "post": "– lin – ci",
+          "a": "ke",
+          "g": "b3-kelinci"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Tempat menyimpan mainan 📦",
+          "post": "– tak",
+          "a": "ko",
+          "g": "b3-kotak"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Binatang bertanduk, mirip rusa",
+          "post": "– jang",
+          "a": "ki"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Buah yang airnya segar 🥥",
+          "post": "– la – pa",
+          "a": "ke"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Binatang bersayap indah 🦋",
+          "post": "– pu – ku – pu",
+          "a": "ku",
+          "g": "b3-kupu"
+        },
+        {
+          "t": "Gambar apa ini? 🦋",
+          "o": [
+            "kupu-kupu",
+            "kura-kura",
+            "kuda"
+          ],
+          "a": "kupu-kupu",
+          "g": "b3-kupu"
+        },
+        {
+          "t": "Gambar apa ini? 🐢",
+          "o": [
+            "kura-kura",
+            "kupu-kupu",
+            "katak"
+          ],
+          "a": "kura-kura"
+        },
+        {
+          "t": "Mana tulisan yang benar untuk gambar ini? 🐱",
+          "o": [
+            "kucing",
+            "kuching",
+            "kucin"
+          ],
+          "a": "kucing",
+          "g": "b3-kucing"
+        },
+        {
+          "t": "k + u dibaca …",
+          "o": [
+            "ku",
+            "ka",
+            "ko"
+          ],
+          "a": "ku"
+        },
+        {
+          "t": "k + e dibaca …",
+          "o": [
+            "ke",
+            "ki",
+            "ku"
+          ],
+          "a": "ke"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata ki?",
+          "o": [
+            "kijang",
+            "kuda",
+            "katak"
+          ],
+          "a": "kijang"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata ko?",
+          "o": [
+            "kotak",
+            "kaca",
+            "kutu"
+          ],
+          "a": "kotak"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata ke?",
+          "o": [
+            "kelapa",
+            "kotak",
+            "kuman"
+          ],
+          "a": "kelapa"
+        },
+        {
+          "t": "Binatang mana yang namanya diawali suku kata ku?",
+          "o": [
+            "kucing",
+            "katak",
+            "kelinci"
+          ],
+          "a": "kucing",
+          "g": "b3-kucing"
+        },
+        {
+          "t": "Suku kata awal kata \"kakaktua\" adalah …",
+          "o": [
+            "ka",
+            "ku",
+            "ko"
+          ],
+          "a": "ka"
+        },
+        {
+          "t": "Kata \"kuman\" terdiri atas suku kata …",
+          "o": [
+            "ku – man",
+            "kum – an",
+            "k – uman"
+          ],
+          "a": "ku – man",
+          "g": "b3-kuman"
+        },
+        {
+          "t": "Kata \"kelinci\" terdiri atas suku kata …",
+          "o": [
+            "ke – lin – ci",
+            "kel – in – ci",
+            "ke – li – nci"
+          ],
+          "a": "ke – lin – ci",
+          "g": "b3-kelinci"
+        },
+        {
+          "t": "Huruf apa saja pada kata \"kuda\"?",
+          "o": [
+            "k – u – d – a",
+            "k – a – d – u",
+            "k – u – b – a"
+          ],
+          "a": "k – u – d – a",
+          "g": "b3-kuda"
+        },
+        {
+          "t": "Huruf kecil dari K adalah …",
+          "o": [
+            "k",
+            "h",
+            "b"
+          ],
+          "a": "k"
+        },
+        {
+          "t": "Kuman itu …",
+          "o": [
+            "sangat kecil",
+            "sebesar rumah",
+            "enak dimakan"
+          ],
+          "a": "sangat kecil"
+        },
+        {
+          "t": "Kuman bisa membuat kita …",
+          "o": [
+            "sakit",
+            "pintar",
+            "tinggi"
+          ],
+          "a": "sakit"
+        },
+        {
+          "t": "Agar kuman hilang, kita mencuci tangan dengan …",
+          "o": [
+            "air dan sabun",
+            "pasir",
+            "debu"
+          ],
+          "a": "air dan sabun"
+        },
+        {
+          "t": "Saat bersin, kita menutup mulut dengan …",
+          "o": [
+            "lengan",
+            "buku teman",
+            "mainan"
+          ],
+          "a": "lengan"
+        },
+        {
+          "t": "Sebelum makan, kita harus …",
+          "o": [
+            "cuci tangan",
+            "bermain tanah",
+            "tidur"
+          ],
+          "a": "cuci tangan"
+        },
+        {
+          "t": "Sebelum dimakan, buah harus …",
+          "o": [
+            "dicuci",
+            "dibuang",
+            "dilempar"
+          ],
+          "a": "dicuci"
+        },
+        {
+          "t": "Saat pilek, kita sebaiknya memakai …",
+          "o": [
+            "masker",
+            "topi",
+            "sepatu"
+          ],
+          "a": "masker"
+        },
+        {
+          "t": "Makanan yang dihinggapi lalat adalah makanan yang …",
+          "o": [
+            "kotor",
+            "bersih",
+            "segar"
+          ],
+          "a": "kotor"
+        },
+        {
+          "t": "Kapan kita harus cuci tangan?",
+          "o": [
+            "setelah dari kamar mandi",
+            "saat sedang tidur",
+            "saat menonton televisi"
+          ],
+          "a": "setelah dari kamar mandi"
+        },
+        {
+          "t": "Baca: Dilo sakit pilek. Hidung Dilo gatal. Siapa yang sakit pilek?",
+          "o": [
+            "Dilo",
+            "Kiki",
+            "Bu Guru"
+          ],
+          "a": "Dilo"
+        },
+        {
+          "t": "Baca: Kiki mencuci apel sebelum makan. Apa yang dicuci Kiki?",
+          "o": [
+            "apel",
+            "baju",
+            "piring"
+          ],
+          "a": "apel"
+        },
+        {
+          "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Awas, ada kuman …\"",
+          "o": [
+            "?",
+            "!"
+          ],
+          "a": "!",
+          "keep": true
+        }
+      ]
+    },
+    {
+      "id": "bi-4",
+      "title": "Bab 4: Aku Bisa!",
+      "hint": "Macam-macam gerak dan suku kata la li lu le lo",
+      "icon": "🤸",
+      "questions": [
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "la + ri =",
+          "a": "lari",
+          "g": "b4-lari"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "la + lat =",
+          "a": "lalat",
+          "wide": true,
+          "g": "b4-lalat"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "le + bah =",
+          "a": "lebah",
+          "wide": true,
+          "g": "b4-lebah"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "li + pan =",
+          "a": "lipan",
+          "wide": true,
+          "g": "b4-lipan"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "le + le =",
+          "a": "lele",
+          "g": "b4-lele"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "lom + pat =",
+          "a": "lompat",
+          "wide": true
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Serangga yang membuat madu 🐝",
+          "post": "– bah",
+          "a": "le",
+          "g": "b4-lebah"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Ikan yang berkumis",
+          "pre": "ikan",
+          "post": "– le",
+          "a": "le",
+          "g": "b4-lele"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Serangga yang suka hinggap di sampah",
+          "post": "– lat",
+          "a": "la",
+          "g": "b4-lalat"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Binatang berkaki banyak",
+          "post": "– pan",
+          "a": "li",
+          "g": "b4-lipan"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Bergerak cepat dengan kaki 🏃",
+          "post": "– ri",
+          "a": "la",
+          "g": "b4-lari"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Ada di dalam mulut 👅",
+          "post": "– dah",
+          "a": "li"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Bagian kaki yang bisa ditekuk",
+          "post": "– tut",
+          "a": "lu"
+        },
+        {
+          "t": "Burung bergerak dengan cara …",
+          "o": [
+            "terbang",
+            "berenang",
+            "merayap"
+          ],
+          "a": "terbang"
+        },
+        {
+          "t": "Ikan bergerak dengan cara …",
+          "o": [
+            "berenang",
+            "terbang",
+            "melompat"
+          ],
+          "a": "berenang"
+        },
+        {
+          "t": "Laba-laba bergerak dengan cara …",
+          "o": [
+            "merayap",
+            "terbang",
+            "berenang"
+          ],
+          "a": "merayap",
+          "g": "b4-laba"
+        },
+        {
+          "t": "Kelinci bergerak dengan cara …",
+          "o": [
+            "melompat",
+            "terbang",
+            "berenang"
+          ],
+          "a": "melompat"
+        },
+        {
+          "t": "Kuda laut bergerak dengan cara …",
+          "o": [
+            "berenang",
+            "terbang",
+            "berlari"
+          ],
+          "a": "berenang",
+          "g": "b4-kudalaut"
+        },
+        {
+          "t": "Binatang mana yang bisa terbang?",
+          "o": [
+            "lalat",
+            "lele",
+            "lipan"
+          ],
+          "a": "lalat"
+        },
+        {
+          "t": "Binatang mana yang hidup di air?",
+          "o": [
+            "ikan lele",
+            "lebah",
+            "lutung"
+          ],
+          "a": "ikan lele"
+        },
+        {
+          "t": "Lutung adalah sejenis …",
+          "o": [
+            "monyet",
+            "ikan",
+            "burung"
+          ],
+          "a": "monyet"
+        },
+        {
+          "t": "l + a dibaca …",
+          "o": [
+            "la",
+            "li",
+            "lu"
+          ],
+          "a": "la"
+        },
+        {
+          "t": "l + o dibaca …",
+          "o": [
+            "lo",
+            "le",
+            "la"
+          ],
+          "a": "lo"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata lu?",
+          "o": [
+            "lutung",
+            "lebah",
+            "lipan"
+          ],
+          "a": "lutung"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata li?",
+          "o": [
+            "lipan",
+            "lalat",
+            "lele"
+          ],
+          "a": "lipan"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata lo?",
+          "o": [
+            "lompat",
+            "lalat",
+            "lebah"
+          ],
+          "a": "lompat"
+        },
+        {
+          "t": "Kata \"laba-laba\" terdiri atas suku kata …",
+          "o": [
+            "la – ba – la – ba",
+            "lab – a – lab – a",
+            "l – aba – l – aba"
+          ],
+          "a": "la – ba – la – ba",
+          "g": "b4-laba"
+        },
+        {
+          "t": "Huruf kapital dari l adalah …",
+          "o": [
+            "L",
+            "T",
+            "J"
+          ],
+          "a": "L"
+        },
+        {
+          "t": "Huruf pertama kalimat \"Lalat terbang.\" adalah …",
+          "o": [
+            "L",
+            "t",
+            "a"
+          ],
+          "a": "L"
+        },
+        {
+          "t": "Hitung huruf l pada kata ini, lalu tulis angkanya.",
+          "pre": "lalat =",
+          "a": "2"
+        },
+        {
+          "t": "Gambar apa ini? 🕷️",
+          "o": [
+            "laba-laba",
+            "lebah",
+            "lalat"
+          ],
+          "a": "laba-laba"
+        },
+        {
+          "t": "Dalam permainan ular naga, anak paling depan menjadi …",
+          "o": [
+            "kepala naga",
+            "ekor naga",
+            "gerbang"
+          ],
+          "a": "kepala naga"
+        },
+        {
+          "t": "Dalam permainan ular naga, anak paling belakang menjadi …",
+          "o": [
+            "ekor naga",
+            "kepala naga",
+            "gerbang"
+          ],
+          "a": "ekor naga"
+        },
+        {
+          "t": "Urutan kata yang benar untuk bercerita adalah …",
+          "o": [
+            "pertama, lalu, akhirnya",
+            "akhirnya, lalu, pertama",
+            "lalu, akhirnya, pertama"
+          ],
+          "a": "pertama, lalu, akhirnya"
+        },
+        {
+          "t": "Saat ingin berbicara di kelas, kita …",
+          "o": [
+            "mengangkat tangan dulu",
+            "berteriak",
+            "memukul meja"
+          ],
+          "a": "mengangkat tangan dulu"
+        },
+        {
+          "t": "Saat teman sedang berbicara, kita …",
+          "o": [
+            "menunggu sampai selesai",
+            "memotong ucapannya",
+            "pergi keluar"
+          ],
+          "a": "menunggu sampai selesai"
+        },
+        {
+          "t": "Menggerakkan gerobak dari belakang disebut …",
+          "o": [
+            "mendorong",
+            "menarik",
+            "mengangkat"
+          ],
+          "a": "mendorong"
+        },
+        {
+          "t": "Kuda berjalan di depan gerobak. Kuda … gerobak.",
+          "o": [
+            "menarik",
+            "mendorong",
+            "melempar"
+          ],
+          "a": "menarik"
+        },
+        {
+          "t": "Susun kata menjadi kalimat: berenang – laut – Kuda",
+          "o": [
+            "Kuda laut berenang.",
+            "Laut kuda berenang.",
+            "Berenang laut kuda."
+          ],
+          "a": "Kuda laut berenang.",
+          "g": "b4-kudalaut"
+        },
+        {
+          "t": "Baca: Gajah menari. Kelinci melompat. Siapa yang melompat?",
+          "o": [
+            "Kelinci",
+            "Gajah",
+            "Burung"
+          ],
+          "a": "Kelinci"
+        }
+      ]
+    },
+    {
+      "id": "bi-5",
+      "title": "Bab 5: Teman Baru",
+      "hint": "Kata ajaib, tanda titik, dan suku kata ma mi mu me mo",
+      "icon": "🤝",
+      "questions": [
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ma + du =",
+          "a": "madu",
+          "g": "b5-madu"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "mo + bil =",
+          "a": "mobil",
+          "wide": true,
+          "g": "b5-mobil"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "me + ja =",
+          "a": "meja",
+          "g": "b5-meja"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "me + rah =",
+          "a": "merah",
+          "wide": true,
+          "g": "b5-merah"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "mi + num =",
+          "a": "minum",
+          "wide": true
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Kendaraan beroda empat 🚗",
+          "post": "– bil",
+          "a": "mo",
+          "g": "b5-mobil"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Dipakai untuk makan dan berbicara 👄",
+          "post": "– lut",
+          "a": "mu"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Buah bulat yang manis 🍈",
+          "post": "– lon",
+          "a": "me"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Tempat menaruh buku saat belajar",
+          "post": "– ja",
+          "a": "me",
+          "g": "b5-meja"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Warna cabai dan stroberi",
+          "post": "– rah",
+          "a": "me",
+          "g": "b5-merah"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Tempat kita tinggal 🌍",
+          "pre": "bu –",
+          "a": "mi"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Tempat menyimpan baju",
+          "pre": "le –",
+          "post": "– ri",
+          "a": "ma"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Bersinar di siang hari ☀️",
+          "post": "– ta – ha – ri",
+          "a": "ma"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Alat untuk memotret 📷",
+          "pre": "ka –",
+          "post": "– ra",
+          "a": "me"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Manis, dibuat oleh lebah 🍯",
+          "post": "– du",
+          "a": "ma",
+          "g": "b5-madu"
+        },
+        {
+          "t": "m + i dibaca …",
+          "o": [
+            "mi",
+            "mu",
+            "ma"
+          ],
+          "a": "mi"
+        },
+        {
+          "t": "m + o dibaca …",
+          "o": [
+            "mo",
+            "me",
+            "mi"
+          ],
+          "a": "mo"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata mu?",
+          "o": [
+            "mulut",
+            "madu",
+            "meja"
+          ],
+          "a": "mulut"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata mi?",
+          "o": [
+            "minum",
+            "makan",
+            "mobil"
+          ],
+          "a": "minum"
+        },
+        {
+          "t": "Kata mana yang punya suku kata mo?",
+          "o": [
+            "komodo",
+            "kamera",
+            "madu"
+          ],
+          "a": "komodo",
+          "g": "b5-komodo"
+        },
+        {
+          "t": "Kata \"komodo\" terdiri atas suku kata …",
+          "o": [
+            "ko – mo – do",
+            "kom – o – do",
+            "ko – mod – o"
+          ],
+          "a": "ko – mo – do",
+          "g": "b5-komodo"
+        },
+        {
+          "t": "Huruf kapital dari m adalah …",
+          "o": [
+            "M",
+            "N",
+            "W"
+          ],
+          "a": "M"
+        },
+        {
+          "t": "Gambar apa ini? 🦑",
+          "o": [
+            "cumi-cumi",
+            "komodo",
+            "rama-rama"
+          ],
+          "a": "cumi-cumi"
+        },
+        {
+          "t": "Mana tulisan nama yang benar?",
+          "o": [
+            "Moko",
+            "moko",
+            "mOko"
+          ],
+          "a": "Moko"
+        },
+        {
+          "t": "Tanda titik dipakai untuk …",
+          "o": [
+            "mengakhiri kalimat",
+            "bertanya",
+            "melarang"
+          ],
+          "a": "mengakhiri kalimat"
+        },
+        {
+          "t": "Tanda \".\" bernama …",
+          "o": [
+            "tanda titik",
+            "tanda tanya",
+            "tanda seru"
+          ],
+          "a": "tanda titik"
+        },
+        {
+          "t": "Mana kalimat yang tanda titiknya benar?",
+          "o": [
+            "Mimi suka bola.",
+            "Mimi. suka bola",
+            "Mimi suka. bola"
+          ],
+          "a": "Mimi suka bola."
+        },
+        {
+          "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Baju Moko merah …\"",
+          "o": [
+            ".",
+            "?"
+          ],
+          "a": ".",
+          "keep": true
+        },
+        {
+          "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Siapa nama temanmu …\"",
+          "o": [
+            ".",
+            "?"
+          ],
+          "a": "?",
+          "keep": true
+        },
+        {
+          "t": "Kamu ingin dibantu mengambil buku. Kamu berkata …",
+          "o": [
+            "Tolong ambilkan buku itu.",
+            "Maaf, ya.",
+            "Terima kasih."
+          ],
+          "a": "Tolong ambilkan buku itu."
+        },
+        {
+          "t": "Kamu tidak sengaja menginjak kaki teman. Kamu berkata …",
+          "o": [
+            "Maaf",
+            "Terima kasih",
+            "Tolong"
+          ],
+          "a": "Maaf"
+        },
+        {
+          "t": "Teman memberimu kue. Kamu berkata …",
+          "o": [
+            "Terima kasih",
+            "Maaf",
+            "Permisi"
+          ],
+          "a": "Terima kasih"
+        },
+        {
+          "t": "Kamu ingin lewat di depan Pak Guru. Kamu berkata …",
+          "o": [
+            "Permisi",
+            "Terima kasih",
+            "Selamat tidur"
+          ],
+          "a": "Permisi"
+        },
+        {
+          "t": "Empat kata ajaib: tolong, maaf, permisi, dan …",
+          "o": [
+            "terima kasih",
+            "hore",
+            "aduh"
+          ],
+          "a": "terima kasih"
+        },
+        {
+          "t": "Mana kalimat yang sopan?",
+          "o": [
+            "Tolong ambilkan kue itu, Kak.",
+            "Ambilkan kue itu, cepat!",
+            "Kue itu punyaku!"
+          ],
+          "a": "Tolong ambilkan kue itu, Kak."
+        },
+        {
+          "t": "Saat bertemu teman baru, kita sebaiknya …",
+          "o": [
+            "menyapa dan berkenalan",
+            "mengejeknya",
+            "diam lalu pergi"
+          ],
+          "a": "menyapa dan berkenalan"
+        },
+        {
+          "t": "Susun kata menjadi kalimat: suka – Mimi – bola",
+          "o": [
+            "Mimi suka bola.",
+            "Suka Mimi bola.",
+            "Suka bola Mimi."
+          ],
+          "a": "Mimi suka bola."
+        },
+        {
+          "t": "Susun kata menjadi kalimat: minum – Maya – madu – teh",
+          "o": [
+            "Maya minum teh madu.",
+            "Teh Maya madu minum.",
+            "Minum madu Maya teh."
+          ],
+          "a": "Maya minum teh madu."
+        },
+        {
+          "t": "Baca: Mimi malu menyapa Maya. Siapa yang malu?",
+          "o": [
+            "Mimi",
+            "Maya",
+            "Moko"
+          ],
+          "a": "Mimi"
+        },
+        {
+          "t": "Baca: Baju Moko merah. Apa warna baju Moko?",
+          "o": [
+            "merah",
+            "biru",
+            "hijau"
+          ],
+          "a": "merah"
+        }
+      ]
+    },
+    {
+      "id": "bi-6",
+      "title": "Bab 6: Temanku Berbeda",
+      "hint": "Menghargai perbedaan, berhitung, dan suku kata ga gi gu ge go",
+      "icon": "🐘",
+      "questions": [
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ga + jah =",
+          "a": "gajah",
+          "wide": true,
+          "g": "b6-gajah"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "gi + gi =",
+          "a": "gigi",
+          "g": "b6-gigi"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "gu + ru =",
+          "a": "guru",
+          "g": "b6-guru"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ga + ram =",
+          "a": "garam",
+          "wide": true,
+          "g": "b6-garam"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "gar + pu =",
+          "a": "garpu",
+          "wide": true,
+          "g": "b6-garpu"
+        },
+        {
+          "t": "Gabungkan huruf menjadi kata.",
+          "pre": "g – o – l =",
+          "a": "gol"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Binatang besar berbelalai 🐘",
+          "post": "– jah",
+          "a": "ga",
+          "g": "b6-gajah"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Binatang laut berlengan delapan 🐙",
+          "post": "– ri – ta",
+          "a": "gu"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Kera besar berbulu hitam 🦍",
+          "post": "– ri – la",
+          "a": "go"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Rasanya manis",
+          "post": "– la",
+          "a": "gu",
+          "g": "b6-gula"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Rasanya asin",
+          "post": "– ram",
+          "a": "ga",
+          "g": "b6-garam"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Mengajar murid di sekolah",
+          "post": "– ru",
+          "a": "gu",
+          "g": "b6-guru"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Alat makan, teman sendok 🍴",
+          "pre": "gar –",
+          "a": "pu",
+          "g": "b6-garpu"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Rasa senang sekali",
+          "post": "– bi – ra",
+          "a": "gem",
+          "g": "b6-gembira"
+        },
+        {
+          "t": "g + u dibaca …",
+          "o": [
+            "gu",
+            "ga",
+            "go"
+          ],
+          "a": "gu"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata go?",
+          "o": [
+            "gorila",
+            "gajah",
+            "gurita"
+          ],
+          "a": "gorila"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata ge?",
+          "o": [
+            "gelatik",
+            "gagak",
+            "gigi"
+          ],
+          "a": "gelatik"
+        },
+        {
+          "t": "Kata mana yang diawali suku kata gi?",
+          "o": [
+            "gigi",
+            "gula",
+            "gajah"
+          ],
+          "a": "gigi",
+          "g": "b6-gigi"
+        },
+        {
+          "t": "Kata \"garpu\" terdiri atas suku kata …",
+          "o": [
+            "gar – pu",
+            "ga – rpu",
+            "garp – u"
+          ],
+          "a": "gar – pu",
+          "g": "b6-garpu"
+        },
+        {
+          "t": "Kata \"gembira\" terdiri atas suku kata …",
+          "o": [
+            "gem – bi – ra",
+            "ge – mbi – ra",
+            "gemb – i – ra"
+          ],
+          "a": "gem – bi – ra",
+          "g": "b6-gembira"
+        },
+        {
+          "t": "Huruf kapital dari g adalah …",
+          "o": [
+            "G",
+            "C",
+            "Q"
+          ],
+          "a": "G"
+        },
+        {
+          "t": "Mana tulisan yang benar untuk gambar ini? 🐘",
+          "o": [
+            "gajah",
+            "gaja",
+            "gajha"
+          ],
+          "a": "gajah",
+          "g": "b6-gajah"
+        },
+        {
+          "t": "Gelatik dan gagak adalah nama …",
+          "o": [
+            "burung",
+            "ikan",
+            "buah"
+          ],
+          "a": "burung"
+        },
+        {
+          "t": "Gembira artinya …",
+          "o": [
+            "senang",
+            "sedih",
+            "marah"
+          ],
+          "a": "senang",
+          "g": "b6-gembira"
+        },
+        {
+          "t": "Hitung gambarnya, lalu tulis angkanya.",
+          "pre": "🍎🍎🍎 =",
+          "a": "3"
+        },
+        {
+          "t": "Hitung gambarnya, lalu tulis angkanya.",
+          "pre": "⚽⚽⚽⚽⚽ =",
+          "a": "5"
+        },
+        {
+          "t": "Hitung gambarnya, lalu tulis angkanya.",
+          "pre": "🐰🐰 =",
+          "a": "2"
+        },
+        {
+          "t": "Hitung gambarnya, lalu tulis angkanya.",
+          "pre": "🐘🐘🐘🐘🐘🐘 =",
+          "a": "6"
+        },
+        {
+          "t": "Angka 3 dibaca …",
+          "o": [
+            "tiga",
+            "dua",
+            "lima"
+          ],
+          "a": "tiga"
+        },
+        {
+          "t": "Tulis dengan angka.",
+          "pre": "empat =",
+          "a": "4"
+        },
+        {
+          "t": "Tulis dengan angka.",
+          "pre": "enam =",
+          "a": "6"
+        },
+        {
+          "t": "Lengkapi urutan angka.",
+          "pre": "3, 4,",
+          "post": ", 6",
+          "a": "5"
+        },
+        {
+          "t": "Baca: Kiki mendapat enam jambu. Berapa jambu Kiki?",
+          "o": [
+            "6",
+            "3",
+            "5"
+          ],
+          "a": "6"
+        },
+        {
+          "t": "Rambut Ani lurus. Rambut Budi keriting. Rambut mereka …",
+          "o": [
+            "berbeda",
+            "sama"
+          ],
+          "a": "berbeda"
+        },
+        {
+          "t": "Kalau teman berbeda dengan kita, kita tetap …",
+          "o": [
+            "berteman dengannya",
+            "mengejeknya",
+            "menjauhinya"
+          ],
+          "a": "berteman dengannya"
+        },
+        {
+          "t": "Alat bantu untuk melihat lebih jelas adalah …",
+          "o": [
+            "kacamata",
+            "kursi roda",
+            "payung"
+          ],
+          "a": "kacamata"
+        },
+        {
+          "t": "Teman yang tidak bisa berjalan dapat memakai …",
+          "o": [
+            "kursi roda",
+            "kacamata",
+            "payung"
+          ],
+          "a": "kursi roda"
+        },
+        {
+          "t": "Gajah mengambil buah di pohon tinggi dengan …",
+          "o": [
+            "belalai",
+            "ekor",
+            "telinga"
+          ],
+          "a": "belalai"
+        },
+        {
+          "t": "Baca: Gaga suka berenang. Kiki takut air. Siapa yang takut air?",
+          "o": [
+            "Kiki",
+            "Gaga",
+            "Bu Guru"
+          ],
+          "a": "Kiki"
+        },
+        {
+          "t": "Susun kata menjadi kalimat: jambu – Kiki – makan",
+          "o": [
+            "Kiki makan jambu.",
+            "Jambu makan Kiki.",
+            "Makan Kiki jambu."
+          ],
+          "a": "Kiki makan jambu."
+        }
+      ]
+    },
+    {
+      "id": "bi-7",
+      "title": "Bab 7: Aku Ingin",
+      "hint": "Kebutuhan dan keinginan, uang, dan mengeja kata sederhana",
+      "icon": "💰",
+      "questions": [
+        {
+          "t": "Gabungkan huruf menjadi kata.",
+          "pre": "s – u – s – u =",
+          "a": "susu",
+          "g": "b7-susu"
+        },
+        {
+          "t": "Gabungkan huruf menjadi kata.",
+          "pre": "t – a – h – u =",
+          "a": "tahu",
+          "g": "b7-tahu"
+        },
+        {
+          "t": "Gabungkan huruf menjadi kata.",
+          "pre": "r – o – t – i =",
+          "a": "roti",
+          "g": "b7-roti"
+        },
+        {
+          "t": "Gabungkan huruf menjadi kata.",
+          "pre": "b – a – y – a – m =",
+          "a": "bayam",
+          "wide": true,
+          "g": "b7-bayam"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ba + lon =",
+          "a": "balon",
+          "wide": true,
+          "g": "b7-balon"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "je + ruk =",
+          "a": "jeruk",
+          "wide": true,
+          "g": "b7-jeruk"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Buah berdaging jingga, bijinya hitam",
+          "pre": "pe –",
+          "post": "– ya",
+          "a": "pa",
+          "g": "b7-pepaya"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Mainan berbentuk beruang atau orang 🧸",
+          "post": "– ne – ka",
+          "a": "bo"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Binatang penghasil susu 🐄",
+          "pre": "sa –",
+          "a": "pi"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Buah bulat berwarna jingga 🍊",
+          "post": "– ruk",
+          "a": "je",
+          "g": "b7-jeruk"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Dipakai di kepala 🧢",
+          "post": "– pi",
+          "a": "to",
+          "g": "b7-topi"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Bisa melayang kalau ditiup 🎈",
+          "post": "– lon",
+          "a": "ba",
+          "g": "b7-balon"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Minuman putih dari sapi 🥛",
+          "pre": "su –",
+          "a": "su",
+          "g": "b7-susu"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Makanan empuk dari tepung 🍞",
+          "pre": "ro –",
+          "a": "ti",
+          "g": "b7-roti"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Sayur berdaun hijau",
+          "pre": "ba –",
+          "a": "yam",
+          "g": "b7-bayam"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Rasanya pedas 🌶️",
+          "pre": "ca –",
+          "a": "bai",
+          "g": "b7-cabai"
+        },
+        {
+          "t": "Kata \"jeruk\" dieja …",
+          "o": [
+            "j – e – r – u – k",
+            "j – u – r – e – k",
+            "g – e – r – u – k"
+          ],
+          "a": "j – e – r – u – k",
+          "g": "b7-jeruk"
+        },
+        {
+          "t": "Huruf awal kata \"roti\" adalah …",
+          "o": [
+            "r",
+            "t",
+            "o"
+          ],
+          "a": "r",
+          "g": "b7-roti"
+        },
+        {
+          "t": "Huruf akhir kata \"balon\" adalah …",
+          "o": [
+            "n",
+            "b",
+            "l"
+          ],
+          "a": "n",
+          "g": "b7-balon"
+        },
+        {
+          "t": "Huruf apa sesudahnya?",
+          "pre": "a, b, c,",
+          "a": "d"
+        },
+        {
+          "t": "Huruf apa yang hilang?",
+          "pre": "m,",
+          "post": ", o",
+          "a": "n"
+        },
+        {
+          "t": "Hitung hurufnya, lalu tulis angkanya.",
+          "pre": "tahu =",
+          "a": "4",
+          "g": "b7-tahu"
+        },
+        {
+          "t": "Hitung hurufnya, lalu tulis angkanya.",
+          "pre": "pepaya =",
+          "a": "6",
+          "g": "b7-pepaya"
+        },
+        {
+          "t": "Mana kata yang ejaannya benar?",
+          "o": [
+            "cabai",
+            "cabe",
+            "cabay"
+          ],
+          "a": "cabai",
+          "g": "b7-cabai"
+        },
+        {
+          "t": "Mana nama buah?",
+          "o": [
+            "pepaya",
+            "bayam",
+            "tahu"
+          ],
+          "a": "pepaya"
+        },
+        {
+          "t": "Mana nama sayur?",
+          "o": [
+            "bayam",
+            "jeruk",
+            "roti"
+          ],
+          "a": "bayam"
+        },
+        {
+          "t": "Mana yang termasuk kebutuhan?",
+          "o": [
+            "makanan",
+            "robot mainan",
+            "balon"
+          ],
+          "a": "makanan"
+        },
+        {
+          "t": "Mana yang termasuk keinginan?",
+          "o": [
+            "mainan baru",
+            "air minum",
+            "baju seragam"
+          ],
+          "a": "mainan baru"
+        },
+        {
+          "t": "Sepatu Bimo sudah kekecilan. Bimo butuh …",
+          "o": [
+            "sepatu baru",
+            "truk mainan",
+            "balon"
+          ],
+          "a": "sepatu baru"
+        },
+        {
+          "t": "Baca: Bimo ingin truk mainan, tetapi Bimo butuh sepatu. Apa yang diinginkan Bimo?",
+          "o": [
+            "truk mainan",
+            "sepatu",
+            "tahu"
+          ],
+          "a": "truk mainan"
+        },
+        {
+          "t": "Uang logam disebut juga …",
+          "o": [
+            "koin",
+            "dompet",
+            "celengan"
+          ],
+          "a": "koin"
+        },
+        {
+          "t": "Uang yang bisa dilipat adalah uang …",
+          "o": [
+            "kertas",
+            "logam"
+          ],
+          "a": "kertas"
+        },
+        {
+          "t": "Uang logam seribu dan uang kertas seribu nilainya …",
+          "o": [
+            "sama",
+            "lebih besar uang logam",
+            "lebih besar uang kertas"
+          ],
+          "a": "sama"
+        },
+        {
+          "t": "Menyimpan uang sedikit demi sedikit disebut …",
+          "o": [
+            "menabung",
+            "berbelanja",
+            "meminjam"
+          ],
+          "a": "menabung"
+        },
+        {
+          "t": "Tempat menabung uang di rumah adalah …",
+          "o": [
+            "celengan",
+            "piring",
+            "sepatu"
+          ],
+          "a": "celengan"
+        },
+        {
+          "t": "Tempat orang berjual beli adalah …",
+          "o": [
+            "pasar",
+            "sekolah",
+            "kamar tidur"
+          ],
+          "a": "pasar"
+        },
+        {
+          "t": "Kita tidak bisa membeli semua yang kita inginkan karena …",
+          "o": [
+            "uang terbatas",
+            "toko terlalu besar",
+            "barangnya berat"
+          ],
+          "a": "uang terbatas"
+        },
+        {
+          "t": "Lengkapi kalimat: Aku ingin topi itu … aku suka warnanya.",
+          "o": [
+            "karena",
+            "tetapi",
+            "atau"
+          ],
+          "a": "karena"
+        },
+        {
+          "t": "Susun kata menjadi kalimat: ingin – Aku – roti",
+          "o": [
+            "Aku ingin roti.",
+            "Roti ingin aku.",
+            "Ingin roti aku."
+          ],
+          "a": "Aku ingin roti."
+        },
+        {
+          "t": "Baca: Ayah menabung satu koin setiap hari. Apa yang ditabung Ayah?",
+          "o": [
+            "koin",
+            "roti",
+            "balon"
+          ],
+          "a": "koin"
+        }
+      ]
+    },
+    {
+      "id": "bi-8",
+      "title": "Bab 8: Di Sekitar Rumah",
+      "hint": "Kata letak dan arah, petugas di sekitar, dan menjaga diri",
+      "icon": "🏠",
+      "questions": [
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "a + tas =",
+          "a": "atas",
+          "g": "b8-atas"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ba + wah =",
+          "a": "bawah",
+          "wide": true,
+          "g": "b8-bawah"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "da + lam =",
+          "a": "dalam",
+          "wide": true,
+          "g": "b8-dalam"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "lu + ar =",
+          "a": "luar",
+          "g": "b8-luar"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "ka + nan =",
+          "a": "kanan",
+          "wide": true,
+          "g": "b8-kanan"
+        },
+        {
+          "t": "Susun suku kata menjadi kata.",
+          "pre": "sat + pam =",
+          "a": "satpam",
+          "wide": true,
+          "g": "b8-satpam"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Lawan kata kanan",
+          "pre": "ki –",
+          "a": "ri",
+          "g": "b8-kiri"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Petugas yang mengatur lalu lintas 👮",
+          "pre": "po –",
+          "post": "– si",
+          "a": "li",
+          "g": "b8-polisi"
+        },
+        {
+          "t": "Lengkapi katanya.",
+          "c": "Petugas keamanan di sekolah",
+          "post": "– pam",
+          "a": "sat",
+          "g": "b8-satpam"
+        },
+        {
+          "t": "Lawan kata \"atas\" adalah …",
+          "o": [
+            "bawah",
+            "kiri",
+            "luar"
+          ],
+          "a": "bawah",
+          "g": "b8-atas"
+        },
+        {
+          "t": "Lawan kata \"kiri\" adalah …",
+          "o": [
+            "kanan",
+            "atas",
+            "dalam"
+          ],
+          "a": "kanan",
+          "g": "b8-kiri"
+        },
+        {
+          "t": "Lawan kata \"dalam\" adalah …",
+          "o": [
+            "luar",
+            "bawah",
+            "kanan"
+          ],
+          "a": "luar",
+          "g": "b8-dalam"
+        },
+        {
+          "t": "Lawan kata \"ramai\" adalah …",
+          "o": [
+            "sepi",
+            "sibuk",
+            "bising"
+          ],
+          "a": "sepi"
+        },
+        {
+          "t": "Kata \"bawah\" terdiri atas suku kata …",
+          "o": [
+            "ba – wah",
+            "baw – ah",
+            "b – awah"
+          ],
+          "a": "ba – wah",
+          "g": "b8-bawah"
+        },
+        {
+          "t": "Kata \"luar\" terdiri atas suku kata …",
+          "o": [
+            "lu – ar",
+            "l – uar",
+            "lua – r"
+          ],
+          "a": "lu – ar",
+          "g": "b8-luar"
+        },
+        {
+          "t": "Lihat: 🍎 🐱 ⚽ Apa yang ada di sebelah kiri kucing?",
+          "o": [
+            "apel",
+            "bola",
+            "kucing"
+          ],
+          "a": "apel"
+        },
+        {
+          "t": "Lihat: 🚗 🏠 🌳 Apa yang ada di sebelah kanan rumah?",
+          "o": [
+            "pohon",
+            "mobil",
+            "rumah"
+          ],
+          "a": "pohon"
+        },
+        {
+          "t": "Lihat: 🐟 🐘 🐰 Binatang apa yang paling kanan?",
+          "o": [
+            "kelinci",
+            "ikan",
+            "gajah"
+          ],
+          "a": "kelinci"
+        },
+        {
+          "t": "Baca: Bantal ada di atas tempat tidur. Di mana bantal?",
+          "o": [
+            "di atas tempat tidur",
+            "di bawah tempat tidur",
+            "di dalam lemari"
+          ],
+          "a": "di atas tempat tidur"
+        },
+        {
+          "t": "Baca: Baju ada di dalam lemari. Apa yang ada di dalam lemari?",
+          "o": [
+            "baju",
+            "buku",
+            "bola"
+          ],
+          "a": "baju"
+        },
+        {
+          "t": "Baca: Buku ada di luar kotak. Apakah buku ada di dalam kotak?",
+          "o": [
+            "Ya",
+            "Tidak"
+          ],
+          "a": "Tidak",
+          "keep": true
+        },
+        {
+          "t": "Langit ada di … kita.",
+          "o": [
+            "atas",
+            "bawah",
+            "dalam"
+          ],
+          "a": "atas"
+        },
+        {
+          "t": "Ikan hidup di … air.",
+          "o": [
+            "dalam",
+            "luar"
+          ],
+          "a": "dalam"
+        },
+        {
+          "t": "Siapa yang mengatur lalu lintas di jalan?",
+          "o": [
+            "polisi",
+            "dokter",
+            "petani"
+          ],
+          "a": "polisi",
+          "g": "b8-polisi"
+        },
+        {
+          "t": "Siapa yang memadamkan api?",
+          "o": [
+            "pemadam kebakaran",
+            "dokter",
+            "satpam"
+          ],
+          "a": "pemadam kebakaran"
+        },
+        {
+          "t": "Siapa yang memeriksa orang sakit?",
+          "o": [
+            "dokter",
+            "polisi",
+            "satpam"
+          ],
+          "a": "dokter"
+        },
+        {
+          "t": "Siapa yang menjaga keamanan sekolah?",
+          "o": [
+            "satpam",
+            "dokter",
+            "petugas kebersihan"
+          ],
+          "a": "satpam",
+          "g": "b8-satpam"
+        },
+        {
+          "t": "Siapa yang menyapu jalan?",
+          "o": [
+            "petugas kebersihan",
+            "polisi",
+            "dokter"
+          ],
+          "a": "petugas kebersihan"
+        },
+        {
+          "t": "Polisi lalu lintas meniup …",
+          "o": [
+            "peluit",
+            "balon",
+            "lilin"
+          ],
+          "a": "peluit"
+        },
+        {
+          "t": "Pemadam kebakaran menyemprot air dengan …",
+          "o": [
+            "selang",
+            "sapu",
+            "peluit"
+          ],
+          "a": "selang"
+        },
+        {
+          "t": "Untuk menyeberangi sungai, kita lewat …",
+          "o": [
+            "jembatan",
+            "gubuk",
+            "pohon"
+          ],
+          "a": "jembatan"
+        },
+        {
+          "t": "Rumah kecil di tengah sawah disebut …",
+          "o": [
+            "gubuk",
+            "jembatan",
+            "hotel"
+          ],
+          "a": "gubuk"
+        },
+        {
+          "t": "Gambar yang menunjukkan letak tempat disebut …",
+          "o": [
+            "peta",
+            "kalender",
+            "jam"
+          ],
+          "a": "peta"
+        },
+        {
+          "t": "Orang yang tidak kamu kenal mengajakmu pulang. Kamu …",
+          "o": [
+            "menolak dan tetap menunggu",
+            "ikut dengannya",
+            "naik ke mobilnya"
+          ],
+          "a": "menolak dan tetap menunggu"
+        },
+        {
+          "t": "Kalau belum dijemput, kamu menunggu di …",
+          "o": [
+            "dalam sekolah",
+            "pinggir jalan raya",
+            "tempat yang sepi"
+          ],
+          "a": "dalam sekolah"
+        },
+        {
+          "t": "Kalau tersesat, kamu minta tolong kepada …",
+          "o": [
+            "polisi atau satpam",
+            "orang asing di mobil",
+            "tidak kepada siapa pun"
+          ],
+          "a": "polisi atau satpam"
+        },
+        {
+          "t": "Kartu nama berisi …",
+          "o": [
+            "nama dan alamat rumah",
+            "gambar kartun",
+            "daftar belanja"
+          ],
+          "a": "nama dan alamat rumah"
+        },
+        {
+          "t": "Sebaiknya kamu pergi keluar rumah bersama …",
+          "o": [
+            "orang dewasa yang kamu kenal",
+            "orang yang tidak dikenal"
+          ],
+          "a": "orang dewasa yang kamu kenal"
+        },
+        {
+          "t": "Baca: Sekolah sudah sepi. Bayu menunggu Ayah. Siapa yang ditunggu Bayu?",
+          "o": [
+            "Ayah",
+            "Ibu Guru",
+            "satpam"
+          ],
+          "a": "Ayah"
+        },
+        {
+          "t": "Susun kata menjadi kalimat: dalam – Kucing – kotak – di",
+          "o": [
+            "Kucing di dalam kotak.",
+            "Kotak di dalam kucing.",
+            "Dalam kucing di kotak."
+          ],
+          "a": "Kucing di dalam kotak."
+        }
+      ]
+    }
+  ]
+}

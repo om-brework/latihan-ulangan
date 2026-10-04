@@ -92,3 +92,20 @@ button:focus-visible{outline:4px solid #FF5FA2;outline-offset:2px}
   .btns{flex:1 1 100%;flex-wrap:nowrap}
   .btns button{flex:1 1 0;font-size:17px;padding:6px 8px;white-space:nowrap}
 }
+
+/* Halaman depan dan pemilihan bab */
+h1.small{font-size:clamp(28px,7vw,40px);color:var(--ink);text-shadow:none}
+h1 span:nth-child(1){color:#FF5FA2}
+.back{font-weight:800;font-size:16px;color:#0E6FB0;text-decoration:none;background:var(--bg);border-radius:999px;padding:4px 14px}
+.back:focus-visible,.card:focus-visible{outline:4px solid #FF5FA2;outline-offset:2px}
+.group{display:flex;flex-direction:column;gap:14px;padding-bottom:28px}
+.group + .group{margin-top:-14px}
+.group-title{font-size:22px;color:var(--ink)}
+.card{display:flex;align-items:center;gap:14px;background:var(--surface);color:var(--ink);text-decoration:none;border:4px solid var(--c);border-radius:26px;padding:14px 16px;box-shadow:0 6px 0 var(--cd);transition:transform .08s,box-shadow .08s}
+.card:active{transform:translateY(4px);box-shadow:0 2px 0 var(--cd)}
+.card-icon{font-size:38px;line-height:1;width:66px;height:66px;flex:none;border-radius:50%;background:var(--c);display:grid;place-items:center}
+.card-body{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.card-body strong{font-family:var(--display);font-size:23px;line-height:1.15}
+.card-text{color:var(--muted);font-size:16px;font-weight:700;line-height:1.35}
+.card-meta{font-size:14px;font-weight:800;color:var(--cd)}
+.card-go{flex:none;width:40px;height:40px;border-radius:50%;background:var(--cd);color:#FFFFFF;display:grid;place-items:center;font-size:16px}

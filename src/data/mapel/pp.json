@@ -1,0 +1,2160 @@
+{
+  "id": "pp",
+  "title": "Pendidikan Pancasila",
+  "chapters": [
+    {
+      "id": "pp-1",
+      "title": "Bab 1: Aku dan Teman-Temanku",
+      "hint": "Mengenal diri, mengenal teman, dan aturan bermain bersama.",
+      "icon": "🤝",
+      "questions": [
+        {
+          "t": "Saat berkenalan, apa yang kita sebutkan lebih dulu?",
+          "o": [
+            "Nama hewan",
+            "Nama makanan",
+            "Nama kita"
+          ],
+          "a": "Nama kita"
+        },
+        {
+          "t": "Kamu bertemu teman baru di kelas. Apa yang kamu lakukan?",
+          "o": [
+            "Mengajak berkenalan",
+            "Diam dan menjauh",
+            "Memusuhinya"
+          ],
+          "a": "Mengajak berkenalan",
+          "g": "kenalan"
+        },
+        {
+          "t": "Saat memperkenalkan diri, wajah kita sebaiknya …",
+          "o": [
+            "cemberut",
+            "tersenyum",
+            "marah"
+          ],
+          "a": "tersenyum"
+        },
+        {
+          "t": "Rani berkata, \"Halo, namaku Rani.\" Rani sedang …",
+          "o": [
+            "berpamitan",
+            "meminta maaf",
+            "memperkenalkan diri"
+          ],
+          "a": "memperkenalkan diri",
+          "g": "kenalan"
+        },
+        {
+          "t": "Temanmu memperkenalkan diri di depan kelas. Apa sikapmu?",
+          "o": [
+            "Mendengarkan dengan baik",
+            "Mengobrol sendiri",
+            "Menertawakannya"
+          ],
+          "a": "Mendengarkan dengan baik"
+        },
+        {
+          "t": "Temanmu malu saat berkenalan. Apa yang kamu lakukan?",
+          "o": [
+            "Mengejeknya",
+            "Menyapanya dengan ramah",
+            "Meninggalkannya"
+          ],
+          "a": "Menyapanya dengan ramah"
+        },
+        {
+          "t": "Seragam anak sekolah dasar berwarna putih dan …",
+          "a": "merah",
+          "wide": true
+        },
+        {
+          "t": "Seragam ke sekolah sebaiknya …",
+          "o": [
+            "basah dan bau",
+            "kotor dan kusut",
+            "bersih dan rapi"
+          ],
+          "a": "bersih dan rapi"
+        },
+        {
+          "t": "Kita menjaga dan merawat tubuh sebagai rasa … kepada Tuhan.",
+          "o": [
+            "syukur",
+            "takut",
+            "marah"
+          ],
+          "a": "syukur"
+        },
+        {
+          "t": "👀 Bagian tubuh untuk melihat adalah …",
+          "o": [
+            "telinga",
+            "mata",
+            "hidung"
+          ],
+          "a": "mata",
+          "g": "mata"
+        },
+        {
+          "t": "Jumlah mata kita ada …",
+          "c": "Tulis dengan angka.",
+          "g": "mata",
+          "a": "2",
+          "wide": false
+        },
+        {
+          "t": "👂 Bagian tubuh untuk mendengar adalah …",
+          "o": [
+            "kaki",
+            "mata",
+            "telinga"
+          ],
+          "a": "telinga"
+        },
+        {
+          "t": "👃 Bagian tubuh untuk mencium bau adalah …",
+          "o": [
+            "hidung",
+            "telinga",
+            "tangan"
+          ],
+          "a": "hidung"
+        },
+        {
+          "t": "Rambut tumbuh di bagian …",
+          "o": [
+            "kaki",
+            "kepala",
+            "perut"
+          ],
+          "a": "kepala"
+        },
+        {
+          "t": "Kita berjalan dan berlari menggunakan …",
+          "o": [
+            "rambut",
+            "telinga",
+            "kaki"
+          ],
+          "a": "kaki"
+        },
+        {
+          "t": "Agar gigi bersih dan sehat, kita harus …",
+          "o": [
+            "menggosok gigi",
+            "minum es terus",
+            "makan permen"
+          ],
+          "a": "menggosok gigi"
+        },
+        {
+          "t": "Tanganmu kotor setelah bermain. Apa yang kamu lakukan?",
+          "o": [
+            "Mengelapnya ke baju",
+            "Mencuci tangan pakai sabun",
+            "Membiarkannya kotor"
+          ],
+          "a": "Mencuci tangan pakai sabun"
+        },
+        {
+          "t": "Rambut yang kusut dirapikan dengan …",
+          "o": [
+            "sapu",
+            "sendok",
+            "sisir"
+          ],
+          "a": "sisir"
+        },
+        {
+          "t": "Agar badan bersih dan segar, kita harus …",
+          "o": [
+            "mandi",
+            "tidur seharian",
+            "bermain lumpur"
+          ],
+          "a": "mandi"
+        },
+        {
+          "t": "Kuku yang panjang dan kotor harus …",
+          "o": [
+            "digigit",
+            "dipotong",
+            "dibiarkan"
+          ],
+          "a": "dipotong"
+        },
+        {
+          "t": "Manakah yang dapat dilakukan sendiri oleh anak kelas 1?",
+          "o": [
+            "Memperbaiki atap rumah",
+            "Menyetir mobil",
+            "Memakai sepatu"
+          ],
+          "a": "Memakai sepatu"
+        },
+        {
+          "t": "Anak yang mandiri akan …",
+          "o": [
+            "bangun tidur sendiri",
+            "menangis saat disuruh mandi",
+            "selalu minta disuapi"
+          ],
+          "a": "bangun tidur sendiri"
+        },
+        {
+          "t": "Budi anak laki-laki. Sita anak perempuan. Budi dan Sita berbeda …",
+          "o": [
+            "kelas",
+            "jenis kelamin",
+            "guru"
+          ],
+          "a": "jenis kelamin"
+        },
+        {
+          "t": "Ayah adalah anggota keluarga laki-laki. Ibu adalah anggota keluarga …",
+          "a": "perempuan",
+          "wide": true
+        },
+        {
+          "t": "Dengan siapa kita boleh berteman?",
+          "o": [
+            "Hanya dengan anak perempuan",
+            "Hanya dengan anak laki-laki",
+            "Dengan semua teman"
+          ],
+          "a": "Dengan semua teman",
+          "g": "semua"
+        },
+        {
+          "t": "Bolehkah anak laki-laki dan anak perempuan bermain bersama?",
+          "o": [
+            "Tidak boleh",
+            "Boleh"
+          ],
+          "a": "Boleh",
+          "g": "semua"
+        },
+        {
+          "t": "Warna kulit temanmu berbeda dengan warna kulitmu. Apa sikapmu?",
+          "o": [
+            "Mengejeknya",
+            "Tetap berteman dengannya",
+            "Menjauhinya"
+          ],
+          "a": "Tetap berteman dengannya"
+        },
+        {
+          "t": "Rambut temanmu keriting. Rambutmu lurus. Kalian …",
+          "o": [
+            "harus bermusuhan",
+            "tidak boleh berteman",
+            "tetap bermain bersama"
+          ],
+          "a": "tetap bermain bersama"
+        },
+        {
+          "t": "Teman yang bertubuh kecil ingin ikut bermain. Apa yang kamu lakukan?",
+          "o": [
+            "Mengajaknya bermain",
+            "Menertawakannya",
+            "Mengusirnya"
+          ],
+          "a": "Mengajaknya bermain"
+        },
+        {
+          "t": "Temanmu berasal dari daerah lain. Apa sikapmu?",
+          "o": [
+            "Mengejek cara bicaranya",
+            "Menghormatinya",
+            "Tidak mau duduk di dekatnya"
+          ],
+          "a": "Menghormatinya",
+          "g": "hormat"
+        },
+        {
+          "t": "Perbedaan di antara teman harus kita …",
+          "o": [
+            "tertawakan",
+            "ejek",
+            "hormati"
+          ],
+          "a": "hormati",
+          "g": "hormat"
+        },
+        {
+          "t": "Sikap yang baik dalam berteman adalah saling …",
+          "o": [
+            "peduli",
+            "memukul",
+            "mengejek"
+          ],
+          "a": "peduli"
+        },
+        {
+          "t": "Temanmu jatuh saat berlari. Apa yang kamu lakukan?",
+          "o": [
+            "Menertawakannya",
+            "Menolongnya berdiri",
+            "Meninggalkannya"
+          ],
+          "a": "Menolongnya berdiri"
+        },
+        {
+          "t": "Temanmu lupa membawa pensil. Kamu punya dua pensil. Apa yang kamu lakukan?",
+          "o": [
+            "Mengejeknya",
+            "Menyembunyikan pensilmu",
+            "Meminjamkan satu pensil"
+          ],
+          "a": "Meminjamkan satu pensil"
+        },
+        {
+          "t": "Kamu tidak sengaja menabrak teman. Apa yang kamu katakan?",
+          "o": [
+            "\"Maaf, ya.\"",
+            "\"Minggir!\"",
+            "\"Salahmu sendiri!\""
+          ],
+          "a": "\"Maaf, ya.\""
+        },
+        {
+          "t": "Temanmu menolongmu. Apa yang kamu katakan?",
+          "o": [
+            "\"Awas!\"",
+            "\"Terima kasih.\"",
+            "\"Pergi sana!\""
+          ],
+          "a": "\"Terima kasih.\""
+        },
+        {
+          "t": "Bertengkar dengan teman adalah sikap yang …",
+          "o": [
+            "harus ditiru",
+            "baik",
+            "tidak baik"
+          ],
+          "a": "tidak baik"
+        },
+        {
+          "t": "Dua temanmu berebut mainan. Sebaiknya mereka …",
+          "o": [
+            "bermain bergiliran",
+            "merusak mainan itu",
+            "saling memukul"
+          ],
+          "a": "bermain bergiliran"
+        },
+        {
+          "t": "Meja yang berat lebih mudah dipindahkan jika …",
+          "o": [
+            "diangkat sendirian",
+            "diangkat bersama-sama",
+            "ditinggal pergi"
+          ],
+          "a": "diangkat bersama-sama",
+          "g": "kerjasama"
+        },
+        {
+          "t": "Anak-anak mengangkat meja bersama-sama. Itu contoh sikap …",
+          "o": [
+            "bertengkar",
+            "bermusuhan",
+            "bekerja sama"
+          ],
+          "a": "bekerja sama",
+          "g": "kerjasama"
+        },
+        {
+          "t": "Temanmu sulit membuat topi dari kertas. Apa yang kamu lakukan?",
+          "o": [
+            "Membantunya",
+            "Menertawakannya",
+            "Merebut kertasnya"
+          ],
+          "a": "Membantunya"
+        },
+        {
+          "t": "Setelah menggambar, alat dan bahan harus …",
+          "o": [
+            "ditinggal berserakan",
+            "dirapikan kembali",
+            "dilempar ke lantai"
+          ],
+          "a": "dirapikan kembali"
+        },
+        {
+          "t": "Saat bermain bersama, kita harus mengikuti …",
+          "o": [
+            "teman yang curang",
+            "kemauan sendiri",
+            "aturan permainan"
+          ],
+          "a": "aturan permainan"
+        },
+        {
+          "t": "Mengapa permainan perlu aturan?",
+          "o": [
+            "Agar permainan tertib",
+            "Agar ada yang menangis",
+            "Agar teman bertengkar"
+          ],
+          "a": "Agar permainan tertib"
+        },
+        {
+          "t": "Saat bermain lompat tali, badan tidak boleh menyentuh …",
+          "g": "tali",
+          "a": "tali",
+          "wide": false
+        },
+        {
+          "t": "Permainan lompat tali dimainkan menggunakan …",
+          "o": [
+            "bola",
+            "tali",
+            "kelereng"
+          ],
+          "a": "tali",
+          "g": "tali"
+        },
+        {
+          "t": "Saat bermain engklek, kaki tidak boleh menginjak …",
+          "a": "garis",
+          "wide": true
+        },
+        {
+          "t": "Cara bergerak dalam permainan engklek adalah …",
+          "o": [
+            "berguling",
+            "merangkak",
+            "melompat"
+          ],
+          "a": "melompat"
+        },
+        {
+          "t": "Dalam permainan petak umpet, penjaga menutup mata. Pemain lain …",
+          "o": [
+            "bersembunyi",
+            "menendang bola",
+            "melompati tali"
+          ],
+          "a": "bersembunyi"
+        },
+        {
+          "t": "Dalam permainan gobak sodor, pemain tidak boleh …",
+          "o": [
+            "bergerak cepat",
+            "tertangkap lawan",
+            "berlari"
+          ],
+          "a": "tertangkap lawan"
+        },
+        {
+          "t": "Aturan petak umpet: tidak boleh sembunyi di dalam kelas. Dodi sembunyi di dalam kelas. Dodi …",
+          "o": [
+            "patuh pada aturan",
+            "bermain jujur",
+            "bermain curang"
+          ],
+          "a": "bermain curang",
+          "g": "curang"
+        },
+        {
+          "t": "Bermain dengan jujur artinya tidak …",
+          "o": [
+            "curang",
+            "berlari",
+            "tertawa"
+          ],
+          "a": "curang",
+          "g": "curang"
+        },
+        {
+          "t": "Kamu kalah dalam permainan. Apa sikapmu?",
+          "o": [
+            "Marah kepada teman",
+            "Menerima kekalahan",
+            "Menuduh teman curang"
+          ],
+          "a": "Menerima kekalahan"
+        },
+        {
+          "t": "Kamu menang dalam permainan. Apa sikapmu?",
+          "o": [
+            "Menyuruh teman menangis",
+            "Mengejek teman yang kalah",
+            "Tidak sombong"
+          ],
+          "a": "Tidak sombong"
+        },
+        {
+          "t": "Temanmu bermain curang. Apa yang kamu lakukan?",
+          "o": [
+            "Mengingatkannya dengan baik",
+            "Memukulnya",
+            "Ikut bermain curang"
+          ],
+          "a": "Mengingatkannya dengan baik"
+        },
+        {
+          "t": "Kamu menunggu giliran bermain. Apa yang kamu lakukan?",
+          "o": [
+            "Menyerobot giliran teman",
+            "Menunggu dengan sabar",
+            "Mendorong teman di depan"
+          ],
+          "a": "Menunggu dengan sabar"
+        },
+        {
+          "t": "Guru menjelaskan aturan permainan. Apa yang kamu lakukan?",
+          "o": [
+            "Pura-pura tidak mendengar",
+            "Bermain sendiri",
+            "Mendengarkan dan mengikutinya"
+          ],
+          "a": "Mendengarkan dan mengikutinya"
+        },
+        {
+          "t": "Kamu bertemu guru di pagi hari. Apa yang kamu lakukan?",
+          "o": [
+            "Mengucapkan salam",
+            "Pura-pura tidak melihat",
+            "Berlari menjauh"
+          ],
+          "a": "Mengucapkan salam"
+        },
+        {
+          "t": "Sebelum masuk kelas, murid-murid …",
+          "o": [
+            "saling mendorong",
+            "berbaris dengan tertib",
+            "berlarian di kelas"
+          ],
+          "a": "berbaris dengan tertib"
+        },
+        {
+          "t": "Kamu ingin ke toilet saat pelajaran. Apa yang kamu lakukan?",
+          "o": [
+            "Berteriak di kelas",
+            "Langsung keluar kelas",
+            "Meminta izin kepada guru"
+          ],
+          "a": "Meminta izin kepada guru"
+        }
+      ]
+    },
+    {
+      "id": "pp-2",
+      "title": "Bab 2: Aku Patuh pada Aturan",
+      "hint": "Aturan di rumah dan peduli pada kebersihan tempat tinggal.",
+      "icon": "🏠",
+      "questions": [
+        {
+          "t": "Aturan di rumah harus dipatuhi oleh …",
+          "o": [
+            "semua anggota keluarga",
+            "ayah saja",
+            "anak saja"
+          ],
+          "a": "semua anggota keluarga",
+          "g": "semua"
+        },
+        {
+          "t": "Aturan dibuat untuk …",
+          "o": [
+            "menyusahkan kita",
+            "kebaikan bersama",
+            "membuat kita takut"
+          ],
+          "a": "kebaikan bersama"
+        },
+        {
+          "t": "Aturan membuat hidup kita menjadi …",
+          "o": [
+            "berantakan",
+            "kacau",
+            "tertib"
+          ],
+          "a": "tertib"
+        },
+        {
+          "t": "Jika tidak ada aturan, orang-orang bisa …",
+          "o": [
+            "bertengkar",
+            "semakin tertib",
+            "selalu rukun"
+          ],
+          "a": "bertengkar"
+        },
+        {
+          "t": "Mematuhi aturan membuat kita merasa …",
+          "o": [
+            "takut",
+            "aman dan nyaman",
+            "sedih"
+          ],
+          "a": "aman dan nyaman"
+        },
+        {
+          "t": "Kamu mematuhi aturan di rumah. Orang tuamu merasa …",
+          "o": [
+            "marah",
+            "sedih",
+            "senang"
+          ],
+          "a": "senang"
+        },
+        {
+          "t": "Rina merapikan mainan setelah bermain. Rina …",
+          "o": [
+            "mematuhi aturan",
+            "melanggar aturan"
+          ],
+          "a": "mematuhi aturan",
+          "g": "patuh"
+        },
+        {
+          "t": "Doni makan sambil berlari-lari. Doni …",
+          "o": [
+            "mematuhi aturan",
+            "melanggar aturan"
+          ],
+          "a": "melanggar aturan",
+          "g": "patuh"
+        },
+        {
+          "t": "Kamu melanggar aturan di rumah. Apa yang kamu lakukan?",
+          "o": [
+            "Marah kepada Ibu",
+            "Berbohong",
+            "Meminta maaf dan tidak mengulangi"
+          ],
+          "a": "Meminta maaf dan tidak mengulangi"
+        },
+        {
+          "t": "Agar badan bersih dan sehat, kita mandi … kali sehari.",
+          "c": "Tulis dengan angka.",
+          "a": "2",
+          "wide": false
+        },
+        {
+          "t": "Sebelum tidur malam, kita sebaiknya …",
+          "o": [
+            "menggosok gigi",
+            "bermain di luar rumah",
+            "makan permen"
+          ],
+          "a": "menggosok gigi"
+        },
+        {
+          "t": "Kita sebaiknya tidur …",
+          "o": [
+            "larut malam",
+            "tepat waktu",
+            "saat sudah pagi"
+          ],
+          "a": "tepat waktu",
+          "g": "tidur"
+        },
+        {
+          "t": "Jika tidur terlalu malam, besok kita bisa …",
+          "o": [
+            "lebih segar",
+            "bangun lebih pagi",
+            "bangun kesiangan"
+          ],
+          "a": "bangun kesiangan",
+          "g": "tidur"
+        },
+        {
+          "t": "Bangun pagi membuat badan menjadi …",
+          "o": [
+            "sehat dan segar",
+            "sakit",
+            "lemas"
+          ],
+          "a": "sehat dan segar"
+        },
+        {
+          "t": "Adi selalu bangun pukul lima pagi. Adi anak yang …",
+          "o": [
+            "malas",
+            "rajin",
+            "curang"
+          ],
+          "a": "rajin"
+        },
+        {
+          "t": "Setelah bangun tidur, tempat tidur harus …",
+          "o": [
+            "diinjak-injak",
+            "dibiarkan berantakan",
+            "dirapikan"
+          ],
+          "a": "dirapikan"
+        },
+        {
+          "t": "Siapa yang merapikan kamar tidurmu?",
+          "o": [
+            "Aku sendiri",
+            "Guru",
+            "Tetangga"
+          ],
+          "a": "Aku sendiri"
+        },
+        {
+          "t": "Kamarmu berantakan. Apa yang kamu lakukan?",
+          "o": [
+            "Membiarkannya",
+            "Merapikannya",
+            "Membuatnya makin berantakan"
+          ],
+          "a": "Merapikannya"
+        },
+        {
+          "t": "Setelah bermain, mainan harus …",
+          "o": [
+            "dilempar-lempar",
+            "ditinggal di lantai",
+            "dirapikan kembali"
+          ],
+          "a": "dirapikan kembali"
+        },
+        {
+          "t": "Sepatu yang sudah dipakai disimpan di … sepatu.",
+          "a": "rak",
+          "wide": false
+        },
+        {
+          "t": "Sebelum belajar, kita sebaiknya …",
+          "o": [
+            "berdoa",
+            "tidur",
+            "berteriak"
+          ],
+          "a": "berdoa"
+        },
+        {
+          "t": "Saat waktunya belajar, kamu …",
+          "o": [
+            "menonton televisi",
+            "belajar dengan tekun",
+            "bermain di luar"
+          ],
+          "a": "belajar dengan tekun"
+        },
+        {
+          "t": "Ibu menyuruhmu mandi sore. Apa yang kamu lakukan?",
+          "o": [
+            "Terus bermain",
+            "Pura-pura tidur",
+            "Segera mandi"
+          ],
+          "a": "Segera mandi"
+        },
+        {
+          "t": "Sebelum berangkat sekolah, kita … kepada orang tua.",
+          "o": [
+            "berpamitan",
+            "berbohong",
+            "marah"
+          ],
+          "a": "berpamitan"
+        },
+        {
+          "t": "Sebelum makan, kita mencuci …",
+          "g": "cuci",
+          "a": "tangan",
+          "wide": true
+        },
+        {
+          "t": "Kita mencuci tangan memakai air dan …",
+          "g": "cuci",
+          "a": "sabun",
+          "wide": true
+        },
+        {
+          "t": "Sebelum makan, kita juga harus …",
+          "o": [
+            "berlari-lari",
+            "berdoa",
+            "berteriak"
+          ],
+          "a": "berdoa"
+        },
+        {
+          "t": "Saat makan, kita sebaiknya …",
+          "o": [
+            "sambil melompat",
+            "berjalan-jalan",
+            "duduk dengan tenang"
+          ],
+          "a": "duduk dengan tenang"
+        },
+        {
+          "t": "Manakah aturan makan yang benar?",
+          "o": [
+            "Tidak berbicara saat mengunyah",
+            "Makan sambil berlari",
+            "Makan sambil berdiri"
+          ],
+          "a": "Tidak berbicara saat mengunyah"
+        },
+        {
+          "t": "Makanan di piring sebaiknya …",
+          "o": [
+            "disisakan banyak",
+            "dihabiskan",
+            "dibuang"
+          ],
+          "a": "dihabiskan"
+        },
+        {
+          "t": "Kita mengambil makanan …",
+          "o": [
+            "sampai teman tidak dapat",
+            "sebanyak-banyaknya lalu dibuang",
+            "secukupnya"
+          ],
+          "a": "secukupnya"
+        },
+        {
+          "t": "Kita makan menggunakan tangan …",
+          "o": [
+            "kiri",
+            "kanan"
+          ],
+          "a": "kanan"
+        },
+        {
+          "t": "Setelah makan, piring kotor harus …",
+          "o": [
+            "dibiarkan di meja",
+            "dicuci",
+            "disembunyikan"
+          ],
+          "a": "dicuci"
+        },
+        {
+          "t": "Setelah makan, meja makan harus …",
+          "o": [
+            "ditinggal kotor",
+            "dicoret-coret",
+            "dibersihkan"
+          ],
+          "a": "dibersihkan"
+        },
+        {
+          "t": "Kamu ingin bermain ke luar rumah. Apa yang kamu lakukan?",
+          "o": [
+            "Meminta izin kepada orang tua",
+            "Pergi diam-diam",
+            "Langsung pergi"
+          ],
+          "a": "Meminta izin kepada orang tua"
+        },
+        {
+          "t": "Saat bermain di luar rumah, kita tidak boleh lupa …",
+          "o": [
+            "tertawa",
+            "waktu",
+            "tersenyum"
+          ],
+          "a": "waktu"
+        },
+        {
+          "t": "Ayah sedang memberi nasihat. Apa sikapmu?",
+          "o": [
+            "Pergi bermain",
+            "Menutup telinga",
+            "Mendengarkan dengan baik"
+          ],
+          "a": "Mendengarkan dengan baik"
+        },
+        {
+          "t": "Kamu melihat sampah berserakan di rumah. Apa yang kamu lakukan?",
+          "o": [
+            "Membuangnya ke tempat sampah",
+            "Menendangnya ke kolong meja",
+            "Membiarkannya"
+          ],
+          "a": "Membuangnya ke tempat sampah",
+          "g": "sampah"
+        },
+        {
+          "t": "Sampah harus dibuang di tempat …",
+          "g": "sampah",
+          "a": "sampah",
+          "wide": true
+        },
+        {
+          "t": "Baju yang kotor harus …",
+          "o": [
+            "dipakai lagi",
+            "dicuci",
+            "disimpan di lemari"
+          ],
+          "a": "dicuci"
+        },
+        {
+          "t": "Bersih artinya bebas dari …",
+          "o": [
+            "makanan",
+            "mainan",
+            "kotoran"
+          ],
+          "a": "kotoran"
+        },
+        {
+          "t": "Hidup bersih membuat kita …",
+          "o": [
+            "sehat",
+            "malas",
+            "sakit"
+          ],
+          "a": "sehat"
+        },
+        {
+          "t": "Lingkungan yang bersih membuat kita merasa …",
+          "o": [
+            "gatal",
+            "nyaman",
+            "sedih"
+          ],
+          "a": "nyaman"
+        },
+        {
+          "t": "Hidup bersih membuat kita terhindar dari …",
+          "o": [
+            "makanan",
+            "teman",
+            "penyakit"
+          ],
+          "a": "penyakit"
+        },
+        {
+          "t": "Manakah ciri rumah yang bersih?",
+          "o": [
+            "Tidak ada sampah berserakan",
+            "Lantainya berlumut",
+            "Banyak debu"
+          ],
+          "a": "Tidak ada sampah berserakan"
+        },
+        {
+          "t": "Jendela rumah dibuka agar …",
+          "o": [
+            "debu menumpuk",
+            "udara segar masuk",
+            "rumah menjadi gelap"
+          ],
+          "a": "udara segar masuk"
+        },
+        {
+          "t": "Lantai rumah disapu menggunakan …",
+          "a": "sapu",
+          "wide": false
+        },
+        {
+          "t": "Lantai yang sudah disapu lalu dibersihkan dengan …",
+          "o": [
+            "piring",
+            "sisir",
+            "kain pel"
+          ],
+          "a": "kain pel"
+        },
+        {
+          "t": "Meja yang berdebu dibersihkan dengan …",
+          "o": [
+            "kain lap",
+            "pensil",
+            "garpu"
+          ],
+          "a": "kain lap"
+        },
+        {
+          "t": "Tanaman di halaman rumah perlu …",
+          "o": [
+            "diinjak",
+            "disiram",
+            "dicabut semua"
+          ],
+          "a": "disiram"
+        },
+        {
+          "t": "Kebersihan rumah adalah tugas …",
+          "o": [
+            "tamu",
+            "Ibu saja",
+            "semua anggota keluarga"
+          ],
+          "a": "semua anggota keluarga",
+          "g": "semua"
+        },
+        {
+          "t": "Rumah yang kotor menunjukkan penghuninya kurang …",
+          "o": [
+            "peduli",
+            "kenyang",
+            "tinggi"
+          ],
+          "a": "peduli"
+        },
+        {
+          "t": "Keran air menyala dan tidak dipakai. Apa yang kamu lakukan?",
+          "o": [
+            "Membiarkannya",
+            "Menutup keran",
+            "Bermain air"
+          ],
+          "a": "Menutup keran"
+        },
+        {
+          "t": "Kamu melihat sampah di jalan lalu membuangnya ke tempat sampah. Itu sikap …",
+          "o": [
+            "boros",
+            "tidak peduli",
+            "peduli lingkungan"
+          ],
+          "a": "peduli lingkungan"
+        },
+        {
+          "t": "Ayah sedang menyapu halaman. Apa yang kamu lakukan?",
+          "o": [
+            "Ikut membantu",
+            "Mengotori halaman lagi",
+            "Menonton saja"
+          ],
+          "a": "Ikut membantu"
+        },
+        {
+          "t": "Ibu sedang sakit. Apa yang kamu lakukan?",
+          "o": [
+            "Berteriak-teriak",
+            "Membantu merawat Ibu",
+            "Minta dibelikan mainan"
+          ],
+          "a": "Membantu merawat Ibu"
+        },
+        {
+          "t": "Adik sulit mengerjakan tugas. Apa yang kamu lakukan?",
+          "o": [
+            "Meninggalkannya",
+            "Mengejeknya",
+            "Membantunya belajar"
+          ],
+          "a": "Membantunya belajar"
+        },
+        {
+          "t": "Membantu Ibu menyiapkan makanan adalah sikap …",
+          "o": [
+            "peduli",
+            "curang",
+            "malas"
+          ],
+          "a": "peduli"
+        },
+        {
+          "t": "Saat memakai gunting, kita harus …",
+          "o": [
+            "berlari-lari",
+            "berhati-hati",
+            "bercanda"
+          ],
+          "a": "berhati-hati",
+          "g": "hati"
+        },
+        {
+          "t": "Sikap hati-hati membuat kita …",
+          "o": [
+            "terlambat",
+            "celaka",
+            "selamat"
+          ],
+          "a": "selamat",
+          "g": "hati"
+        }
+      ]
+    },
+    {
+      "id": "pp-3",
+      "title": "Bab 3: Aku Mengenal Indonesia",
+      "hint": "Bendera Merah Putih, lagu Indonesia Raya, dan simbol Pancasila.",
+      "icon": "🇮🇩",
+      "questions": [
+        {
+          "t": "🇮🇩 Apa warna bendera negara Indonesia?",
+          "o": [
+            "Merah dan putih",
+            "Biru dan putih",
+            "Merah dan kuning"
+          ],
+          "a": "Merah dan putih",
+          "g": "bendera"
+        },
+        {
+          "t": "Warna bagian atas bendera Indonesia adalah …",
+          "g": "bendera",
+          "a": "merah",
+          "wide": true
+        },
+        {
+          "t": "Warna bagian bawah bendera Indonesia adalah …",
+          "g": "bendera",
+          "a": "putih",
+          "wide": true
+        },
+        {
+          "t": "Warna merah pada bendera Indonesia artinya …",
+          "o": [
+            "takut",
+            "berani",
+            "marah"
+          ],
+          "a": "berani"
+        },
+        {
+          "t": "Warna putih pada bendera Indonesia artinya …",
+          "o": [
+            "sedih",
+            "kotor",
+            "suci"
+          ],
+          "a": "suci"
+        },
+        {
+          "t": "Bendera Indonesia disebut juga …",
+          "o": [
+            "Sang Merah Putih",
+            "Sang Bintang",
+            "Sang Garuda"
+          ],
+          "a": "Sang Merah Putih",
+          "g": "bendera"
+        },
+        {
+          "t": "Siapa penjahit bendera saat proklamasi kemerdekaan?",
+          "o": [
+            "Ibu Kartini",
+            "Ibu Fatmawati",
+            "Ibu Sud"
+          ],
+          "a": "Ibu Fatmawati"
+        },
+        {
+          "t": "Bendera Merah Putih adalah identitas …",
+          "o": [
+            "sekolah kita saja",
+            "kelas kita saja",
+            "negara Indonesia"
+          ],
+          "a": "negara Indonesia"
+        },
+        {
+          "t": "Bagaimana cara menyimpan bendera Merah Putih?",
+          "o": [
+            "Dilipat rapi dan disimpan di lemari",
+            "Dipakai untuk lap meja",
+            "Ditaruh di tempat yang kotor"
+          ],
+          "a": "Dilipat rapi dan disimpan di lemari"
+        },
+        {
+          "t": "Upacara bendera di sekolah diadakan setiap hari …",
+          "a": "senin",
+          "wide": true
+        },
+        {
+          "t": "Saat bendera dikibarkan, kita …",
+          "o": [
+            "duduk di tanah",
+            "memberi hormat",
+            "mengobrol"
+          ],
+          "a": "memberi hormat"
+        },
+        {
+          "t": "Saat hormat kepada bendera, badan kita …",
+          "o": [
+            "bersandar ke teman",
+            "jongkok",
+            "berdiri tegak"
+          ],
+          "a": "berdiri tegak"
+        },
+        {
+          "t": "Kita memberi hormat kepada bendera dengan tangan …",
+          "o": [
+            "kiri",
+            "kanan"
+          ],
+          "a": "kanan"
+        },
+        {
+          "t": "Saat upacara, kita berbaris dengan …",
+          "o": [
+            "berdesakan",
+            "tertib",
+            "sambil bercanda"
+          ],
+          "a": "tertib"
+        },
+        {
+          "t": "Pembina upacara sedang berbicara. Apa sikapmu?",
+          "o": [
+            "Bermain di barisan",
+            "Mengobrol dengan teman",
+            "Mendengarkan dengan tenang"
+          ],
+          "a": "Mendengarkan dengan tenang"
+        },
+        {
+          "t": "Saat upacara, kita memakai seragam, dasi, dan …",
+          "o": [
+            "topi",
+            "selimut",
+            "sandal"
+          ],
+          "a": "topi"
+        },
+        {
+          "t": "Hari ini ada upacara bendera. Sebaiknya kita berangkat sekolah …",
+          "o": [
+            "lebih siang",
+            "lebih pagi",
+            "setelah upacara selesai"
+          ],
+          "a": "lebih pagi"
+        },
+        {
+          "t": "Teks Pancasila dibacakan di sekolah saat …",
+          "o": [
+            "pulang sekolah",
+            "jam istirahat",
+            "upacara bendera"
+          ],
+          "a": "upacara bendera"
+        },
+        {
+          "t": "Lagu kebangsaan Indonesia berjudul …",
+          "o": [
+            "Indonesia Raya",
+            "Maju Tak Gentar",
+            "Garuda Pancasila"
+          ],
+          "a": "Indonesia Raya",
+          "g": "raya"
+        },
+        {
+          "t": "Siapa pencipta lagu Indonesia Raya?",
+          "o": [
+            "Ibu Sud",
+            "W.R. Supratman",
+            "Pak Kasur"
+          ],
+          "a": "W.R. Supratman"
+        },
+        {
+          "t": "Saat upacara, lagu Indonesia Raya dinyanyikan ketika …",
+          "o": [
+            "murid masuk kelas",
+            "barisan dibubarkan",
+            "bendera dikibarkan"
+          ],
+          "a": "bendera dikibarkan"
+        },
+        {
+          "t": "Bagaimana sikap kita saat menyanyikan lagu Indonesia Raya?",
+          "o": [
+            "Berdiri tegak dan bersungguh-sungguh",
+            "Sambil berlari-lari",
+            "Duduk sambil bercanda"
+          ],
+          "a": "Berdiri tegak dan bersungguh-sungguh"
+        },
+        {
+          "t": "Lanjutkan lagu ini: \"Indonesia, tanah …\"",
+          "g": "raya",
+          "a": "airku",
+          "wide": true
+        },
+        {
+          "t": "Lanjutkan lagu ini: \"Hiduplah Indonesia …\"",
+          "g": "raya",
+          "a": "raya",
+          "wide": false
+        },
+        {
+          "t": "Menyanyikan lagu kebangsaan menunjukkan sikap …",
+          "o": [
+            "malas",
+            "cinta tanah air",
+            "sombong"
+          ],
+          "a": "cinta tanah air"
+        },
+        {
+          "t": "W.R. Supratman pertama kali memainkan lagu Indonesia Raya dengan …",
+          "o": [
+            "seruling",
+            "gendang",
+            "biola"
+          ],
+          "a": "biola"
+        },
+        {
+          "t": "Manakah yang termasuk lagu wajib nasional?",
+          "o": [
+            "Maju Tak Gentar",
+            "Cicak-Cicak di Dinding",
+            "Balonku"
+          ],
+          "a": "Maju Tak Gentar"
+        },
+        {
+          "t": "Angklung, gong, dan gendang adalah nama alat …",
+          "o": [
+            "masak",
+            "musik",
+            "tulis"
+          ],
+          "a": "musik"
+        },
+        {
+          "t": "Bagaimana cara mengenal lagu Indonesia Raya?",
+          "o": [
+            "Tidak peduli pada lagu itu",
+            "Menutup telinga",
+            "Sering mendengar dan menghafalnya"
+          ],
+          "a": "Sering mendengar dan menghafalnya"
+        },
+        {
+          "t": "Lambang negara Indonesia adalah …",
+          "o": [
+            "Garuda Pancasila",
+            "Pohon beringin",
+            "Bendera Merah Putih"
+          ],
+          "a": "Garuda Pancasila",
+          "g": "garuda"
+        },
+        {
+          "t": "Lambang negara kita adalah burung …",
+          "g": "garuda",
+          "a": "garuda",
+          "wide": true
+        },
+        {
+          "t": "Semboyan negara Indonesia adalah …",
+          "o": [
+            "Indonesia Raya",
+            "Bhinneka Tunggal Ika",
+            "Merah Putih"
+          ],
+          "a": "Bhinneka Tunggal Ika",
+          "g": "bhinneka"
+        },
+        {
+          "t": "Bhinneka Tunggal Ika artinya …",
+          "o": [
+            "Berbeda berarti bermusuhan",
+            "Semua orang harus sama",
+            "Berbeda-beda tetapi tetap satu"
+          ],
+          "a": "Berbeda-beda tetapi tetap satu"
+        },
+        {
+          "t": "Tulisan Bhinneka Tunggal Ika ada pada …",
+          "o": [
+            "pita di kaki Garuda",
+            "sayap Garuda",
+            "kepala Garuda"
+          ],
+          "a": "pita di kaki Garuda",
+          "g": "bhinneka"
+        },
+        {
+          "t": "Warna burung Garuda Pancasila adalah …",
+          "o": [
+            "hijau",
+            "keemasan",
+            "biru"
+          ],
+          "a": "keemasan"
+        },
+        {
+          "t": "Simbol sila-sila Pancasila terletak di … burung Garuda.",
+          "o": [
+            "kaki",
+            "ekor",
+            "dada"
+          ],
+          "a": "dada"
+        },
+        {
+          "t": "Pancasila adalah … negara Indonesia.",
+          "o": [
+            "dasar",
+            "lagu",
+            "bendera"
+          ],
+          "a": "dasar"
+        },
+        {
+          "t": "Jumlah sila Pancasila ada …",
+          "c": "Tulis dengan angka.",
+          "a": "5",
+          "wide": false
+        },
+        {
+          "t": "⭐ Simbol sila pertama Pancasila adalah …",
+          "o": [
+            "rantai",
+            "bintang",
+            "pohon beringin"
+          ],
+          "a": "bintang",
+          "g": "s1"
+        },
+        {
+          "t": "🔗 Simbol sila kedua Pancasila adalah …",
+          "o": [
+            "kepala banteng",
+            "bintang",
+            "rantai"
+          ],
+          "a": "rantai",
+          "g": "s2"
+        },
+        {
+          "t": "🌳 Simbol sila ketiga Pancasila adalah …",
+          "o": [
+            "pohon beringin",
+            "rantai",
+            "padi dan kapas"
+          ],
+          "a": "pohon beringin",
+          "g": "s3"
+        },
+        {
+          "t": "🐂 Simbol sila keempat Pancasila adalah …",
+          "o": [
+            "pohon beringin",
+            "kepala banteng",
+            "bintang"
+          ],
+          "a": "kepala banteng",
+          "g": "s4"
+        },
+        {
+          "t": "🌾 Simbol sila kelima Pancasila adalah …",
+          "o": [
+            "rantai",
+            "kepala banteng",
+            "padi dan kapas"
+          ],
+          "a": "padi dan kapas",
+          "g": "s5"
+        },
+        {
+          "t": "Bintang adalah simbol sila yang berbunyi …",
+          "o": [
+            "Ketuhanan Yang Maha Esa",
+            "Kemanusiaan yang adil dan beradab",
+            "Persatuan Indonesia"
+          ],
+          "a": "Ketuhanan Yang Maha Esa",
+          "g": "s1"
+        },
+        {
+          "t": "Rantai adalah simbol sila yang berbunyi …",
+          "o": [
+            "Ketuhanan Yang Maha Esa",
+            "Kemanusiaan yang adil dan beradab",
+            "Persatuan Indonesia"
+          ],
+          "a": "Kemanusiaan yang adil dan beradab",
+          "g": "s2"
+        },
+        {
+          "t": "Pohon beringin adalah simbol sila yang berbunyi …",
+          "o": [
+            "Ketuhanan Yang Maha Esa",
+            "Kemanusiaan yang adil dan beradab",
+            "Persatuan Indonesia"
+          ],
+          "a": "Persatuan Indonesia",
+          "g": "s3"
+        },
+        {
+          "t": "Kepala banteng adalah simbol sila ke- …",
+          "c": "Tulis dengan angka.",
+          "g": "s4",
+          "a": "4",
+          "wide": false
+        },
+        {
+          "t": "Padi dan kapas adalah simbol sila ke- …",
+          "c": "Tulis dengan angka.",
+          "g": "s5",
+          "a": "5",
+          "wide": false
+        },
+        {
+          "t": "Bunyi sila pertama Pancasila adalah …",
+          "o": [
+            "Ketuhanan Yang Maha Esa",
+            "Kemanusiaan yang adil dan beradab",
+            "Persatuan Indonesia"
+          ],
+          "a": "Ketuhanan Yang Maha Esa",
+          "g": "s1"
+        },
+        {
+          "t": "Sila setelah \"Ketuhanan Yang Maha Esa\" adalah …",
+          "o": [
+            "Persatuan Indonesia",
+            "Kemanusiaan yang adil dan beradab",
+            "Bhinneka Tunggal Ika"
+          ],
+          "a": "Kemanusiaan yang adil dan beradab",
+          "g": "s2"
+        },
+        {
+          "t": "Bunyi sila ketiga Pancasila adalah …",
+          "o": [
+            "Kemanusiaan yang adil dan beradab",
+            "Ketuhanan Yang Maha Esa",
+            "Persatuan Indonesia"
+          ],
+          "a": "Persatuan Indonesia",
+          "g": "s3"
+        },
+        {
+          "t": "Sila keempat Pancasila diawali dengan kata …",
+          "o": [
+            "Kerakyatan",
+            "Persatuan",
+            "Keadilan"
+          ],
+          "a": "Kerakyatan"
+        },
+        {
+          "t": "\"Keadilan sosial bagi seluruh rakyat Indonesia\" adalah sila …",
+          "o": [
+            "kedua",
+            "kelima",
+            "ketiga"
+          ],
+          "a": "kelima",
+          "g": "s5"
+        },
+        {
+          "t": "Sila kedua Pancasila mengajarkan kita tentang …",
+          "o": [
+            "keadilan sosial",
+            "persatuan",
+            "kemanusiaan"
+          ],
+          "a": "kemanusiaan",
+          "g": "s2"
+        },
+        {
+          "t": "Berdoa sebelum belajar sesuai dengan sila …",
+          "o": [
+            "pertama",
+            "kelima",
+            "ketiga"
+          ],
+          "a": "pertama"
+        },
+        {
+          "t": "Hidup rukun dengan teman dari suku lain sesuai dengan sila …",
+          "o": [
+            "pertama",
+            "ketiga",
+            "kelima"
+          ],
+          "a": "ketiga"
+        },
+        {
+          "t": "Bermusyawarah memilih ketua kelas sesuai dengan sila …",
+          "o": [
+            "kedua",
+            "pertama",
+            "keempat"
+          ],
+          "a": "keempat"
+        },
+        {
+          "t": "Membagi kue sama rata kepada teman adalah sikap …",
+          "o": [
+            "adil",
+            "pelit",
+            "curang"
+          ],
+          "a": "adil"
+        },
+        {
+          "t": "Temanmu sedang berdoa menurut agamanya. Apa sikapmu?",
+          "o": [
+            "Menertawakannya",
+            "Menghormati dan tidak mengganggu",
+            "Mengajaknya mengobrol"
+          ],
+          "a": "Menghormati dan tidak mengganggu"
+        },
+        {
+          "t": "Jawa, Sunda, Bali, dan Bugis adalah nama … di Indonesia.",
+          "o": [
+            "bendera",
+            "lagu",
+            "suku bangsa"
+          ],
+          "a": "suku bangsa"
+        }
+      ]
+    },
+    {
+      "id": "pp-4",
+      "title": "Bab 4: Aku dan Lingkunganku",
+      "hint": "Lingkungan rumah dan sekolah, gotong royong, dan pulau Indonesia.",
+      "icon": "🌳",
+      "questions": [
+        {
+          "t": "Ruang tamu digunakan untuk …",
+          "o": [
+            "menerima tamu",
+            "mandi",
+            "memasak"
+          ],
+          "a": "menerima tamu"
+        },
+        {
+          "t": "Tempat untuk memasak di rumah adalah …",
+          "a": "dapur",
+          "wide": true
+        },
+        {
+          "t": "Kamar tidur digunakan untuk …",
+          "o": [
+            "memasak",
+            "beristirahat",
+            "menerima tamu"
+          ],
+          "a": "beristirahat"
+        },
+        {
+          "t": "Ruang keluarga digunakan untuk …",
+          "o": [
+            "mandi",
+            "mencuci baju",
+            "berkumpul bersama keluarga"
+          ],
+          "a": "berkumpul bersama keluarga"
+        },
+        {
+          "t": "Bagian rumah untuk membersihkan badan adalah …",
+          "o": [
+            "kamar mandi",
+            "dapur",
+            "ruang tamu"
+          ],
+          "a": "kamar mandi"
+        },
+        {
+          "t": "Bagian rumah di luar yang dapat dipakai bermain adalah …",
+          "o": [
+            "dapur",
+            "halaman",
+            "kamar mandi"
+          ],
+          "a": "halaman"
+        },
+        {
+          "t": "Manakah tugas yang dapat kamu lakukan di rumah?",
+          "o": [
+            "Membuang sampah sembarangan",
+            "Mencoret dinding",
+            "Menyapu lantai"
+          ],
+          "a": "Menyapu lantai"
+        },
+        {
+          "t": "Ayah sedang mencabuti rumput di halaman. Apa yang kamu lakukan?",
+          "o": [
+            "Membantu Ayah",
+            "Mengganggu Ayah",
+            "Menonton saja"
+          ],
+          "a": "Membantu Ayah"
+        },
+        {
+          "t": "Tanaman di sekitar rumah harus kita …",
+          "o": [
+            "rusak",
+            "rawat",
+            "injak"
+          ],
+          "a": "rawat"
+        },
+        {
+          "t": "Rumah Sari ada di desa dekat pantai. Apa yang ada di dekat rumah Sari?",
+          "o": [
+            "Gurun pasir",
+            "Salju",
+            "Laut"
+          ],
+          "a": "Laut"
+        },
+        {
+          "t": "Kebersihan lingkungan rumah adalah tanggung jawab …",
+          "o": [
+            "seluruh anggota keluarga",
+            "Ayah saja",
+            "Ibu saja"
+          ],
+          "a": "seluruh anggota keluarga"
+        },
+        {
+          "t": "Ada tetangga baru di dekat rumahmu. Apa yang kamu lakukan?",
+          "o": [
+            "Mengejeknya",
+            "Berkenalan dengan ramah",
+            "Menutup pintu rapat-rapat"
+          ],
+          "a": "Berkenalan dengan ramah"
+        },
+        {
+          "t": "Kamu bertemu tetangga di jalan. Apa yang kamu lakukan?",
+          "o": [
+            "Berlari menjauh",
+            "Pura-pura tidak melihat",
+            "Menyapa dengan sopan"
+          ],
+          "a": "Menyapa dengan sopan"
+        },
+        {
+          "t": "Desa tetangga terkena gempa bumi. Apa sikapmu?",
+          "o": [
+            "Membantu dengan berbagi makanan",
+            "Menertawakan mereka",
+            "Tidak peduli"
+          ],
+          "a": "Membantu dengan berbagi makanan"
+        },
+        {
+          "t": "Gempa bumi, banjir, dan tanah longsor adalah contoh …",
+          "o": [
+            "permainan",
+            "bencana alam",
+            "rumah adat"
+          ],
+          "a": "bencana alam"
+        },
+        {
+          "t": "Denah adalah …",
+          "o": [
+            "daftar belanja",
+            "gambar hewan",
+            "gambar letak suatu tempat"
+          ],
+          "a": "gambar letak suatu tempat"
+        },
+        {
+          "t": "Di depan rumah Adi ada toko. Di belakangnya ada sungai. Apa yang ada di depan rumah Adi?",
+          "o": [
+            "Toko",
+            "Sawah",
+            "Sungai"
+          ],
+          "a": "Toko",
+          "g": "denah1"
+        },
+        {
+          "t": "Di depan rumah Adi ada toko. Di belakangnya ada sungai. Apa yang ada di belakang rumah Adi?",
+          "o": [
+            "Toko",
+            "Sungai",
+            "Pasar"
+          ],
+          "a": "Sungai",
+          "g": "denah1"
+        },
+        {
+          "t": "Di kanan sekolah ada pasar. Di kiri sekolah ada taman. Apa yang ada di kiri sekolah?",
+          "o": [
+            "Sungai",
+            "Pasar",
+            "Taman"
+          ],
+          "a": "Taman",
+          "g": "denah2"
+        },
+        {
+          "t": "Di kanan sekolah ada pasar. Di kiri sekolah ada taman. Apa yang ada di kanan sekolah?",
+          "o": [
+            "Pasar",
+            "Kantor",
+            "Taman"
+          ],
+          "a": "Pasar",
+          "g": "denah2"
+        },
+        {
+          "t": "Kelas 1, kelas 2, dan kelas 3 berjajar urut. Kelas yang ada di tengah adalah kelas …",
+          "c": "Tulis dengan angka.",
+          "a": "2",
+          "wide": false
+        },
+        {
+          "t": "Rumah Honai adalah rumah adat dari …",
+          "o": [
+            "Jawa Tengah",
+            "Papua",
+            "Sumatera Barat"
+          ],
+          "a": "Papua"
+        },
+        {
+          "t": "Rumah Gadang adalah rumah adat dari …",
+          "o": [
+            "Kalimantan Barat",
+            "Papua",
+            "Sumatera Barat"
+          ],
+          "a": "Sumatera Barat"
+        },
+        {
+          "t": "Rumah Joglo adalah rumah adat dari …",
+          "o": [
+            "Jawa Tengah",
+            "Papua",
+            "Sulawesi Selatan"
+          ],
+          "a": "Jawa Tengah"
+        },
+        {
+          "t": "Rumah Tongkonan adalah rumah adat dari …",
+          "o": [
+            "Jawa Tengah",
+            "Sulawesi Selatan",
+            "Sumatera Barat"
+          ],
+          "a": "Sulawesi Selatan"
+        },
+        {
+          "t": "Joglo, Gadang, dan Honai adalah nama …",
+          "o": [
+            "permainan",
+            "pulau",
+            "rumah adat"
+          ],
+          "a": "rumah adat"
+        },
+        {
+          "t": "Rangku Alu adalah nama …",
+          "o": [
+            "permainan tradisional",
+            "pulau",
+            "rumah adat"
+          ],
+          "a": "permainan tradisional"
+        },
+        {
+          "t": "Gotong royong artinya …",
+          "o": [
+            "bekerja sendirian",
+            "bekerja bersama-sama",
+            "bermain sendirian"
+          ],
+          "a": "bekerja bersama-sama",
+          "g": "gr"
+        },
+        {
+          "t": "Bekerja bersama-sama agar pekerjaan cepat selesai disebut gotong …",
+          "g": "gr",
+          "a": "royong",
+          "wide": true
+        },
+        {
+          "t": "Dengan gotong royong, pekerjaan terasa lebih …",
+          "o": [
+            "lama",
+            "berat",
+            "ringan"
+          ],
+          "a": "ringan"
+        },
+        {
+          "t": "Pekerjaan rumah sebaiknya dikerjakan dengan …",
+          "o": [
+            "gotong royong",
+            "terpaksa",
+            "marah-marah"
+          ],
+          "a": "gotong royong"
+        },
+        {
+          "t": "Rumah tetangga kebakaran. Apa yang dilakukan warga?",
+          "o": [
+            "Menonton saja",
+            "Bergotong royong memadamkan api",
+            "Pergi menjauh"
+          ],
+          "a": "Bergotong royong memadamkan api"
+        },
+        {
+          "t": "Warga bersama-sama memperbaiki jalan yang rusak. Itu contoh …",
+          "o": [
+            "berlomba",
+            "bertengkar",
+            "gotong royong"
+          ],
+          "a": "gotong royong"
+        },
+        {
+          "t": "Manakah contoh gotong royong di lingkungan rumah?",
+          "o": [
+            "Kerja bakti membersihkan selokan",
+            "Membuang sampah ke sungai",
+            "Tidur saat warga kerja bakti"
+          ],
+          "a": "Kerja bakti membersihkan selokan"
+        },
+        {
+          "t": "Menjelang hari ulang tahun Republik Indonesia, warga …",
+          "o": [
+            "mengotori jalan",
+            "bergotong royong menghias kampung",
+            "merusak pos ronda"
+          ],
+          "a": "bergotong royong menghias kampung"
+        },
+        {
+          "t": "Tulus ikhlas artinya menolong tanpa …",
+          "o": [
+            "bekerja sama",
+            "tersenyum",
+            "mengharap imbalan"
+          ],
+          "a": "mengharap imbalan"
+        },
+        {
+          "t": "Ngayah adalah tradisi gotong royong di …",
+          "o": [
+            "Bali",
+            "Jakarta",
+            "Papua"
+          ],
+          "a": "Bali"
+        },
+        {
+          "t": "Gotong royong dapat membangun …",
+          "o": [
+            "permusuhan",
+            "persatuan",
+            "kemalasan"
+          ],
+          "a": "persatuan"
+        },
+        {
+          "t": "Gotong royong melatih kita untuk saling …",
+          "o": [
+            "menyalahkan",
+            "mengejek",
+            "tolong-menolong"
+          ],
+          "a": "tolong-menolong"
+        },
+        {
+          "t": "Kelasmu sedang kerja bakti. Apa yang kamu lakukan?",
+          "o": [
+            "Ikut bekerja",
+            "Pulang lebih dulu",
+            "Bersembunyi"
+          ],
+          "a": "Ikut bekerja"
+        },
+        {
+          "t": "Kamu membantu Ibu menata sepatu. Apakah itu gotong royong dalam keluarga?",
+          "o": [
+            "Ya",
+            "Bukan"
+          ],
+          "a": "Ya"
+        },
+        {
+          "t": "Di sekolah ada teman dari berbagai suku dan agama. Kita harus saling …",
+          "o": [
+            "menjauhi",
+            "mengejek",
+            "menghormati"
+          ],
+          "a": "menghormati",
+          "g": "beda"
+        },
+        {
+          "t": "Saat bermain di sekolah, kamu …",
+          "o": [
+            "bermain dengan semua teman",
+            "mengusir teman baru",
+            "memilih-milih teman"
+          ],
+          "a": "bermain dengan semua teman",
+          "g": "beda"
+        },
+        {
+          "t": "Tempat membeli makanan di sekolah adalah …",
+          "o": [
+            "perpustakaan",
+            "kantin",
+            "ruang guru"
+          ],
+          "a": "kantin"
+        },
+        {
+          "t": "Tempat membaca dan meminjam buku di sekolah adalah …",
+          "o": [
+            "toilet",
+            "kantin",
+            "perpustakaan"
+          ],
+          "a": "perpustakaan"
+        },
+        {
+          "t": "Ruang tempat murid belajar bersama guru adalah ruang …",
+          "a": "kelas",
+          "wide": true
+        },
+        {
+          "t": "Kapan waktu yang tepat untuk berangkat sekolah?",
+          "o": [
+            "Pagi hari",
+            "Malam hari",
+            "Sore hari"
+          ],
+          "a": "Pagi hari"
+        },
+        {
+          "t": "Indonesia adalah negara yang memiliki banyak …",
+          "o": [
+            "gurun",
+            "pulau",
+            "salju"
+          ],
+          "a": "pulau",
+          "g": "pulau"
+        },
+        {
+          "t": "Pulau-pulau Indonesia terbentang dari Sabang sampai …",
+          "a": "merauke",
+          "wide": true
+        },
+        {
+          "t": "Sumatera, Kalimantan, dan Sulawesi adalah nama …",
+          "o": [
+            "permainan",
+            "rumah adat",
+            "pulau"
+          ],
+          "a": "pulau",
+          "g": "pulau"
+        },
+        {
+          "t": "Manakah nama pulau di Indonesia?",
+          "o": [
+            "Jawa",
+            "Honai",
+            "Garuda"
+          ],
+          "a": "Jawa",
+          "g": "pulau"
+        },
+        {
+          "t": "Kebersihan sekolah adalah tanggung jawab …",
+          "o": [
+            "penjaga sekolah saja",
+            "semua warga sekolah",
+            "guru saja"
+          ],
+          "a": "semua warga sekolah"
+        },
+        {
+          "t": "Sampah di kelas harus dibuang ke …",
+          "o": [
+            "lantai",
+            "laci meja",
+            "tempat sampah"
+          ],
+          "a": "tempat sampah"
+        },
+        {
+          "t": "Di depan kelas ada keran air. Sebelum masuk kelas, kita …",
+          "o": [
+            "mencuci tangan",
+            "menyiram teman",
+            "bermain air"
+          ],
+          "a": "mencuci tangan"
+        },
+        {
+          "t": "Alat untuk membersihkan lantai kelas adalah …",
+          "o": [
+            "penghapus papan tulis",
+            "sapu",
+            "pensil"
+          ],
+          "a": "sapu"
+        },
+        {
+          "t": "Alat untuk membersihkan debu adalah …",
+          "o": [
+            "gunting",
+            "penggaris",
+            "kemoceng"
+          ],
+          "a": "kemoceng"
+        },
+        {
+          "t": "Kelas yang bersih dan rapi membuat belajar menjadi …",
+          "o": [
+            "nyaman",
+            "mengantuk",
+            "malas"
+          ],
+          "a": "nyaman"
+        },
+        {
+          "t": "Dua temanmu bertengkar di sekolah. Apa yang kamu lakukan?",
+          "o": [
+            "Menyoraki mereka",
+            "Melapor kepada guru",
+            "Ikut memukul"
+          ],
+          "a": "Melapor kepada guru"
+        },
+        {
+          "t": "Bolehkah kita mengotori halaman sekolah?",
+          "o": [
+            "Tidak boleh",
+            "Boleh"
+          ],
+          "a": "Tidak boleh"
+        },
+        {
+          "t": "Kepedulian di sekolah tercipta jika kita saling …",
+          "o": [
+            "menyayangi",
+            "bertengkar",
+            "bermusuhan"
+          ],
+          "a": "menyayangi"
+        }
+      ]
+    }
+  ]
+}

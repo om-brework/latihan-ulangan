@@ -4,11 +4,16 @@ export function shuffle(arr){
   return a;
 }
 
-/* Ambil n soal acak; soal dengan kelompok (g) yang sama tidak muncul bersamaan */
-export function pick(pool, n){
-  var seen = {}, out = [];
-  shuffle(pool).forEach(function(q){
-    if(out.length < n && !seen[q.g]){ seen[q.g] = true; out.push(q); }
-  });
+/* Ambil n soal acak. Soal dengan kelompok (g) yang sama tidak muncul bersamaan;
+   kalau kelompoknya kurang dari n, sisanya diisi dari soal yang belum terpakai. */
+export function pick(pool, n) {
+  const seen = new Set(), out = [], rest = [];
+  for (const q of shuffle(pool)) {
+    if (out.length < n && (q.g === undefined || !seen.has(q.g))) {
+      if (q.g !== undefined) seen.add(q.g);
+      out.push(q);
+    } else rest.push(q);
+  }
+  while (out.length < n && rest.length) out.push(rest.shift());
   return out;
 }

@@ -1,4 +1,4 @@
-export const normalize = (s) => String(s ?? "").toLowerCase().replace(/[^a-z]/g, "");
+export const normalize = (s) => String(s ?? "").toLowerCase().replace(/[^a-z0-9]/g, "");
 
 /* Jawaban yang sudah dirapikan, atau null kalau soal belum dijawab */
 export function answerValue(q, raw) {

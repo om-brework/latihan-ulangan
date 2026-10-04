@@ -10,7 +10,7 @@ export default function Question({ q, marks, value, checked, onChange }) {
         <span className="num">{q.no}</span>
         <span>
           {src.t}
-          {src.c && <span className="clue">{src.c}</span>}
+          {src.c && src.c.split(" | ").map((line) => <span className="clue" key={line}>{line}</span>)}
         </span>
       </div>
 
@@ -42,7 +42,8 @@ export default function Question({ q, marks, value, checked, onChange }) {
             id={`q-${q.id}`}
             aria-label="Jawaban"
             className={[src.wide ? "wide" : "", checked ? (ok ? "right" : "wrong") : ""].join(" ").trim()}
-            maxLength={src.wide ? 10 : 4}
+            maxLength={src.wide ? 12 : 4}
+            inputMode={/^[0-9]+$/.test(src.a) ? "numeric" : "text"}
             autoComplete="off"
             autoCapitalize="none"
             autoCorrect="off"

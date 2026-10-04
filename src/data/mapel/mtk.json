@@ -1,0 +1,2468 @@
+{
+ "id": "mtk",
+ "title": "Matematika",
+ "chapters": [
+  {
+   "id": "mtk-1",
+   "title": "Bab 1: Ayo Membilang sampai dengan 10",
+   "hint": "Membilang, membandingkan, dan mengurutkan bilangan 0 sampai 10.",
+   "icon": "🔢",
+   "questions": [
+    {
+     "t": "Ada berapa apel?",
+     "c": "🍎🍎🍎🍎🍎",
+     "a": "5",
+     "g": "bilang"
+    },
+    {
+     "t": "Ada berapa bola?",
+     "c": "⚽⚽⚽⚽⚽⚽⚽⚽",
+     "a": "8",
+     "g": "bilang"
+    },
+    {
+     "t": "Ada berapa bintang?",
+     "c": "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐",
+     "a": "10",
+     "g": "bilang"
+    },
+    {
+     "t": "Ada berapa ikan?",
+     "c": "🐟🐟🐟",
+     "a": "3",
+     "g": "bilang"
+    },
+    {
+     "t": "Ada berapa bunga?",
+     "c": "🌸🌸🌸🌸🌸🌸🌸",
+     "a": "7",
+     "g": "bilang"
+    },
+    {
+     "t": "Ada berapa balon?",
+     "c": "🎈🎈🎈🎈🎈🎈🎈🎈🎈",
+     "a": "9",
+     "g": "bilang"
+    },
+    {
+     "t": "Keranjang ini kosong. Berapa banyak bola di dalamnya?",
+     "o": [
+      "0",
+      "1",
+      "10"
+     ],
+     "a": "0"
+    },
+    {
+     "t": "Lambang bilangan 0 dibaca ...",
+     "o": [
+      "nol",
+      "satu",
+      "sepuluh"
+     ],
+     "a": "nol"
+    },
+    {
+     "t": "Lambang bilangan untuk \"tujuh\" adalah ...",
+     "o": [
+      "7",
+      "1",
+      "9"
+     ],
+     "a": "7",
+     "g": "lambang"
+    },
+    {
+     "t": "Bilangan 4 dibaca ...",
+     "o": [
+      "empat",
+      "enam",
+      "delapan"
+     ],
+     "a": "empat",
+     "g": "nama"
+    },
+    {
+     "t": "Bilangan 6 dibaca ...",
+     "o": [
+      "enam",
+      "empat",
+      "sembilan"
+     ],
+     "a": "enam",
+     "g": "nama"
+    },
+    {
+     "t": "Tulis dengan angka: sembilan.",
+     "a": "9",
+     "g": "lambang"
+    },
+    {
+     "t": "Tulis dengan angka: sepuluh.",
+     "a": "10",
+     "g": "lambang"
+    },
+    {
+     "t": "Tulis nama bilangan 8 dengan huruf.",
+     "a": "delapan",
+     "wide": true,
+     "g": "nama"
+    },
+    {
+     "t": "Tulis nama bilangan 5 dengan huruf.",
+     "a": "lima",
+     "g": "nama"
+    },
+    {
+     "t": "Berapa banyak jari pada satu tangan?",
+     "o": [
+      "5",
+      "4",
+      "10"
+     ],
+     "a": "5",
+     "g": "jari"
+    },
+    {
+     "t": "Berapa banyak jari pada dua tangan?",
+     "o": [
+      "10",
+      "5",
+      "8"
+     ],
+     "a": "10",
+     "g": "jari"
+    },
+    {
+     "t": "Mana yang lebih banyak?",
+     "c": "🍎🍎🍎🍎🍎🍎 dan 🍌🍌🍌🍌",
+     "o": [
+      "apel",
+      "pisang",
+      "sama banyak"
+     ],
+     "a": "apel",
+     "g": "banding"
+    },
+    {
+     "t": "Mana yang lebih sedikit?",
+     "c": "🐟🐟🐟 dan 🐱🐱🐱🐱🐱",
+     "o": [
+      "ikan",
+      "kucing",
+      "sama banyak"
+     ],
+     "a": "ikan",
+     "g": "banding"
+    },
+    {
+     "t": "Bandingkan banyak sepeda dan burung.",
+     "c": "🚲🚲🚲🚲 dan 🐦🐦🐦🐦",
+     "o": [
+      "sama banyak",
+      "sepeda lebih banyak",
+      "burung lebih banyak"
+     ],
+     "a": "sama banyak",
+     "g": "banding"
+    },
+    {
+     "t": "Di taman ada 5 kursi dan 7 layang-layang. Mana yang lebih banyak?",
+     "o": [
+      "layang-layang",
+      "kursi",
+      "sama banyak"
+     ],
+     "a": "layang-layang"
+    },
+    {
+     "t": "Kira mempunyai 4 pensil. Tika mempunyai 5 pensil. Siapa yang pensilnya lebih banyak?",
+     "o": [
+      "Tika",
+      "Kira",
+      "sama banyak"
+     ],
+     "a": "Tika"
+    },
+    {
+     "t": "Sari punya 6 kelereng. Budi punya 6 kelereng. Kelereng mereka ...",
+     "o": [
+      "sama banyak",
+      "Sari lebih banyak",
+      "Budi lebih banyak"
+     ],
+     "a": "sama banyak"
+    },
+    {
+     "t": "Made punya 8 permen. Ayu punya 3 permen. Siapa yang permennya lebih sedikit?",
+     "o": [
+      "Ayu",
+      "Made",
+      "sama banyak"
+     ],
+     "a": "Ayu"
+    },
+    {
+     "t": "Bilangan mana yang paling besar?",
+     "o": [
+      "9",
+      "6",
+      "4"
+     ],
+     "a": "9",
+     "g": "besar"
+    },
+    {
+     "t": "Bilangan mana yang paling kecil?",
+     "o": [
+      "2",
+      "5",
+      "8"
+     ],
+     "a": "2",
+     "g": "besar"
+    },
+    {
+     "t": "Lengkapi urutan bilangan.",
+     "pre": "1, 2, 3,",
+     "a": "4",
+     "g": "maju"
+    },
+    {
+     "t": "Lengkapi urutan bilangan.",
+     "pre": "6, 7,",
+     "post": ", 9",
+     "a": "8",
+     "g": "maju"
+    },
+    {
+     "t": "Lengkapi urutan bilangan.",
+     "pre": "10, 9,",
+     "post": ", 7",
+     "a": "8",
+     "g": "mundur"
+    },
+    {
+     "t": "Lengkapi urutan bilangan.",
+     "pre": "5, 4,",
+     "post": ", 2",
+     "a": "3",
+     "g": "mundur"
+    },
+    {
+     "t": "Menghitung maju dimulai dari bilangan ...",
+     "o": [
+      "kecil ke besar",
+      "besar ke kecil"
+     ],
+     "a": "kecil ke besar"
+    },
+    {
+     "t": "Upe turun tangga sambil menghitung: 10, 9, 8. Upe menghitung ...",
+     "o": [
+      "mundur",
+      "maju"
+     ],
+     "a": "mundur"
+    },
+    {
+     "t": "Bilangan sesudah 6 adalah ...",
+     "a": "7"
+    },
+    {
+     "t": "Bilangan sebelum 10 adalah ...",
+     "a": "9"
+    },
+    {
+     "t": "Urutan dari kecil ke besar yang benar adalah ...",
+     "o": [
+      "3, 4, 5",
+      "5, 3, 4",
+      "4, 5, 3"
+     ],
+     "a": "3, 4, 5"
+    },
+    {
+     "t": "Lengkapi pasangan bilangan.",
+     "pre": "5 dipisah menjadi 2 dan",
+     "a": "3",
+     "g": "pasangan"
+    },
+    {
+     "t": "Lengkapi pasangan bilangan.",
+     "pre": "7 dipisah menjadi 3 dan",
+     "a": "4",
+     "g": "pasangan"
+    },
+    {
+     "t": "Ada 5 kue. Dua kue adalah donat. Sisanya kue bolu. Berapa kue bolu?",
+     "o": [
+      "3",
+      "2",
+      "5"
+     ],
+     "a": "3"
+    },
+    {
+     "t": "Dua bilangan yang jika digabung menjadi 6 adalah ...",
+     "o": [
+      "4 dan 2",
+      "3 dan 4",
+      "5 dan 2"
+     ],
+     "a": "4 dan 2"
+    },
+    {
+     "t": "Upe punya 8 mobil-mobilan. Sebanyak 3 masuk kotak merah. Sisanya masuk kotak biru. Berapa mobil-mobilan di kotak biru?",
+     "a": "5"
+    }
+   ]
+  },
+  {
+   "id": "mtk-2",
+   "title": "Bab 2: Penjumlahan sampai dengan 10",
+   "hint": "Menjumlahkan dua bilangan dengan hasil paling besar 10.",
+   "icon": "➕",
+   "questions": [
+    {
+     "t": "Tanda untuk penjumlahan adalah ...",
+     "o": [
+      "+",
+      "–",
+      "="
+     ],
+     "a": "+"
+    },
+    {
+     "t": "Menjumlahkan artinya ...",
+     "o": [
+      "menggabungkan",
+      "mengambil sebagian",
+      "membuang"
+     ],
+     "a": "menggabungkan"
+    },
+    {
+     "t": "\"4 ditambah 2 hasilnya adalah 6\" ditulis ...",
+     "o": [
+      "4 + 2 = 6",
+      "4 – 2 = 6",
+      "6 + 2 = 4"
+     ],
+     "a": "4 + 2 = 6"
+    },
+    {
+     "t": "3 + 4 = 7 dibaca ...",
+     "o": [
+      "3 ditambah 4 hasilnya 7",
+      "3 dikurangi 4 hasilnya 7",
+      "7 ditambah 4 hasilnya 3"
+     ],
+     "a": "3 ditambah 4 hasilnya 7"
+    },
+    {
+     "t": "Ada 4 anak bermain lompat tali. Datang lagi 2 anak. Berapa anak yang bermain sekarang?",
+     "a": "6"
+    },
+    {
+     "t": "Ada 3 pensil merah dan 4 pensil biru. Berapa semua pensil?",
+     "a": "7"
+    },
+    {
+     "t": "Berapa semua mobil?",
+     "c": "🚕🚕🚕 dan 🚗🚗",
+     "a": "5",
+     "g": "gambar"
+    },
+    {
+     "t": "Berapa semua bola?",
+     "c": "⚽⚽⚽⚽⚽ dan 🏀🏀🏀🏀",
+     "a": "9",
+     "g": "gambar"
+    },
+    {
+     "t": "Berapa semua buah?",
+     "c": "🍎🍎 dan 🍊🍊🍊🍊🍊🍊",
+     "a": "8",
+     "g": "gambar"
+    },
+    {
+     "t": "Kalimat penjumlahan yang cocok dengan gambar adalah ...",
+     "c": "🐥🐥🐥🐥🐥 dan 🐥🐥",
+     "o": [
+      "5 + 2 = 7",
+      "5 + 3 = 8",
+      "4 + 2 = 6"
+     ],
+     "a": "5 + 2 = 7",
+     "g": "kalimat"
+    },
+    {
+     "t": "Kalimat penjumlahan yang cocok dengan gambar adalah ...",
+     "c": "🎈🎈🎈 dan 🎈🎈🎈",
+     "o": [
+      "3 + 3 = 6",
+      "3 + 4 = 7",
+      "2 + 3 = 5"
+     ],
+     "a": "3 + 3 = 6",
+     "g": "kalimat"
+    },
+    {
+     "t": "Ada 5 apel: 3 apel merah dan 2 apel hijau. Kalimat penjumlahannya adalah ...",
+     "o": [
+      "3 + 2 = 5",
+      "3 + 5 = 8",
+      "5 + 2 = 7"
+     ],
+     "a": "3 + 2 = 5"
+    },
+    {
+     "t": "4 kupu-kupu kuning dan 1 kupu-kupu merah. Berapa semua kupu-kupu?",
+     "a": "5"
+    },
+    {
+     "t": "Halim di angka 5. Ia melompat 3 langkah ke depan. Di angka berapa Halim sekarang?",
+     "a": "8",
+     "g": "lompat"
+    },
+    {
+     "t": "Wei di angka 1. Ia melompat 2 langkah ke depan. Di angka berapa Wei sekarang?",
+     "a": "3",
+     "g": "lompat"
+    },
+    {
+     "t": "Menghitung 5 + 3 dengan menghitung maju: mulai dari 5, lalu ...",
+     "o": [
+      "6, 7, 8",
+      "4, 3, 2",
+      "5, 6, 7"
+     ],
+     "a": "6, 7, 8"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "2 + 4 =",
+     "a": "6"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "4 + 3 =",
+     "a": "7"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "0 + 1 =",
+     "a": "1"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "5 + 1 =",
+     "a": "6"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "6 + 2 =",
+     "a": "8"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "1 + 8 =",
+     "a": "9"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "1 + 1 =",
+     "a": "2",
+     "g": "kembar"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "2 + 2 =",
+     "a": "4",
+     "g": "kembar"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "3 + 3 =",
+     "a": "6",
+     "g": "kembar"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "4 + 4 =",
+     "a": "8",
+     "g": "kembar"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "5 + 5 =",
+     "a": "10",
+     "g": "kembar"
+    },
+    {
+     "t": "Kita tahu 3 + 3 = 6. Jadi 3 + 4 = ...",
+     "o": [
+      "7",
+      "6",
+      "8"
+     ],
+     "a": "7"
+    },
+    {
+     "t": "Isi kotak supaya hasilnya 10.",
+     "pre": "8 +",
+     "post": "= 10",
+     "a": "2",
+     "g": "sepuluh"
+    },
+    {
+     "t": "Isi kotak supaya hasilnya 10.",
+     "post": "+ 3 = 10",
+     "a": "7",
+     "g": "sepuluh"
+    },
+    {
+     "t": "Isi kotak supaya hasilnya 10.",
+     "pre": "5 +",
+     "post": "= 10",
+     "a": "5",
+     "g": "sepuluh"
+    },
+    {
+     "t": "Ada 8 jari terbuka dan 2 jari tertutup. Berapa semua jari?",
+     "o": [
+      "10",
+      "8",
+      "6"
+     ],
+     "a": "10"
+    },
+    {
+     "t": "Penjumlahan yang hasilnya 10 adalah ...",
+     "o": [
+      "6 + 4",
+      "6 + 3",
+      "5 + 4"
+     ],
+     "a": "6 + 4",
+     "g": "pilih"
+    },
+    {
+     "t": "Penjumlahan yang hasilnya 9 adalah ...",
+     "o": [
+      "4 + 5",
+      "4 + 4",
+      "6 + 4"
+     ],
+     "a": "4 + 5",
+     "g": "pilih"
+    },
+    {
+     "t": "Ada 4 burung di pohon. Datang lagi 2 burung. Berapa semua burung?",
+     "a": "6"
+    },
+    {
+     "t": "Ada 5 siswa di dalam kelas. Datang lagi 3 siswa. Berapa siswa di kelas sekarang?",
+     "a": "8",
+     "g": "siswa"
+    },
+    {
+     "t": "Ada 6 siswa di dalam kelas. Datang lagi 4 siswa. Berapa siswa di kelas sekarang?",
+     "a": "10",
+     "g": "siswa"
+    },
+    {
+     "t": "Ada 3 sepeda dan 1 becak. Berapa semua kendaraan?",
+     "a": "4",
+     "g": "kendaraan"
+    },
+    {
+     "t": "Ada 3 motor dan 2 mobil. Berapa semua kendaraan?",
+     "a": "5",
+     "g": "kendaraan"
+    },
+    {
+     "t": "Dewi punya 2 boneka. Ibu memberi 5 boneka lagi. Berapa boneka Dewi sekarang?",
+     "a": "7"
+    }
+   ]
+  },
+  {
+   "id": "mtk-3",
+   "title": "Bab 3: Pengurangan sampai dengan 10",
+   "hint": "Mengurangkan bilangan sampai 10 dan hubungannya dengan penjumlahan.",
+   "icon": "➖",
+   "questions": [
+    {
+     "t": "Tanda untuk pengurangan adalah ...",
+     "o": [
+      "–",
+      "+",
+      "="
+     ],
+     "a": "–"
+    },
+    {
+     "t": "\"6 dikurangi 2 hasilnya adalah 4\" ditulis ...",
+     "o": [
+      "6 – 2 = 4",
+      "6 + 2 = 4",
+      "4 – 2 = 6"
+     ],
+     "a": "6 – 2 = 4"
+    },
+    {
+     "t": "Jika benda diambil sebagian, jumlahnya menjadi ...",
+     "o": [
+      "lebih sedikit",
+      "lebih banyak",
+      "tetap sama"
+     ],
+     "a": "lebih sedikit"
+    },
+    {
+     "t": "Awalnya 6 anak bermain. Sebanyak 2 anak pulang. Berapa anak yang masih bermain?",
+     "a": "4"
+    },
+    {
+     "t": "Ibu mempunyai 6 kue. Upe memakan 1 kue. Berapa sisa kue Ibu?",
+     "a": "5"
+    },
+    {
+     "t": "Ada 3 orang di dalam mobil. Sebanyak 3 orang turun. Berapa orang di dalam mobil sekarang?",
+     "a": "0"
+    },
+    {
+     "t": "Ada 7 kelereng. Halim mengambil 2 kelereng. Berapa kelereng yang tersisa?",
+     "a": "5"
+    },
+    {
+     "t": "Ada 6 kupu-kupu di bunga. Sebanyak 2 kupu-kupu terbang. Berapa kupu-kupu yang tersisa?",
+     "a": "4"
+    },
+    {
+     "t": "Ada 6 anak bermain. Sebanyak 3 anak laki-laki. Sisanya perempuan. Berapa anak perempuan?",
+     "o": [
+      "3",
+      "2",
+      "9"
+     ],
+     "a": "3"
+    },
+    {
+     "t": "Ada 9 balon. Sebanyak 4 balon pecah. Kalimat pengurangannya adalah ...",
+     "o": [
+      "9 – 4 = 5",
+      "9 + 4 = 5",
+      "4 – 9 = 5"
+     ],
+     "a": "9 – 4 = 5",
+     "g": "kalimat"
+    },
+    {
+     "t": "Ada 8 donat. Sebanyak 2 donat dimakan. Kalimat pengurangannya adalah ...",
+     "o": [
+      "8 – 2 = 6",
+      "8 – 6 = 6",
+      "8 + 2 = 6"
+     ],
+     "a": "8 – 2 = 6",
+     "g": "kalimat"
+    },
+    {
+     "t": "Ada 7 apel. Apel yang dicoret sudah dimakan. Berapa apel yang tersisa?",
+     "c": "🍎🍎🍎🍎 ❌❌❌",
+     "a": "4",
+     "g": "coret"
+    },
+    {
+     "t": "Ada 6 telur di piring. Sebanyak 2 telur pecah. Berapa telur yang masih utuh?",
+     "a": "4"
+    },
+    {
+     "t": "Ada 7 balon. Sebanyak 5 balon merah. Sisanya kuning. Berapa balon kuning?",
+     "o": [
+      "2",
+      "3",
+      "12"
+     ],
+     "a": "2"
+    },
+    {
+     "t": "4 dan 2 jika digabung menjadi 6. Jadi 6 – 4 = ...",
+     "o": [
+      "2",
+      "4",
+      "10"
+     ],
+     "a": "2"
+    },
+    {
+     "t": "Upe di angka 3. Ia melompat 2 langkah ke belakang. Di angka berapa Upe sekarang?",
+     "a": "1",
+     "g": "lompat"
+    },
+    {
+     "t": "Tika di angka 5. Ia melompat 3 langkah ke belakang. Di angka berapa Tika sekarang?",
+     "a": "2",
+     "g": "lompat"
+    },
+    {
+     "t": "Menghitung 5 – 3 dengan menghitung mundur: mulai dari 5, lalu ...",
+     "o": [
+      "4, 3, 2",
+      "6, 7, 8",
+      "5, 4, 3"
+     ],
+     "a": "4, 3, 2"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "5 – 1 =",
+     "a": "4"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "6 – 3 =",
+     "a": "3"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "2 – 0 =",
+     "a": "2"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "4 – 4 =",
+     "a": "0"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "7 – 3 =",
+     "a": "4"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "9 – 3 =",
+     "a": "6"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "8 – 4 =",
+     "a": "4"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "10 – 7 =",
+     "a": "3",
+     "g": "sepuluh"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "10 – 4 =",
+     "a": "6",
+     "g": "sepuluh"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "10 – 10 =",
+     "a": "0",
+     "g": "sepuluh"
+    },
+    {
+     "t": "Semua ada 10 kotak. Sebanyak 6 kotak terisi. Berapa kotak yang kosong?",
+     "a": "4",
+     "g": "kotak"
+    },
+    {
+     "t": "Isi kotak dengan bilangan yang benar.",
+     "pre": "10 –",
+     "post": "= 8",
+     "a": "2",
+     "g": "isi"
+    },
+    {
+     "t": "Isi kotak dengan bilangan yang benar.",
+     "pre": "9 –",
+     "post": "= 7",
+     "a": "2",
+     "g": "isi"
+    },
+    {
+     "t": "Isi kotak dengan bilangan yang benar.",
+     "post": "– 5 = 2",
+     "a": "7",
+     "g": "isi"
+    },
+    {
+     "t": "Kita tahu 3 + 4 = 7. Jadi 7 – 3 = ...",
+     "o": [
+      "4",
+      "3",
+      "10"
+     ],
+     "a": "4",
+     "g": "hubungan"
+    },
+    {
+     "t": "Ada 4 kelinci cokelat dan 3 kelinci hitam. Semua ada 7 kelinci. Kalimat yang benar adalah ...",
+     "o": [
+      "7 – 4 = 3",
+      "7 – 3 = 3",
+      "4 – 3 = 7"
+     ],
+     "a": "7 – 4 = 3",
+     "g": "hubungan"
+    },
+    {
+     "t": "Tanda yang tepat: 4 ... 4 = 8",
+     "o": [
+      "+",
+      "–"
+     ],
+     "a": "+",
+     "keep": true,
+     "g": "tanda"
+    },
+    {
+     "t": "Tanda yang tepat: 10 ... 4 = 6",
+     "o": [
+      "+",
+      "–"
+     ],
+     "a": "–",
+     "keep": true,
+     "g": "tanda"
+    },
+    {
+     "t": "Mana yang hasilnya 5?",
+     "o": [
+      "9 – 4",
+      "8 – 4",
+      "3 + 4"
+     ],
+     "a": "9 – 4"
+    },
+    {
+     "t": "Ada 10 kepik di atas daun. Sebanyak 2 kepik terbang. Berapa sisa kepik?",
+     "a": "8"
+    },
+    {
+     "t": "Kira mempunyai 10 bola. Ia memberi Tika beberapa bola. Sisa bola Kira 6. Berapa bola yang diberikan kepada Tika?",
+     "a": "4"
+    },
+    {
+     "t": "Malosi mempunyai 9 kelereng. Ia memberi Kira 2 kelereng dan memberi Upe 4 kelereng. Berapa sisa kelereng Malosi?",
+     "a": "3"
+    }
+   ]
+  },
+  {
+   "id": "mtk-4",
+   "title": "Bab 4: Mengenal Bentuk",
+   "hint": "Bentuk lengkung, segitiga, dan segi empat di sekitar kita.",
+   "icon": "🔺",
+   "questions": [
+    {
+     "t": "Bentuk apa ini?",
+     "c": "🔺",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "segitiga",
+     "g": "nama"
+    },
+    {
+     "t": "Bentuk apa ini?",
+     "c": "🟦",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "segi empat",
+     "g": "nama"
+    },
+    {
+     "t": "Bentuk apa ini?",
+     "c": "🔵",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "bentuk lengkung",
+     "g": "nama"
+    },
+    {
+     "t": "Piring makan berbentuk ...",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "bentuk lengkung",
+     "g": "benda1"
+    },
+    {
+     "t": "Pintu kelas berbentuk ...",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "segi empat",
+     "g": "benda2"
+    },
+    {
+     "t": "Kue lupis berbentuk ...",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "segitiga",
+     "g": "benda3"
+    },
+    {
+     "t": "Buku tulis berbentuk ...",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "segi empat",
+     "g": "benda2"
+    },
+    {
+     "t": "Jam dinding yang bundar berbentuk ...",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "bentuk lengkung",
+     "g": "benda1"
+    },
+    {
+     "t": "Uang koin berbentuk ...",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "bentuk lengkung",
+     "g": "benda1"
+    },
+    {
+     "t": "Papan tulis berbentuk ...",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "segi empat",
+     "g": "benda2"
+    },
+    {
+     "t": "Jendela kelas berbentuk ...",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "segi empat",
+     "g": "benda2"
+    },
+    {
+     "t": "Mana benda yang berbentuk segitiga?",
+     "o": [
+      "penggaris segitiga",
+      "buku",
+      "piring"
+     ],
+     "a": "penggaris segitiga"
+    },
+    {
+     "t": "Mana benda yang berbentuk lengkung?",
+     "o": [
+      "telur",
+      "pintu",
+      "bingkai foto"
+     ],
+     "a": "telur"
+    },
+    {
+     "t": "Mana benda yang berbentuk segi empat?",
+     "o": [
+      "bingkai foto",
+      "melon",
+      "kue lupis"
+     ],
+     "a": "bingkai foto"
+    },
+    {
+     "t": "Mana yang BUKAN bentuk lengkung?",
+     "o": [
+      "buku",
+      "piring",
+      "uang koin"
+     ],
+     "a": "buku"
+    },
+    {
+     "t": "Mana yang bentuknya sama dengan 🔵?",
+     "o": [
+      "🔴",
+      "🟥",
+      "🔺"
+     ],
+     "a": "🔴",
+     "g": "sama"
+    },
+    {
+     "t": "Mana yang bentuknya sama dengan 🟥?",
+     "o": [
+      "🟦",
+      "🔵",
+      "🔺"
+     ],
+     "a": "🟦",
+     "g": "sama"
+    },
+    {
+     "t": "Bentuk yang mempunyai tiga sisi disebut ...",
+     "a": "segitiga",
+     "wide": true
+    },
+    {
+     "t": "Berapa sisi pada bentuk segi empat?",
+     "a": "4",
+     "g": "sisi"
+    },
+    {
+     "t": "Berapa lidi yang dibutuhkan untuk membuat satu segitiga?",
+     "a": "3",
+     "g": "sisi"
+    },
+    {
+     "t": "Berapa lidi yang dibutuhkan untuk membuat satu segi empat?",
+     "a": "4",
+     "g": "sisi"
+    },
+    {
+     "t": "Ada berapa segitiga?",
+     "c": "🔺🔵🔺🟦🔺🔵",
+     "a": "3",
+     "g": "hitung"
+    },
+    {
+     "t": "Ada berapa segi empat?",
+     "c": "🟦🔺🟥🔵🟦🟥🔴",
+     "a": "4",
+     "g": "hitung"
+    },
+    {
+     "t": "Ada berapa bentuk lengkung?",
+     "c": "🔴🔺🔵🔴🟦🔵🔴",
+     "a": "5",
+     "g": "hitung"
+    },
+    {
+     "t": "Hitung semua bangun pada gambar.",
+     "c": "🟦🔺🔵🔴🔺🟥",
+     "a": "6",
+     "g": "hitung"
+    },
+    {
+     "t": "Bentuk apa yang paling banyak?",
+     "c": "🔺🔺🔺🔺🔵🔵🟦",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "segitiga",
+     "g": "banyak"
+    },
+    {
+     "t": "Bentuk apa yang paling sedikit?",
+     "c": "🔵🔵🔵🔺🔺🟦",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "segi empat",
+     "g": "banyak"
+    },
+    {
+     "t": "Kelompok ini dibedakan berdasarkan ...",
+     "c": "🔴🔴🔴 dan 🔵🔵🔵",
+     "o": [
+      "warna",
+      "bentuk",
+      "ukuran"
+     ],
+     "a": "warna",
+     "g": "kelompok"
+    },
+    {
+     "t": "Kelompok ini dibedakan berdasarkan ...",
+     "c": "🔴🔴🔴 dan 🟥🟥🟥",
+     "o": [
+      "bentuk",
+      "warna",
+      "ukuran"
+     ],
+     "a": "bentuk",
+     "g": "kelompok"
+    },
+    {
+     "t": "Bola besar disimpan di kotak A. Bola kecil disimpan di kotak B. Bola dikelompokkan berdasarkan ...",
+     "o": [
+      "ukuran",
+      "warna",
+      "bentuk"
+     ],
+     "a": "ukuran",
+     "g": "kelompok"
+    },
+    {
+     "t": "Sari memisahkan kancing merah dan kancing kuning. Sari mengelompokkan berdasarkan ...",
+     "o": [
+      "warna",
+      "bentuk",
+      "ukuran"
+     ],
+     "a": "warna"
+    },
+    {
+     "t": "Mana yang warnanya sama dengan 🟥?",
+     "o": [
+      "🔴",
+      "🔵",
+      "🟦"
+     ],
+     "a": "🔴"
+    },
+    {
+     "t": "Mana benda yang paling kecil?",
+     "o": [
+      "kelereng",
+      "bola sepak",
+      "semangka"
+     ],
+     "a": "kelereng",
+     "g": "ukuran"
+    },
+    {
+     "t": "Mana benda yang paling besar?",
+     "o": [
+      "lemari",
+      "buku",
+      "pensil"
+     ],
+     "a": "lemari",
+     "g": "ukuran"
+    },
+    {
+     "t": "Dua segitiga yang sama besar digabungkan. Bentuk baru yang bisa terjadi adalah ...",
+     "o": [
+      "segi empat",
+      "bentuk lengkung"
+     ],
+     "a": "segi empat",
+     "g": "gabung"
+    },
+    {
+     "t": "Kertas segi empat digunting dari sudut ke sudut. Jadilah dua ...",
+     "o": [
+      "segitiga",
+      "bentuk lengkung",
+      "segi empat"
+     ],
+     "a": "segitiga",
+     "g": "gabung"
+    },
+    {
+     "t": "Dua bangun datar digabungkan. Hasilnya adalah ...",
+     "o": [
+      "bangun baru",
+      "bangun yang hilang",
+      "bilangan"
+     ],
+     "a": "bangun baru"
+    },
+    {
+     "t": "Gambar rumah: atapnya 🔺 dan dindingnya 🟧. Atap rumah berbentuk ...",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "segitiga",
+     "g": "susun"
+    },
+    {
+     "t": "Gambar kereta: gerbongnya 🟦 dan rodanya 🔴. Roda kereta berbentuk ...",
+     "o": [
+      "bentuk lengkung",
+      "segitiga",
+      "segi empat"
+     ],
+     "a": "bentuk lengkung",
+     "g": "susun"
+    },
+    {
+     "t": "Gambar rumah disusun dari 1 segitiga dan 2 segi empat. Berapa bangun semuanya?",
+     "a": "3"
+    }
+   ]
+  },
+  {
+   "id": "mtk-5",
+   "title": "Bab 5: Ayo Membilang sampai dengan 20",
+   "hint": "Bilangan 11 sampai 20, puluhan dan satuan.",
+   "icon": "🧮",
+   "questions": [
+    {
+     "t": "Ada berapa kelereng?",
+     "c": "🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵 🔵🔵🔵🔵🔵",
+     "a": "15",
+     "g": "bilang"
+    },
+    {
+     "t": "Ada berapa bintang?",
+     "c": "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ ⭐⭐",
+     "a": "12",
+     "g": "bilang"
+    },
+    {
+     "t": "Ada berapa apel?",
+     "c": "🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎 🍎🍎🍎🍎🍎🍎🍎🍎",
+     "a": "18",
+     "g": "bilang"
+    },
+    {
+     "t": "Ada berapa bola?",
+     "c": "⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽ ⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽",
+     "a": "20",
+     "g": "bilang"
+    },
+    {
+     "t": "Ada berapa bunga?",
+     "c": "🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸 🌸",
+     "a": "11",
+     "g": "bilang"
+    },
+    {
+     "t": "Bilangan 13 dibaca ...",
+     "o": [
+      "tiga belas",
+      "tiga puluh",
+      "sebelas"
+     ],
+     "a": "tiga belas",
+     "g": "nama"
+    },
+    {
+     "t": "Bilangan 20 dibaca ...",
+     "o": [
+      "dua puluh",
+      "dua belas",
+      "sepuluh"
+     ],
+     "a": "dua puluh",
+     "g": "nama"
+    },
+    {
+     "t": "Bilangan 17 dibaca ...",
+     "o": [
+      "tujuh belas",
+      "tujuh puluh",
+      "sembilan belas"
+     ],
+     "a": "tujuh belas",
+     "g": "nama"
+    },
+    {
+     "t": "Tulis dengan angka: empat belas.",
+     "a": "14",
+     "g": "lambang"
+    },
+    {
+     "t": "Tulis dengan angka: sembilan belas.",
+     "a": "19",
+     "g": "lambang"
+    },
+    {
+     "t": "Tulis dengan angka: dua belas.",
+     "a": "12",
+     "g": "lambang"
+    },
+    {
+     "t": "Tulis nama bilangan 11 dengan huruf.",
+     "a": "sebelas",
+     "wide": true
+    },
+    {
+     "t": "Lambang bilangan untuk \"enam belas\" adalah ...",
+     "o": [
+      "16",
+      "6",
+      "60"
+     ],
+     "a": "16",
+     "g": "lambang"
+    },
+    {
+     "t": "Lengkapi kalimat.",
+     "pre": "10 ditambah 3 menjadi",
+     "a": "13",
+     "g": "sepuluh"
+    },
+    {
+     "t": "Lengkapi kalimat.",
+     "pre": "10 ditambah 7 menjadi",
+     "a": "17",
+     "g": "sepuluh"
+    },
+    {
+     "t": "Lengkapi kalimat.",
+     "pre": "10 ditambah",
+     "post": "menjadi 18",
+     "a": "8",
+     "g": "sepuluh"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "10 + 5 =",
+     "a": "15"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "10 + 6 =",
+     "a": "16"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "8 + 10 =",
+     "a": "18"
+    },
+    {
+     "t": "Lengkapi urutan bilangan.",
+     "pre": "10, 11,",
+     "post": ", 13",
+     "a": "12",
+     "g": "maju"
+    },
+    {
+     "t": "Lengkapi urutan bilangan.",
+     "pre": "15,",
+     "post": ", 17",
+     "a": "16",
+     "g": "maju"
+    },
+    {
+     "t": "Lengkapi urutan bilangan.",
+     "pre": "17, 18, 19,",
+     "a": "20",
+     "g": "maju"
+    },
+    {
+     "t": "Lengkapi urutan bilangan.",
+     "pre": "15, 14,",
+     "a": "13",
+     "g": "mundur"
+    },
+    {
+     "t": "Lengkapi urutan bilangan.",
+     "pre": "20,",
+     "post": ", 18",
+     "a": "19",
+     "g": "mundur"
+    },
+    {
+     "t": "Halim menghitung kelereng: 9, 10, 11. Bilangan berikutnya adalah ...",
+     "o": [
+      "12",
+      "10",
+      "13"
+     ],
+     "a": "12"
+    },
+    {
+     "t": "Bilangan sesudah 14 adalah ...",
+     "a": "15"
+    },
+    {
+     "t": "Bilangan sebelum 20 adalah ...",
+     "a": "19"
+    },
+    {
+     "t": "Nilai tempat 15 adalah ...",
+     "o": [
+      "1 puluhan dan 5 satuan",
+      "5 puluhan dan 1 satuan",
+      "1 puluhan dan 1 satuan"
+     ],
+     "a": "1 puluhan dan 5 satuan"
+    },
+    {
+     "t": "1 puluhan dan 3 satuan sama dengan ...",
+     "a": "13",
+     "g": "nt"
+    },
+    {
+     "t": "1 puluhan dan 4 satuan sama dengan ...",
+     "a": "14",
+     "g": "nt"
+    },
+    {
+     "t": "Pada bilangan 12, berapa satuannya?",
+     "a": "2",
+     "g": "nt2"
+    },
+    {
+     "t": "Pada bilangan 17, berapa puluhannya?",
+     "a": "1",
+     "g": "nt2"
+    },
+    {
+     "t": "10 kelereng yang digabungkan dalam satu kantong disebut ...",
+     "o": [
+      "1 puluhan",
+      "1 satuan",
+      "10 puluhan"
+     ],
+     "a": "1 puluhan"
+    },
+    {
+     "t": "Ada 1 ikat berisi 10 pensil dan 6 pensil lepas. Berapa semua pensil?",
+     "a": "16"
+    },
+    {
+     "t": "Halim punya 15 kelereng. Upe punya 11 kelereng. Kelereng siapa yang lebih banyak?",
+     "o": [
+      "Halim",
+      "Upe",
+      "sama banyak"
+     ],
+     "a": "Halim"
+    },
+    {
+     "t": "Kira punya 10 jeruk, Tika punya 14 jeruk, dan Wei punya 12 jeruk. Jeruk siapa yang paling banyak?",
+     "o": [
+      "Tika",
+      "Kira",
+      "Wei"
+     ],
+     "a": "Tika",
+     "g": "jeruk"
+    },
+    {
+     "t": "Malosi punya 13 bola, Wei punya 11 bola, dan Kira punya 10 bola. Bola siapa yang paling sedikit?",
+     "o": [
+      "Kira",
+      "Wei",
+      "Malosi"
+     ],
+     "a": "Kira",
+     "g": "jeruk"
+    },
+    {
+     "t": "Urutkan dari yang terkecil: 13, 11, 18.",
+     "o": [
+      "11, 13, 18",
+      "18, 13, 11",
+      "13, 11, 18"
+     ],
+     "a": "11, 13, 18",
+     "g": "urut"
+    },
+    {
+     "t": "Urutkan dari yang terbesar: 14, 11, 10.",
+     "o": [
+      "14, 11, 10",
+      "10, 11, 14",
+      "11, 14, 10"
+     ],
+     "a": "14, 11, 10",
+     "g": "urut"
+    },
+    {
+     "t": "Bilangan mana yang paling besar?",
+     "o": [
+      "19",
+      "16",
+      "12"
+     ],
+     "a": "19"
+    }
+   ]
+  },
+  {
+   "id": "mtk-6",
+   "title": "Bab 6: Penjumlahan dan Pengurangan sampai dengan 20",
+   "hint": "Lebih dari, kurang dari, selisih, serta tambah dan kurang sampai 20.",
+   "icon": "🍩",
+   "questions": [
+    {
+     "t": "Ibu menghias 7 donat. Tika menghias 6 donat. Siapa yang donatnya lebih banyak?",
+     "o": [
+      "Ibu",
+      "Tika",
+      "sama banyak"
+     ],
+     "a": "Ibu",
+     "g": "donat"
+    },
+    {
+     "t": "Ibu menghias 7 donat. Tika menghias 6 donat. Berapa selisih banyak donat mereka?",
+     "a": "1",
+     "g": "donat"
+    },
+    {
+     "t": "Ada 5 bunga dan 7 kupu-kupu. Banyak kupu-kupu berapa lebihnya dari banyak bunga?",
+     "a": "2",
+     "g": "bunga"
+    },
+    {
+     "t": "Ada 5 bunga dan 7 kupu-kupu. Banyak bunga berapa kurangnya dari banyak kupu-kupu?",
+     "a": "2",
+     "g": "bunga"
+    },
+    {
+     "t": "Selisih dua bilangan dicari dengan cara ...",
+     "o": [
+      "mengurangkan",
+      "menjumlahkan",
+      "membilang maju"
+     ],
+     "a": "mengurangkan"
+    },
+    {
+     "t": "Kata lain dari \"selisih\" adalah ...",
+     "o": [
+      "beda",
+      "jumlah",
+      "gabungan"
+     ],
+     "a": "beda"
+    },
+    {
+     "t": "Wei mempunyai 7 boneka. Kira mempunyai 9 boneka. Berapa selisih banyak boneka mereka?",
+     "a": "2"
+    },
+    {
+     "t": "Tika mempunyai 8 gantungan kunci. Kira mempunyai 6 gantungan kunci. Berapa selisihnya?",
+     "a": "2"
+    },
+    {
+     "t": "Malosi mempunyai 5 kelereng. Kelereng Halim 2 lebihnya dari kelereng Malosi. Berapa kelereng Halim?",
+     "a": "7"
+    },
+    {
+     "t": "Berapa lebihnya banyak apel dari banyak jeruk?",
+     "c": "🍎🍎🍎🍎🍎🍎🍎🍎 dan 🍊🍊🍊🍊🍊",
+     "a": "3",
+     "g": "gambar"
+    },
+    {
+     "t": "Berapa selisih banyak bola dan banyak boneka?",
+     "c": "⚽⚽⚽⚽⚽⚽⚽⚽⚽ dan 🧸🧸🧸🧸🧸",
+     "a": "4",
+     "g": "gambar"
+    },
+    {
+     "t": "Ada 6 mangga dan 9 apel. Kalimat yang benar adalah ...",
+     "o": [
+      "Mangga 3 kurangnya dari apel.",
+      "Mangga 3 lebihnya dari apel.",
+      "Mangga sama banyak dengan apel."
+     ],
+     "a": "Mangga 3 kurangnya dari apel."
+    },
+    {
+     "t": "Ada 4 kepik merah. Banyak kepik kuning 2 kurangnya dari kepik merah. Berapa kepik kuning?",
+     "a": "2"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "7 + 6 =",
+     "a": "13",
+     "g": "ss"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "6 + 5 =",
+     "a": "11",
+     "g": "ss"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "8 + 4 =",
+     "a": "12",
+     "g": "ss"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "9 + 3 =",
+     "a": "12",
+     "g": "ss"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "8 + 8 =",
+     "a": "16",
+     "g": "ss"
+    },
+    {
+     "t": "Menghitung 7 + 6 dengan menghitung maju: mulai dari 7, lalu ...",
+     "o": [
+      "8, 9, 10, 11, 12, 13",
+      "6, 5, 4, 3, 2, 1",
+      "7, 8, 9, 10, 11, 12"
+     ],
+     "a": "8, 9, 10, 11, 12, 13"
+    },
+    {
+     "t": "7 + 6 dihitung dengan 10: 7 + 3 = 10, lalu 10 + 3 = ...",
+     "o": [
+      "13",
+      "12",
+      "16"
+     ],
+     "a": "13"
+    },
+    {
+     "t": "Kita tahu 6 + 6 = 12. Jadi 7 + 6 = ...",
+     "o": [
+      "13",
+      "12",
+      "14"
+     ],
+     "a": "13"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "12 + 3 =",
+     "a": "15",
+     "g": "ps"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "13 + 4 =",
+     "a": "17",
+     "g": "ps"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "15 + 3 =",
+     "a": "18",
+     "g": "ps"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "14 + 5 =",
+     "a": "19",
+     "g": "ps"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "11 + 6 =",
+     "a": "17",
+     "g": "ps"
+    },
+    {
+     "t": "12 + 3 dihitung dengan memisah 12 menjadi 10 dan 2. Lalu 2 + 3 = 5 dan 10 + 5 = ...",
+     "o": [
+      "15",
+      "13",
+      "17"
+     ],
+     "a": "15"
+    },
+    {
+     "t": "Upe mempunyai 12 pensil. Malosi mempunyai 3 pensil. Berapa jumlah pensil mereka?",
+     "a": "15"
+    },
+    {
+     "t": "Ada 12 anak ayam mencari makan. Datang lagi 3 anak ayam. Berapa semua anak ayam?",
+     "a": "15",
+     "g": "ayam"
+    },
+    {
+     "t": "Halim mempunyai 11 kelereng. Malosi mempunyai 6 kelereng. Berapa jumlah kelereng mereka?",
+     "a": "17"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "15 – 3 =",
+     "a": "12",
+     "g": "kr"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "17 – 4 =",
+     "a": "13",
+     "g": "kr"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "16 – 3 =",
+     "a": "13",
+     "g": "kr"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "19 – 6 =",
+     "a": "13",
+     "g": "kr"
+    },
+    {
+     "t": "Hitung hasilnya.",
+     "pre": "18 – 5 =",
+     "a": "13",
+     "g": "kr"
+    },
+    {
+     "t": "Menghitung 15 – 3 dengan menghitung mundur: mulai dari 15, lalu ...",
+     "o": [
+      "14, 13, 12",
+      "16, 17, 18",
+      "15, 14, 13"
+     ],
+     "a": "14, 13, 12"
+    },
+    {
+     "t": "15 – 3 dihitung dengan memisah 15 menjadi 10 dan 5. Lalu 5 – 3 = 2. Jadi 15 – 3 = ...",
+     "o": [
+      "12",
+      "13",
+      "18"
+     ],
+     "a": "12"
+    },
+    {
+     "t": "Tika membeli 15 apel. Sebanyak 3 apel dimakan ulat. Berapa apel yang masih bagus?",
+     "a": "12"
+    },
+    {
+     "t": "Ibu membeli 13 bolu kukus. Malosi memakan 2 bolu kukus. Berapa sisa bolu kukus Ibu?",
+     "a": "11"
+    },
+    {
+     "t": "Wei mempunyai 11 pensil warna. Pensil warna Kira 3 kurangnya dari pensil warna Wei. Berapa pensil warna Kira?",
+     "a": "8"
+    }
+   ]
+  },
+  {
+   "id": "mtk-7",
+   "title": "Bab 7: Mengukur Panjang Benda",
+   "hint": "Membandingkan panjang dan tinggi, lalu mengukur dengan jengkal atau benda.",
+   "icon": "📏",
+   "questions": [
+    {
+     "t": "Mana yang lebih panjang?",
+     "c": "A: 🟦🟦🟦🟦🟦🟦 B: 🟦🟦🟦🟦",
+     "o": [
+      "pensil A",
+      "pensil B",
+      "sama panjang"
+     ],
+     "a": "pensil A",
+     "g": "kotak"
+    },
+    {
+     "t": "Mana yang lebih pendek?",
+     "c": "A: 🟥🟥🟥🟥🟥 B: 🟥🟥",
+     "o": [
+      "pita A",
+      "pita B",
+      "sama panjang"
+     ],
+     "a": "pita B",
+     "g": "kotak"
+    },
+    {
+     "t": "Bandingkan panjang tali A dan tali B.",
+     "c": "A: 🟩🟩🟩🟩 B: 🟩🟩🟩🟩",
+     "o": [
+      "sama panjang",
+      "A lebih panjang",
+      "B lebih panjang"
+     ],
+     "a": "sama panjang",
+     "g": "kotak"
+    },
+    {
+     "t": "Pensil mana yang paling panjang?",
+     "c": "A: 🟦🟦🟦 B: 🟦🟦🟦🟦🟦🟦🟦 C: 🟦🟦🟦🟦🟦",
+     "o": [
+      "A",
+      "B",
+      "C"
+     ],
+     "a": "B",
+     "keep": true,
+     "g": "tiga"
+    },
+    {
+     "t": "Pita mana yang paling pendek?",
+     "c": "A: 🟥🟥🟥🟥🟥🟥 B: 🟥🟥🟥🟥 C: 🟥🟥",
+     "o": [
+      "A",
+      "B",
+      "C"
+     ],
+     "a": "C",
+     "keep": true,
+     "g": "tiga"
+    },
+    {
+     "t": "Urutan pensil dari yang paling pendek adalah ...",
+     "c": "A: 🟦🟦 B: 🟦🟦🟦🟦🟦🟦 C: 🟦🟦🟦🟦",
+     "o": [
+      "A, C, B",
+      "B, C, A",
+      "C, A, B"
+     ],
+     "a": "A, C, B",
+     "g": "tiga"
+    },
+    {
+     "t": "Panjang pensil sama dengan berapa kotak?",
+     "c": "🟨🟨🟨🟨🟨",
+     "a": "5",
+     "g": "ukur"
+    },
+    {
+     "t": "Panjang pensil sama dengan berapa penjepit kertas?",
+     "c": "📎📎📎📎",
+     "a": "4",
+     "g": "ukur"
+    },
+    {
+     "t": "Panjang sisir sama dengan berapa penjepit kertas?",
+     "c": "📎📎📎📎📎📎",
+     "a": "6",
+     "g": "ukur"
+    },
+    {
+     "t": "Panjang buku sama dengan berapa koin?",
+     "c": "🟡🟡🟡🟡🟡🟡🟡🟡",
+     "a": "8",
+     "g": "ukur"
+    },
+    {
+     "t": "Pohon A lebih tinggi dari pohon B. Jadi pohon B ... dari pohon A.",
+     "o": [
+      "lebih pendek",
+      "lebih tinggi",
+      "sama tinggi"
+     ],
+     "a": "lebih pendek"
+    },
+    {
+     "t": "Tinggi pohon B sama dengan tinggi pohon C. Pohon B dan pohon C ...",
+     "o": [
+      "sama tinggi",
+      "berbeda tinggi"
+     ],
+     "a": "sama tinggi"
+    },
+    {
+     "t": "Pohon A lebih tinggi dari pohon B, C, dan D. Pohon A adalah pohon yang ...",
+     "o": [
+      "paling tinggi",
+      "paling pendek",
+      "sama tinggi"
+     ],
+     "a": "paling tinggi",
+     "g": "pohon"
+    },
+    {
+     "t": "Pohon D lebih pendek dari pohon A, B, dan C. Pohon D adalah pohon yang ...",
+     "o": [
+      "paling pendek",
+      "paling tinggi",
+      "sama tinggi"
+     ],
+     "a": "paling pendek",
+     "g": "pohon"
+    },
+    {
+     "t": "Pensil hijau lebih pendek dari pensil merah. Pensil merah lebih pendek dari pensil biru. Pensil mana yang paling panjang?",
+     "o": [
+      "biru",
+      "merah",
+      "hijau"
+     ],
+     "a": "biru",
+     "g": "pensil"
+    },
+    {
+     "t": "Pensil hijau lebih pendek dari pensil merah. Pensil merah lebih pendek dari pensil biru. Pensil mana yang paling pendek?",
+     "o": [
+      "hijau",
+      "merah",
+      "biru"
+     ],
+     "a": "hijau",
+     "g": "pensil"
+    },
+    {
+     "t": "Kupu-kupu merah terbang lebih tinggi dari kuning. Kupu-kupu hijau terbang lebih tinggi dari merah. Mana yang terbang paling tinggi?",
+     "o": [
+      "hijau",
+      "merah",
+      "kuning"
+     ],
+     "a": "hijau",
+     "g": "kupu"
+    },
+    {
+     "t": "Kupu-kupu merah terbang lebih tinggi dari kuning. Kupu-kupu hijau terbang lebih tinggi dari merah. Mana yang terbang paling rendah?",
+     "o": [
+      "kuning",
+      "merah",
+      "hijau"
+     ],
+     "a": "kuning",
+     "g": "kupu"
+    },
+    {
+     "t": "Burung terbang di atas pohon. Kucing duduk di tanah. Mana yang posisinya lebih rendah?",
+     "o": [
+      "kucing",
+      "burung"
+     ],
+     "a": "kucing"
+    },
+    {
+     "t": "Mana yang lebih tinggi?",
+     "o": [
+      "pohon kelapa",
+      "bunga mawar",
+      "rumput"
+     ],
+     "a": "pohon kelapa",
+     "g": "nyata"
+    },
+    {
+     "t": "Mana yang lebih panjang?",
+     "o": [
+      "kereta api",
+      "sepeda",
+      "sepatu"
+     ],
+     "a": "kereta api",
+     "g": "nyata"
+    },
+    {
+     "t": "Mana yang lebih pendek?",
+     "o": [
+      "penghapus",
+      "penggaris",
+      "sapu"
+     ],
+     "a": "penghapus",
+     "g": "nyata"
+    },
+    {
+     "t": "Mana hewan yang paling tinggi?",
+     "o": [
+      "jerapah",
+      "sapi",
+      "kucing"
+     ],
+     "a": "jerapah",
+     "g": "hewan"
+    },
+    {
+     "t": "Tinggi kucing 2 kotak, tinggi sapi 5 kotak, dan tinggi jerapah 9 kotak. Hewan mana yang paling pendek?",
+     "o": [
+      "kucing",
+      "sapi",
+      "jerapah"
+     ],
+     "a": "kucing",
+     "g": "hewan"
+    },
+    {
+     "t": "Budi lebih tinggi dari Andi. Andi lebih tinggi dari Tono. Siapa yang paling tinggi?",
+     "o": [
+      "Budi",
+      "Andi",
+      "Tono"
+     ],
+     "a": "Budi"
+    },
+    {
+     "t": "Panjang pita Sari 7 kotak. Panjang pita Dewi 5 kotak. Pita siapa yang lebih panjang?",
+     "o": [
+      "Sari",
+      "Dewi",
+      "sama panjang"
+     ],
+     "a": "Sari"
+    },
+    {
+     "t": "Panjang pita A 8 kotak. Panjang pita B 5 kotak. Pita A lebih panjang berapa kotak?",
+     "a": "3"
+    },
+    {
+     "t": "Mana yang bisa dipakai untuk mengukur panjang meja?",
+     "o": [
+      "jengkal tangan",
+      "suara",
+      "warna"
+     ],
+     "a": "jengkal tangan",
+     "g": "alat"
+    },
+    {
+     "t": "Mana yang BUKAN alat untuk mengukur panjang?",
+     "o": [
+      "air",
+      "sedotan",
+      "stik es krim"
+     ],
+     "a": "air",
+     "g": "alat"
+    },
+    {
+     "t": "Jarak dari ujung ibu jari sampai ujung kelingking saat tangan dibuka lebar disebut ...",
+     "o": [
+      "jengkal",
+      "depa",
+      "langkah"
+     ],
+     "a": "jengkal",
+     "g": "alat"
+    },
+    {
+     "t": "Mengukur panjang benda dimulai dari ...",
+     "o": [
+      "ujung benda",
+      "tengah benda",
+      "mana saja"
+     ],
+     "a": "ujung benda",
+     "g": "cara"
+    },
+    {
+     "t": "Saat mengukur dengan sedotan, sedotan harus disusun ...",
+     "o": [
+      "rapat dan lurus",
+      "bertumpuk",
+      "miring"
+     ],
+     "a": "rapat dan lurus",
+     "g": "cara"
+    },
+    {
+     "t": "Kira mengukur dengan koin, tetapi koinnya bertumpuk. Cara Kira ...",
+     "o": [
+      "salah",
+      "benar"
+     ],
+     "a": "salah",
+     "g": "cara"
+    },
+    {
+     "t": "Panjang meja diukur dengan sedotan. Ada 4 sedotan yang disusun rapat. Panjang meja adalah berapa sedotan?",
+     "a": "4"
+    },
+    {
+     "t": "Malosi mengukur meja dengan jengkal. Ia menghitung 1, 2, 3, 4, 5 jengkal. Panjang meja adalah berapa jengkal?",
+     "a": "5"
+    },
+    {
+     "t": "Buku diukur dengan stik es krim dan dengan koin. Hasilnya berbeda karena ...",
+     "o": [
+      "panjang stik dan koin berbeda",
+      "bukunya berubah",
+      "salah menghitung"
+     ],
+     "a": "panjang stik dan koin berbeda"
+    },
+    {
+     "t": "Meja yang sama diukur dengan sedotan dan dengan koin. Mana yang lebih banyak dipakai?",
+     "o": [
+      "koin",
+      "sedotan",
+      "sama banyak"
+     ],
+     "a": "koin"
+    },
+    {
+     "t": "Jarak aman membaca buku adalah sekitar ...",
+     "o": [
+      "3 jengkal",
+      "1 jengkal",
+      "10 jengkal"
+     ],
+     "a": "3 jengkal"
+    },
+    {
+     "t": "Tebakan Wei: panjang meja 4 jengkal. Setelah diukur, hasilnya 5 jengkal. Apakah tebakan Wei tepat?",
+     "o": [
+      "tidak",
+      "ya"
+     ],
+     "a": "tidak"
+    },
+    {
+     "t": "Tinggi lemari 6 jengkal. Tinggi meja 3 jengkal. Mana yang lebih tinggi?",
+     "o": [
+      "lemari",
+      "meja",
+      "sama tinggi"
+     ],
+     "a": "lemari"
+    }
+   ]
+  },
+  {
+   "id": "mtk-8",
+   "title": "Bab 8: Mengenal Diagram",
+   "hint": "Membaca daftar, tabel, dan diagram gambar.",
+   "icon": "📊",
+   "questions": [
+    {
+     "t": "Mainan apa yang paling banyak?",
+     "c": "Daftar mainan: 12 pesawat, 8 mobil-mobilan, 10 boneka, 6 bola.",
+     "o": [
+      "pesawat",
+      "boneka",
+      "bola"
+     ],
+     "a": "pesawat",
+     "g": "mainan"
+    },
+    {
+     "t": "Mainan apa yang paling sedikit?",
+     "c": "Daftar mainan: 12 pesawat, 8 mobil-mobilan, 10 boneka, 6 bola.",
+     "o": [
+      "bola",
+      "mobil-mobilan",
+      "boneka"
+     ],
+     "a": "bola",
+     "g": "mainan"
+    },
+    {
+     "t": "Ada berapa boneka di toko?",
+     "c": "Daftar mainan: 12 pesawat, 8 mobil-mobilan, 10 boneka, 6 bola.",
+     "a": "10",
+     "g": "mainan"
+    },
+    {
+     "t": "Mana yang lebih banyak, mobil-mobilan atau boneka?",
+     "c": "Daftar mainan: 12 pesawat, 8 mobil-mobilan, 10 boneka, 6 bola.",
+     "o": [
+      "boneka",
+      "mobil-mobilan",
+      "sama banyak"
+     ],
+     "a": "boneka",
+     "g": "mainan"
+    },
+    {
+     "t": "Bola warna apa yang paling banyak?",
+     "c": "Tabel bola: merah 7, kuning 4, hijau 6.",
+     "o": [
+      "merah",
+      "kuning",
+      "hijau"
+     ],
+     "a": "merah",
+     "g": "bola"
+    },
+    {
+     "t": "Bola warna apa yang paling sedikit?",
+     "c": "Tabel bola: merah 7, kuning 4, hijau 6.",
+     "o": [
+      "kuning",
+      "merah",
+      "hijau"
+     ],
+     "a": "kuning",
+     "g": "bola"
+    },
+    {
+     "t": "Ada berapa bola hijau?",
+     "c": "Tabel bola: merah 7, kuning 4, hijau 6.",
+     "a": "6",
+     "g": "bola"
+    },
+    {
+     "t": "Berapa jumlah bola merah dan bola kuning?",
+     "c": "Tabel bola: merah 7, kuning 4, hijau 6.",
+     "a": "11",
+     "g": "bola"
+    },
+    {
+     "t": "Berapa selisih banyak bola merah dan bola hijau?",
+     "c": "Tabel bola: merah 7, kuning 4, hijau 6.",
+     "a": "1",
+     "g": "bola"
+    },
+    {
+     "t": "Berapa anak yang suka gasing?",
+     "c": "Tabel mainan kesukaan: boneka 3 anak, gasing 5 anak, kelereng 4 anak, bola 6 anak.",
+     "a": "5",
+     "g": "suka"
+    },
+    {
+     "t": "Mainan apa yang paling disukai?",
+     "c": "Tabel mainan kesukaan: boneka 3 anak, gasing 5 anak, kelereng 4 anak, bola 6 anak.",
+     "o": [
+      "bola",
+      "gasing",
+      "boneka"
+     ],
+     "a": "bola",
+     "g": "suka"
+    },
+    {
+     "t": "Berapa jumlah semua anak?",
+     "c": "Tabel mainan kesukaan: boneka 3 anak, gasing 5 anak, kelereng 4 anak, bola 6 anak.",
+     "a": "18",
+     "g": "suka"
+    },
+    {
+     "t": "Mainan apa yang paling sedikit disukai?",
+     "c": "Tabel mainan kesukaan: boneka 3 anak, gasing 5 anak, kelereng 4 anak, bola 6 anak.",
+     "o": [
+      "boneka",
+      "kelereng",
+      "gasing"
+     ],
+     "a": "boneka",
+     "g": "suka"
+    },
+    {
+     "t": "Kue apa yang paling disukai?",
+     "c": "Tabel kue kesukaan: talam 5 anak, cucur 3 anak, lapis 5 anak, bugis 6 anak.",
+     "o": [
+      "kue bugis",
+      "kue talam",
+      "kue cucur"
+     ],
+     "a": "kue bugis",
+     "g": "kue"
+    },
+    {
+     "t": "Kue apa yang sama banyak disukai dengan kue talam?",
+     "c": "Tabel kue kesukaan: talam 5 anak, cucur 3 anak, lapis 5 anak, bugis 6 anak.",
+     "o": [
+      "kue lapis",
+      "kue cucur",
+      "kue bugis"
+     ],
+     "a": "kue lapis",
+     "g": "kue"
+    },
+    {
+     "t": "Berapa jumlah semua anak?",
+     "c": "Tabel kue kesukaan: talam 5 anak, cucur 3 anak, lapis 5 anak, bugis 6 anak.",
+     "a": "19",
+     "g": "kue"
+    },
+    {
+     "t": "Berapa anak yang suka kue cucur?",
+     "c": "Tabel kue kesukaan: talam 5 anak, cucur 3 anak, lapis 5 anak, bugis 6 anak.",
+     "a": "3",
+     "g": "kue"
+    },
+    {
+     "t": "Diagram sayur kesukaan. Satu gambar mewakili 1 anak. Berapa anak yang suka wortel?",
+     "c": "Jagung: 🌽🌽🌽 | Wortel: 🥕🥕🥕🥕 | Brokoli: 🥦🥦 | Kol: 🥬",
+     "a": "4",
+     "g": "sayur"
+    },
+    {
+     "t": "Diagram sayur kesukaan. Satu gambar mewakili 1 anak. Sayur apa yang paling disukai?",
+     "c": "Jagung: 🌽🌽🌽 | Wortel: 🥕🥕🥕🥕 | Brokoli: 🥦🥦 | Kol: 🥬",
+     "o": [
+      "wortel",
+      "jagung",
+      "brokoli"
+     ],
+     "a": "wortel",
+     "g": "sayur"
+    },
+    {
+     "t": "Diagram sayur kesukaan. Satu gambar mewakili 1 anak. Sayur apa yang paling sedikit disukai?",
+     "c": "Jagung: 🌽🌽🌽 | Wortel: 🥕🥕🥕🥕 | Brokoli: 🥦🥦 | Kol: 🥬",
+     "o": [
+      "kol",
+      "brokoli",
+      "jagung"
+     ],
+     "a": "kol",
+     "g": "sayur"
+    },
+    {
+     "t": "Diagram sayur kesukaan. Satu gambar mewakili 1 anak. Berapa jumlah semua anak?",
+     "c": "Jagung: 🌽🌽🌽 | Wortel: 🥕🥕🥕🥕 | Brokoli: 🥦🥦 | Kol: 🥬",
+     "a": "10",
+     "g": "sayur"
+    },
+    {
+     "t": "Diagram karet gelang. Satu gambar mewakili 1 karet gelang. Berapa karet gelang Upe?",
+     "c": "Malosi: ⭕⭕⭕⭕⭕ | Halim: ⭕⭕⭕ | Upe: ⭕⭕⭕⭕",
+     "a": "4",
+     "g": "karet"
+    },
+    {
+     "t": "Diagram karet gelang. Siapa yang karet gelangnya paling banyak?",
+     "c": "Malosi: ⭕⭕⭕⭕⭕ | Halim: ⭕⭕⭕ | Upe: ⭕⭕⭕⭕",
+     "o": [
+      "Malosi",
+      "Halim",
+      "Upe"
+     ],
+     "a": "Malosi",
+     "g": "karet"
+    },
+    {
+     "t": "Diagram karet gelang. Karet gelang Malosi berapa lebihnya dari karet gelang Halim?",
+     "c": "Malosi: ⭕⭕⭕⭕⭕ | Halim: ⭕⭕⭕ | Upe: ⭕⭕⭕⭕",
+     "a": "2",
+     "g": "karet"
+    },
+    {
+     "t": "Diagram karet gelang. Berapa jumlah semua karet gelang?",
+     "c": "Malosi: ⭕⭕⭕⭕⭕ | Halim: ⭕⭕⭕ | Upe: ⭕⭕⭕⭕",
+     "a": "12",
+     "g": "karet"
+    },
+    {
+     "t": "Diagram buah yang dibeli Ibu. Berapa banyak mangga?",
+     "c": "Jeruk: 🍊🍊🍊🍊🍊🍊 | Apel: 🍎🍎🍎 | Mangga: 🥭🥭🥭🥭 | Pisang: 🍌🍌🍌🍌🍌",
+     "a": "4",
+     "g": "buah"
+    },
+    {
+     "t": "Diagram buah yang dibeli Ibu. Buah apa yang paling banyak?",
+     "c": "Jeruk: 🍊🍊🍊🍊🍊🍊 | Apel: 🍎🍎🍎 | Mangga: 🥭🥭🥭🥭 | Pisang: 🍌🍌🍌🍌🍌",
+     "o": [
+      "jeruk",
+      "pisang",
+      "mangga"
+     ],
+     "a": "jeruk",
+     "g": "buah"
+    },
+    {
+     "t": "Diagram buah yang dibeli Ibu. Buah apa yang paling sedikit?",
+     "c": "Jeruk: 🍊🍊🍊🍊🍊🍊 | Apel: 🍎🍎🍎 | Mangga: 🥭🥭🥭🥭 | Pisang: 🍌🍌🍌🍌🍌",
+     "o": [
+      "apel",
+      "mangga",
+      "pisang"
+     ],
+     "a": "apel",
+     "g": "buah"
+    },
+    {
+     "t": "Diagram buah yang dibeli Ibu. Berapa jumlah semua buah?",
+     "c": "Jeruk: 🍊🍊🍊🍊🍊🍊 | Apel: 🍎🍎🍎 | Mangga: 🥭🥭🥭🥭 | Pisang: 🍌🍌🍌🍌🍌",
+     "a": "18",
+     "g": "buah"
+    },
+    {
+     "t": "Pesawat, boneka, bola, dan mobil-mobilan di toko mainan adalah contoh ...",
+     "o": [
+      "data",
+      "bilangan",
+      "bentuk"
+     ],
+     "a": "data"
+    },
+    {
+     "t": "Mengapa data dikelompokkan dan ditulis dalam daftar?",
+     "o": [
+      "supaya mudah dibaca",
+      "supaya lebih banyak",
+      "supaya hilang"
+     ],
+     "a": "supaya mudah dibaca"
+    },
+    {
+     "t": "Tabel terdiri dari baris dan ...",
+     "o": [
+      "kolom",
+      "garis",
+      "gambar"
+     ],
+     "a": "kolom"
+    },
+    {
+     "t": "Bagian tabel yang mendatar disebut ...",
+     "a": "baris",
+     "wide": true,
+     "g": "tabel"
+    },
+    {
+     "t": "Bagian tabel yang menurun disebut ...",
+     "a": "kolom",
+     "wide": true,
+     "g": "tabel"
+    },
+    {
+     "t": "Diagram yang memakai gambar untuk menunjukkan banyak data disebut diagram ...",
+     "o": [
+      "gambar",
+      "angka",
+      "huruf"
+     ],
+     "a": "gambar"
+    },
+    {
+     "t": "Pada diagram, satu gambar mewakili 1 anak. Ada 5 gambar kelereng. Berapa anak yang suka kelereng?",
+     "o": [
+      "5",
+      "1",
+      "6"
+     ],
+     "a": "5"
+    },
+    {
+     "t": "Pak Budi punya 4 ayam. Banyak bebek 2 kurangnya dari ayam. Berapa bebek Pak Budi?",
+     "a": "2",
+     "g": "budi"
+    },
+    {
+     "t": "Pak Budi punya 4 ayam. Banyak kelinci 1 lebihnya dari ayam. Berapa kelinci Pak Budi?",
+     "a": "5",
+     "g": "budi"
+    },
+    {
+     "t": "Halim menabung 2 kali seminggu. Wei 1 kali. Upe 3 kali. Siapa yang paling sering menabung?",
+     "o": [
+      "Upe",
+      "Halim",
+      "Wei"
+     ],
+     "a": "Upe",
+     "g": "tabung"
+    },
+    {
+     "t": "Halim menabung 2 kali seminggu. Wei 1 kali. Upe 3 kali. Berapa kali mereka menabung semuanya?",
+     "a": "6",
+     "g": "tabung"
+    }
+   ]
+  }
+ ]
+}
