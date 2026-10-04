@@ -497,7 +497,7 @@ export function LengthCompare() {
   const [shift, setShift] = useState(false);
   const bar = (n, color, offset) => (
     <div className="bar-track">
-      <div className="bar" style={{ width: `${n * 8}%`, marginLeft: offset ? "18%" : 0, background: color }}>✏️</div>
+      <div className="lenbar" style={{ width: `${n * 8}%`, marginLeft: offset ? "18%" : 0, background: color }}>✏️</div>
     </div>
   );
   return (
@@ -542,7 +542,7 @@ export function Measure({ chooseUnit = false }) {
         </div>
       )}
       <div className="bars">
-        <div className="bar-track"><div className="bar ribbon" style={{ width: `${len * cell}%` }}>🎀 pita</div></div>
+        <div className="bar-track"><div className="lenbar ribbon" style={{ width: `${len * cell}%` }}>🎀 pita</div></div>
         <div className="unit-row">
           {range(count).map((i) => <span key={i} className="unit" style={{ width: `${u.size * cell}%` }}>{u.emoji}</span>)}
         </div>
