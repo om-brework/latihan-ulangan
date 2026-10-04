@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { CHAPTER_QUIZ_SIZE, MIXED_QUIZ_SIZE, SPECIAL, SUBJECTS, resolveRoute } from "./data/catalog.js";
 import Quiz from "./components/Quiz.jsx";
+import Lesson from "./components/Lesson.jsx";
+import { LESSONS } from "./lessons/mtk.jsx";
 
 const TOTAL = SUBJECTS.reduce((n, s) => n + s.total, 0) + SPECIAL.total;
 
@@ -82,7 +84,11 @@ function SubjectPage({ subject }) {
         <a className="back" href="#/">← Pilih pelajaran lain</a>
         <p className="mascots" aria-hidden="true">{subject.icon}</p>
         <h1 className="small">{subject.title}</h1>
-        <p className="note">Pilih bab yang mau dilatih. Tiap bab {CHAPTER_QUIZ_SIZE} soal acak.</p>
+        <p className="note">
+          {subject.chapters.some((ch) => LESSONS[ch.id])
+            ? `Tekan Belajar untuk memahami konsepnya, lalu Latihan untuk ${CHAPTER_QUIZ_SIZE} soal acak.`
+            : `Pilih bab yang mau dilatih. Tiap bab ${CHAPTER_QUIZ_SIZE} soal acak.`}
+        </p>
       </header>
 
       <section className="group">
@@ -95,18 +101,32 @@ function SubjectPage({ subject }) {
           c="#FFD23F"
           cd="#E0A800"
         />
-        {subject.chapters.map((ch) => (
-          <Card
-            key={ch.id}
-            href={`#/${subject.id}/${ch.id}`}
-            icon={ch.icon}
-            title={ch.title}
-            text={ch.hint}
-            meta={`${ch.questions.length} soal`}
-            c={ch.c}
-            cd={ch.cd}
-          />
-        ))}
+        {subject.chapters.map((ch) =>
+          LESSONS[ch.id] ? (
+            <div className="card stack" key={ch.id} style={{ "--c": ch.c, "--cd": ch.cd }}>
+              <span className="card-icon" aria-hidden="true">{ch.icon}</span>
+              <span className="card-body">
+                <strong>{ch.title}</strong>
+                <span className="card-text">{ch.hint}</span>
+                <span className="card-actions">
+                  <a className="btn ghost" href={`#/${subject.id}/${ch.id}/belajar`}>📘 Belajar</a>
+                  <a className="btn main" href={`#/${subject.id}/${ch.id}`}>✏️ Latihan</a>
+                </span>
+              </span>
+            </div>
+          ) : (
+            <Card
+              key={ch.id}
+              href={`#/${subject.id}/${ch.id}`}
+              icon={ch.icon}
+              title={ch.title}
+              text={ch.hint}
+              meta={`${ch.questions.length} soal`}
+              c={ch.c}
+              cd={ch.cd}
+            />
+          )
+        )}
       </section>
     </div>
   );
@@ -116,6 +136,10 @@ export default function App() {
   const hash = useHash();
   const route = resolveRoute(hash);
   if (route.page === "quiz") return <Quiz key={hash} route={route} />;
+  if (route.page === "lesson" && LESSONS[route.chapter.id]) {
+    return <Lesson key={hash} subject={route.subject} chapter={route.chapter} steps={LESSONS[route.chapter.id]} />;
+  }
+  if (route.page === "lesson") return <SubjectPage subject={route.subject} />;
   if (route.page === "subject") return <SubjectPage subject={route.subject} />;
   return <Home />;
 }

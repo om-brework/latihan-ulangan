@@ -13,6 +13,10 @@ Latihan interaktif untuk anak kelas 1 SD. Di halaman depan anak memilih pelajara
 
 Bank soal per bab disusun dari buku siswa Kurikulum Merdeka kelas I. Tiap bab menampilkan 20 soal acak; "Campuran semua bab" sekitar 30 soal.
 
+## Mode Belajar (Matematika)
+
+Tiap bab Matematika punya tombol **Belajar**: 2 sampai 4 langkah penjelasan konsep dengan alat peraga interaktif (membilang, garis bilangan, pasangan bilangan, kotak sepuluh, bentuk, mengukur, tabel dan diagram gambar), lalu lanjut ke latihan soal. Materinya ada di `src/lessons/mtk.jsx`, alat peraganya di `src/lessons/widgets.jsx`.
+
 ## Menjalankan
 
 ```bash

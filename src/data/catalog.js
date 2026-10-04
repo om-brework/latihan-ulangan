@@ -77,7 +77,7 @@ export function drawMixed(subject) {
 
 /* Terjemahkan alamat (#/mapel/bab) menjadi halaman yang ditampilkan */
 export function resolveRoute(hash) {
-  const [a, b] = hash.replace(/^#\/?/, "").split("/").filter(Boolean);
+  const [a, b, mode] = hash.replace(/^#\/?/, "").split("/").filter(Boolean);
   if (!a) return { page: "home" };
   if (a === SPECIAL.id) {
     return { page: "quiz", back: "#/", eyebrow: SPECIAL.date, title: SPECIAL.title, pool: SPECIAL.total, draw: drawSpecial, parentNote: true };
@@ -90,5 +90,6 @@ export function resolveRoute(hash) {
   }
   const ch = subject.chapters.find((c) => c.id === b);
   if (!ch) return { page: "subject", subject };
+  if (mode === "belajar") return { page: "lesson", subject, chapter: ch };
   return { page: "quiz", back: `#/${subject.id}`, eyebrow: subject.title, title: ch.title, pool: ch.questions.length, draw: () => drawChapter(ch) };
 }
