@@ -32,7 +32,7 @@ Data di perangkat tidak dipindahkan otomatis ke akun saat login.
 2. **Authentication > Sign-in method**: aktifkan **Google**.
 3. **Authentication > Settings > Authorized domains**: tambahkan domain Vercel (dan domain sendiri kalau ada).
 4. **Firestore Database**: buat database (mode production), lalu tempel isi `firestore.rules` di tab **Rules** dan Publish. Atau lewat CLI: `npx firebase-tools deploy --only firestore:rules --project <project-id>`.
-5. Isi empat variabel di `.env.example` ke `.env.local` (lokal) dan ke **Vercel > Settings > Environment Variables**, lalu deploy ulang.
+5. Isi empat variabel konfigurasi. Untuk produksi nilainya ada di `.env.production` (ikut di-commit, dipakai saat `npm run build`); untuk lokal salin `.env.example` menjadi `.env.local`.
 
 Nilai konfigurasi web Firebase bukan rahasia; yang melindungi data adalah `firestore.rules`.
 
