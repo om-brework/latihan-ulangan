@@ -15,9 +15,12 @@ export function validateSubject(subject, minPerChapter = 1, requireExplain = fal
     if (chapterIds.has(ch.id)) errors.push(`${where}: id bab ganda`);
     chapterIds.add(ch.id);
     const seen = new Set();
-    const qs = Array.isArray(ch.questions) ? ch.questions : [];
-    counts.push([ch.id, ch.title, qs.length]);
-    if (qs.length < minPerChapter) errors.push(`${where}: hanya ${qs.length} soal (minimal ${minPerChapter})`);
+    const base = Array.isArray(ch.questions) ? ch.questions : [];
+    const hard = Array.isArray(ch.challenge) ? ch.challenge : [];
+    counts.push([ch.id, ch.title, base.length, hard.length]);
+    if (base.length < minPerChapter) errors.push(`${where}: hanya ${base.length} soal (minimal ${minPerChapter})`);
+    if (ch.challenge !== undefined && hard.length % 10 !== 0) errors.push(`${where}: soal tantangan harus kelipatan 10 (sekarang ${hard.length})`);
+    const qs = [...base, ...hard];
     qs.forEach((q, i) => {
       const at = `${where} soal #${i + 1} "${String(q.t).slice(0, 50)}"`;
       if (!str(q.t)) errors.push(`${at}: teks soal (t) kosong`);
@@ -54,8 +57,8 @@ if (process.argv[1] && process.argv[1].endsWith("validate-subject.mjs")) {
     const subject = JSON.parse(readFileSync(f, "utf8"));
     const { errors, counts } = validateSubject(subject, min, requireExplain);
     console.log(`\n${f}: ${subject.title}`);
-    counts.forEach(([id, title, n]) => console.log(`  ${id}  ${n} soal  ${title}`));
-    console.log(`  total ${counts.reduce((s, c) => s + c[2], 0)} soal`);
+    counts.forEach(([id, title, n, h]) => console.log(`  ${id}  ${n} soal${h ? ` + ${h} tantangan` : ""}  ${title}`));
+    console.log(`  total ${counts.reduce((s, c) => s + c[2] + (c[3] ?? 0), 0)} soal`);
     if (errors.length) { bad = true; console.error(errors.map((e) => "  ✗ " + e).join("\n")); }
     else console.log("  ✓ valid");
   }

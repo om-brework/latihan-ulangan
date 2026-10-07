@@ -46,6 +46,29 @@ function CalcDemo({ a, b, op }) {
   );
 }
 
+function ChainDemo({ steps }) {
+  const [i, setI] = useState(0);
+  return (
+    <>
+      <p className="counter">Hitungan {i + 1} dari 2: kerjakan dari kiri, satu per satu.</p>
+      <CalcDemo key={i} {...steps[i]} />
+      <div className="actions">
+        <button type="button" className="chunk" onClick={() => setI(0)} disabled={i === 0}>← Hitungan pertama</button>
+        <button type="button" className="chunk go" onClick={() => setI(1)} disabled={i === 1}>Hitungan kedua →</button>
+      </div>
+    </>
+  );
+}
+
+function InverseDemo({ a, b, op, asked }) {
+  return (
+    <>
+      <p className="counter">Kita bekerja mundur: kebalikan dari {asked === "+" ? "ditambah" : "dikurangi"} adalah {op === "+" ? "ditambah" : "dikurangi"}.</p>
+      <CalcDemo a={a} b={b} op={op} />
+    </>
+  );
+}
+
 function MissingDemo({ a, c, op, b }) {
   const [k, setK] = useState(0);
   const plus = op === "+";
@@ -244,6 +267,8 @@ function FillDemo({ q }) {
 const ASK = {
   calc: (i) => (i.op === "+" ? "Tanda + berarti ditambah. Kita menggabungkan." : "Tanda – berarti dikurangi. Kita mengambil."),
   missing: () => "Ada bilangan yang belum diketahui. Kita cari dengan menghitung.",
+  chain: () => "Ada dua hitungan. Kita kerjakan dari kiri, satu per satu.",
+  inverse: () => "Bilangan pertama belum diketahui. Kita cari dengan bekerja mundur.",
   count: () => "Kita diminta menghitung banyak benda.",
   seq: () => "Ada bilangan yang hilang dalam urutan.",
   tiles: () => "Ada suku kata yang hilang. Kita cari supaya menjadi kata.",
@@ -258,6 +283,8 @@ function Demo({ q, info }) {
   switch (info.kind) {
     case "calc": return <CalcDemo {...info} />;
     case "missing": return <MissingDemo {...info} />;
+    case "chain": return <ChainDemo steps={info.steps} />;
+    case "inverse": return <InverseDemo {...info} />;
     case "count": return <CountDemo {...info} />;
     case "seq": return <SeqDemo {...info} />;
     case "tiles": return <TilesDemo before={info.before} after={info.after} answer={q.src.a} word={info.word} />;

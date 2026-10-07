@@ -37,6 +37,20 @@ export function explainKind(q) {
       const r = op === "+" ? x + y : x - y;
       if (String(r) === a && r >= 0 && Math.max(x, r) <= 20) return { kind: "calc", a: x, b: y, op, result: r };
     }
+    // 2 + 3 + 4 =   |   9 – 2 – 4 =   |   6 + 3 – 2 =
+    if (!post && (m = pre.match(/^(\d+)\s*([+–-])\s*(\d+)\s*([+–-])\s*(\d+)\s*=$/))) {
+      const sign = (t) => (t === "+" ? "+" : "-");
+      const calc = (x, op, y) => (op === "+" ? x + y : x - y);
+      const x = +m[1], y = +m[3], z = +m[5], op1 = sign(m[2]), op2 = sign(m[4]);
+      const r1 = calc(x, op1, y), r2 = calc(r1, op2, z);
+      if (String(r2) === a && [x, r1, r2].every((v) => v >= 0 && v <= 20)) return { kind: "chain", steps: [{ a: x, b: y, op: op1 }, { a: r1, b: z, op: op2 }], result: r2 };
+    }
+    // _ + 4 = 9   |   _ – 3 = 4   (bekerja mundur)
+    if (!pre && (m = post.match(/^([+–-])\s*(\d+)\s*=\s*(\d+)$/))) {
+      const op = m[1] === "+" ? "+" : "-", b = +m[2], c = +m[3];
+      const x = op === "+" ? c - b : c + b;
+      if (String(x) === a && x >= 0 && Math.max(x, c) <= 20) return { kind: "inverse", a: c, b, op: op === "+" ? "-" : "+", asked: op, x };
+    }
     // 3 + _ = 7   |   9 – _ = 4
     if ((m = pre.match(/^(\d+)\s*([+–-])$/)) && (m2 = post.match(/^=\s*(\d+)$/))) {
       const x = +m[1], c = +m2[1], op = m[2] === "+" ? "+" : "-";

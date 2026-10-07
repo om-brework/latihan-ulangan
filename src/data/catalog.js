@@ -26,6 +26,7 @@ const META = {
 /* Bagi soal satu bab menjadi level berisi sekitar LEVEL_SIZE soal, mengikuti urutan bank soal.
    Soal dengan kelompok (g) yang sama disebar merata supaya sebisa mungkin tidak bertemu di satu level. */
 export function makeLevels(questions) {
+  if (!questions.length) return [];
   const count = Math.max(1, Math.round(questions.length / LEVEL_SIZE));
   const cap = Math.ceil(questions.length / count);
   const levels = Array.from({ length: count }, () => []);
@@ -68,9 +69,12 @@ function withLevels(subject) {
     short: ch.short ?? ch.title.split(":")[0],
     c: ch.c ?? PALETTE[i % PALETTE.length][0],
     cd: ch.cd ?? PALETTE[i % PALETTE.length][1],
-    levels: makeLevels(ch.questions),
+    // Level biasa dulu, lalu level tantangan (kalau bab punya soal "challenge")
+    levels: [...makeLevels(ch.questions), ...makeLevels(ch.challenge ?? [])],
+    hardFrom: makeLevels(ch.questions).length,
+    all: [...ch.questions, ...(ch.challenge ?? [])],
   }));
-  return { ...subject, chapters, total: chapters.reduce((n, ch) => n + ch.questions.length, 0) };
+  return { ...subject, chapters, total: chapters.reduce((n, ch) => n + ch.all.length, 0) };
 }
 
 export const SUBJECTS = [bi, mtk, pp].map((s) => withLevels({ ...s, ...META[s.id] }));
@@ -128,7 +132,7 @@ export function chapterProgress(subject, ch, bests) {
   const levels = ch.levels.map((_, i) => {
     const n = i + 1;
     const best = bests[levelKey(subject, ch, n)];
-    return { n, key: levelKey(subject, ch, n), best, stars: levelStars(best), size: ch.levels[i].length };
+    return { n, key: levelKey(subject, ch, n), best, stars: levelStars(best), size: ch.levels[i].length, hard: i >= ch.hardFrom };
   });
   levels.forEach((lv, i) => { lv.open = i === 0 || (levels[i - 1].best ?? 0) >= PASS_SCORE; });
   return {
@@ -188,7 +192,8 @@ export function resolveRoute(hash) {
       page: "game", key: levelKey(subject, ch, n), back: `#/${subject.id}/${ch.id}`, subject, chapter: ch, level: n,
       prev: n > 1 ? levelKey(subject, ch, n - 1) : null,
       next: n < ch.levels.length ? levelKey(subject, ch, n + 1) : null,
-      eyebrow: subject.title, title: `${ch.title} · Level ${n}`, heading: `Level ${n}`,
+      hard: n > ch.hardFrom,
+      eyebrow: subject.title, title: `${ch.title} · Level ${n}${n > ch.hardFrom ? " (tantangan)" : ""}`, heading: n > ch.hardFrom ? `🔥 Tantangan · Level ${n}` : `Level ${n}`,
       c: ch.c, cd: ch.cd, draw: () => drawLevel(ch, n),
     };
   }

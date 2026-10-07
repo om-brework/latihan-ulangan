@@ -32,15 +32,17 @@ for (const s of ALL_SUBJECTS) {
   let n = 0, lv = 0;
   for (const ch of s.chapters) {
     const flat = ch.levels.flat();
-    if (flat.length !== ch.questions.length || new Set(flat).size !== flat.length) errors.push(`${s.id}/${ch.id}: soal hilang atau ganda saat dibagi level`);
+    if (flat.length !== ch.all.length || new Set(flat).size !== flat.length) errors.push(`${s.id}/${ch.id}: soal hilang atau ganda saat dibagi level`);
     ch.levels.forEach((list, i) => {
       const where = `${s.id}/${ch.id} level ${i + 1}`;
       if (list.length < LEVEL_SIZE / 2 || list.length > LEVEL_SIZE * 1.5) errors.push(`${where}: berisi ${list.length} soal`);
       // Soal sekelompok hanya boleh bertemu kalau kelompoknya lebih besar daripada jumlah level
       for (const g of new Set(list.map((q) => q.g).filter((g) => g !== undefined))) {
         const here = list.filter((q) => q.g === g).length;
-        const all = ch.questions.filter((q) => q.g === g).length;
-        if (here > Math.ceil(all / ch.levels.length)) errors.push(`${where}: kelompok "${g}" menumpuk (${here} dari ${all})`);
+        // level biasa dan level tantangan dibagi terpisah
+        const hard = i >= ch.hardFrom;
+        const all = (hard ? ch.challenge : ch.questions).filter((q) => q.g === g).length;
+        if (here > Math.ceil(all / (hard ? ch.levels.length - ch.hardFrom : ch.hardFrom))) errors.push(`${where}: kelompok "${g}" menumpuk (${here} dari ${all})`);
       }
       const sec = drawLevel(ch, i + 1);
       if (sec.questions.length !== list.length || new Set(sec.questions.map((q) => q.id)).size !== list.length) errors.push(`${where}: penyusunan level salah`);
@@ -48,7 +50,9 @@ for (const s of ALL_SUBJECTS) {
       const r = resolveRoute(levelKey(s, ch, i + 1));
       if (r.page !== "game" || r.key !== levelKey(s, ch, i + 1)) errors.push(`${where}: alamat level tidak dikenali`);
     });
-    n += ch.questions.length; lv += ch.levels.length;
+    if (ch.challenge && !ch.levels.slice(ch.hardFrom).flat().every((q) => ch.challenge.includes(q))) errors.push(`${s.id}/${ch.id}: level tantangan tercampur soal biasa`);
+    if (!ch.levels.slice(0, ch.hardFrom).flat().every((q) => ch.questions.includes(q))) errors.push(`${s.id}/${ch.id}: level biasa tercampur soal tantangan`);
+    n += ch.all.length; lv += ch.levels.length;
   }
   for (let i = 0; i < 50; i++) {
     const mix = drawMixed(s);

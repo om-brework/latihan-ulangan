@@ -2,12 +2,12 @@
 
 Permainan belajar untuk anak kelas 1 SD. Anak memilih pelajaran dan bab, lalu menyelesaikan level satu per satu. Soal tampil satu per layar (carousel), langsung dinilai, dan tiap soal punya pembahasan langkah demi langkah.
 
-## Isi (1.180 soal dalam 118 level)
+## Isi (1.340 soal dalam 134 level)
 
 | Pelajaran | Bab | Level | Soal | File |
 |---|---|---|---|---|
 | Bahasa Indonesia | 8 | 32 | 320 | `src/data/mapel/bi.json` |
-| Matematika | 8 | 32 | 320 | `src/data/mapel/mtk.json` |
+| Matematika | 8 | 48 | 480 | `src/data/mapel/mtk.json` |
 | Pendidikan Pancasila | 4 | 24 | 240 | `src/data/mapel/pp.json` |
 | Paket ulangan Bahasa Indonesia | 5 materi | 30 | 300 | `src/data/bank.js` |
 
@@ -17,6 +17,7 @@ Bank soal per bab disusun dari buku siswa Kurikulum Merdeka kelas I.
 
 - Tiap bab dibagi menjadi level berisi sekitar 10 soal, mengikuti urutan bank soal (`makeLevels` di `src/data/catalog.js`).
 - Nilai 60 memberi 1 bintang, 80 memberi 2, dan 100 memberi 3. Minimal 1 bintang membuka level berikutnya.
+- **Level tantangan:** bab yang punya field `challenge` (sekarang semua bab Matematika, 20 soal per bab) mendapat level tambahan sesudah level biasa, berisi soal penalaran: dua langkah, bilangan yang hilang, pola, teka-teki bilangan, dan perbandingan bertingkat. Bilangannya tetap dalam batas bab.
 - "Tantangan campuran" (15 soal acak dari semua bab) selalu terbuka.
 - Nilai terbaik tiap level disimpan di perangkat dan, kalau ada profil anak, di riwayatnya.
 

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { LEVEL_SIZE, MIXED_SIZE, PASS_SCORE, SPECIAL, SUBJECTS, ALL_SUBJECTS, chapterProgress, resolveRoute } from "./data/catalog.js";
 import Game from "./components/Game.jsx";
 import Lesson from "./components/Lesson.jsx";
@@ -179,7 +179,7 @@ function ChapterPage({ subject, chapter }) {
         {p.levels.map((lv) => {
           const inner = (
             <>
-              <span className="level-num">{lv.open ? lv.n : "🔒"}</span>
+              <span className="level-num">{lv.open ? (lv.hard ? "🔥" : lv.n) : "🔒"}</span>
               <span className="level-name">Level {lv.n}</span>
               <span className="level-stars" aria-label={lv.open ? `${lv.stars} dari 3 bintang` : "Terkunci"}>
                 {[0, 1, 2].map((i) => <span key={i} className={i < lv.stars ? "on" : "off"}>⭐</span>)}
@@ -187,11 +187,16 @@ function ChapterPage({ subject, chapter }) {
             </>
           );
           return (
-            <li key={lv.n}>
-              {lv.open
-                ? <a className={`level${current?.n === lv.n ? " now" : ""}${lv.stars ? " cleared" : ""}`} href={lv.key}>{inner}</a>
-                : <span className="level locked" aria-disabled="true">{inner}</span>}
-            </li>
+            <Fragment key={lv.n}>
+              {lv.hard && !p.levels[lv.n - 2]?.hard && (
+                <li className="level-sep"><b>🔥 Level tantangan</b><span>Soal yang lebih sulit untuk mengasah logika.</span></li>
+              )}
+              <li>
+                {lv.open
+                  ? <a className={`level${lv.hard ? " hard" : ""}${current?.n === lv.n ? " now" : ""}${lv.stars ? " cleared" : ""}`} href={lv.key}>{inner}</a>
+                  : <span className={`level locked${lv.hard ? " hard" : ""}`} aria-disabled="true">{inner}</span>}
+              </li>
+            </Fragment>
           );
         })}
       </ol>

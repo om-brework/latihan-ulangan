@@ -1,5 +1,5 @@
 /* Satu level sebagai permainan: soal tampil satu per satu (carousel), langsung dinilai, lalu bintang di akhir. */
-import { useRef, useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import { answerValue, isCorrect } from "../lib/grade.js";
 import { PASS_SCORE, levelStars } from "../data/catalog.js";
 import { buildAttempt } from "../lib/progress.js";
@@ -26,6 +26,21 @@ export default function Game({ route }) {
   const [done, setDone] = useState(null);
   const [explaining, setExplaining] = useState(false);
   const drag = useRef(null);
+  const viewRef = useRef(null);
+
+  // Soal yang panjang diperkecil hurufnya supaya muat satu layar tanpa scroll
+  useLayoutEffect(() => {
+    const fit = () => {
+      const card = viewRef.current?.querySelector(".slide:not([inert]) .qs");
+      if (!card) return;
+      card.classList.remove("compact", "tiny");
+      if (card.scrollHeight > card.clientHeight + 2) card.classList.add("compact");
+      if (card.scrollHeight > card.clientHeight + 2) card.classList.add("tiny");
+    };
+    fit();
+    window.addEventListener("resize", fit);
+    return () => window.removeEventListener("resize", fit);
+  });
 
   const qs = sec.questions;
   const total = qs.length;
@@ -116,7 +131,7 @@ export default function Game({ route }) {
       </header>
       <p className="game-title">{route.heading}{route.chapter ? ` · ${route.chapter.short}` : ""} · Soal {idx + 1} dari {total}</p>
 
-      <div className="viewport" onPointerDown={onDown} onPointerUp={onUp} onPointerCancel={() => { drag.current = null; }}>
+      <div className="viewport" ref={viewRef} onPointerDown={onDown} onPointerUp={onUp} onPointerCancel={() => { drag.current = null; }}>
         <div className="track" style={{ transform: `translateX(${-idx * 100}%)` }}>
           {qs.map((x, i) => (
             <div className="slide" key={x.id} aria-hidden={i !== idx} inert={i !== idx ? "" : undefined}>
