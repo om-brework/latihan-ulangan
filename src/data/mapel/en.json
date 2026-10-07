@@ -1,0 +1,4628 @@
+{
+ "id": "en",
+ "title": "Bahasa Inggris",
+ "chapters": [
+  {
+   "id": "en-1",
+   "title": "Unit 1: How Are You?",
+   "hint": "Menyapa, menanyakan kabar, dan berpamitan.",
+   "icon": "👋",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "hello",
+     "o": [
+      "☀️",
+      "🌙",
+      "👋"
+     ],
+     "a": "👋",
+     "e": "Hello artinya halo. Good night artinya selamat malam.",
+     "g": "en1-hello"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "good morning",
+     "o": [
+      "🌙",
+      "🌅",
+      "👋"
+     ],
+     "a": "🌅",
+     "e": "Good morning artinya selamat pagi. Good night artinya selamat malam.",
+     "g": "en1-good-morning"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "good afternoon",
+     "o": [
+      "selamat malam",
+      "selamat pagi",
+      "selamat siang"
+     ],
+     "a": "selamat siang",
+     "e": "Good afternoon artinya selamat siang. Good morning artinya selamat pagi.",
+     "g": "en1-good-afternoon"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "good night",
+     "o": [
+      "selamat malam",
+      "selamat pagi",
+      "halo"
+     ],
+     "a": "selamat malam",
+     "e": "Good night artinya selamat malam. Good morning artinya selamat pagi.",
+     "g": "en1-good-night"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🌙",
+     "o": [
+      "good night",
+      "good morning",
+      "hello"
+     ],
+     "a": "good night",
+     "e": "Selamat malam dalam bahasa Inggris adalah good night."
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "goodbye",
+     "o": [
+      "halo",
+      "selamat pagi",
+      "selamat tinggal"
+     ],
+     "a": "selamat tinggal",
+     "e": "Goodbye artinya selamat tinggal. Hello artinya halo.",
+     "g": "en1-goodbye"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "good evening",
+     "o": [
+      "👋",
+      "🌇",
+      "☀️"
+     ],
+     "a": "🌇",
+     "e": "Good evening artinya selamat sore. Hello artinya halo.",
+     "g": "en1-good-evening"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🌅",
+     "o": [
+      "goodbye",
+      "good night",
+      "good morning"
+     ],
+     "a": "good morning",
+     "e": "Selamat pagi dalam bahasa Inggris adalah good morning."
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "hello",
+     "o": [
+      "selamat malam",
+      "selamat tinggal",
+      "halo"
+     ],
+     "a": "halo",
+     "e": "Hello artinya halo. Goodbye artinya selamat tinggal."
+    },
+    {
+     "t": "Apa bahasa Inggrisnya kata ini?",
+     "c": "selamat sore",
+     "o": [
+      "good night",
+      "good morning",
+      "good evening"
+     ],
+     "a": "good evening",
+     "e": "Selamat sore dalam bahasa Inggris adalah good evening."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "How are you?",
+     "o": [
+      "Apa kabar?",
+      "Sampai jumpa.",
+      "Selamat malam."
+     ],
+     "a": "Apa kabar?",
+     "e": "“How are you?” artinya “Apa kabar?”",
+     "g": "en1-how-are-you"
+    },
+    {
+     "t": "Temanmu bertanya begini. Apa jawabanmu?",
+     "say": "How are you?",
+     "o": [
+      "Goodbye.",
+      "Good night.",
+      "I'm fine, thank you."
+     ],
+     "a": "I'm fine, thank you.",
+     "e": "“How are you?” artinya “Apa kabar?”. Jawabannya “I'm fine, thank you.” (Aku baik, terima kasih.)"
+    },
+    {
+     "t": "Kamu bertemu guru pada pagi hari. Kamu berkata …",
+     "o": [
+      "Good morning.",
+      "Goodbye.",
+      "Good night."
+     ],
+     "a": "Good morning.",
+     "e": "Pada pagi hari kita menyapa dengan “Good morning.” yang artinya selamat pagi.",
+     "g": "en1-good-morning"
+    },
+    {
+     "t": "Kamu mau tidur. Kamu berkata kepada Ibu …",
+     "o": [
+      "Good night.",
+      "Hello.",
+      "Good morning."
+     ],
+     "a": "Good night.",
+     "e": "Sebelum tidur kita berkata “Good night.” yang artinya selamat malam.",
+     "g": "en1-good-night"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "See you.",
+     "o": [
+      "Apa kabar?",
+      "Sampai jumpa.",
+      "Selamat pagi."
+     ],
+     "a": "Sampai jumpa.",
+     "e": "“See you.” artinya “Sampai jumpa.”",
+     "g": "en1-see-you"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "I'm fine, thank you.",
+     "o": [
+      "Aku baik, terima kasih.",
+      "Apa kabar?",
+      "Sampai jumpa."
+     ],
+     "a": "Aku baik, terima kasih.",
+     "e": "“I'm fine, thank you.” artinya “Aku baik, terima kasih.”",
+     "g": "en1-i-m-fine-thank-you"
+    },
+    {
+     "t": "Kamu pulang sekolah dan berpamitan dengan teman. Kamu berkata …",
+     "o": [
+      "How are you?",
+      "Hello.",
+      "Goodbye."
+     ],
+     "a": "Goodbye.",
+     "e": "Saat berpamitan kita berkata “Goodbye.” yang artinya selamat tinggal.",
+     "g": "en1-goodbye"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🌅 | Good …, Kimi!",
+     "o": [
+      "morning",
+      "afternoon",
+      "night"
+     ],
+     "a": "morning",
+     "e": "Gambarnya matahari terbit pada pagi hari. Good morning artinya selamat pagi."
+    },
+    {
+     "t": "Dengarkan sapaan ini. Apa jawaban yang tepat?",
+     "say": "Good morning.",
+     "o": [
+      "See you.",
+      "Good night.",
+      "Good morning."
+     ],
+     "a": "Good morning.",
+     "e": "“Good morning.” artinya selamat pagi. Kita membalasnya dengan “Good morning.” juga."
+    },
+    {
+     "t": "Kamu bertemu teman pada siang hari. Kamu berkata …",
+     "o": [
+      "Goodbye.",
+      "Good night.",
+      "Good afternoon."
+     ],
+     "a": "Good afternoon.",
+     "e": "Pada siang hari kita menyapa dengan “Good afternoon.” yang artinya selamat siang.",
+     "g": "en1-good-afternoon"
+    },
+    {
+     "t": "Temanmu berpamitan begini. Apa jawabanmu?",
+     "say": "See you.",
+     "o": [
+      "See you.",
+      "Good morning.",
+      "How are you?"
+     ],
+     "a": "See you.",
+     "e": "“See you.” artinya sampai jumpa. Kita membalasnya dengan “See you.” juga.",
+     "g": "en1-see-you"
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🌙 | Good morning.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Gambarnya bulan pada malam hari. Yang cocok adalah good night (selamat malam).",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🌅 | Good morning.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Gambarnya matahari terbit pada pagi hari. Good morning artinya selamat pagi.",
+     "keep": true
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "Hello. How are you?",
+     "o": [
+      "Selamat pagi. Apa kabar?",
+      "Halo. Apa kabar?",
+      "Halo. Sampai jumpa."
+     ],
+     "a": "Halo. Apa kabar?",
+     "e": "Hello artinya halo. “How are you?” artinya “Apa kabar?”"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "How are you? | I'm …, thank you.",
+     "o": [
+      "fine",
+      "night",
+      "hello"
+     ],
+     "a": "fine",
+     "e": "“I'm fine, thank you.” artinya “Aku baik, terima kasih.” Fine artinya baik.",
+     "g": "en1-i-m-fine-thank-you"
+    },
+    {
+     "t": "Sore hari kamu bertemu tetangga. Kamu menyapa …",
+     "o": [
+      "Goodbye.",
+      "Good morning.",
+      "Good evening."
+     ],
+     "a": "Good evening.",
+     "e": "Pada sore hari kita menyapa dengan “Good evening.” yang artinya selamat sore.",
+     "g": "en1-good-evening"
+    },
+    {
+     "t": "Mana ungkapan untuk berpamitan?",
+     "o": [
+      "See you.",
+      "Hello.",
+      "How are you?"
+     ],
+     "a": "See you.",
+     "e": "“See you.” artinya sampai jumpa, dipakai saat berpamitan. Hello dipakai untuk menyapa."
+    },
+    {
+     "t": "Mana ungkapan untuk menyapa?",
+     "o": [
+      "Hello.",
+      "See you.",
+      "Goodbye."
+     ],
+     "a": "Hello.",
+     "e": "Hello artinya halo, dipakai untuk menyapa. Goodbye dan See you dipakai saat berpamitan.",
+     "g": "en1-hello"
+    },
+    {
+     "t": "Dengarkan jawaban ini. Apa pertanyaannya?",
+     "say": "I'm fine, thank you.",
+     "o": [
+      "How are you?",
+      "See you.",
+      "Good night."
+     ],
+     "a": "How are you?",
+     "e": "“I'm fine, thank you.” (Aku baik, terima kasih.) adalah jawaban untuk “How are you?” (Apa kabar?).",
+     "g": "en1-how-are-you"
+    },
+    {
+     "t": "Lengkapi percakapannya.",
+     "c": "Kimi: Goodbye, Joshua. | Joshua: …",
+     "o": [
+      "Hello.",
+      "See you.",
+      "I'm fine, thank you."
+     ],
+     "a": "See you.",
+     "e": "Goodbye artinya selamat tinggal. Jawaban yang cocok adalah “See you.” (Sampai jumpa.)"
+    }
+   ]
+  },
+  {
+   "id": "en-2",
+   "title": "Unit 2: Hi, I Am Kimi",
+   "hint": "Memperkenalkan diri dan nama hewan peliharaan.",
+   "icon": "🐱",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "cat",
+     "o": [
+      "🐶",
+      "🐱",
+      "🐟"
+     ],
+     "a": "🐱",
+     "e": "Cat artinya kucing. Dog artinya anjing.",
+     "g": "en2-cat"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "bird",
+     "o": [
+      "🐰",
+      "🐭",
+      "🐦"
+     ],
+     "a": "🐦",
+     "e": "Bird artinya burung. Rabbit artinya kelinci.",
+     "g": "en2-bird"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🐶",
+     "o": [
+      "cat",
+      "dog",
+      "bird"
+     ],
+     "a": "dog",
+     "e": "Anjing dalam bahasa Inggris adalah dog.",
+     "g": "en2-dog"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🐟",
+     "o": [
+      "fish",
+      "mouse",
+      "rabbit"
+     ],
+     "a": "fish",
+     "e": "Ikan dalam bahasa Inggris adalah fish."
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "rabbit",
+     "o": [
+      "kucing",
+      "kelinci",
+      "tikus"
+     ],
+     "a": "kelinci",
+     "e": "Rabbit artinya kelinci. Mouse artinya tikus.",
+     "g": "en2-rabbit"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "mouse",
+     "o": [
+      "anjing",
+      "tikus",
+      "burung"
+     ],
+     "a": "tikus",
+     "e": "Mouse artinya tikus. Bird artinya burung."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "fish",
+     "o": [
+      "kelinci",
+      "burung",
+      "ikan"
+     ],
+     "a": "ikan",
+     "e": "Fish artinya ikan. Bird artinya burung."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "dog",
+     "o": [
+      "anjing",
+      "kucing",
+      "tikus"
+     ],
+     "a": "anjing",
+     "e": "Dog artinya anjing. Cat artinya kucing."
+    },
+    {
+     "t": "Apa bahasa Inggrisnya kata ini?",
+     "c": "kucing",
+     "o": [
+      "cat",
+      "dog",
+      "fish"
+     ],
+     "a": "cat",
+     "e": "Kucing dalam bahasa Inggris adalah cat."
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🐭",
+     "o": [
+      "mouse",
+      "cat",
+      "dog"
+     ],
+     "a": "mouse",
+     "e": "Tikus dalam bahasa Inggris adalah mouse."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "Who are you?",
+     "o": [
+      "Siapa kamu?",
+      "Apa kabar?",
+      "Sampai jumpa."
+     ],
+     "a": "Siapa kamu?",
+     "e": "“Who are you?” artinya “Siapa kamu?”",
+     "g": "en2-who-are-you"
+    },
+    {
+     "t": "Temanmu bertanya begini. Apa jawabanmu?",
+     "say": "Who are you?",
+     "o": [
+      "I am Made.",
+      "I'm fine, thank you.",
+      "Goodbye."
+     ],
+     "a": "I am Made.",
+     "e": "“Who are you?” artinya “Siapa kamu?”. Kita menjawab dengan menyebut nama: “I am Made.”"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🐱 | I am a …",
+     "o": [
+      "cat",
+      "fish",
+      "dog"
+     ],
+     "a": "cat",
+     "e": "Gambarnya kucing. “I am a cat.” artinya “Aku seekor kucing.”",
+     "g": "en2-cat"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🐶 | I am a …",
+     "o": [
+      "mouse",
+      "bird",
+      "dog"
+     ],
+     "a": "dog",
+     "e": "Gambarnya anjing. “I am a dog.” artinya “Aku seekor anjing.”",
+     "g": "en2-dog"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "I am a cat.",
+     "o": [
+      "Siapa kamu?",
+      "Aku seekor kucing.",
+      "Aku seekor anjing."
+     ],
+     "a": "Aku seekor kucing.",
+     "e": "“I am a cat.” artinya “Aku seekor kucing.”"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "Hi, I am Kimi.",
+     "o": [
+      "Siapa kamu?",
+      "Apa kabar?",
+      "Hai, aku Kimi."
+     ],
+     "a": "Hai, aku Kimi.",
+     "e": "“Hi, I am Kimi.” artinya “Hai, aku Kimi.”",
+     "g": "en2-hi-i-am-kimi"
+    },
+    {
+     "t": "Kamu ingin memperkenalkan diri. Namamu Made. Kamu berkata …",
+     "o": [
+      "Hi, I am Made.",
+      "Who are you?",
+      "Good night."
+     ],
+     "a": "Hi, I am Made.",
+     "e": "“Hi, I am Made.” artinya “Hai, aku Made.” Kalimat ini dipakai untuk memperkenalkan diri."
+    },
+    {
+     "t": "Kamu ingin tahu siapa anak baru itu. Kamu bertanya …",
+     "o": [
+      "Who are you?",
+      "I am a cat.",
+      "See you."
+     ],
+     "a": "Who are you?",
+     "e": "“Who are you?” artinya “Siapa kamu?”. Kalimat ini dipakai untuk bertanya siapa dia."
+    },
+    {
+     "t": "Dengarkan. Siapa yang berbicara?",
+     "say": "I am a rabbit.",
+     "o": [
+      "🐦",
+      "🐰",
+      "🐱"
+     ],
+     "a": "🐰",
+     "e": "“I am a rabbit.” artinya “Aku seekor kelinci.” Rabbit artinya kelinci.",
+     "g": "en2-rabbit"
+    },
+    {
+     "t": "Dengarkan. Siapa yang berbicara?",
+     "say": "I am a fish.",
+     "o": [
+      "🐟",
+      "🐭",
+      "🐶"
+     ],
+     "a": "🐟",
+     "e": "“I am a fish.” artinya “Aku seekor ikan.” Fish artinya ikan."
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🐶 | I am a cat.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Gambarnya anjing (dog), bukan kucing (cat).",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🐦 | I am a bird.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Gambarnya burung. Bird artinya burung, jadi kalimatnya benar.",
+     "g": "en2-bird",
+     "keep": true
+    },
+    {
+     "t": "Dengarkan. Apa jawaban yang tepat?",
+     "say": "Hi, I am Kimi. Who are you?",
+     "o": [
+      "Hi, I am Joshua.",
+      "Good morning.",
+      "I'm fine, thank you."
+     ],
+     "a": "Hi, I am Joshua.",
+     "e": "Kimi memperkenalkan diri lalu bertanya “Who are you?” (Siapa kamu?). Jawabannya “Hi, I am Joshua.”",
+     "g": "en2-who-are-you"
+    },
+    {
+     "t": "Temanmu bertanya begini. Apa jawabanmu?",
+     "say": "Hello. How are you?",
+     "o": [
+      "Who are you?",
+      "I'm fine, thank you.",
+      "I am a cat."
+     ],
+     "a": "I'm fine, thank you.",
+     "e": "“How are you?” artinya “Apa kabar?”. Jawabannya “I'm fine, thank you.” (Aku baik, terima kasih.)"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "Hi, I … Kimi.",
+     "o": [
+      "am",
+      "you",
+      "a"
+     ],
+     "a": "am",
+     "e": "“Hi, I am Kimi.” artinya “Hai, aku Kimi.” Setelah I kita memakai am.",
+     "g": "en2-hi-i-am-kimi"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🐭 | Hi, I am a …",
+     "o": [
+      "cat",
+      "mouse",
+      "rabbit"
+     ],
+     "a": "mouse",
+     "e": "Gambarnya tikus. Mouse artinya tikus. Rabbit artinya kelinci."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "I am a bird.",
+     "o": [
+      "Aku seekor burung.",
+      "Aku seekor kelinci.",
+      "Aku seekor ikan."
+     ],
+     "a": "Aku seekor burung.",
+     "e": "“I am a bird.” artinya “Aku seekor burung.” Bird artinya burung."
+    },
+    {
+     "t": "Lengkapi percakapannya.",
+     "c": "Kimi: Who are you? | Cici: …",
+     "o": [
+      "Goodbye.",
+      "I am Cici.",
+      "I am fine."
+     ],
+     "a": "I am Cici.",
+     "e": "“Who are you?” artinya “Siapa kamu?”. Cici menjawab dengan namanya: “I am Cici.”"
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🐰 | I am a mouse.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Gambarnya kelinci (rabbit), bukan tikus (mouse).",
+     "keep": true
+    },
+    {
+     "t": "Mana kalimat untuk bertanya “Siapa kamu?”",
+     "o": [
+      "Who are you?",
+      "I am a cat.",
+      "How are you?"
+     ],
+     "a": "Who are you?",
+     "e": "“Who are you?” artinya “Siapa kamu?”. “How are you?” artinya “Apa kabar?”"
+    }
+   ]
+  },
+  {
+   "id": "en-3",
+   "title": "Unit 3: My Name Is Joshua",
+   "hint": "Menanyakan dan menyebutkan nama.",
+   "icon": "🏷️",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "boy",
+     "o": [
+      "🏫",
+      "👧",
+      "👦"
+     ],
+     "a": "👦",
+     "e": "Boy artinya anak laki-laki. Girl artinya anak perempuan.",
+     "g": "en3-boy"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "teacher",
+     "o": [
+      "🧑‍🏫",
+      "🏫",
+      "👦"
+     ],
+     "a": "🧑‍🏫",
+     "e": "Teacher artinya guru. Boy artinya anak laki-laki.",
+     "g": "en3-teacher"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "school",
+     "o": [
+      "🤝",
+      "🏷️",
+      "🏫"
+     ],
+     "a": "🏫",
+     "e": "School artinya sekolah. Friend artinya teman."
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "👧",
+     "o": [
+      "girl",
+      "boy",
+      "teacher"
+     ],
+     "a": "girl",
+     "e": "Anak perempuan dalam bahasa Inggris adalah girl.",
+     "g": "en3-girl"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🏫",
+     "o": [
+      "friend",
+      "name",
+      "school"
+     ],
+     "a": "school",
+     "e": "Sekolah dalam bahasa Inggris adalah school."
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🤝",
+     "o": [
+      "teacher",
+      "school",
+      "friend"
+     ],
+     "a": "friend",
+     "e": "Teman dalam bahasa Inggris adalah friend."
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "name",
+     "o": [
+      "sekolah",
+      "teman",
+      "nama"
+     ],
+     "a": "nama",
+     "e": "Name artinya nama. Friend artinya teman.",
+     "g": "en3-name"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "teacher",
+     "o": [
+      "teman",
+      "guru",
+      "anak laki-laki"
+     ],
+     "a": "guru",
+     "e": "Teacher artinya guru. Friend artinya teman."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "friend",
+     "o": [
+      "guru",
+      "teman",
+      "nama"
+     ],
+     "a": "teman",
+     "e": "Friend artinya teman. Teacher artinya guru."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "girl",
+     "o": [
+      "anak laki-laki",
+      "guru",
+      "anak perempuan"
+     ],
+     "a": "anak perempuan",
+     "e": "Girl artinya anak perempuan. Boy artinya anak laki-laki."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "What is your name?",
+     "o": [
+      "Apa kabar?",
+      "Siapa namamu?",
+      "Sampai jumpa."
+     ],
+     "a": "Siapa namamu?",
+     "e": "“What is your name?” artinya “Siapa namamu?”",
+     "g": "en3-what-is-your-name"
+    },
+    {
+     "t": "Temanmu bertanya begini. Apa jawabanmu?",
+     "say": "What is your name?",
+     "o": [
+      "My name is Joshua.",
+      "I'm fine, thank you.",
+      "Good night."
+     ],
+     "a": "My name is Joshua.",
+     "e": "“What is your name?” artinya “Siapa namamu?”. Jawabannya “My name is Joshua.” (Namaku Joshua.)"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "Nice to meet you.",
+     "o": [
+      "Senang bertemu denganmu.",
+      "Siapa namamu?",
+      "Sampai jumpa."
+     ],
+     "a": "Senang bertemu denganmu.",
+     "e": "“Nice to meet you.” artinya “Senang bertemu denganmu.”",
+     "g": "en3-nice-to-meet-you"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "My name is Joshua.",
+     "o": [
+      "Siapa namamu?",
+      "Aku baik, terima kasih.",
+      "Namaku Joshua."
+     ],
+     "a": "Namaku Joshua.",
+     "e": "“My name is Joshua.” artinya “Namaku Joshua.”",
+     "g": "en3-my-name-is-joshua"
+    },
+    {
+     "t": "Kamu ingin tahu nama teman barumu. Kamu bertanya …",
+     "o": [
+      "What is your name?",
+      "Good night.",
+      "How are you?"
+     ],
+     "a": "What is your name?",
+     "e": "“What is your name?” artinya “Siapa namamu?”. Kalimat ini dipakai untuk menanyakan nama."
+    },
+    {
+     "t": "Kamu baru berkenalan dengan teman baru. Kamu berkata …",
+     "o": [
+      "Good night.",
+      "Nice to meet you.",
+      "Goodbye."
+     ],
+     "a": "Nice to meet you.",
+     "e": "“Nice to meet you.” artinya “Senang bertemu denganmu.” Kita mengucapkannya saat berkenalan."
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👧 | I am a …",
+     "o": [
+      "boy",
+      "girl",
+      "teacher"
+     ],
+     "a": "girl",
+     "e": "Gambarnya anak perempuan. Girl artinya anak perempuan.",
+     "g": "en3-girl"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "What is your …? | My name is Cici.",
+     "o": [
+      "cat",
+      "name",
+      "boy"
+     ],
+     "a": "name",
+     "e": "“What is your name?” artinya “Siapa namamu?”. Name artinya nama.",
+     "g": "en3-name"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👦 | I am a …",
+     "o": [
+      "boy",
+      "girl",
+      "school"
+     ],
+     "a": "boy",
+     "e": "Gambarnya anak laki-laki. Boy artinya anak laki-laki.",
+     "g": "en3-boy"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "I am a teacher.",
+     "o": [
+      "🏫",
+      "👦",
+      "🧑‍🏫"
+     ],
+     "a": "🧑‍🏫",
+     "e": "“I am a teacher.” artinya “Aku seorang guru.” Teacher artinya guru.",
+     "g": "en3-teacher"
+    },
+    {
+     "t": "Teman barumu berkata begini. Apa jawabanmu?",
+     "say": "Nice to meet you.",
+     "o": [
+      "My name is Aisyah.",
+      "Nice to meet you, too.",
+      "Good night."
+     ],
+     "a": "Nice to meet you, too.",
+     "e": "“Nice to meet you.” artinya “Senang bertemu denganmu.” Jawabannya “Nice to meet you, too.” (Aku juga.)",
+     "g": "en3-nice-to-meet-you"
+    },
+    {
+     "t": "Lengkapi percakapannya.",
+     "c": "Made: What is your name? | Aisyah: …",
+     "o": [
+      "Nice to meet you.",
+      "I'm fine, thank you.",
+      "My name is Aisyah."
+     ],
+     "a": "My name is Aisyah.",
+     "e": "“What is your name?” artinya “Siapa namamu?”. Aisyah menjawab “My name is Aisyah.” (Namaku Aisyah.)",
+     "g": "en3-what-is-your-name"
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "👧 | I am a boy.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Gambarnya anak perempuan (girl), bukan anak laki-laki (boy).",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🧑‍🏫 | I am a teacher.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Gambarnya guru. Teacher artinya guru, jadi kalimatnya benar.",
+     "keep": true
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "My … is Joshua.",
+     "o": [
+      "name",
+      "boy",
+      "hello"
+     ],
+     "a": "name",
+     "e": "“My name is Joshua.” artinya “Namaku Joshua.” Name artinya nama.",
+     "g": "en3-my-name-is-joshua"
+    },
+    {
+     "t": "Dengarkan. Siapa nama anak itu?",
+     "say": "My name is Made.",
+     "o": [
+      "Kimi",
+      "Made",
+      "Joshua"
+     ],
+     "a": "Made",
+     "e": "“My name is Made.” artinya “Namaku Made.” Jadi nama anak itu Made."
+    },
+    {
+     "t": "Dengarkan. Cici itu siapa?",
+     "say": "Hello. My name is Cici. I am a girl.",
+     "o": [
+      "anak laki-laki",
+      "anak perempuan",
+      "guru"
+     ],
+     "a": "anak perempuan",
+     "e": "“I am a girl.” artinya “Aku seorang anak perempuan.” Girl artinya anak perempuan."
+    },
+    {
+     "t": "Guru bertanya, “What is your name?” Namamu Aisyah. Kamu menjawab …",
+     "o": [
+      "What is your name?",
+      "My name is Aisyah.",
+      "I am a teacher."
+     ],
+     "a": "My name is Aisyah.",
+     "e": "“What is your name?” artinya “Siapa namamu?”. Kita menjawab “My name is Aisyah.” (Namaku Aisyah.)"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "Nice to … you.",
+     "o": [
+      "morning",
+      "name",
+      "meet"
+     ],
+     "a": "meet",
+     "e": "“Nice to meet you.” artinya “Senang bertemu denganmu.” Meet artinya bertemu."
+    },
+    {
+     "t": "Mana pertanyaan untuk menanyakan nama?",
+     "o": [
+      "How are you?",
+      "See you.",
+      "What is your name?"
+     ],
+     "a": "What is your name?",
+     "e": "“What is your name?” artinya “Siapa namamu?”. “How are you?” artinya “Apa kabar?”"
+    }
+   ]
+  },
+  {
+   "id": "en-4",
+   "title": "Unit 4: My Number Is Ten",
+   "hint": "Bilangan satu sampai sepuluh.",
+   "icon": "🔟",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "one",
+     "o": [
+      "1️⃣",
+      "5️⃣",
+      "3️⃣"
+     ],
+     "a": "1️⃣",
+     "e": "One artinya satu. Three artinya tiga.",
+     "g": "en4-one"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "five",
+     "o": [
+      "4️⃣",
+      "9️⃣",
+      "5️⃣"
+     ],
+     "a": "5️⃣",
+     "e": "Five artinya lima. Four artinya empat.",
+     "g": "en4-five"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "2️⃣",
+     "o": [
+      "two",
+      "three",
+      "six"
+     ],
+     "a": "two",
+     "e": "Dua dalam bahasa Inggris adalah two.",
+     "g": "en4-two"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "four",
+     "o": [
+      "empat",
+      "tujuh",
+      "lima"
+     ],
+     "a": "empat",
+     "e": "Four artinya empat. Five artinya lima.",
+     "g": "en4-four"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "eight",
+     "o": [
+      "8️⃣",
+      "3️⃣",
+      "6️⃣"
+     ],
+     "a": "8️⃣",
+     "e": "Eight artinya delapan. Six artinya enam.",
+     "g": "en4-eight"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "7️⃣",
+     "o": [
+      "nine",
+      "one",
+      "seven"
+     ],
+     "a": "seven",
+     "e": "Tujuh dalam bahasa Inggris adalah seven.",
+     "g": "en4-seven"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "three",
+     "o": [
+      "delapan",
+      "tiga",
+      "dua"
+     ],
+     "a": "tiga",
+     "e": "Three artinya tiga. Two artinya dua.",
+     "g": "en4-three"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "six",
+     "o": [
+      "sembilan",
+      "tujuh",
+      "enam"
+     ],
+     "a": "enam",
+     "e": "Six artinya enam. Nine artinya sembilan.",
+     "g": "en4-six"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "9️⃣",
+     "o": [
+      "nine",
+      "eight",
+      "six"
+     ],
+     "a": "nine",
+     "e": "Sembilan dalam bahasa Inggris adalah nine.",
+     "g": "en4-nine"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "ten",
+     "o": [
+      "2️⃣",
+      "🔟",
+      "1️⃣"
+     ],
+     "a": "🔟",
+     "e": "Ten artinya sepuluh. One artinya satu.",
+     "g": "en4-ten"
+    },
+    {
+     "t": "Berapa banyak? Hitunglah.",
+     "c": "🐱🐱🐱",
+     "o": [
+      "two",
+      "three",
+      "four"
+     ],
+     "a": "three",
+     "e": "Ada 3 kucing. Tiga dalam bahasa Inggris adalah three.",
+     "g": "en4-three"
+    },
+    {
+     "t": "Berapa banyak? Hitunglah.",
+     "c": "🐶🐶🐶🐶🐶",
+     "o": [
+      "five",
+      "four",
+      "six"
+     ],
+     "a": "five",
+     "e": "Ada 5 anjing. Lima dalam bahasa Inggris adalah five.",
+     "g": "en4-five"
+    },
+    {
+     "t": "Berapa banyak? Hitunglah.",
+     "c": "🐦🐦",
+     "o": [
+      "one",
+      "three",
+      "two"
+     ],
+     "a": "two",
+     "e": "Ada 2 burung. Dua dalam bahasa Inggris adalah two.",
+     "g": "en4-two"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "How many?",
+     "o": [
+      "Apa kabar?",
+      "Berapa banyak?",
+      "Siapa namamu?"
+     ],
+     "a": "Berapa banyak?",
+     "e": "“How many?” artinya “Berapa banyak?”",
+     "g": "en4-how-many"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "My number is ten.",
+     "o": [
+      "Namaku Joshua.",
+      "Berapa banyak?",
+      "Nomorku sepuluh."
+     ],
+     "a": "Nomorku sepuluh.",
+     "e": "“My number is ten.” artinya “Nomorku sepuluh.”"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang jumlahnya cocok.",
+     "say": "four",
+     "o": [
+      "🐰🐰🐰🐰🐰",
+      "🐰🐰🐰🐰",
+      "🐰🐰🐰"
+     ],
+     "a": "🐰🐰🐰🐰",
+     "e": "Four artinya empat. Pilih gambar yang berisi empat kelinci.",
+     "g": "en4-four"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang jumlahnya cocok.",
+     "say": "six",
+     "o": [
+      "🐟🐟🐟🐟🐟🐟🐟",
+      "🐟🐟🐟🐟🐟🐟",
+      "🐟🐟🐟🐟🐟"
+     ],
+     "a": "🐟🐟🐟🐟🐟🐟",
+     "e": "Six artinya enam. Pilih gambar yang berisi enam ikan.",
+     "g": "en4-six"
+    },
+    {
+     "t": "Lanjutkan hitungannya.",
+     "c": "one, two, three, …",
+     "o": [
+      "five",
+      "six",
+      "four"
+     ],
+     "a": "four",
+     "e": "One, two, three, four artinya satu, dua, tiga, empat. Setelah three adalah four."
+    },
+    {
+     "t": "Lanjutkan hitungannya.",
+     "c": "five, six, seven, …",
+     "o": [
+      "nine",
+      "eight",
+      "ten"
+     ],
+     "a": "eight",
+     "e": "Five, six, seven, eight artinya lima, enam, tujuh, delapan. Setelah seven adalah eight.",
+     "g": "en4-eight"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "Count with me.",
+     "o": [
+      "Berapa banyak?",
+      "Nomorku sepuluh.",
+      "Berhitunglah bersamaku."
+     ],
+     "a": "Berhitunglah bersamaku.",
+     "e": "“Count with me.” artinya “Berhitunglah bersamaku.”"
+    },
+    {
+     "t": "Berapa banyak? Hitunglah.",
+     "c": "🐭🐭🐭🐭🐭🐭🐭",
+     "o": [
+      "seven",
+      "eight",
+      "six"
+     ],
+     "a": "seven",
+     "e": "Ada 7 tikus. Tujuh dalam bahasa Inggris adalah seven.",
+     "g": "en4-seven"
+    },
+    {
+     "t": "Berapa banyak? Hitunglah.",
+     "c": "🐰🐰🐰🐰🐰🐰🐰🐰🐰",
+     "o": [
+      "nine",
+      "ten",
+      "eight"
+     ],
+     "a": "nine",
+     "e": "Ada 9 kelinci. Sembilan dalam bahasa Inggris adalah nine.",
+     "g": "en4-nine"
+    },
+    {
+     "t": "Berapa banyak? Hitunglah.",
+     "c": "🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱",
+     "o": [
+      "eight",
+      "nine",
+      "ten"
+     ],
+     "a": "ten",
+     "e": "Ada 10 kucing. Sepuluh dalam bahasa Inggris adalah ten.",
+     "g": "en4-ten"
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🐶🐶🐶🐶 | Four dogs.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Ada 4 anjing. Four artinya empat, jadi “four dogs” benar.",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🐦🐦🐦 | Five birds.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Ada 3 burung, bukan 5. Tiga adalah three, sedangkan five artinya lima.",
+     "keep": true
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🐱🐱🐱🐱🐱🐱 | How many? | … cats.",
+     "o": [
+      "Seven",
+      "Six",
+      "Five"
+     ],
+     "a": "Six",
+     "e": "“How many?” artinya “Berapa banyak?”. Ada 6 kucing. Enam dalam bahasa Inggris adalah six.",
+     "g": "en4-how-many"
+    },
+    {
+     "t": "Dengarkan. Nomor berapa?",
+     "say": "My number is eight.",
+     "o": [
+      "9️⃣",
+      "8️⃣",
+      "6️⃣"
+     ],
+     "a": "8️⃣",
+     "e": "“My number is eight.” artinya “Nomorku delapan.” Eight artinya delapan."
+    },
+    {
+     "t": "Dengarkan. Bilangan mana yang kamu dengar?",
+     "say": "nine",
+     "o": [
+      "9",
+      "6",
+      "5"
+     ],
+     "a": "9",
+     "e": "Nine artinya sembilan. Five artinya lima dan six artinya enam."
+    },
+    {
+     "t": "Lanjutkan hitungannya.",
+     "c": "seven, eight, nine, …",
+     "o": [
+      "ten",
+      "one",
+      "six"
+     ],
+     "a": "ten",
+     "e": "Seven, eight, nine, ten artinya tujuh, delapan, sembilan, sepuluh. Setelah nine adalah ten."
+    },
+    {
+     "t": "Urutan mana yang benar?",
+     "o": [
+      "one, two, three",
+      "two, one, three",
+      "one, three, two"
+     ],
+     "a": "one, two, three",
+     "e": "Urutan berhitung: one (satu), two (dua), three (tiga).",
+     "g": "en4-one"
+    }
+   ]
+  },
+  {
+   "id": "en-5",
+   "title": "Unit 5: I Have Four Books",
+   "hint": "Benda di kelas dan jumlahnya.",
+   "icon": "📕",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "book",
+     "o": [
+      "🖊️",
+      "🎒",
+      "📕"
+     ],
+     "a": "📕",
+     "e": "Book artinya buku. Bag artinya tas.",
+     "g": "en5-book"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "scissors",
+     "o": [
+      "✂️",
+      "📏",
+      "📄"
+     ],
+     "a": "✂️",
+     "e": "Scissors artinya gunting. Ruler artinya penggaris.",
+     "g": "en5-scissors"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "bag",
+     "o": [
+      "📏",
+      "🎒",
+      "📕"
+     ],
+     "a": "🎒",
+     "e": "Bag artinya tas. Book artinya buku.",
+     "g": "en5-bag"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🖊️",
+     "o": [
+      "pen",
+      "ruler",
+      "book"
+     ],
+     "a": "pen",
+     "e": "Pena dalam bahasa Inggris adalah pen.",
+     "g": "en5-pen"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "📏",
+     "o": [
+      "pen",
+      "scissors",
+      "ruler"
+     ],
+     "a": "ruler",
+     "e": "Penggaris dalam bahasa Inggris adalah ruler.",
+     "g": "en5-ruler"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "📄",
+     "o": [
+      "book",
+      "bag",
+      "paper"
+     ],
+     "a": "paper",
+     "e": "Kertas dalam bahasa Inggris adalah paper."
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "scissors",
+     "o": [
+      "kertas",
+      "penggaris",
+      "gunting"
+     ],
+     "a": "gunting",
+     "e": "Scissors artinya gunting. Ruler artinya penggaris."
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "bag",
+     "o": [
+      "tas",
+      "buku",
+      "pena"
+     ],
+     "a": "tas",
+     "e": "Bag artinya tas. Book artinya buku."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "paper",
+     "o": [
+      "gunting",
+      "kertas",
+      "buku"
+     ],
+     "a": "kertas",
+     "e": "Paper artinya kertas. Book artinya buku."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "ruler",
+     "o": [
+      "tas",
+      "pena",
+      "penggaris"
+     ],
+     "a": "penggaris",
+     "e": "Ruler artinya penggaris. Pen artinya pena."
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "📕📕📕📕 | I have … books.",
+     "o": [
+      "five",
+      "three",
+      "four"
+     ],
+     "a": "four",
+     "e": "Ada 4 buku. Empat dalam bahasa Inggris adalah four. “I have four books.” artinya “Aku punya empat buku.”",
+     "g": "en5-book"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🎒🎒 | I have … bags.",
+     "o": [
+      "one",
+      "two",
+      "three"
+     ],
+     "a": "two",
+     "e": "Ada 2 tas. Dua dalam bahasa Inggris adalah two. Bags artinya tas (lebih dari satu)."
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🖊️🖊️🖊️🖊️🖊️ | I have … pens.",
+     "o": [
+      "six",
+      "four",
+      "five"
+     ],
+     "a": "five",
+     "e": "Ada 5 pena. Lima dalam bahasa Inggris adalah five. Pens artinya pena (lebih dari satu).",
+     "g": "en5-pen"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "I have a bag.",
+     "o": [
+      "Aku punya sebuah buku.",
+      "Aku punya sebuah tas.",
+      "Berapa banyak buku?"
+     ],
+     "a": "Aku punya sebuah tas.",
+     "e": "“I have a bag.” artinya “Aku punya sebuah tas.”",
+     "g": "en5-i-have-a-bag"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "How many books?",
+     "o": [
+      "Berapa banyak buku?",
+      "Aku punya empat buku.",
+      "Siapa namamu?"
+     ],
+     "a": "Berapa banyak buku?",
+     "e": "“How many books?” artinya “Berapa banyak buku?”"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🎒 | I have a …",
+     "o": [
+      "bag",
+      "book",
+      "pen"
+     ],
+     "a": "bag",
+     "e": "Gambarnya tas. “I have a bag.” artinya “Aku punya sebuah tas.”",
+     "g": "en5-bag"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "📏 | I have a …",
+     "o": [
+      "pen",
+      "ruler",
+      "bag"
+     ],
+     "a": "ruler",
+     "e": "Gambarnya penggaris. Ruler artinya penggaris.",
+     "g": "en5-ruler"
+    },
+    {
+     "t": "Lihat gambar dan dengarkan. Apa jawabannya?",
+     "say": "How many books?",
+     "c": "📕📕📕",
+     "o": [
+      "Four books.",
+      "Two books.",
+      "Three books."
+     ],
+     "a": "Three books.",
+     "e": "“How many books?” artinya “Berapa banyak buku?”. Ada 3 buku, jadi jawabannya “Three books.”"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "I have four books.",
+     "o": [
+      "Berapa banyak buku?",
+      "Aku punya empat tas.",
+      "Aku punya empat buku."
+     ],
+     "a": "Aku punya empat buku.",
+     "e": "“I have four books.” artinya “Aku punya empat buku.”"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "I have a pen.",
+     "o": [
+      "📕",
+      "✂️",
+      "🖊️"
+     ],
+     "a": "🖊️",
+     "e": "“I have a pen.” artinya “Aku punya sebuah pena.” Pen artinya pena."
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "📕📕 | I have two books.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Ada 2 buku. Two artinya dua, jadi kalimatnya benar.",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🎒🎒🎒 | I have four bags.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Ada 3 tas, bukan 4. Tiga adalah three, sedangkan four artinya empat.",
+     "g": "en5-bag",
+     "keep": true
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "📏📏📏📏📏📏 | I have … rulers.",
+     "o": [
+      "five",
+      "six",
+      "seven"
+     ],
+     "a": "six",
+     "e": "Ada 6 penggaris. Enam dalam bahasa Inggris adalah six. Rulers artinya penggaris.",
+     "g": "en5-ruler"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "I have three pens.",
+     "o": [
+      "📕📕📕",
+      "🖊️🖊️🖊️",
+      "🖊️🖊️"
+     ],
+     "a": "🖊️🖊️🖊️",
+     "e": "“I have three pens.” artinya “Aku punya tiga pena.” Three artinya tiga.",
+     "g": "en5-pen"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "📕📕📕📕📕 | I have five …",
+     "o": [
+      "book",
+      "books",
+      "bags"
+     ],
+     "a": "books",
+     "e": "Ada 5 buku. Kalau lebih dari satu, book menjadi books. Bags artinya tas.",
+     "g": "en5-book"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🖊️ | I have a …",
+     "o": [
+      "pen",
+      "pens",
+      "book"
+     ],
+     "a": "pen",
+     "e": "Hanya ada 1 pena, jadi kita berkata “a pen”. Pens dipakai kalau lebih dari satu."
+    },
+    {
+     "t": "Jawablah pertanyaannya.",
+     "c": "🎒🎒🎒🎒 | How many bags?",
+     "o": [
+      "Four books.",
+      "Four bags.",
+      "Three bags."
+     ],
+     "a": "Four bags.",
+     "e": "“How many bags?” artinya “Berapa banyak tas?”. Ada 4 tas, jadi jawabannya “Four bags.”"
+    },
+    {
+     "t": "Dengarkan. Benda apa saja yang disebut?",
+     "say": "I have a ruler and a book.",
+     "o": [
+      "📏 dan 📕",
+      "🖊️ dan 📕",
+      "📏 dan 🎒"
+     ],
+     "a": "📏 dan 📕",
+     "e": "Ruler artinya penggaris dan book artinya buku. Kata and artinya dan."
+    },
+    {
+     "t": "Kamu punya satu tas. Kamu berkata …",
+     "o": [
+      "How many bags?",
+      "I have a book.",
+      "I have a bag."
+     ],
+     "a": "I have a bag.",
+     "e": "“I have a bag.” artinya “Aku punya sebuah tas.” Bag artinya tas.",
+     "g": "en5-i-have-a-bag"
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "✂️ | I have a ruler.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Gambarnya gunting (scissors), bukan penggaris (ruler).",
+     "g": "en5-scissors",
+     "keep": true
+    }
+   ]
+  },
+  {
+   "id": "en-6",
+   "title": "Unit 6: My Garden Is Colorful",
+   "hint": "Nama-nama warna.",
+   "icon": "🌸",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "red",
+     "o": [
+      "🟡",
+      "🔴",
+      "🔵"
+     ],
+     "a": "🔴",
+     "e": "Red artinya merah. Blue artinya biru.",
+     "g": "en6-red"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "green",
+     "o": [
+      "⚫",
+      "🟣",
+      "🟢"
+     ],
+     "a": "🟢",
+     "e": "Green artinya hijau. Purple artinya ungu.",
+     "g": "en6-green"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "white",
+     "o": [
+      "⚪",
+      "🟠",
+      "⚫"
+     ],
+     "a": "⚪",
+     "e": "White artinya putih. Black artinya hitam.",
+     "g": "en6-white"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "purple",
+     "o": [
+      "🟡",
+      "🟢",
+      "🟣"
+     ],
+     "a": "🟣",
+     "e": "Purple artinya ungu. Yellow artinya kuning.",
+     "g": "en6-purple"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🔵",
+     "o": [
+      "red",
+      "green",
+      "blue"
+     ],
+     "a": "blue",
+     "e": "Biru dalam bahasa Inggris adalah blue.",
+     "g": "en6-blue"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🟡",
+     "o": [
+      "black",
+      "purple",
+      "yellow"
+     ],
+     "a": "yellow",
+     "e": "Kuning dalam bahasa Inggris adalah yellow.",
+     "g": "en6-yellow"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🟠",
+     "o": [
+      "blue",
+      "green",
+      "orange"
+     ],
+     "a": "orange",
+     "e": "Jingga dalam bahasa Inggris adalah orange.",
+     "g": "en6-orange"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "⚫",
+     "o": [
+      "black",
+      "white",
+      "red"
+     ],
+     "a": "black",
+     "e": "Hitam dalam bahasa Inggris adalah black.",
+     "g": "en6-black"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "orange",
+     "o": [
+      "jingga",
+      "hijau",
+      "ungu"
+     ],
+     "a": "jingga",
+     "e": "Orange artinya jingga. Purple artinya ungu."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "yellow",
+     "o": [
+      "merah",
+      "kuning",
+      "putih"
+     ],
+     "a": "kuning",
+     "e": "Yellow artinya kuning. Red artinya merah."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "What color is it?",
+     "o": [
+      "Warna apa itu?",
+      "Siapa namamu?",
+      "Berapa banyak?"
+     ],
+     "a": "Warna apa itu?",
+     "e": "“What color is it?” artinya “Warna apa itu?”",
+     "g": "en6-what-color-is-it"
+    },
+    {
+     "t": "Lihat gambar dan dengarkan. Apa jawabannya?",
+     "say": "What color is it?",
+     "c": "🔴",
+     "o": [
+      "It is blue.",
+      "It is red.",
+      "It is green."
+     ],
+     "a": "It is red.",
+     "e": "“What color is it?” artinya “Warna apa itu?”. Warnanya merah, jadi jawabannya “It is red.”",
+     "g": "en6-red"
+    },
+    {
+     "t": "Lihat gambar dan dengarkan. Apa jawabannya?",
+     "say": "What color is it?",
+     "c": "🟢",
+     "o": [
+      "It is green.",
+      "It is yellow.",
+      "It is black."
+     ],
+     "a": "It is green.",
+     "e": "“What color is it?” artinya “Warna apa itu?”. Warnanya hijau, jadi jawabannya “It is green.”",
+     "g": "en6-green"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🔵 | It is …",
+     "o": [
+      "white",
+      "blue",
+      "red"
+     ],
+     "a": "blue",
+     "e": "Warnanya biru. “It is blue.” artinya “Itu biru.”",
+     "g": "en6-blue"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🟣 | It is …",
+     "o": [
+      "purple",
+      "orange",
+      "green"
+     ],
+     "a": "purple",
+     "e": "Warnanya ungu. “It is purple.” artinya “Itu ungu.”",
+     "g": "en6-purple"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "It is red.",
+     "o": [
+      "Itu merah.",
+      "Itu biru.",
+      "Warna apa itu?"
+     ],
+     "a": "Itu merah.",
+     "e": "“It is red.” artinya “Itu merah.”"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "My garden is colorful.",
+     "o": [
+      "Kebunku berwarna-warni.",
+      "Warna apa itu?",
+      "Itu merah."
+     ],
+     "a": "Kebunku berwarna-warni.",
+     "e": "“My garden is colorful.” artinya “Kebunku berwarna-warni.”"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "It is yellow.",
+     "o": [
+      "⚫",
+      "🟡",
+      "🔵"
+     ],
+     "a": "🟡",
+     "e": "“It is yellow.” artinya “Itu kuning.” Yellow artinya kuning.",
+     "g": "en6-yellow"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "It is black.",
+     "o": [
+      "⚫",
+      "⚪",
+      "🔴"
+     ],
+     "a": "⚫",
+     "e": "“It is black.” artinya “Itu hitam.” Black artinya hitam.",
+     "g": "en6-black"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya kata ini?",
+     "c": "putih",
+     "o": [
+      "blue",
+      "black",
+      "white"
+     ],
+     "a": "white",
+     "e": "Putih dalam bahasa Inggris adalah white.",
+     "g": "en6-white"
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🔴 | It is red.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Warnanya merah. Red artinya merah, jadi kalimatnya benar.",
+     "g": "en6-red",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🔵 | It is green.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Warnanya biru (blue), bukan hijau (green).",
+     "g": "en6-blue",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🟡 | It is orange.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Warnanya kuning (yellow), bukan jingga (orange).",
+     "g": "en6-yellow",
+     "keep": true
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "📕 | I have a … book.",
+     "o": [
+      "red",
+      "blue",
+      "green"
+     ],
+     "a": "red",
+     "e": "Bukunya berwarna merah. “I have a red book.” artinya “Aku punya sebuah buku merah.”"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "📘 | I have a … book.",
+     "o": [
+      "yellow",
+      "blue",
+      "red"
+     ],
+     "a": "blue",
+     "e": "Bukunya berwarna biru. “I have a blue book.” artinya “Aku punya sebuah buku biru.”"
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "📗 | I have a green book.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Bukunya berwarna hijau. Green artinya hijau, jadi kalimatnya benar.",
+     "g": "en6-green",
+     "keep": true
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "I have a blue book.",
+     "o": [
+      "📘",
+      "📗",
+      "📕"
+     ],
+     "a": "📘",
+     "e": "“I have a blue book.” artinya “Aku punya sebuah buku biru.” Blue artinya biru."
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "What color is it? It is orange.",
+     "o": [
+      "🟢",
+      "🟠",
+      "🔵"
+     ],
+     "a": "🟠",
+     "e": "“It is orange.” artinya “Itu jingga.” Orange artinya jingga.",
+     "g": "en6-orange"
+    },
+    {
+     "t": "Lengkapi percakapannya.",
+     "c": "Cici: What color is it? ⚫ | Made: …",
+     "o": [
+      "It is black.",
+      "It is white.",
+      "I'm fine, thank you."
+     ],
+     "a": "It is black.",
+     "e": "“What color is it?” artinya “Warna apa itu?”. Warnanya hitam, jadi jawabannya “It is black.”",
+     "g": "en6-black"
+    },
+    {
+     "t": "Kamu ingin tahu warna sebuah benda. Kamu bertanya …",
+     "o": [
+      "How many?",
+      "What is your name?",
+      "What color is it?"
+     ],
+     "a": "What color is it?",
+     "e": "“What color is it?” artinya “Warna apa itu?”. “How many?” artinya “Berapa banyak?”",
+     "g": "en6-what-color-is-it"
+    }
+   ]
+  },
+  {
+   "id": "en-7",
+   "title": "Unit 7: It Is a Big Circle",
+   "hint": "Bentuk, besar, dan kecil.",
+   "icon": "⭕",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "circle",
+     "o": [
+      "⬛",
+      "⭕",
+      "🔺"
+     ],
+     "a": "⭕",
+     "e": "Circle artinya lingkaran. Square artinya persegi.",
+     "g": "en7-circle"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "star",
+     "o": [
+      "❤️",
+      "⭕",
+      "⭐"
+     ],
+     "a": "⭐",
+     "e": "Star artinya bintang. Heart artinya hati.",
+     "g": "en7-star"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "triangle",
+     "o": [
+      "⭐",
+      "⬛",
+      "🔺"
+     ],
+     "a": "🔺",
+     "e": "Triangle artinya segitiga. Star artinya bintang.",
+     "g": "en7-triangle"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "⬛",
+     "o": [
+      "heart",
+      "circle",
+      "square"
+     ],
+     "a": "square",
+     "e": "Persegi dalam bahasa Inggris adalah square.",
+     "g": "en7-square"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "❤️",
+     "o": [
+      "heart",
+      "star",
+      "triangle"
+     ],
+     "a": "heart",
+     "e": "Hati dalam bahasa Inggris adalah heart.",
+     "g": "en7-heart"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "big",
+     "o": [
+      "bintang",
+      "kecil",
+      "besar"
+     ],
+     "a": "besar",
+     "e": "Big artinya besar. Small artinya kecil.",
+     "g": "en7-big"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "small",
+     "o": [
+      "besar",
+      "kecil",
+      "lingkaran"
+     ],
+     "a": "kecil",
+     "e": "Small artinya kecil. Big artinya besar.",
+     "g": "en7-small"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "triangle",
+     "o": [
+      "segitiga",
+      "lingkaran",
+      "persegi"
+     ],
+     "a": "segitiga",
+     "e": "Triangle artinya segitiga. Square artinya persegi."
+    },
+    {
+     "t": "Apa bahasa Inggrisnya kata ini?",
+     "c": "lingkaran",
+     "o": [
+      "circle",
+      "heart",
+      "star"
+     ],
+     "a": "circle",
+     "e": "Lingkaran dalam bahasa Inggris adalah circle."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "heart",
+     "o": [
+      "persegi",
+      "bintang",
+      "hati"
+     ],
+     "a": "hati",
+     "e": "Heart artinya hati. Star artinya bintang."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "What shape is it?",
+     "o": [
+      "Warna apa itu?",
+      "Bentuk apa itu?",
+      "Berapa banyak?"
+     ],
+     "a": "Bentuk apa itu?",
+     "e": "“What shape is it?” artinya “Bentuk apa itu?”",
+     "g": "en7-what-shape-is-it"
+    },
+    {
+     "t": "Lihat gambar dan dengarkan. Apa jawabannya?",
+     "say": "What shape is it?",
+     "c": "⭐",
+     "o": [
+      "It is a heart.",
+      "It is a circle.",
+      "It is a star."
+     ],
+     "a": "It is a star.",
+     "e": "“What shape is it?” artinya “Bentuk apa itu?”. Bentuknya bintang, jadi jawabannya “It is a star.”",
+     "g": "en7-star"
+    },
+    {
+     "t": "Lihat gambar dan dengarkan. Apa jawabannya?",
+     "say": "What shape is it?",
+     "c": "🔺",
+     "o": [
+      "It is a square.",
+      "It is a triangle.",
+      "It is a star."
+     ],
+     "a": "It is a triangle.",
+     "e": "“What shape is it?” artinya “Bentuk apa itu?”. Bentuknya segitiga, jadi jawabannya “It is a triangle.”",
+     "g": "en7-triangle"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "⭕ | It is a …",
+     "o": [
+      "circle",
+      "square",
+      "heart"
+     ],
+     "a": "circle",
+     "e": "Bentuknya lingkaran. Circle artinya lingkaran.",
+     "g": "en7-circle"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🐘 | It is …",
+     "o": [
+      "red",
+      "big",
+      "small"
+     ],
+     "a": "big",
+     "e": "Gajah itu besar. Big artinya besar. Small artinya kecil.",
+     "g": "en7-big"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🐜 | It is …",
+     "o": [
+      "big",
+      "blue",
+      "small"
+     ],
+     "a": "small",
+     "e": "Semut itu kecil. Small artinya kecil. Big artinya besar.",
+     "g": "en7-small"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "It is a big circle.",
+     "o": [
+      "Itu persegi besar.",
+      "Itu lingkaran kecil.",
+      "Itu lingkaran besar."
+     ],
+     "a": "Itu lingkaran besar.",
+     "e": "“It is a big circle.” artinya “Itu lingkaran besar.”"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "It is a small square.",
+     "o": [
+      "Itu persegi kecil.",
+      "Itu persegi besar.",
+      "Itu segitiga kecil."
+     ],
+     "a": "Itu persegi kecil.",
+     "e": "“It is a small square.” artinya “Itu persegi kecil.”"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "It is a heart.",
+     "o": [
+      "❤️",
+      "⬛",
+      "⭐"
+     ],
+     "a": "❤️",
+     "e": "“It is a heart.” artinya “Itu bentuk hati.” Heart artinya hati.",
+     "g": "en7-heart"
+    },
+    {
+     "t": "Bagaimana mengatakan “bintang kecil” dalam bahasa Inggris?",
+     "o": [
+      "a small heart",
+      "a small star",
+      "a big star"
+     ],
+     "a": "a small star",
+     "e": "Small artinya kecil dan star artinya bintang. Bintang kecil adalah a small star."
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "⬛ | It is a square.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Bentuknya persegi. Square artinya persegi, jadi kalimatnya benar.",
+     "g": "en7-square",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🔺 | It is a circle.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Bentuknya segitiga (triangle), bukan lingkaran (circle).",
+     "g": "en7-triangle",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🐜 | It is big.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Semut itu kecil (small), bukan besar (big).",
+     "g": "en7-small",
+     "keep": true
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "⭐⭐⭐ | I have three …",
+     "o": [
+      "star",
+      "stars",
+      "hearts"
+     ],
+     "a": "stars",
+     "e": "Ada 3 bintang. Kalau lebih dari satu, star menjadi stars. Hearts artinya hati.",
+     "g": "en7-star"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "❤️ | It is a red …",
+     "o": [
+      "star",
+      "circle",
+      "heart"
+     ],
+     "a": "heart",
+     "e": "Bentuknya hati dan warnanya merah. “It is a red heart.” artinya “Itu hati merah.”",
+     "g": "en7-heart"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "It is a black square.",
+     "o": [
+      "⬛",
+      "🔺",
+      "❤️"
+     ],
+     "a": "⬛",
+     "e": "“It is a black square.” artinya “Itu persegi hitam.” Square artinya persegi."
+    },
+    {
+     "t": "Bagaimana mengatakan “segitiga besar” dalam bahasa Inggris?",
+     "o": [
+      "a big triangle",
+      "a big square",
+      "a small triangle"
+     ],
+     "a": "a big triangle",
+     "e": "Big artinya besar dan triangle artinya segitiga. Segitiga besar adalah a big triangle.",
+     "g": "en7-big"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "It is a big circle.",
+     "o": [
+      "Itu lingkaran kecil.",
+      "Itu bintang besar.",
+      "Itu lingkaran besar."
+     ],
+     "a": "Itu lingkaran besar.",
+     "e": "“It is a big circle.” artinya “Itu lingkaran besar.” Big artinya besar.",
+     "g": "en7-circle"
+    },
+    {
+     "t": "Jawablah pertanyaannya.",
+     "c": "❤️❤️❤️❤️❤️ | How many hearts?",
+     "o": [
+      "Four hearts.",
+      "Five hearts.",
+      "Five stars."
+     ],
+     "a": "Five hearts.",
+     "e": "“How many hearts?” artinya “Berapa banyak hati?”. Ada 5 hati, jadi jawabannya “Five hearts.”"
+    },
+    {
+     "t": "Kamu ingin tahu bentuk sebuah benda. Kamu bertanya …",
+     "o": [
+      "How many?",
+      "What shape is it?",
+      "What color is it?"
+     ],
+     "a": "What shape is it?",
+     "e": "“What shape is it?” artinya “Bentuk apa itu?”. “What color is it?” artinya “Warna apa itu?”",
+     "g": "en7-what-shape-is-it"
+    }
+   ]
+  },
+  {
+   "id": "en-8",
+   "title": "Unit 8: I Have Pencils",
+   "hint": "Alat tulis dan menanyakan punya atau tidak.",
+   "icon": "✏️",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "pencil",
+     "o": [
+      "🪑",
+      "📓",
+      "✏️"
+     ],
+     "a": "✏️",
+     "e": "Pencil artinya pensil. Chair artinya kursi.",
+     "g": "en8-pencil"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "chair",
+     "o": [
+      "🪑",
+      "📎",
+      "📓"
+     ],
+     "a": "🪑",
+     "e": "Chair artinya kursi. Paper clip artinya klip kertas.",
+     "g": "en8-chair"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "crayon",
+     "o": [
+      "🖍️",
+      "🪑",
+      "🎒"
+     ],
+     "a": "🖍️",
+     "e": "Crayon artinya krayon. Chair artinya kursi.",
+     "g": "en8-crayon"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "notebook",
+     "o": [
+      "🪑",
+      "🖌️",
+      "📓"
+     ],
+     "a": "📓",
+     "e": "Notebook artinya buku tulis. Paintbrush artinya kuas.",
+     "g": "en8-notebook"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🖌️",
+     "o": [
+      "chair",
+      "paintbrush",
+      "notebook"
+     ],
+     "a": "paintbrush",
+     "e": "Kuas dalam bahasa Inggris adalah paintbrush.",
+     "g": "en8-paintbrush"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "📎",
+     "o": [
+      "paper clip",
+      "notebook",
+      "chair"
+     ],
+     "a": "paper clip",
+     "e": "Klip kertas dalam bahasa Inggris adalah paper clip.",
+     "g": "en8-paper-clip"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "pencil",
+     "o": [
+      "pensil",
+      "kuas",
+      "krayon"
+     ],
+     "a": "pensil",
+     "e": "Pencil artinya pensil. Crayon artinya krayon."
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "notebook",
+     "o": [
+      "buku tulis",
+      "kursi",
+      "kertas"
+     ],
+     "a": "buku tulis",
+     "e": "Notebook artinya buku tulis. Chair artinya kursi."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "paper clip",
+     "o": [
+      "klip kertas",
+      "kursi",
+      "kuas"
+     ],
+     "a": "klip kertas",
+     "e": "Paper clip artinya klip kertas. Chair artinya kursi."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "paintbrush",
+     "o": [
+      "pensil",
+      "buku tulis",
+      "kuas"
+     ],
+     "a": "kuas",
+     "e": "Paintbrush artinya kuas. Pencil artinya pensil."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "Do you have a crayon?",
+     "o": [
+      "Apakah kamu punya krayon?",
+      "Aku punya pensil.",
+      "Berapa banyak buku?"
+     ],
+     "a": "Apakah kamu punya krayon?",
+     "e": "“Do you have a crayon?” artinya “Apakah kamu punya krayon?”",
+     "g": "en8-do-you-have-a-crayon"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "Yes, I do.",
+     "o": [
+      "Aku punya pensil.",
+      "Tidak, aku tidak punya.",
+      "Ya, aku punya."
+     ],
+     "a": "Ya, aku punya.",
+     "e": "“Yes, I do.” artinya “Ya, aku punya.”",
+     "g": "en8-yes-i-do"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "No, I don't.",
+     "o": [
+      "Apakah kamu punya krayon?",
+      "Ya, aku punya.",
+      "Tidak, aku tidak punya."
+     ],
+     "a": "Tidak, aku tidak punya.",
+     "e": "“No, I don't.” artinya “Tidak, aku tidak punya.”",
+     "g": "en8-no-i-don-t"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "✏️✏️✏️ | I have three …",
+     "o": [
+      "pencils",
+      "chairs",
+      "notebooks"
+     ],
+     "a": "pencils",
+     "e": "Ada 3 pensil. “I have three pencils.” artinya “Aku punya tiga pensil.”",
+     "g": "en8-pencil"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🪑 | I have a …",
+     "o": [
+      "notebook",
+      "paper clip",
+      "chair"
+     ],
+     "a": "chair",
+     "e": "Gambarnya kursi. Chair artinya kursi.",
+     "g": "en8-chair"
+    },
+    {
+     "t": "Kamu punya krayon. Temanmu bertanya begini. Apa jawabanmu?",
+     "say": "Do you have a crayon?",
+     "o": [
+      "I'm fine, thank you.",
+      "No, I don't.",
+      "Yes, I do."
+     ],
+     "a": "Yes, I do.",
+     "e": "“Do you have a crayon?” artinya “Apakah kamu punya krayon?”. Kamu punya, jadi jawabannya “Yes, I do.”",
+     "g": "en8-crayon"
+    },
+    {
+     "t": "Kamu tidak punya kuas. Temanmu bertanya begini. Apa jawabanmu?",
+     "say": "Do you have a paintbrush?",
+     "o": [
+      "No, I don't.",
+      "My name is Joshua.",
+      "Yes, I do."
+     ],
+     "a": "No, I don't.",
+     "e": "“Do you have a paintbrush?” artinya “Apakah kamu punya kuas?”. Kamu tidak punya, jadi “No, I don't.”",
+     "g": "en8-paintbrush"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "I have pencils.",
+     "o": [
+      "Aku punya krayon.",
+      "Apakah kamu punya krayon?",
+      "Aku punya pensil."
+     ],
+     "a": "Aku punya pensil.",
+     "e": "“I have pencils.” artinya “Aku punya pensil.”"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "I have a notebook.",
+     "o": [
+      "🪑",
+      "📎",
+      "📓"
+     ],
+     "a": "📓",
+     "e": "“I have a notebook.” artinya “Aku punya sebuah buku tulis.” Notebook artinya buku tulis.",
+     "g": "en8-notebook"
+    },
+    {
+     "t": "Kamu ingin meminjam krayon. Kamu bertanya kepada teman …",
+     "o": [
+      "Do you have a crayon?",
+      "How are you?",
+      "What shape is it?"
+     ],
+     "a": "Do you have a crayon?",
+     "e": "“Do you have a crayon?” artinya “Apakah kamu punya krayon?”. Kalimat ini dipakai untuk bertanya punya atau tidak."
+    },
+    {
+     "t": "Di tas Cici ada 📓 📏 ✂️. Jawablah untuk Cici.",
+     "c": "Do you have a notebook?",
+     "o": [
+      "No, I don't.",
+      "Yes, I do."
+     ],
+     "a": "Yes, I do.",
+     "e": "Di tas Cici ada buku tulis (notebook). Jadi jawabannya “Yes, I do.” (Ya, aku punya.)",
+     "g": "en8-yes-i-do"
+    },
+    {
+     "t": "Di tas Cici ada 📓 📏 ✂️. Jawablah untuk Cici.",
+     "c": "Do you have a pencil?",
+     "o": [
+      "No, I don't.",
+      "Yes, I do."
+     ],
+     "a": "No, I don't.",
+     "e": "Di tas Cici tidak ada pensil (pencil). Jadi jawabannya “No, I don't.” (Tidak, aku tidak punya.)",
+     "g": "en8-no-i-don-t"
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🪑 | I have a chair.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Gambarnya kursi. Chair artinya kursi, jadi kalimatnya benar.",
+     "g": "en8-chair",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "📎 | I have a notebook.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Gambarnya klip kertas (paper clip), bukan buku tulis (notebook).",
+     "g": "en8-paper-clip",
+     "keep": true
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "Do you have a crayon? | Yes, I …",
+     "o": [
+      "am",
+      "do",
+      "don't"
+     ],
+     "a": "do",
+     "e": "“Yes, I do.” artinya “Ya, aku punya.” Setelah Yes kita memakai do."
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "Do you have a chair? | No, I …",
+     "o": [
+      "do",
+      "don't",
+      "am"
+     ],
+     "a": "don't",
+     "e": "“No, I don't.” artinya “Tidak, aku tidak punya.” Setelah No kita memakai don't."
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "📎📎 | I have two …",
+     "o": [
+      "paper clip",
+      "pencils",
+      "paper clips"
+     ],
+     "a": "paper clips",
+     "e": "Ada 2 klip kertas. Kalau lebih dari satu, paper clip menjadi paper clips."
+    },
+    {
+     "t": "Dengarkan. Benda apa saja yang disebut?",
+     "say": "I have a pencil and a notebook.",
+     "o": [
+      "✏️ dan 📓",
+      "✏️ dan 🪑",
+      "📎 dan 📓"
+     ],
+     "a": "✏️ dan 📓",
+     "e": "Pencil artinya pensil dan notebook artinya buku tulis. Kata and artinya dan.",
+     "g": "en8-pencil"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "… you have a paintbrush?",
+     "o": [
+      "Do",
+      "What",
+      "How"
+     ],
+     "a": "Do",
+     "e": "“Do you have a paintbrush?” artinya “Apakah kamu punya kuas?”. Pertanyaannya diawali Do.",
+     "g": "en8-do-you-have-a-crayon"
+    },
+    {
+     "t": "Dengarkan. Benda apa yang ditanyakan?",
+     "say": "Do you have a paper clip?",
+     "o": [
+      "📓",
+      "📎",
+      "🪑"
+     ],
+     "a": "📎",
+     "e": "“Do you have a paper clip?” artinya “Apakah kamu punya klip kertas?”. Paper clip artinya klip kertas."
+    }
+   ]
+  },
+  {
+   "id": "en-9",
+   "title": "Unit 9: At Cici's Farm",
+   "hint": "Hewan di peternakan.",
+   "icon": "🐄",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "cow",
+     "o": [
+      "🦆",
+      "🐄",
+      "🐴"
+     ],
+     "a": "🐄",
+     "e": "Cow artinya sapi. Duck artinya bebek.",
+     "g": "en9-cow"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "chicken",
+     "o": [
+      "🐄",
+      "🐖",
+      "🐔"
+     ],
+     "a": "🐔",
+     "e": "Chicken artinya ayam. Pig artinya babi.",
+     "g": "en9-chicken"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "goat",
+     "o": [
+      "🐐",
+      "🐴",
+      "🦆"
+     ],
+     "a": "🐐",
+     "e": "Goat artinya kambing. Duck artinya bebek.",
+     "g": "en9-goat"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "sheep",
+     "o": [
+      "🐖",
+      "🐑",
+      "🐔"
+     ],
+     "a": "🐑",
+     "e": "Sheep artinya domba. Chicken artinya ayam.",
+     "g": "en9-sheep"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🦆",
+     "o": [
+      "cow",
+      "duck",
+      "chicken"
+     ],
+     "a": "duck",
+     "e": "Bebek dalam bahasa Inggris adalah duck.",
+     "g": "en9-duck"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🐴",
+     "o": [
+      "cow",
+      "horse",
+      "goat"
+     ],
+     "a": "horse",
+     "e": "Kuda dalam bahasa Inggris adalah horse.",
+     "g": "en9-horse"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🐖",
+     "o": [
+      "pig",
+      "sheep",
+      "duck"
+     ],
+     "a": "pig",
+     "e": "Babi dalam bahasa Inggris adalah pig.",
+     "g": "en9-pig"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "sheep",
+     "o": [
+      "domba",
+      "sapi",
+      "kambing"
+     ],
+     "a": "domba",
+     "e": "Sheep artinya domba. Goat artinya kambing."
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "goat",
+     "o": [
+      "kuda",
+      "kambing",
+      "bebek"
+     ],
+     "a": "kambing",
+     "e": "Goat artinya kambing. Horse artinya kuda."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "horse",
+     "o": [
+      "sapi",
+      "kuda",
+      "babi"
+     ],
+     "a": "kuda",
+     "e": "Horse artinya kuda. Cow artinya sapi."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "What animal is it?",
+     "o": [
+      "Bentuk apa itu?",
+      "Warna apa itu?",
+      "Hewan apa itu?"
+     ],
+     "a": "Hewan apa itu?",
+     "e": "“What animal is it?” artinya “Hewan apa itu?”",
+     "g": "en9-what-animal-is-it"
+    },
+    {
+     "t": "Lihat gambar dan dengarkan. Apa jawabannya?",
+     "say": "What animal is it?",
+     "c": "🐄",
+     "o": [
+      "It is a horse.",
+      "It is a cow.",
+      "It is a duck."
+     ],
+     "a": "It is a cow.",
+     "e": "“What animal is it?” artinya “Hewan apa itu?”. Gambarnya sapi, jadi jawabannya “It is a cow.”",
+     "g": "en9-cow"
+    },
+    {
+     "t": "Lihat gambar dan dengarkan. Apa jawabannya?",
+     "say": "What animal is it?",
+     "c": "🐔",
+     "o": [
+      "It is a duck.",
+      "It is a pig.",
+      "It is a chicken."
+     ],
+     "a": "It is a chicken.",
+     "e": "“What animal is it?” artinya “Hewan apa itu?”. Gambarnya ayam, jadi jawabannya “It is a chicken.”",
+     "g": "en9-chicken"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🦆 | This is a …",
+     "o": [
+      "chicken",
+      "goat",
+      "duck"
+     ],
+     "a": "duck",
+     "e": "Gambarnya bebek. “This is a duck.” artinya “Ini seekor bebek.”",
+     "g": "en9-duck"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🐴 | It is a …",
+     "o": [
+      "sheep",
+      "horse",
+      "cow"
+     ],
+     "a": "horse",
+     "e": "Gambarnya kuda. “It is a horse.” artinya “Itu seekor kuda.”",
+     "g": "en9-horse"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "This is a cow.",
+     "o": [
+      "Ini seekor sapi.",
+      "Hewan apa itu?",
+      "Ini seekor kuda."
+     ],
+     "a": "Ini seekor sapi.",
+     "e": "“This is a cow.” artinya “Ini seekor sapi.”"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "It is a duck.",
+     "o": [
+      "Itu seekor ayam.",
+      "Hewan apa itu?",
+      "Itu seekor bebek."
+     ],
+     "a": "Itu seekor bebek.",
+     "e": "“It is a duck.” artinya “Itu seekor bebek.”"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "This is a pig.",
+     "o": [
+      "🐄",
+      "🐖",
+      "🐔"
+     ],
+     "a": "🐖",
+     "e": "“This is a pig.” artinya “Ini seekor babi.” Pig artinya babi.",
+     "g": "en9-pig"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "It is a goat.",
+     "o": [
+      "🐴",
+      "🦆",
+      "🐐"
+     ],
+     "a": "🐐",
+     "e": "“It is a goat.” artinya “Itu seekor kambing.” Goat artinya kambing.",
+     "g": "en9-goat"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🐑 | This is a …",
+     "o": [
+      "sheep",
+      "chicken",
+      "pig"
+     ],
+     "a": "sheep",
+     "e": "Gambarnya domba. Sheep artinya domba.",
+     "g": "en9-sheep"
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🐄 | This is a duck.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Gambarnya sapi (cow), bukan bebek (duck).",
+     "g": "en9-cow",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🐴 | This is a horse.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Gambarnya kuda. Horse artinya kuda, jadi kalimatnya benar.",
+     "g": "en9-horse",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "🐔 | It is a pig.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Gambarnya ayam (chicken), bukan babi (pig).",
+     "g": "en9-chicken",
+     "keep": true
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🐄🐄🐄 | I have three …",
+     "o": [
+      "cow",
+      "ducks",
+      "cows"
+     ],
+     "a": "cows",
+     "e": "Ada 3 sapi. Kalau lebih dari satu, cow menjadi cows. Ducks artinya bebek."
+    },
+    {
+     "t": "Jawablah pertanyaannya.",
+     "c": "🦆🦆🦆🦆 | How many ducks?",
+     "o": [
+      "Four ducks.",
+      "Four chickens.",
+      "Three ducks."
+     ],
+     "a": "Four ducks.",
+     "e": "“How many ducks?” artinya “Berapa banyak bebek?”. Ada 4 bebek, jadi jawabannya “Four ducks.”",
+     "g": "en9-duck"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "It is a big cow.",
+     "o": [
+      "Itu sapi besar.",
+      "Itu sapi kecil.",
+      "Itu kuda besar."
+     ],
+     "a": "Itu sapi besar.",
+     "e": "“It is a big cow.” artinya “Itu sapi besar.” Big artinya besar dan cow artinya sapi."
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "I have two horses.",
+     "o": [
+      "🐴",
+      "🐴🐴",
+      "🐄🐄"
+     ],
+     "a": "🐴🐴",
+     "e": "“I have two horses.” artinya “Aku punya dua kuda.” Two artinya dua."
+    },
+    {
+     "t": "Kamu ingin tahu nama seekor hewan. Kamu bertanya …",
+     "o": [
+      "What animal is it?",
+      "How many?",
+      "What color is it?"
+     ],
+     "a": "What animal is it?",
+     "e": "“What animal is it?” artinya “Hewan apa itu?”. “What color is it?” artinya “Warna apa itu?”",
+     "g": "en9-what-animal-is-it"
+    },
+    {
+     "t": "Lengkapi percakapannya.",
+     "c": "Cici: What animal is it? 🐐 | Made: …",
+     "o": [
+      "Yes, I do.",
+      "It is a goat.",
+      "It is a horse."
+     ],
+     "a": "It is a goat.",
+     "e": "“What animal is it?” artinya “Hewan apa itu?”. Gambarnya kambing, jadi jawabannya “It is a goat.”",
+     "g": "en9-goat"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🐖 | … is a pig.",
+     "o": [
+      "What",
+      "This",
+      "How"
+     ],
+     "a": "This",
+     "e": "“This is a pig.” artinya “Ini seekor babi.” This artinya ini.",
+     "g": "en9-pig"
+    }
+   ]
+  },
+  {
+   "id": "en-10",
+   "title": "Unit 10: She Is Cici and He Is Made",
+   "hint": "Memakai he untuk laki-laki dan she untuk perempuan.",
+   "icon": "🧒",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "man",
+     "o": [
+      "👨",
+      "👧",
+      "👩"
+     ],
+     "a": "👨",
+     "e": "Man artinya pria. Woman artinya wanita.",
+     "g": "en10-man"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "woman",
+     "o": [
+      "👩",
+      "👨",
+      "👦"
+     ],
+     "a": "👩",
+     "e": "Woman artinya wanita. Man artinya pria.",
+     "g": "en10-woman"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "girl",
+     "o": [
+      "👦",
+      "👨",
+      "👧"
+     ],
+     "a": "👧",
+     "e": "Girl artinya anak perempuan. Boy artinya anak laki-laki."
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "boy",
+     "o": [
+      "👩",
+      "👧",
+      "👦"
+     ],
+     "a": "👦",
+     "e": "Boy artinya anak laki-laki. Girl artinya anak perempuan.",
+     "g": "en10-boy"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "👨",
+     "o": [
+      "man",
+      "girl",
+      "woman"
+     ],
+     "a": "man",
+     "e": "Pria dalam bahasa Inggris adalah man."
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "👩",
+     "o": [
+      "man",
+      "woman",
+      "boy"
+     ],
+     "a": "woman",
+     "e": "Wanita dalam bahasa Inggris adalah woman."
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "he",
+     "o": [
+      "anak perempuan",
+      "dia (perempuan)",
+      "dia (laki-laki)"
+     ],
+     "a": "dia (laki-laki)",
+     "e": "He artinya dia (laki-laki). She artinya dia (perempuan).",
+     "g": "en10-he"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "she",
+     "o": [
+      "dia (perempuan)",
+      "anak laki-laki",
+      "dia (laki-laki)"
+     ],
+     "a": "dia (perempuan)",
+     "e": "She artinya dia (perempuan). He artinya dia (laki-laki).",
+     "g": "en10-she"
+    },
+    {
+     "t": "Made itu laki-laki. Kita menyebutnya …",
+     "o": [
+      "he",
+      "she"
+     ],
+     "a": "he",
+     "e": "He artinya dia (laki-laki). She artinya dia (perempuan)."
+    },
+    {
+     "t": "Cici itu perempuan. Kita menyebutnya …",
+     "o": [
+      "she",
+      "he"
+     ],
+     "a": "she",
+     "e": "She artinya dia (perempuan). He artinya dia (laki-laki)."
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👧 | … is Cici.",
+     "o": [
+      "She",
+      "It",
+      "He"
+     ],
+     "a": "She",
+     "e": "Cici anak perempuan, jadi kita memakai she. “She is Cici.” artinya “Dia Cici.”",
+     "g": "en10-she"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👦 | … is Made.",
+     "o": [
+      "She",
+      "It",
+      "He"
+     ],
+     "a": "He",
+     "e": "Made anak laki-laki, jadi kita memakai he. “He is Made.” artinya “Dia Made.”",
+     "g": "en10-he"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "She is a girl.",
+     "o": [
+      "Dia Cici.",
+      "Dia seorang anak perempuan.",
+      "Dia seorang anak laki-laki."
+     ],
+     "a": "Dia seorang anak perempuan.",
+     "e": "“She is a girl.” artinya “Dia seorang anak perempuan.”",
+     "g": "en10-she-is-a-girl"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "He is a boy.",
+     "o": [
+      "Dia seorang anak laki-laki.",
+      "Dia seorang anak perempuan.",
+      "Dia Made."
+     ],
+     "a": "Dia seorang anak laki-laki.",
+     "e": "“He is a boy.” artinya “Dia seorang anak laki-laki.”",
+     "g": "en10-he-is-a-boy"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "She is a woman.",
+     "o": [
+      "👩",
+      "👦",
+      "👨"
+     ],
+     "a": "👩",
+     "e": "“She is a woman.” artinya “Dia seorang wanita.” Woman artinya wanita.",
+     "g": "en10-woman"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "He is a man.",
+     "o": [
+      "👨",
+      "👩",
+      "👧"
+     ],
+     "a": "👨",
+     "e": "“He is a man.” artinya “Dia seorang pria.” Man artinya pria.",
+     "g": "en10-man"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👦 | He is a …",
+     "o": [
+      "girl",
+      "woman",
+      "boy"
+     ],
+     "a": "boy",
+     "e": "Gambarnya anak laki-laki. Boy artinya anak laki-laki.",
+     "g": "en10-boy"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👩 | She is a …",
+     "o": [
+      "boy",
+      "woman",
+      "man"
+     ],
+     "a": "woman",
+     "e": "Gambarnya wanita. Woman artinya wanita. Man artinya pria."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "She is Cici.",
+     "o": [
+      "Dia Cici.",
+      "Siapa namamu?",
+      "Aku Cici."
+     ],
+     "a": "Dia Cici.",
+     "e": "“She is Cici.” artinya “Dia Cici.”",
+     "g": "en10-she-is-cici"
+    },
+    {
+     "t": "Aisyah itu anak perempuan. Kalimat mana yang benar?",
+     "o": [
+      "She is Aisyah.",
+      "He is Aisyah."
+     ],
+     "a": "She is Aisyah.",
+     "e": "Untuk perempuan kita memakai she. “She is Aisyah.” artinya “Dia Aisyah.”"
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "👦 | She is a boy.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Anak laki-laki disebut he, bukan she. Yang benar “He is a boy.”",
+     "g": "en10-he",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "👧 | She is a girl.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Gambarnya anak perempuan. “She is a girl.” artinya “Dia seorang anak perempuan.”",
+     "g": "en10-she-is-a-girl",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "👨 | He is a woman.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Gambarnya pria (man), bukan wanita (woman). Yang benar “He is a man.”",
+     "g": "en10-man",
+     "keep": true
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "This is Joshua. | … is a boy.",
+     "o": [
+      "I",
+      "She",
+      "He"
+     ],
+     "a": "He",
+     "e": "Joshua anak laki-laki, jadi kita memakai he. “He is a boy.” artinya “Dia seorang anak laki-laki.”",
+     "g": "en10-he-is-a-boy"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "This is Aisyah. | … is my friend.",
+     "o": [
+      "She",
+      "It",
+      "He"
+     ],
+     "a": "She",
+     "e": "Aisyah anak perempuan, jadi kita memakai she. “She is my friend.” artinya “Dia temanku.”",
+     "g": "en10-she"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👨 | … is a man.",
+     "o": [
+      "It",
+      "He",
+      "She"
+     ],
+     "a": "He",
+     "e": "Man artinya pria. Untuk laki-laki kita memakai he."
+    },
+    {
+     "t": "Dengarkan. Made itu siapa?",
+     "say": "He is Made. He is a boy.",
+     "o": [
+      "anak laki-laki",
+      "anak perempuan",
+      "wanita"
+     ],
+     "a": "anak laki-laki",
+     "e": "“He is a boy.” artinya “Dia seorang anak laki-laki.” Boy artinya anak laki-laki.",
+     "g": "en10-boy"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "She is my teacher.",
+     "o": [
+      "Aku seorang guru.",
+      "Dia temanku.",
+      "Dia guruku."
+     ],
+     "a": "Dia guruku.",
+     "e": "“She is my teacher.” artinya “Dia guruku.” Teacher artinya guru."
+    },
+    {
+     "t": "Mana kalimat yang benar?",
+     "o": [
+      "He is a girl.",
+      "She is a man.",
+      "He is a boy."
+     ],
+     "a": "He is a boy.",
+     "e": "He dipakai untuk laki-laki dan she untuk perempuan. “He is a boy.” artinya “Dia seorang anak laki-laki.”"
+    },
+    {
+     "t": "Lengkapi percakapannya.",
+     "c": "Kimi: Who is she? 👧 | Joshua: …",
+     "o": [
+      "She is Cici.",
+      "I am Cici.",
+      "He is Cici."
+     ],
+     "a": "She is Cici.",
+     "e": "“Who is she?” artinya “Siapa dia?”. Untuk anak perempuan kita menjawab “She is Cici.”",
+     "g": "en10-she-is-cici"
+    }
+   ]
+  },
+  {
+   "id": "en-11",
+   "title": "Unit 11: Aisyah's Family",
+   "hint": "Anggota keluarga.",
+   "icon": "👨‍👩‍👧",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "father",
+     "o": [
+      "👨",
+      "👩",
+      "👵"
+     ],
+     "a": "👨",
+     "e": "Father artinya ayah. Mother artinya ibu.",
+     "g": "en11-father"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "mother",
+     "o": [
+      "👩",
+      "👨",
+      "👴"
+     ],
+     "a": "👩",
+     "e": "Mother artinya ibu. Father artinya ayah.",
+     "g": "en11-mother"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "grandfather",
+     "o": [
+      "👧",
+      "👴",
+      "👵"
+     ],
+     "a": "👴",
+     "e": "Grandfather artinya kakek. Grandmother artinya nenek.",
+     "g": "en11-grandfather"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "baby",
+     "o": [
+      "👶",
+      "👵",
+      "👨"
+     ],
+     "a": "👶",
+     "e": "Baby artinya bayi. Grandmother artinya nenek.",
+     "g": "en11-baby"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "sister",
+     "o": [
+      "👧",
+      "👴",
+      "👨"
+     ],
+     "a": "👧",
+     "e": "Sister artinya saudara perempuan. Grandfather artinya kakek.",
+     "g": "en11-sister"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "👵",
+     "o": [
+      "baby",
+      "grandmother",
+      "grandfather"
+     ],
+     "a": "grandmother",
+     "e": "Nenek dalam bahasa Inggris adalah grandmother.",
+     "g": "en11-grandmother"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "👶",
+     "o": [
+      "baby",
+      "father",
+      "grandmother"
+     ],
+     "a": "baby",
+     "e": "Bayi dalam bahasa Inggris adalah baby."
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "brother",
+     "o": [
+      "saudara perempuan",
+      "saudara laki-laki",
+      "kakek"
+     ],
+     "a": "saudara laki-laki",
+     "e": "Brother artinya saudara laki-laki. Sister artinya saudara perempuan.",
+     "g": "en11-brother"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "sister",
+     "o": [
+      "saudara perempuan",
+      "ibu",
+      "saudara laki-laki"
+     ],
+     "a": "saudara perempuan",
+     "e": "Sister artinya saudara perempuan. Brother artinya saudara laki-laki."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "grandmother",
+     "o": [
+      "nenek",
+      "kakek",
+      "ibu"
+     ],
+     "a": "nenek",
+     "e": "Grandmother artinya nenek. Grandfather artinya kakek."
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "This is my father.",
+     "o": [
+      "Ini kakekku.",
+      "Ini ibuku.",
+      "Ini ayahku."
+     ],
+     "a": "Ini ayahku.",
+     "e": "“This is my father.” artinya “Ini ayahku.”"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "This is my mother.",
+     "o": [
+      "Ini ayahku.",
+      "Ini ibuku.",
+      "Ini nenekku."
+     ],
+     "a": "Ini ibuku.",
+     "e": "“This is my mother.” artinya “Ini ibuku.”",
+     "g": "en11-this-is-my-mother"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "I love my family.",
+     "o": [
+      "Aku punya sebuah tas.",
+      "Ini ayahku.",
+      "Aku sayang keluargaku."
+     ],
+     "a": "Aku sayang keluargaku.",
+     "e": "“I love my family.” artinya “Aku sayang keluargaku.”",
+     "g": "en11-i-love-my-family"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👴 | This is my …",
+     "o": [
+      "grandfather",
+      "grandmother",
+      "sister"
+     ],
+     "a": "grandfather",
+     "e": "Gambarnya kakek. “This is my grandfather.” artinya “Ini kakekku.”",
+     "g": "en11-grandfather"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👵 | This is my …",
+     "o": [
+      "brother",
+      "grandfather",
+      "grandmother"
+     ],
+     "a": "grandmother",
+     "e": "Gambarnya nenek. “This is my grandmother.” artinya “Ini nenekku.”",
+     "g": "en11-grandmother"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👶 | It is a …",
+     "o": [
+      "baby",
+      "father",
+      "grandmother"
+     ],
+     "a": "baby",
+     "e": "Gambarnya bayi. Baby artinya bayi.",
+     "g": "en11-baby"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "This is my sister.",
+     "o": [
+      "👧",
+      "👨",
+      "👴"
+     ],
+     "a": "👧",
+     "e": "“This is my sister.” artinya “Ini saudara perempuanku.” Sister artinya saudara perempuan.",
+     "g": "en11-sister"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "This is my grandfather.",
+     "o": [
+      "👧",
+      "👴",
+      "👵"
+     ],
+     "a": "👴",
+     "e": "“This is my grandfather.” artinya “Ini kakekku.” Grandfather artinya kakek."
+    },
+    {
+     "t": "Kamu menunjukkan foto ibumu kepada teman. Kamu berkata …",
+     "o": [
+      "This is my father.",
+      "I am a mother.",
+      "This is my mother."
+     ],
+     "a": "This is my mother.",
+     "e": "“This is my mother.” artinya “Ini ibuku.” Mother artinya ibu.",
+     "g": "en11-mother"
+    },
+    {
+     "t": "Bagaimana mengatakan “Ini nenekku” dalam bahasa Inggris?",
+     "o": [
+      "This is my grandfather.",
+      "This is my grandmother.",
+      "This is my mother."
+     ],
+     "a": "This is my grandmother.",
+     "e": "Grandmother artinya nenek. “This is my grandmother.” artinya “Ini nenekku.”"
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "👵 | This is my grandfather.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Gambarnya nenek (grandmother), bukan kakek (grandfather).",
+     "g": "en11-grandmother",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "👨 | This is my father.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Gambarnya ayah. Father artinya ayah, jadi kalimatnya benar.",
+     "g": "en11-father",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "👶 | This is my grandmother.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Gambarnya bayi (baby), bukan nenek (grandmother).",
+     "g": "en11-baby",
+     "keep": true
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "This is my father. | … is a man.",
+     "o": [
+      "He",
+      "She",
+      "It"
+     ],
+     "a": "He",
+     "e": "Father artinya ayah. Ayah laki-laki, jadi kita memakai he. “He is a man.” artinya “Dia seorang pria.”"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "This is my sister. | … is a girl.",
+     "o": [
+      "I",
+      "She",
+      "He"
+     ],
+     "a": "She",
+     "e": "Sister artinya saudara perempuan, jadi kita memakai she. “She is a girl.” artinya “Dia seorang anak perempuan.”",
+     "g": "en11-sister"
+    },
+    {
+     "t": "Dengarkan. Siapa yang diperkenalkan?",
+     "say": "This is my mother. She is a woman.",
+     "o": [
+      "nenek",
+      "ayah",
+      "ibu"
+     ],
+     "a": "ibu",
+     "e": "“This is my mother.” artinya “Ini ibuku.” Mother artinya ibu.",
+     "g": "en11-this-is-my-mother"
+    },
+    {
+     "t": "Dengarkan. Siapa yang diperkenalkan?",
+     "say": "This is my brother. He is a boy.",
+     "o": [
+      "saudara laki-laki",
+      "saudara perempuan",
+      "kakek"
+     ],
+     "a": "saudara laki-laki",
+     "e": "“This is my brother.” artinya “Ini saudara laki-lakiku.” Brother artinya saudara laki-laki.",
+     "g": "en11-brother"
+    },
+    {
+     "t": "Mana yang laki-laki?",
+     "o": [
+      "grandfather",
+      "grandmother",
+      "mother"
+     ],
+     "a": "grandfather",
+     "e": "Grandfather artinya kakek. Grandmother artinya nenek dan mother artinya ibu.",
+     "g": "en11-grandfather"
+    },
+    {
+     "t": "Mana yang perempuan?",
+     "o": [
+      "brother",
+      "father",
+      "sister"
+     ],
+     "a": "sister",
+     "e": "Sister artinya saudara perempuan. Brother artinya saudara laki-laki dan father artinya ayah."
+    },
+    {
+     "t": "Kamu sayang keluargamu. Kamu berkata …",
+     "o": [
+      "This is my father.",
+      "I love my family.",
+      "Nice to meet you."
+     ],
+     "a": "I love my family.",
+     "e": "“I love my family.” artinya “Aku sayang keluargaku.” Family artinya keluarga.",
+     "g": "en11-i-love-my-family"
+    }
+   ]
+  },
+  {
+   "id": "en-12",
+   "title": "Unit 12: She Has Some Fruits",
+   "hint": "Nama buah dan siapa yang memilikinya.",
+   "icon": "🍎",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "apple",
+     "o": [
+      "🍌",
+      "🍇",
+      "🍎"
+     ],
+     "a": "🍎",
+     "e": "Apple artinya apel. Banana artinya pisang.",
+     "g": "en12-apple"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "mango",
+     "o": [
+      "🍉",
+      "🥭",
+      "🍍"
+     ],
+     "a": "🥭",
+     "e": "Mango artinya mangga. Pineapple artinya nanas.",
+     "g": "en12-mango"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "grapes",
+     "o": [
+      "🍌",
+      "🍇",
+      "🍎"
+     ],
+     "a": "🍇",
+     "e": "Grapes artinya anggur. Apple artinya apel.",
+     "g": "en12-grapes"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "pineapple",
+     "o": [
+      "🍊",
+      "🍍",
+      "🍉"
+     ],
+     "a": "🍍",
+     "e": "Pineapple artinya nanas. Orange artinya jeruk.",
+     "g": "en12-pineapple"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🍌",
+     "o": [
+      "banana",
+      "mango",
+      "apple"
+     ],
+     "a": "banana",
+     "e": "Pisang dalam bahasa Inggris adalah banana.",
+     "g": "en12-banana"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🍊",
+     "o": [
+      "grapes",
+      "apple",
+      "orange"
+     ],
+     "a": "orange",
+     "e": "Jeruk dalam bahasa Inggris adalah orange.",
+     "g": "en12-orange"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🍉",
+     "o": [
+      "pineapple",
+      "watermelon",
+      "banana"
+     ],
+     "a": "watermelon",
+     "e": "Semangka dalam bahasa Inggris adalah watermelon.",
+     "g": "en12-watermelon"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "grapes",
+     "o": [
+      "apel",
+      "nanas",
+      "anggur"
+     ],
+     "a": "anggur",
+     "e": "Grapes artinya anggur. Apple artinya apel."
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "pineapple",
+     "o": [
+      "nanas",
+      "semangka",
+      "pisang"
+     ],
+     "a": "nanas",
+     "e": "Pineapple artinya nanas. Banana artinya pisang."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "watermelon",
+     "o": [
+      "mangga",
+      "jeruk",
+      "semangka"
+     ],
+     "a": "semangka",
+     "e": "Watermelon artinya semangka. Mango artinya mangga."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "What fruit is it?",
+     "o": [
+      "Hewan apa itu?",
+      "Buah apa itu?",
+      "Warna apa itu?"
+     ],
+     "a": "Buah apa itu?",
+     "e": "“What fruit is it?” artinya “Buah apa itu?”",
+     "g": "en12-what-fruit-is-it"
+    },
+    {
+     "t": "Lihat gambar dan dengarkan. Apa jawabannya?",
+     "say": "What fruit is it?",
+     "c": "🍌",
+     "o": [
+      "It is a banana.",
+      "It is an apple.",
+      "It is a mango."
+     ],
+     "a": "It is a banana.",
+     "e": "“What fruit is it?” artinya “Buah apa itu?”. Gambarnya pisang, jadi jawabannya “It is a banana.”",
+     "g": "en12-banana"
+    },
+    {
+     "t": "Lihat gambar dan dengarkan. Apa jawabannya?",
+     "say": "What fruit is it?",
+     "c": "🍎",
+     "o": [
+      "It is an apple.",
+      "It is a mango.",
+      "It is an orange."
+     ],
+     "a": "It is an apple.",
+     "e": "“What fruit is it?” artinya “Buah apa itu?”. Gambarnya apel, jadi jawabannya “It is an apple.”",
+     "g": "en12-apple"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👦 🍌 | He has a …",
+     "o": [
+      "banana",
+      "pineapple",
+      "mango"
+     ],
+     "a": "banana",
+     "e": "Gambarnya pisang. “He has a banana.” artinya “Dia punya sebuah pisang.”"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👧 🍎🍎🍎 | She has some …",
+     "o": [
+      "apples",
+      "grapes",
+      "bananas"
+     ],
+     "a": "apples",
+     "e": "Gambarnya apel. “She has some apples.” artinya “Dia punya beberapa apel.”"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "He has a banana.",
+     "o": [
+      "Dia punya sebuah pisang.",
+      "Buah apa itu?",
+      "Dia punya sebuah apel."
+     ],
+     "a": "Dia punya sebuah pisang.",
+     "e": "“He has a banana.” artinya “Dia punya sebuah pisang.”"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "She has some apples.",
+     "o": [
+      "Buah apa itu?",
+      "Dia punya sebuah pisang.",
+      "Dia punya beberapa apel."
+     ],
+     "a": "Dia punya beberapa apel.",
+     "e": "“She has some apples.” artinya “Dia punya beberapa apel.”"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "He has a watermelon.",
+     "o": [
+      "🍍",
+      "🍇",
+      "🍉"
+     ],
+     "a": "🍉",
+     "e": "“He has a watermelon.” artinya “Dia punya sebuah semangka.” Watermelon artinya semangka.",
+     "g": "en12-watermelon"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "She has some grapes.",
+     "o": [
+      "🍇",
+      "🍊",
+      "🍎"
+     ],
+     "a": "🍇",
+     "e": "“She has some grapes.” artinya “Dia punya beberapa anggur.” Grapes artinya anggur.",
+     "g": "en12-grapes"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👧 🥭 | She has a …",
+     "o": [
+      "mango",
+      "watermelon",
+      "banana"
+     ],
+     "a": "mango",
+     "e": "Gambarnya mangga. “She has a mango.” artinya “Dia punya sebuah mangga.”",
+     "g": "en12-mango"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👦 🍊 | … has an orange.",
+     "o": [
+      "I",
+      "She",
+      "He"
+     ],
+     "a": "He",
+     "e": "Gambarnya anak laki-laki, jadi kita memakai he. “He has an orange.” artinya “Dia punya sebuah jeruk.”",
+     "g": "en12-orange"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👧 🍍 | … has a pineapple.",
+     "o": [
+      "She",
+      "It",
+      "He"
+     ],
+     "a": "She",
+     "e": "Gambarnya anak perempuan, jadi kita memakai she. “She has a pineapple.” artinya “Dia punya sebuah nanas.”",
+     "g": "en12-pineapple"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👧 🥭 | She … a mango.",
+     "o": [
+      "am",
+      "has",
+      "have"
+     ],
+     "a": "has",
+     "e": "Setelah she atau he kita memakai has. “She has a mango.” artinya “Dia punya sebuah mangga.”"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🍌 | I … a banana.",
+     "o": [
+      "has",
+      "have",
+      "am"
+     ],
+     "a": "have",
+     "e": "Setelah I kita memakai have. “I have a banana.” artinya “Aku punya sebuah pisang.”",
+     "g": "en12-banana"
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "👦 🍉 | He has a watermelon.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Anak laki-laki itu punya semangka. “He has a watermelon.” artinya “Dia punya sebuah semangka.”",
+     "g": "en12-watermelon",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "👧 🍌 | She has an apple.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Gambarnya pisang (banana), bukan apel (apple).",
+     "g": "en12-apple",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "👦 🍇 | She has some grapes.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Buahnya benar anggur (grapes), tetapi anak laki-laki disebut he, bukan she.",
+     "g": "en12-grapes",
+     "keep": true
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👧 🍊🍊 | She has two …",
+     "o": [
+      "apples",
+      "oranges",
+      "orange"
+     ],
+     "a": "oranges",
+     "e": "Ada 2 jeruk. Kalau lebih dari satu, orange menjadi oranges. Apples artinya apel."
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "She has three mangoes.",
+     "o": [
+      "🥭🥭🥭",
+      "🥭🥭",
+      "🍎🍎🍎"
+     ],
+     "a": "🥭🥭🥭",
+     "e": "“She has three mangoes.” artinya “Dia punya tiga mangga.” Three artinya tiga.",
+     "g": "en12-mango"
+    },
+    {
+     "t": "Lengkapi percakapannya.",
+     "c": "Cici: What fruit is it? 🍍 | Made: …",
+     "o": [
+      "She has a pineapple.",
+      "It is a pineapple.",
+      "It is a watermelon."
+     ],
+     "a": "It is a pineapple.",
+     "e": "“What fruit is it?” artinya “Buah apa itu?”. Gambarnya nanas, jadi jawabannya “It is a pineapple.”",
+     "g": "en12-what-fruit-is-it"
+    }
+   ]
+  },
+  {
+   "id": "en-13",
+   "title": "Unit 13: I Like Fruits",
+   "hint": "Mengatakan suka dan tidak suka.",
+   "icon": "😋",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "strawberry",
+     "o": [
+      "🍓",
+      "🍈",
+      "🥕"
+     ],
+     "a": "🍓",
+     "e": "Strawberry artinya stroberi. Melon artinya melon.",
+     "g": "en13-strawberry"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "carrot",
+     "o": [
+      "🥕",
+      "🍌",
+      "🍓"
+     ],
+     "a": "🥕",
+     "e": "Carrot artinya wortel. Strawberry artinya stroberi.",
+     "g": "en13-carrot"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "melon",
+     "o": [
+      "🍈",
+      "🥕",
+      "🍎"
+     ],
+     "a": "🍈",
+     "e": "Melon artinya melon. Carrot artinya wortel.",
+     "g": "en13-melon"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "like",
+     "o": [
+      "🥕",
+      "👍",
+      "👎"
+     ],
+     "a": "👍",
+     "e": "Like artinya suka. Don't like artinya tidak suka.",
+     "g": "en13-like"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "don't like",
+     "o": [
+      "👍",
+      "🍓",
+      "👎"
+     ],
+     "a": "👎",
+     "e": "Don't like artinya tidak suka. Like artinya suka.",
+     "g": "en13-don-t-like"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🍓",
+     "o": [
+      "strawberry",
+      "melon",
+      "carrot"
+     ],
+     "a": "strawberry",
+     "e": "Stroberi dalam bahasa Inggris adalah strawberry."
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "😋",
+     "o": [
+      "carrot",
+      "yummy",
+      "don't like"
+     ],
+     "a": "yummy",
+     "e": "Enak dalam bahasa Inggris adalah yummy.",
+     "g": "en13-yummy"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "carrot",
+     "o": [
+      "stroberi",
+      "wortel",
+      "enak"
+     ],
+     "a": "wortel",
+     "e": "Carrot artinya wortel. Strawberry artinya stroberi."
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "like",
+     "o": [
+      "enak",
+      "tidak suka",
+      "suka"
+     ],
+     "a": "suka",
+     "e": "Like artinya suka. Don't like artinya tidak suka."
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "don't like",
+     "o": [
+      "suka",
+      "enak",
+      "tidak suka"
+     ],
+     "a": "tidak suka",
+     "e": "Don't like artinya tidak suka. Like artinya suka."
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "I like apples.",
+     "o": [
+      "Aku punya apel.",
+      "Aku suka apel.",
+      "Aku tidak suka apel."
+     ],
+     "a": "Aku suka apel.",
+     "e": "“I like apples.” artinya “Aku suka apel.”",
+     "g": "en13-i-like-apples"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "I don't like carrots.",
+     "o": [
+      "Aku suka wortel.",
+      "Aku tidak suka wortel.",
+      "Aku punya wortel."
+     ],
+     "a": "Aku tidak suka wortel.",
+     "e": "“I don't like carrots.” artinya “Aku tidak suka wortel.”",
+     "g": "en13-i-don-t-like-carrots"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "Do you like mangoes?",
+     "o": [
+      "Apakah kamu suka mangga?",
+      "Buah apa itu?",
+      "Apakah kamu punya mangga?"
+     ],
+     "a": "Apakah kamu suka mangga?",
+     "e": "“Do you like mangoes?” artinya “Apakah kamu suka mangga?”",
+     "g": "en13-do-you-like-mangoes"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👍 🍓 | I … strawberries.",
+     "o": [
+      "has",
+      "don't like",
+      "like"
+     ],
+     "a": "like",
+     "e": "Jempol ke atas berarti suka. “I like strawberries.” artinya “Aku suka stroberi.”",
+     "g": "en13-like"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👎 🥕 | I … carrots.",
+     "o": [
+      "don't like",
+      "has",
+      "like"
+     ],
+     "a": "don't like",
+     "e": "Jempol ke bawah berarti tidak suka. “I don't like carrots.” artinya “Aku tidak suka wortel.”",
+     "g": "en13-don-t-like"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👍 🍈 | I like …",
+     "o": [
+      "carrots",
+      "melons",
+      "strawberries"
+     ],
+     "a": "melons",
+     "e": "Gambarnya melon. “I like melons.” artinya “Aku suka melon.”",
+     "g": "en13-melon"
+    },
+    {
+     "t": "Kamu suka mangga. Temanmu bertanya begini. Apa jawabanmu?",
+     "say": "Do you like mangoes?",
+     "o": [
+      "No, I don't.",
+      "It is a mango.",
+      "Yes, I do."
+     ],
+     "a": "Yes, I do.",
+     "e": "“Do you like mangoes?” artinya “Apakah kamu suka mangga?”. Kamu suka, jadi jawabannya “Yes, I do.”",
+     "g": "en13-yes-i-do"
+    },
+    {
+     "t": "Kamu tidak suka wortel. Temanmu bertanya begini. Apa jawabanmu?",
+     "say": "Do you like carrots?",
+     "o": [
+      "Yes, I do.",
+      "No, I don't.",
+      "I have a carrot."
+     ],
+     "a": "No, I don't.",
+     "e": "“Do you like carrots?” artinya “Apakah kamu suka wortel?”. Kamu tidak suka, jadi “No, I don't.”",
+     "g": "en13-carrot"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "I like strawberries.",
+     "o": [
+      "👎 🍓",
+      "👍 🥕",
+      "👍 🍓"
+     ],
+     "a": "👍 🍓",
+     "e": "“I like strawberries.” artinya “Aku suka stroberi.” Like artinya suka.",
+     "g": "en13-strawberry"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "I don't like melons.",
+     "o": [
+      "👍 🍈",
+      "👎 🍈",
+      "👎 🥕"
+     ],
+     "a": "👎 🍈",
+     "e": "“I don't like melons.” artinya “Aku tidak suka melon.” Don't like artinya tidak suka."
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "👍 🍎 | I like apples.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Benar",
+     "e": "Jempol ke atas berarti suka. “I like apples.” artinya “Aku suka apel.”",
+     "g": "en13-i-like-apples",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "👎 🍌 | I like bananas.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Jempol ke bawah berarti tidak suka. Yang benar “I don't like bananas.”",
+     "g": "en13-don-t-like",
+     "keep": true
+    },
+    {
+     "t": "Benar atau salah?",
+     "c": "👍 🥕 | I don't like carrots.",
+     "o": [
+      "Benar",
+      "Salah"
+     ],
+     "a": "Salah",
+     "e": "Jempol ke atas berarti suka. Yang benar “I like carrots.” (Aku suka wortel.)",
+     "g": "en13-like",
+     "keep": true
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "Do you like grapes? | Yes, I …",
+     "o": [
+      "do",
+      "am",
+      "don't"
+     ],
+     "a": "do",
+     "e": "“Yes, I do.” artinya “Ya, aku suka.” Setelah Yes kita memakai do.",
+     "g": "en13-yes-i-do"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "Do you like carrots? | No, I …",
+     "o": [
+      "do",
+      "am",
+      "don't"
+     ],
+     "a": "don't",
+     "e": "“No, I don't.” artinya “Tidak, aku tidak suka.” Setelah No kita memakai don't.",
+     "g": "en13-carrot"
+    },
+    {
+     "t": "Dengarkan. Apakah anak itu suka mangga?",
+     "say": "I like mangoes. Yummy!",
+     "o": [
+      "Ya, suka.",
+      "Tidak suka."
+     ],
+     "a": "Ya, suka.",
+     "e": "“I like mangoes.” artinya “Aku suka mangga.” Yummy artinya enak.",
+     "g": "en13-yummy"
+    },
+    {
+     "t": "Dengarkan. Apa yang disukai anak itu?",
+     "say": "I like apples. I don't like carrots.",
+     "o": [
+      "🍎",
+      "🥕",
+      "🍓"
+     ],
+     "a": "🍎",
+     "e": "“I like apples.” artinya “Aku suka apel.” “I don't like carrots.” artinya “Aku tidak suka wortel.”",
+     "g": "en13-i-don-t-like-carrots"
+    },
+    {
+     "t": "Kamu ingin tahu apakah temanmu suka mangga. Kamu bertanya …",
+     "o": [
+      "I like mangoes.",
+      "Do you have a mango?",
+      "Do you like mangoes?"
+     ],
+     "a": "Do you like mangoes?",
+     "e": "“Do you like mangoes?” artinya “Apakah kamu suka mangga?”. “Do you have …?” artinya “Apakah kamu punya …?”",
+     "g": "en13-do-you-like-mangoes"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "… you like strawberries?",
+     "o": [
+      "What",
+      "How",
+      "Do"
+     ],
+     "a": "Do",
+     "e": "“Do you like strawberries?” artinya “Apakah kamu suka stroberi?”. Pertanyaannya diawali Do.",
+     "g": "en13-strawberry"
+    },
+    {
+     "t": "Lengkapi percakapannya.",
+     "c": "Aisyah: Do you like melons? | Made: 👍 …",
+     "o": [
+      "No, I don't.",
+      "Yes, I do.",
+      "She has a melon."
+     ],
+     "a": "Yes, I do.",
+     "e": "“Do you like melons?” artinya “Apakah kamu suka melon?”. Jempol ke atas berarti suka, jadi “Yes, I do.”",
+     "g": "en13-melon"
+    }
+   ]
+  }
+ ]
+}

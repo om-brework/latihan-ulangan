@@ -19,6 +19,7 @@ export function buildAttempt({ key, eyebrow, title }, sections, answers, at = Da
         c: clip(q.src.c, 200),
         pre: clip(q.src.pre, 60),
         post: clip(q.src.post, 60),
+        say: clip(q.src.say, 80),
         given: clip(given, 60),
         a: clip(q.src.a, 60),
       });
@@ -31,7 +32,7 @@ export function buildAttempt({ key, eyebrow, title }, sections, answers, at = Da
 /* Teks soal yang utuh untuk ditampilkan di riwayat */
 export function questionText(w) {
   const blank = w.pre || w.post ? ` ${w.pre ?? ""} ___ ${w.post ?? ""}`.replace(/\s+/g, " ").trimEnd() : "";
-  return [w.t + blank, w.c].filter(Boolean).join(" · ");
+  return [w.t + blank, w.c, w.say ? `🔊 “${w.say}”` : null].filter(Boolean).join(" · ");
 }
 
 /* Rangkuman: per materi (terakhir, terbaik, rata-rata) dan soal yang paling sering salah */
@@ -43,7 +44,7 @@ export function summarize(attempts) {
     g.count++; g.sum += a.nilai; g.best = Math.max(g.best, a.nilai); g.last = a.nilai; g.lastAt = a.at;
     byKey.set(a.key, g);
     for (const w of a.wrong ?? []) {
-      const id = [a.key, w.t, w.c, w.pre, w.post].join("|");
+      const id = [a.key, w.t, w.c, w.pre, w.post, w.say].join("|");
       const m = misses.get(id) ?? { ...w, key: a.key, eyebrow: a.eyebrow, title: a.title, times: 0, lastAt: 0 };
       m.times++; m.lastAt = a.at; m.given = w.given;
       misses.set(id, m);

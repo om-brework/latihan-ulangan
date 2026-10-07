@@ -25,7 +25,7 @@ export function validateSubject(subject, minPerChapter = 1, requireExplain = fal
       const at = `${where} soal #${i + 1} "${String(q.t).slice(0, 50)}"`;
       if (!str(q.t)) errors.push(`${at}: teks soal (t) kosong`);
       if (!str(q.a)) errors.push(`${at}: kunci (a) kosong`);
-      for (const k of Object.keys(q)) if (!["t", "c", "o", "a", "pre", "post", "wide", "keep", "g", "e"].includes(k)) errors.push(`${at}: field tidak dikenal "${k}"`);
+      for (const k of Object.keys(q)) if (!["t", "c", "o", "a", "pre", "post", "wide", "keep", "g", "e", "say"].includes(k)) errors.push(`${at}: field tidak dikenal "${k}"`);
       if (q.o !== undefined) {
         if (!Array.isArray(q.o) || q.o.length < 2 || q.o.length > 4) errors.push(`${at}: pilihan (o) harus 2-4 butir`);
         else {
@@ -40,7 +40,8 @@ export function validateSubject(subject, minPerChapter = 1, requireExplain = fal
       }
       if (q.e !== undefined && (!str(q.e) || q.e.length < 15 || q.e.length > 180)) errors.push(`${at}: penjelasan (e) harus 15-180 karakter`);
       if (requireExplain && q.e === undefined) errors.push(`${at}: belum ada penjelasan (e)`);
-      const key = [q.t, q.c, q.pre, q.post].join("|");
+      if (q.say !== undefined && (!str(q.say) || q.say.length > 80 || !/^[A-Za-z0-9 ,.'?!-]+$/.test(q.say))) errors.push(`${at}: teks suara (say) harus bahasa Inggris polos, maksimal 80 karakter`);
+      const key = [q.t, q.c, q.pre, q.post, q.say].join("|");
       if (seen.has(key)) errors.push(`${at}: soal ganda`);
       seen.add(key);
     });

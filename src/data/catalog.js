@@ -2,6 +2,7 @@
 import bi from "./mapel/bi.json" with { type: "json" };
 import mtk from "./mapel/mtk.json" with { type: "json" };
 import pp from "./mapel/pp.json" with { type: "json" };
+import en from "./mapel/en.json" with { type: "json" };
 import { SECTION_INFO, buildPool } from "./bank.js";
 import { pick, shuffle } from "../lib/random.js";
 
@@ -21,6 +22,7 @@ const META = {
   bi: { icon: "📖", c: "#FF5FA2", cd: "#C2256B", blurb: "Huruf, suku kata, tanda baca, dan kata ajaib" },
   mtk: { icon: "🔢", c: "#29A8F2", cd: "#0E6FB0", blurb: "Membilang, tambah, kurang, bentuk, dan ukuran" },
   pp: { icon: "🦅", c: "#FF8A3D", cd: "#C2500A", blurb: "Teman, aturan, Indonesia, dan lingkunganku" },
+  en: { icon: "🔤", c: "#2DBE7E", cd: "#12804F", blurb: "Menyapa, angka, warna, hewan, keluarga, dan buah" },
 };
 
 /* Bagi soal satu bab menjadi level berisi sekitar LEVEL_SIZE soal, mengikuti urutan bank soal.
@@ -77,7 +79,7 @@ function withLevels(subject) {
   return { ...subject, chapters, total: chapters.reduce((n, ch) => n + ch.all.length, 0) };
 }
 
-export const SUBJECTS = [bi, mtk, pp].map((s) => withLevels({ ...s, ...META[s.id] }));
+export const SUBJECTS = [bi, mtk, pp, en].map((s) => withLevels({ ...s, ...META[s.id] }));
 
 /* Acak dengan urutan tetap (sama tiap kali dibuka), supaya isi level tidak berubah-ubah */
 function fixedShuffle(list, seedText) {

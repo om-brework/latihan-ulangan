@@ -83,7 +83,7 @@ function Progress({ child }) {
           <h3>Soal yang sering salah</h3>
           <ul className="rows">
             {sum.frequent.map((w) => (
-              <li key={[w.key, w.t, w.c, w.pre, w.post].join("|")}>
+              <li key={[w.key, w.t, w.c, w.pre, w.post, w.say].join("|")}>
                 <span className="score low">{w.times}×</span>
                 <span className="row-body">
                   <b>{questionText(w)}</b>

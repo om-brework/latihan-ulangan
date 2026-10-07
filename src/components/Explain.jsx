@@ -2,6 +2,7 @@
 import { useMemo, useState } from "react";
 import { AJAIB, closingText, explainKind } from "../lib/explain.js";
 import { KATA } from "../data/bank.js";
+import { Listen } from "./Question.jsx";
 
 const range = (n) => Array.from({ length: Math.max(0, n) }, (_, i) => i);
 
@@ -320,6 +321,7 @@ export default function Explain({ q, onClose }) {
               <b>{src.t}</b>
               {src.c && src.c.split(" | ").map((line) => <span key={line}>{line}</span>)}
               {blank && <span className="explain-blank">{blank}</span>}
+              {src.say && <Listen text={src.say} />}
             </div>
             <Say sub="Baca pelan-pelan sampai selesai.">{ASK[info.kind](info)}</Say>
           </div>
@@ -327,7 +329,7 @@ export default function Explain({ q, onClose }) {
         {step === 1 && <Demo q={q} info={info} />}
         {step === 2 && (
           <div className="stage">
-            <div className="pile answer-big pop"><b>{src.a}</b></div>
+            <div className="pile answer-big pop"><b>{src.a}</b>{src.say && <Listen text={src.say} />}</div>
             <Say>{closingText(q, info)}</Say>
           </div>
         )}

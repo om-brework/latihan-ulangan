@@ -447,3 +447,30 @@ button.chunk.mark{font-size:36px;line-height:1;padding:8px 30px}
 .verdict .why{display:block;font-family:var(--body);font-size:16px;font-weight:700;line-height:1.35;color:var(--ink);margin-top:2px}
 @media (prefers-reduced-motion: reduce){.celebrate span{display:none}.celebrate b{animation:cheer-still 1.25s linear forwards}.slide.just-ok .qs,.slide.just-no .qs,.game-count.bump{animation:none}}
 @keyframes cheer-still{0%,80%{opacity:1}100%{opacity:0}}
+
+/* ---------- Bahasa Inggris: dengar, gambar, kosakata ---------- */
+button.listen{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;background:#FFFFFF;border-color:var(--cd);color:var(--cd);font-size:19px;padding:6px 16px}
+button.listen.big{font-size:22px;padding:8px 20px;background:var(--cd);color:#FFFFFF}
+button.listen.big span{font-size:26px}
+.say-text{align-self:flex-start;font-family:var(--display);font-weight:800;font-size:26px;color:var(--cd);background:var(--bg);border-radius:14px;padding:4px 14px}
+.opts.pictures .opt span{font-size:44px;line-height:1.1;padding:10px 18px;min-width:84px;overflow-wrap:anywhere}
+.qs.solo .opts.pictures .opt{flex:1 1 28%}
+.qs.solo.compact .opts.pictures .opt span{font-size:32px;padding:6px 10px;min-width:0}
+.qs.solo.compact button.listen.big{font-size:18px;padding:5px 14px}
+.qs.solo.tiny .opts.pictures .opt span{font-size:24px;padding:4px 8px}
+.explain-q button.listen,.answer-big button.listen{align-self:center}
+.answer-big{flex-direction:column;gap:10px}
+.vocab-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(92px,1fr));gap:10px}
+.vocab-grid.text{grid-template-columns:1fr}
+button.vocab{display:flex;flex-direction:column;align-items:center;gap:2px;background:#FFFFFF;border-color:var(--line);border-width:3px;border-bottom-width:6px;color:var(--ink);padding:8px 4px;font-family:var(--body)}
+button.vocab span{font-size:40px;line-height:1.1}
+button.vocab b{font-size:16px;font-weight:800;overflow-wrap:anywhere;text-align:center}
+.vocab-grid.text button.vocab b{font-size:19px}
+button.vocab.on{border-color:var(--cd);background:#FFF1BF}
+button.vocab.right{border-color:var(--good);background:var(--good-bg);opacity:1}
+button.vocab.wrong{border-color:var(--bad);background:var(--bad-bg)}
+.phrases{display:flex;flex-direction:column;gap:8px}
+button.phrase{display:flex;align-items:center;gap:10px;text-align:left;background:#FFFFFF;border-color:var(--line);border-width:3px;border-bottom-width:6px;color:var(--ink);font-family:var(--body);font-size:19px;padding:10px 14px}
+button.phrase b{font-weight:800}
+button.phrase.on{border-color:var(--cd);background:#FFF1BF}
+button.chunk.listen-big{font-size:24px;padding:10px 24px}

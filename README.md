@@ -2,16 +2,23 @@
 
 Permainan belajar untuk anak kelas 1 SD. Anak memilih pelajaran dan bab, lalu menyelesaikan level satu per satu. Soal tampil satu per layar (carousel), langsung dinilai, dan tiap soal punya pembahasan langkah demi langkah.
 
-## Isi (1.340 soal dalam 134 level)
+## Isi (1.730 soal dalam 173 level)
 
 | Pelajaran | Bab | Level | Soal | File |
 |---|---|---|---|---|
 | Bahasa Indonesia | 8 | 32 | 320 | `src/data/mapel/bi.json` |
 | Matematika | 8 | 48 | 480 | `src/data/mapel/mtk.json` |
 | Pendidikan Pancasila | 4 | 24 | 240 | `src/data/mapel/pp.json` |
+| Bahasa Inggris | 13 | 39 | 390 | `src/data/mapel/en.json` |
 | Paket ulangan Bahasa Indonesia | 5 materi | 30 | 300 | `src/data/bank.js` |
 
 Bank soal per bab disusun dari buku siswa Kurikulum Merdeka kelas I.
+
+## Bahasa Inggris
+
+- 13 unit mengikuti judul unit buku *My Next Words Grade 1*. Kosakata dan ungkapan tiap unit ada di `src/lessons/en-data.js`; daftar itu disusun dari judul unit dan Capaian Pembelajaran Fase A, belum dicocokkan dengan isi buku.
+- Sesuai Capaian Pembelajaran Fase A, fokusnya menyimak dan memirsa: semua soal pilihan ganda, tanpa mengetik atau mengeja.
+- Soal dengan field `say` adalah soal menyimak. Teksnya diucapkan dengan fitur baca-teks perangkat (`src/lib/speak.js`); di perangkat tanpa fitur itu, teksnya ditampilkan sebagai tulisan.
 
 ## Level dan bintang
 
@@ -79,7 +86,7 @@ Sunting file JSON di `src/data/mapel/`, lalu jalankan `npm test`. Menambah atau 
 { "t": "Hitung hasilnya.", "pre": "3 + 4 =", "a": "7", "e": "Mulai dari 3, lalu hitung maju 4 kali: 4, 5, 6, 7." }
 ```
 
-Field opsional: `c` (petunjuk; ` | ` memisahkan baris), `pre`/`post` (teks sebelum/sesudah kotak isian), `wide` (kotak isian lebar), `g` (soal dengan `g` yang sama disebar ke level berbeda), `e` (penjelasan untuk pembahasan).
+Field opsional: `say` (teks Inggris yang diucapkan pada soal menyimak), `c` (petunjuk; ` | ` memisahkan baris), `pre`/`post` (teks sebelum/sesudah kotak isian), `wide` (kotak isian lebar), `g` (soal dengan `g` yang sama disebar ke level berbeda), `e` (penjelasan untuk pembahasan).
 
 ## Struktur
 

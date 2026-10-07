@@ -1,5 +1,5 @@
 /* Satu level sebagai permainan: soal tampil satu per satu (carousel), langsung dinilai, lalu bintang di akhir. */
-import { useLayoutEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { answerValue, isCorrect } from "../lib/grade.js";
 import { PASS_SCORE, levelStars } from "../data/catalog.js";
 import { buildAttempt } from "../lib/progress.js";
@@ -8,6 +8,7 @@ import Question from "./Question.jsx";
 import Explain from "./Explain.jsx";
 import { closingText, explainKind } from "../lib/explain.js";
 import { playResult, setSoundEnabled, soundEnabled } from "../lib/sound.js";
+import { speak, stopSpeaking } from "../lib/speak.js";
 
 const CHEERS = ["Benar! 🎉", "Hebat! ⭐", "Mantap! 👍", "Pintar! 🌟", "Keren! 🚀"];
 
@@ -39,6 +40,15 @@ export default function Game({ route }) {
   const [sound, setSound] = useState(soundEnabled);
   const drag = useRef(null);
   const viewRef = useRef(null);
+
+  // Soal menyimak: ucapkan sekali saat soalnya tampil
+  const currentId = sec.questions[idx]?.id;
+  const currentSay = sec.questions[idx]?.src.say;
+  useEffect(() => {
+    if (!currentSay || done) return undefined;
+    const t = setTimeout(() => speak(currentSay), 450);
+    return () => { clearTimeout(t); stopSpeaking(); };
+  }, [currentId, currentSay, Boolean(done)]);
 
   // Soal yang panjang diperkecil hurufnya supaya muat satu layar tanpa scroll
   useLayoutEffect(() => {
