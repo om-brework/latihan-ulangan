@@ -431,3 +431,19 @@ button.chunk.mark{font-size:36px;line-height:1;padding:8px 30px}
 .qs.solo.tiny .clue{font-size:15px;margin-top:2px}
 .qs.solo.tiny .opt span{font-size:15px;padding:4px 10px}
 .qs.solo.tiny .fill{font-size:22px}
+
+/* Umpan balik sesudah Periksa */
+.viewport{position:relative}
+.celebrate{position:absolute;inset:0;pointer-events:none;display:grid;place-items:center;z-index:5}
+.celebrate > *{grid-area:1/1}
+.celebrate b{font-family:var(--display);font-weight:800;font-size:clamp(40px,12vw,64px);line-height:1;color:#FFFFFF;background:#2DBE7E;border:5px solid #FFFFFF;border-radius:28px;padding:12px 24px;box-shadow:0 8px 0 #12804F;white-space:nowrap;animation:cheer 1.25s ease-out forwards}
+.celebrate span{font-size:34px;line-height:1;animation:spark 1s ease-out forwards}
+@keyframes cheer{0%{transform:scale(.3) rotate(-10deg);opacity:0}18%{transform:scale(1.12) rotate(3deg);opacity:1}30%{transform:scale(1) rotate(0)}75%{transform:scale(1);opacity:1}100%{transform:scale(.9) translateY(-30px);opacity:0}}
+@keyframes spark{0%{transform:translate(0,0) scale(.3) rotate(0);opacity:0}15%{opacity:1}100%{transform:translate(var(--x),var(--y)) scale(1.15) rotate(var(--r));opacity:0}}
+.slide.just-ok .qs{animation:glow .7s ease-out}
+.slide.just-no .qs{animation:shake .35s}
+@keyframes glow{0%{box-shadow:0 6px 0 var(--cd),0 0 0 0 rgba(45,190,126,.9)}60%{box-shadow:0 6px 0 var(--cd),0 0 0 14px rgba(45,190,126,0)}100%{box-shadow:0 6px 0 var(--cd)}}
+.game-count.bump{animation:pop .5s ease-out;background:#FFE9A8}
+.verdict .why{display:block;font-family:var(--body);font-size:16px;font-weight:700;line-height:1.35;color:var(--ink);margin-top:2px}
+@media (prefers-reduced-motion: reduce){.celebrate span{display:none}.celebrate b{animation:cheer-still 1.25s linear forwards}.slide.just-ok .qs,.slide.just-no .qs,.game-count.bump{animation:none}}
+@keyframes cheer-still{0%,80%{opacity:1}100%{opacity:0}}

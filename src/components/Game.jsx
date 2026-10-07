@@ -6,8 +6,17 @@ import { buildAttempt } from "../lib/progress.js";
 import { useSession } from "../lib/session.jsx";
 import Question from "./Question.jsx";
 import Explain from "./Explain.jsx";
+import { closingText, explainKind } from "../lib/explain.js";
+import { playResult, setSoundEnabled, soundEnabled } from "../lib/sound.js";
 
 const CHEERS = ["Benar! 🎉", "Hebat! ⭐", "Mantap! 👍", "Pintar! 🌟", "Keren! 🚀"];
+
+/* Bintang dan konfeti yang menyebar dari tengah kartu saat jawaban benar */
+const SPARKS = ["⭐", "🎉", "✨", "🌟", "⭐", "🎊", "✨", "⭐", "🌟", "🎉", "✨", "⭐"].map((emoji, i, all) => {
+  const angle = (i / all.length) * Math.PI * 2;
+  const far = 110 + (i % 3) * 34;
+  return { emoji, x: Math.round(Math.cos(angle) * far), y: Math.round(Math.sin(angle) * far), r: (i % 2 ? 1 : -1) * (120 + i * 20), d: (i % 4) * 0.04 };
+});
 
 function Stars({ n }) {
   return (
@@ -25,6 +34,9 @@ export default function Game({ route }) {
   const [checked, setChecked] = useState({});
   const [done, setDone] = useState(null);
   const [explaining, setExplaining] = useState(false);
+  const [burst, setBurst] = useState(null); // { id soal, benar/salah } untuk animasi sesudah Periksa
+  const [streak, setStreak] = useState(0);
+  const [sound, setSound] = useState(soundEnabled);
   const drag = useRef(null);
   const viewRef = useRef(null);
 
@@ -60,7 +72,12 @@ export default function Game({ route }) {
 
   function primary() {
     if (!isChecked) {
-      if (hasAnswer) setChecked((c) => ({ ...c, [q.id]: true }));
+      if (!hasAnswer) return;
+      const right = isCorrect(q, answers[q.id]);
+      setChecked((c) => ({ ...c, [q.id]: true }));
+      setBurst({ id: q.id, ok: right });
+      setStreak(right ? streak + 1 : 0);
+      playResult(right);
       return;
     }
     if (idx < total - 1) setIdx(idx + 1);
@@ -76,6 +93,8 @@ export default function Game({ route }) {
     setAnswers({});
     setChecked({});
     setDone(null);
+    setBurst(null);
+    setStreak(0);
   }
 
   // Geser dengan jari: kiri = soal berikutnya (kalau sudah diperiksa), kanan = soal sebelumnya
@@ -127,14 +146,15 @@ export default function Game({ route }) {
             <i key={x.id} className={`${checked[x.id] ? (isCorrect(x, answers[x.id]) ? "ok" : "no") : ""}${i === idx ? " cur" : ""}`} />
           ))}
         </div>
-        <span className="game-count">⭐ {rightCount}</span>
+        <span className={`game-count${burst?.ok && burst.id === q.id ? " bump" : ""}`} key={rightCount}>⭐ {rightCount}</span>
+        <button type="button" className="game-close" onClick={() => { setSoundEnabled(!sound); setSound(!sound); }} aria-label={sound ? "Matikan bunyi" : "Nyalakan bunyi"} aria-pressed={sound}>{sound ? "🔊" : "🔇"}</button>
       </header>
       <p className="game-title">{route.heading}{route.chapter ? ` · ${route.chapter.short}` : ""} · Soal {idx + 1} dari {total}</p>
 
       <div className="viewport" ref={viewRef} onPointerDown={onDown} onPointerUp={onUp} onPointerCancel={() => { drag.current = null; }}>
         <div className="track" style={{ transform: `translateX(${-idx * 100}%)` }}>
           {qs.map((x, i) => (
-            <div className="slide" key={x.id} aria-hidden={i !== idx} inert={i !== idx ? "" : undefined}>
+            <div className={`slide${burst?.id === x.id ? (burst.ok ? " just-ok" : " just-no") : ""}`} key={x.id} aria-hidden={i !== idx} inert={i !== idx ? "" : undefined}>
               <ol className="qs solo">
                 <Question
                   q={x}
@@ -147,12 +167,20 @@ export default function Game({ route }) {
             </div>
           ))}
         </div>
+        {burst?.ok && burst.id === q.id && (
+          <div className="celebrate" key={burst.id} aria-hidden="true">
+            <b>{CHEERS[idx % CHEERS.length]}</b>
+            {SPARKS.map((s, i) => (
+              <span key={i} style={{ "--x": `${s.x}px`, "--y": `${s.y}px`, "--r": `${s.r}deg`, animationDelay: `${s.d}s` }}>{s.emoji}</span>
+            ))}
+          </div>
+        )}
       </div>
 
       <footer className={`game-bottom${isChecked ? (ok ? " ok" : " no") : ""}`}>
         <p className="verdict" aria-live="polite">
           {!isChecked ? (hasAnswer ? "Sudah yakin? Tekan Periksa." : "Pilih atau tulis jawabanmu.")
-            : ok ? CHEERS[idx % CHEERS.length]
+            : ok ? <>{CHEERS[idx % CHEERS.length]}{streak >= 3 && burst?.id === q.id ? ` ${streak} benar berturut-turut! 🔥` : ""}<span className="why">{closingText(q, explainKind(q))}</span></>
             : <>Belum tepat{answered === null ? "" : `, jawabanmu: ${answered}`}. Yang benar: <b>{q.src.a}</b></>}
         </p>
         <div className="btns">
