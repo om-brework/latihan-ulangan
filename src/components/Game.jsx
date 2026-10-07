@@ -19,6 +19,8 @@ const SPARKS = ["⭐", "🎉", "✨", "🌟", "⭐", "🎊", "✨", "⭐", "🌟
   return { emoji, x: Math.round(Math.cos(angle) * far), y: Math.round(Math.sin(angle) * far), r: (i % 2 ? 1 : -1) * (120 + i * 20), d: (i % 4) * 0.04 };
 });
 
+const clock = (secs) => `${Math.floor(secs / 60)}:${String(secs % 60).padStart(2, "0")}`;
+
 function Stars({ n }) {
   return (
     <div className="big-stars" aria-label={`${n} dari 3 bintang`}>
@@ -39,6 +41,7 @@ export default function Game({ route }) {
   const [streak, setStreak] = useState(0);
   const [sound, setSound] = useState(soundEnabled);
   const drag = useRef(null);
+  const started = useRef(Date.now());
   const viewRef = useRef(null);
 
   // Soal menyimak: ucapkan sekali saat soalnya tampil
@@ -76,7 +79,7 @@ export default function Game({ route }) {
 
   function finish() {
     const attempt = buildAttempt(route, [sec], answers);
-    setDone({ ...attempt, stars: levelStars(attempt.nilai), saved: null });
+    setDone({ ...attempt, stars: levelStars(attempt.nilai), saved: null, secs: Math.round((Date.now() - started.current) / 1000) });
     session.saveAttempt(attempt).then((saved) => setDone((d) => d && { ...d, saved }));
   }
 
@@ -105,6 +108,7 @@ export default function Game({ route }) {
     setDone(null);
     setBurst(null);
     setStreak(0);
+    started.current = Date.now();
   }
 
   // Geser dengan jari: kiri = soal berikutnya (kalau sudah diperiksa), kanan = soal sebelumnya
@@ -132,6 +136,12 @@ export default function Game({ route }) {
               : passed ? (route.next ? "Level selesai! Level berikutnya terbuka." : "Level selesai! Hebat.")
               : `Belum dapat bintang. Butuh ${Math.ceil((PASS_SCORE / 100) * done.total)} jawaban benar. Ayo coba lagi!`}
           </p>
+          {route.target && (
+            <p className={`finish-time${done.stars === 3 && done.secs <= route.target ? " fast" : ""}`}>
+              ⏱️ Waktumu {clock(done.secs)}
+              {done.stars === 3 && done.secs <= route.target ? " · ⚡ Kilat!" : ` · target ${clock(route.target)} dengan semua benar`}
+            </p>
+          )}
           {done.saved === "saved" && <p className="notice good">Tersimpan untuk {session.active?.icon} {session.active?.name}.</p>}
           {done.saved === "no-child" && <p className="notice">Nilai tidak masuk riwayat. <a href="#/orangtua">Buat profil anak</a> supaya tercatat.</p>}
           {done.saved === "failed" && <p className="notice bad">Nilai gagal disimpan. {session.error}</p>}
@@ -159,7 +169,7 @@ export default function Game({ route }) {
         <span className={`game-count${burst?.ok && burst.id === q.id ? " bump" : ""}`} key={rightCount}>⭐ {rightCount}</span>
         <button type="button" className="game-close" onClick={() => { setSoundEnabled(!sound); setSound(!sound); }} aria-label={sound ? "Matikan bunyi" : "Nyalakan bunyi"} aria-pressed={sound}>{sound ? "🔊" : "🔇"}</button>
       </header>
-      <p className="game-title">{route.heading}{route.chapter ? ` · ${route.chapter.short}` : ""} · Soal {idx + 1} dari {total}</p>
+      <p className="game-title">{route.heading}{route.chapter ? ` · ${route.topic ?? route.chapter.short}` : ""} · Soal {idx + 1} dari {total}</p>
 
       <div className="viewport" ref={viewRef} onPointerDown={onDown} onPointerUp={onUp} onPointerCancel={() => { drag.current = null; }}>
         <div className="track" style={{ transform: `translateX(${-idx * 100}%)` }}>

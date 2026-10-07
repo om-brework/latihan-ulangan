@@ -2,7 +2,7 @@
 
 Permainan belajar untuk anak kelas 1 SD. Anak memilih pelajaran dan bab, lalu menyelesaikan level satu per satu. Soal tampil satu per layar (carousel), langsung dinilai, dan tiap soal punya pembahasan langkah demi langkah.
 
-## Isi (1.730 soal dalam 173 level)
+## Isi (2.540 soal dalam 254 level)
 
 | Pelajaran | Bab | Level | Soal | File |
 |---|---|---|---|---|
@@ -19,6 +19,16 @@ Bank soal per bab disusun dari buku siswa Kurikulum Merdeka kelas I.
 - 13 unit mengikuti judul unit buku *My Next Words Grade 1*. Kosakata dan ungkapan tiap unit ada di `src/lessons/en-data.js`; daftar itu disusun dari judul unit dan Capaian Pembelajaran Fase A, belum dicocokkan dengan isi buku.
 - Sesuai Capaian Pembelajaran Fase A, fokusnya menyimak dan memirsa: semua soal pilihan ganda, tanpa mengetik atau mengeja.
 - Soal dengan field `say` adalah soal menyimak. Teksnya diucapkan dengan fitur baca-teks perangkat (`src/lib/speak.js`); di perangkat tanpa fitur itu, teksnya ditampilkan sebagai tulisan.
+
+## Pengembangan
+
+Tiap pelajaran bisa punya bagian "Pengembangan": latihan berjenjang di luar bab buku, naik dengan langkah sangat kecil.
+
+- **Matematika, Berhitung Lancar 1–4** (51 level): urutan bilangan, +1, +2, sampai +10, pengurangan, lalu bilangan dua dan tiga angka. Urutan materinya mengikuti pola latihan berhitung bertahap ala Kumon (level 3A sampai B). Soal dibuat oleh kode di `src/data/pengembangan/mtk.js`; tiap level punya nama topik dan target waktu yang tampil di akhir level.
+- **Bahasa Indonesia, Membaca 1–5** (150 soal): kata dan gambar, melengkapi kata, kalimat pendek, memahami kalimat, bacaan pendek. File `src/data/pengembangan/bi.json`.
+- **Bahasa Inggris, Reading 1–5** (150 soal): dengar kata, baca kata, frasa, kalimat, cerita pendek. File `src/data/pengembangan/en.json`.
+
+Pendidikan Pancasila belum punya bagian ini.
 
 ## Level dan bintang
 

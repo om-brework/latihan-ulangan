@@ -3,6 +3,9 @@ import bi from "./mapel/bi.json" with { type: "json" };
 import mtk from "./mapel/mtk.json" with { type: "json" };
 import pp from "./mapel/pp.json" with { type: "json" };
 import en from "./mapel/en.json" with { type: "json" };
+import devBi from "./pengembangan/bi.json" with { type: "json" };
+import devEn from "./pengembangan/en.json" with { type: "json" };
+import { MTK_DEV } from "./pengembangan/mtk.js";
 import { SECTION_INFO, buildPool } from "./bank.js";
 import { pick, shuffle } from "../lib/random.js";
 
@@ -65,18 +68,23 @@ export function makeLevels(questions) {
   return levels;
 }
 
+/* Bab pengembangan: latihan berjenjang di luar bab buku. Bab dengan "blocks" sudah membawa pembagian levelnya sendiri. */
+const DEV = { bi: devBi.chapters, mtk: MTK_DEV, en: devEn.chapters };
+
 function withLevels(subject) {
-  const chapters = subject.chapters.map((ch, i) => ({
+  const extra = (DEV[subject.id] ?? []).map((ch) => ({ ...ch, dev: true, questions: ch.questions ?? ch.blocks.flatMap((b) => b.questions) }));
+  const chapters = [...subject.chapters, ...extra].map((ch, i) => ({
     ...ch,
     short: ch.short ?? ch.title.split(":")[0],
     c: ch.c ?? PALETTE[i % PALETTE.length][0],
     cd: ch.cd ?? PALETTE[i % PALETTE.length][1],
     // Level biasa dulu, lalu level tantangan (kalau bab punya soal "challenge")
-    levels: [...makeLevels(ch.questions), ...makeLevels(ch.challenge ?? [])],
-    hardFrom: makeLevels(ch.questions).length,
+    levels: ch.blocks ? ch.blocks.map((b) => b.questions) : [...makeLevels(ch.questions), ...makeLevels(ch.challenge ?? [])],
+    levelNames: ch.blocks ? ch.blocks.map((b) => b.name) : null,
+    hardFrom: ch.blocks ? ch.blocks.length : makeLevels(ch.questions).length,
     all: [...ch.questions, ...(ch.challenge ?? [])],
   }));
-  return { ...subject, chapters, total: chapters.reduce((n, ch) => n + ch.all.length, 0) };
+  return { ...subject, chapters, core: chapters.filter((ch) => !ch.dev), extra: chapters.filter((ch) => ch.dev), total: chapters.reduce((n, ch) => n + ch.all.length, 0) };
 }
 
 export const SUBJECTS = [bi, mtk, pp, en].map((s) => withLevels({ ...s, ...META[s.id] }));
@@ -134,7 +142,7 @@ export function chapterProgress(subject, ch, bests) {
   const levels = ch.levels.map((_, i) => {
     const n = i + 1;
     const best = bests[levelKey(subject, ch, n)];
-    return { n, key: levelKey(subject, ch, n), best, stars: levelStars(best), size: ch.levels[i].length, hard: i >= ch.hardFrom };
+    return { n, key: levelKey(subject, ch, n), name: ch.levelNames?.[i] ?? null, best, stars: levelStars(best), size: ch.levels[i].length, hard: i >= ch.hardFrom };
   });
   levels.forEach((lv, i) => { lv.open = i === 0 || (levels[i - 1].best ?? 0) >= PASS_SCORE; });
   return {
@@ -165,7 +173,7 @@ export function drawLevel(ch, n) {
 
 /* Tantangan campuran: soal acak dari semua bab satu pelajaran */
 export function drawMixed(subject) {
-  const all = subject.chapters.flatMap((ch) => ch.questions.map((q) => ({ ...q, g: q.g === undefined ? undefined : `${ch.id}:${q.g}` })));
+  const all = subject.core.flatMap((ch) => ch.questions.map((q) => ({ ...q, g: q.g === undefined ? undefined : `${ch.id}:${q.g}` })));
   return toSection({ id: `${subject.id}-mix`, label: "Tantangan campuran", short: "Campuran", icon: "🎲", c: subject.c, cd: subject.cd }, pick(all, MIXED_SIZE));
 }
 
@@ -194,7 +202,7 @@ export function resolveRoute(hash) {
       page: "game", key: levelKey(subject, ch, n), back: `#/${subject.id}/${ch.id}`, subject, chapter: ch, level: n,
       prev: n > 1 ? levelKey(subject, ch, n - 1) : null,
       next: n < ch.levels.length ? levelKey(subject, ch, n + 1) : null,
-      hard: n > ch.hardFrom,
+      hard: n > ch.hardFrom, target: ch.target ?? null, topic: ch.levelNames?.[n - 1] ?? null,
       eyebrow: subject.title, title: `${ch.title} · Level ${n}${n > ch.hardFrom ? " (tantangan)" : ""}`, heading: n > ch.hardFrom ? `🔥 Tantangan · Level ${n}` : `Level ${n}`,
       c: ch.c, cd: ch.cd, draw: () => drawLevel(ch, n),
     };

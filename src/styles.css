@@ -474,3 +474,10 @@ button.phrase{display:flex;align-items:center;gap:10px;text-align:left;backgroun
 button.phrase b{font-weight:800}
 button.phrase.on{border-color:var(--cd);background:#FFF1BF}
 button.chunk.listen-big{font-size:24px;padding:10px 24px}
+
+/* ---------- Pengembangan ---------- */
+.group-note{font-size:16px;color:var(--muted);font-weight:700;margin:-4px 0 4px}
+.level-map.named{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
+.level-topic{font-size:13px;font-weight:700;color:var(--muted);text-align:center;line-height:1.2;padding:0 6px;min-height:2.4em}
+.finish-time{font-weight:800;font-size:17px;color:var(--muted)}
+.finish-time.fast{color:#12804F}

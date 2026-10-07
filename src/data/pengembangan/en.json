@@ -1,0 +1,1846 @@
+{
+ "id": "en",
+ "title": "Bahasa Inggris",
+ "chapters": [
+  {
+   "id": "en-p1",
+   "title": "Reading 1: Listen and Choose",
+   "hint": "Dengarkan katanya, lalu pilih tulisan yang benar.",
+   "icon": "👂",
+   "questions": [
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "cat",
+     "o": [
+      "cat",
+      "cow",
+      "carrot"
+     ],
+     "a": "cat",
+     "e": "Cat artinya kucing. Cow artinya sapi. Carrot artinya wortel.",
+     "g": "p1-cat"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "dog",
+     "o": [
+      "duck",
+      "dog",
+      "goat"
+     ],
+     "a": "dog",
+     "e": "Dog artinya anjing. Duck artinya bebek. Goat artinya kambing.",
+     "g": "p1-dog"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "pen",
+     "o": [
+      "paper",
+      "pencil",
+      "pen"
+     ],
+     "a": "pen",
+     "e": "Pen artinya pena. Pencil artinya pensil. Paper artinya kertas.",
+     "g": "p1-pen"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "bag",
+     "o": [
+      "bag",
+      "book",
+      "big"
+     ],
+     "a": "bag",
+     "e": "Bag artinya tas. Book artinya buku. Big artinya besar.",
+     "g": "p1-bag"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "red",
+     "o": [
+      "ruler",
+      "red",
+      "rabbit"
+     ],
+     "a": "red",
+     "e": "Red artinya merah. Ruler artinya penggaris. Rabbit artinya kelinci.",
+     "g": "p1-red"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "one",
+     "o": [
+      "orange",
+      "nine",
+      "one"
+     ],
+     "a": "one",
+     "e": "One artinya satu. Nine artinya sembilan. Orange artinya jeruk atau jingga.",
+     "g": "p1-one"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "two",
+     "o": [
+      "two",
+      "ten",
+      "three"
+     ],
+     "a": "two",
+     "e": "Two artinya dua. Ten artinya sepuluh. Three artinya tiga.",
+     "g": "p1-two"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "ten",
+     "o": [
+      "pen",
+      "ten",
+      "two"
+     ],
+     "a": "ten",
+     "e": "Ten artinya sepuluh. Pen artinya pena. Two artinya dua.",
+     "g": "p1-ten"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "six",
+     "o": [
+      "sister",
+      "seven",
+      "six"
+     ],
+     "a": "six",
+     "e": "Six artinya enam. Seven artinya tujuh. Sister artinya saudara perempuan.",
+     "g": "p1-six"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "big",
+     "o": [
+      "big",
+      "bird",
+      "baby"
+     ],
+     "a": "big",
+     "e": "Big artinya besar. Bird artinya burung. Baby artinya bayi.",
+     "g": "p1-big"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "book",
+     "o": [
+      "boy",
+      "book",
+      "bag"
+     ],
+     "a": "book",
+     "e": "Book artinya buku. Boy artinya anak laki-laki. Bag artinya tas.",
+     "g": "p1-book"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "fish",
+     "o": [
+      "four",
+      "five",
+      "fish"
+     ],
+     "a": "fish",
+     "e": "Fish artinya ikan. Five artinya lima. Four artinya empat.",
+     "g": "p1-fish"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "bird",
+     "o": [
+      "bird",
+      "blue",
+      "big"
+     ],
+     "a": "bird",
+     "e": "Bird artinya burung. Blue artinya biru. Big artinya besar.",
+     "g": "p1-bird"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "blue",
+     "o": [
+      "black",
+      "blue",
+      "book"
+     ],
+     "a": "blue",
+     "e": "Blue artinya biru. Black artinya hitam. Book artinya buku.",
+     "g": "p1-blue"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "star",
+     "o": [
+      "small",
+      "square",
+      "star"
+     ],
+     "a": "star",
+     "e": "Star artinya bintang. Square artinya persegi. Small artinya kecil.",
+     "g": "p1-star"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "cow",
+     "o": [
+      "cow",
+      "cat",
+      "chair"
+     ],
+     "a": "cow",
+     "e": "Cow artinya sapi. Cat artinya kucing. Chair artinya kursi.",
+     "g": "p1-cow"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "duck",
+     "o": [
+      "dog",
+      "duck",
+      "goat"
+     ],
+     "a": "duck",
+     "e": "Duck artinya bebek. Dog artinya anjing. Goat artinya kambing.",
+     "g": "p1-duck"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "boy",
+     "o": [
+      "baby",
+      "book",
+      "boy"
+     ],
+     "a": "boy",
+     "e": "Boy artinya anak laki-laki. Book artinya buku. Baby artinya bayi.",
+     "g": "p1-boy"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "girl",
+     "o": [
+      "girl",
+      "green",
+      "grapes"
+     ],
+     "a": "girl",
+     "e": "Girl artinya anak perempuan. Green artinya hijau. Grapes artinya anggur.",
+     "g": "p1-girl"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "apple",
+     "o": [
+      "paper",
+      "apple",
+      "purple"
+     ],
+     "a": "apple",
+     "e": "Apple artinya apel. Paper artinya kertas. Purple artinya ungu.",
+     "g": "p1-apple"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "mother",
+     "o": [
+      "mango",
+      "mouse",
+      "mother"
+     ],
+     "a": "mother",
+     "e": "Mother artinya ibu. Mouse artinya tikus. Mango artinya mangga.",
+     "g": "p1-mother"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "father",
+     "o": [
+      "father",
+      "friend",
+      "four"
+     ],
+     "a": "father",
+     "e": "Father artinya ayah. Friend artinya teman. Four artinya empat.",
+     "g": "p1-father"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "sister",
+     "o": [
+      "six",
+      "sister",
+      "scissors"
+     ],
+     "a": "sister",
+     "e": "Sister artinya saudara perempuan. Six artinya enam. Scissors artinya gunting.",
+     "g": "p1-sister"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "brother",
+     "o": [
+      "baby",
+      "banana",
+      "brother"
+     ],
+     "a": "brother",
+     "e": "Brother artinya saudara laki-laki. Banana artinya pisang. Baby artinya bayi.",
+     "g": "p1-brother"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "green",
+     "o": [
+      "green",
+      "grapes",
+      "girl"
+     ],
+     "a": "green",
+     "e": "Green artinya hijau. Grapes artinya anggur. Girl artinya anak perempuan.",
+     "g": "p1-green"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "yellow",
+     "o": [
+      "hello",
+      "yellow",
+      "yummy"
+     ],
+     "a": "yellow",
+     "e": "Yellow artinya kuning. Hello artinya halo. Yummy artinya enak.",
+     "g": "p1-yellow"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "banana",
+     "o": [
+      "baby",
+      "brother",
+      "banana"
+     ],
+     "a": "banana",
+     "e": "Banana artinya pisang. Brother artinya saudara laki-laki. Baby artinya bayi.",
+     "g": "p1-banana"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "mango",
+     "o": [
+      "mango",
+      "man",
+      "melon"
+     ],
+     "a": "mango",
+     "e": "Mango artinya mangga. Man artinya pria. Melon artinya melon.",
+     "g": "p1-mango"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "chicken",
+     "o": [
+      "chair",
+      "chicken",
+      "circle"
+     ],
+     "a": "chicken",
+     "e": "Chicken artinya ayam. Chair artinya kursi. Circle artinya lingkaran.",
+     "g": "p1-chicken"
+    },
+    {
+     "t": "Dengarkan. Pilih kata yang kamu dengar.",
+     "say": "triangle",
+     "o": [
+      "teacher",
+      "three",
+      "triangle"
+     ],
+     "a": "triangle",
+     "e": "Triangle artinya segitiga. Three artinya tiga. Teacher artinya guru.",
+     "g": "p1-triangle"
+    }
+   ]
+  },
+  {
+   "id": "en-p2",
+   "title": "Reading 2: Read the Word",
+   "hint": "Baca satu kata, lalu pilih gambar atau artinya.",
+   "icon": "🔤",
+   "questions": [
+    {
+     "t": "Baca kata ini. Pilih gambar yang cocok.",
+     "c": "cat",
+     "o": [
+      "🐱",
+      "🐶",
+      "🐟"
+     ],
+     "a": "🐱",
+     "e": "Cat artinya kucing. Dog artinya anjing. Fish artinya ikan.",
+     "g": "p2-cat"
+    },
+    {
+     "t": "Baca kata ini. Pilih gambar yang cocok.",
+     "c": "dog",
+     "o": [
+      "🐦",
+      "🐶",
+      "🐰"
+     ],
+     "a": "🐶",
+     "e": "Dog artinya anjing. Bird artinya burung. Rabbit artinya kelinci.",
+     "g": "p2-dog"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "book",
+     "o": [
+      "pena",
+      "tas",
+      "buku"
+     ],
+     "a": "buku",
+     "e": "Book artinya buku. Bag artinya tas. Pen artinya pena.",
+     "g": "p2-book"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🍎",
+     "o": [
+      "apple",
+      "banana",
+      "mango"
+     ],
+     "a": "apple",
+     "e": "Gambarnya apel. Apel dalam bahasa Inggris adalah apple.",
+     "g": "p2-apple"
+    },
+    {
+     "t": "Baca kata ini. Pilih gambar yang cocok.",
+     "c": "fish",
+     "o": [
+      "🐄",
+      "🐟",
+      "🦆"
+     ],
+     "a": "🐟",
+     "e": "Fish artinya ikan. Cow artinya sapi. Duck artinya bebek.",
+     "g": "p2-fish"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "red",
+     "o": [
+      "kuning",
+      "biru",
+      "merah"
+     ],
+     "a": "merah",
+     "e": "Red artinya merah. Blue artinya biru. Yellow artinya kuning.",
+     "g": "p2-red"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🎒",
+     "o": [
+      "bag",
+      "book",
+      "pen"
+     ],
+     "a": "bag",
+     "e": "Gambarnya tas. Tas dalam bahasa Inggris adalah bag.",
+     "g": "p2-bag"
+    },
+    {
+     "t": "Baca kata ini. Pilih gambar yang cocok.",
+     "c": "star",
+     "o": [
+      "❤️",
+      "⭐",
+      "⭕"
+     ],
+     "a": "⭐",
+     "e": "Star artinya bintang. Heart artinya hati. Circle artinya lingkaran.",
+     "g": "p2-star"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "three",
+     "o": [
+      "lima",
+      "dua",
+      "tiga"
+     ],
+     "a": "tiga",
+     "e": "Three artinya tiga. Two artinya dua. Five artinya lima.",
+     "g": "p2-three"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🐦",
+     "o": [
+      "bird",
+      "fish",
+      "rabbit"
+     ],
+     "a": "bird",
+     "e": "Gambarnya burung. Burung dalam bahasa Inggris adalah bird.",
+     "g": "p2-bird"
+    },
+    {
+     "t": "Baca kata ini. Pilih gambar yang cocok.",
+     "c": "banana",
+     "o": [
+      "🍎",
+      "🍌",
+      "🍇"
+     ],
+     "a": "🍌",
+     "e": "Banana artinya pisang. Apple artinya apel. Grapes artinya anggur.",
+     "g": "p2-banana"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "mother",
+     "o": [
+      "nenek",
+      "ayah",
+      "ibu"
+     ],
+     "a": "ibu",
+     "e": "Mother artinya ibu. Father artinya ayah. Grandmother artinya nenek.",
+     "g": "p2-mother"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "✏️",
+     "o": [
+      "pencil",
+      "ruler",
+      "scissors"
+     ],
+     "a": "pencil",
+     "e": "Gambarnya pensil. Pensil dalam bahasa Inggris adalah pencil.",
+     "g": "p2-pencil"
+    },
+    {
+     "t": "Baca kata ini. Pilih gambar yang cocok.",
+     "c": "rabbit",
+     "o": [
+      "🐄",
+      "🐰",
+      "🐴"
+     ],
+     "a": "🐰",
+     "e": "Rabbit artinya kelinci. Cow artinya sapi. Horse artinya kuda.",
+     "g": "p2-rabbit"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "blue",
+     "o": [
+      "hitam",
+      "hijau",
+      "biru"
+     ],
+     "a": "biru",
+     "e": "Blue artinya biru. Green artinya hijau. Black artinya hitam.",
+     "g": "p2-blue"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🐄",
+     "o": [
+      "cow",
+      "goat",
+      "horse"
+     ],
+     "a": "cow",
+     "e": "Gambarnya sapi. Sapi dalam bahasa Inggris adalah cow.",
+     "g": "p2-cow"
+    },
+    {
+     "t": "Baca kata ini. Pilih gambar yang cocok.",
+     "c": "scissors",
+     "o": [
+      "📏",
+      "✂️",
+      "📕"
+     ],
+     "a": "✂️",
+     "e": "Scissors artinya gunting. Ruler artinya penggaris. Book artinya buku.",
+     "g": "p2-scissors"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "father",
+     "o": [
+      "ibu",
+      "kakek",
+      "ayah"
+     ],
+     "a": "ayah",
+     "e": "Father artinya ayah. Grandfather artinya kakek. Mother artinya ibu.",
+     "g": "p2-father"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "❤️",
+     "o": [
+      "heart",
+      "star",
+      "circle"
+     ],
+     "a": "heart",
+     "e": "Gambarnya hati. Hati dalam bahasa Inggris adalah heart.",
+     "g": "p2-heart"
+    },
+    {
+     "t": "Baca kata ini. Pilih gambar yang cocok.",
+     "c": "horse",
+     "o": [
+      "🐑",
+      "🐴",
+      "🦆"
+     ],
+     "a": "🐴",
+     "e": "Horse artinya kuda. Sheep artinya domba. Duck artinya bebek.",
+     "g": "p2-horse"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "seven",
+     "o": [
+      "sembilan",
+      "enam",
+      "tujuh"
+     ],
+     "a": "tujuh",
+     "e": "Seven artinya tujuh. Six artinya enam. Nine artinya sembilan.",
+     "g": "p2-seven"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🍉",
+     "o": [
+      "watermelon",
+      "pineapple",
+      "strawberry"
+     ],
+     "a": "watermelon",
+     "e": "Gambarnya semangka. Semangka dalam bahasa Inggris adalah watermelon.",
+     "g": "p2-watermelon"
+    },
+    {
+     "t": "Baca kata ini. Pilih gambar yang cocok.",
+     "c": "grapes",
+     "o": [
+      "🍍",
+      "🍇",
+      "🥭"
+     ],
+     "a": "🍇",
+     "e": "Grapes artinya anggur. Pineapple artinya nanas. Mango artinya mangga.",
+     "g": "p2-grapes"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "sister",
+     "o": [
+      "ibu",
+      "saudara laki-laki",
+      "saudara perempuan"
+     ],
+     "a": "saudara perempuan",
+     "e": "Sister artinya saudara perempuan. Brother artinya saudara laki-laki.",
+     "g": "p2-sister"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🪑",
+     "o": [
+      "chair",
+      "bag",
+      "ruler"
+     ],
+     "a": "chair",
+     "e": "Gambarnya kursi. Kursi dalam bahasa Inggris adalah chair.",
+     "g": "p2-chair"
+    },
+    {
+     "t": "Baca kata ini. Pilih gambar yang cocok.",
+     "c": "chicken",
+     "o": [
+      "🐐",
+      "🐔",
+      "🐟"
+     ],
+     "a": "🐔",
+     "e": "Chicken artinya ayam. Goat artinya kambing. Fish artinya ikan.",
+     "g": "p2-chicken"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "grandmother",
+     "o": [
+      "ibu",
+      "kakek",
+      "nenek"
+     ],
+     "a": "nenek",
+     "e": "Grandmother artinya nenek. Grandfather artinya kakek. Mother artinya ibu.",
+     "g": "p2-grandmother"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🔺",
+     "o": [
+      "triangle",
+      "square",
+      "circle"
+     ],
+     "a": "triangle",
+     "e": "Gambarnya segitiga. Segitiga dalam bahasa Inggris adalah triangle.",
+     "g": "p2-triangle"
+    },
+    {
+     "t": "Apa arti kata ini?",
+     "c": "eight",
+     "o": [
+      "empat",
+      "delapan",
+      "sepuluh"
+     ],
+     "a": "delapan",
+     "e": "Eight artinya delapan. Four artinya empat. Ten artinya sepuluh.",
+     "g": "p2-eight"
+    },
+    {
+     "t": "Apa bahasa Inggrisnya?",
+     "c": "🥕",
+     "o": [
+      "chair",
+      "crayon",
+      "carrot"
+     ],
+     "a": "carrot",
+     "e": "Gambarnya wortel. Wortel dalam bahasa Inggris adalah carrot.",
+     "g": "p2-carrot"
+    }
+   ]
+  },
+  {
+   "id": "en-p3",
+   "title": "Reading 3: Phrases",
+   "hint": "Baca dua atau tiga kata sekaligus, pelan-pelan.",
+   "icon": "🧩",
+   "questions": [
+    {
+     "t": "Baca frasa ini. Pilih gambar yang cocok.",
+     "c": "two cats",
+     "o": [
+      "🐱🐱",
+      "🐱",
+      "🐱🐱🐱"
+     ],
+     "a": "🐱🐱",
+     "e": "Two artinya dua. Two cats artinya dua kucing.",
+     "g": "p3-cat"
+    },
+    {
+     "t": "Baca frasa ini. Pilih gambar yang cocok.",
+     "c": "a red apple",
+     "o": [
+      "🍏",
+      "🍎",
+      "🍌"
+     ],
+     "a": "🍎",
+     "e": "Red artinya merah. A red apple artinya sebuah apel merah.",
+     "g": "p3-apple"
+    },
+    {
+     "t": "Baca frasa ini. Pilih gambar yang cocok.",
+     "c": "three dogs",
+     "o": [
+      "🐱🐱🐱",
+      "🐶🐶",
+      "🐶🐶🐶"
+     ],
+     "a": "🐶🐶🐶",
+     "e": "Three artinya tiga. Three dogs artinya tiga anjing.",
+     "g": "p3-dog"
+    },
+    {
+     "t": "Apa arti frasa ini?",
+     "c": "my mother",
+     "o": [
+      "ibuku",
+      "ayahku",
+      "nenekku"
+     ],
+     "a": "ibuku",
+     "e": "My artinya milikku. Mother artinya ibu. My mother artinya ibuku.",
+     "g": "p3-mother"
+    },
+    {
+     "t": "Pilih frasa yang cocok dengan gambar.",
+     "c": "📘",
+     "o": [
+      "a red book",
+      "a blue book",
+      "a blue bag"
+     ],
+     "a": "a blue book",
+     "e": "Gambarnya buku berwarna biru. Blue artinya biru. Book artinya buku.",
+     "g": "p3-book"
+    },
+    {
+     "t": "Apa arti frasa ini?",
+     "c": "a big circle",
+     "o": [
+      "persegi besar",
+      "lingkaran kecil",
+      "lingkaran besar"
+     ],
+     "a": "lingkaran besar",
+     "e": "Big artinya besar. Circle artinya lingkaran. A big circle artinya lingkaran besar.",
+     "g": "p3-circle"
+    },
+    {
+     "t": "Pilih frasa yang cocok dengan gambar.",
+     "c": "🦆🦆🦆🦆",
+     "o": [
+      "four ducks",
+      "three ducks",
+      "four dogs"
+     ],
+     "a": "four ducks",
+     "e": "Ada empat bebek. Four artinya empat. Ducks artinya bebek-bebek.",
+     "g": "p3-duck"
+    },
+    {
+     "t": "Lengkapi frasanya.",
+     "c": "🍌🍌 | two …",
+     "o": [
+      "banana",
+      "bananas",
+      "apples"
+     ],
+     "a": "bananas",
+     "e": "Ada dua pisang. Kalau lebih dari satu, kata bendanya ditambah s: two bananas.",
+     "g": "p3-banana"
+    },
+    {
+     "t": "Baca frasa ini. Pilih gambar yang cocok.",
+     "c": "a yellow star",
+     "o": [
+      "🟡",
+      "💛",
+      "⭐"
+     ],
+     "a": "⭐",
+     "e": "Yellow artinya kuning. Star artinya bintang. Jadi gambarnya bintang kuning.",
+     "g": "p3-star"
+    },
+    {
+     "t": "Apa arti frasa ini?",
+     "c": "my father",
+     "o": [
+      "ayahku",
+      "ibuku",
+      "kakekku"
+     ],
+     "a": "ayahku",
+     "e": "Father artinya ayah. My father artinya ayahku.",
+     "g": "p3-father"
+    },
+    {
+     "t": "Pilih frasa yang cocok dengan gambar.",
+     "c": "🍌🍌🍌🍌🍌",
+     "o": [
+      "four bananas",
+      "five bananas",
+      "five mangoes"
+     ],
+     "a": "five bananas",
+     "e": "Ada lima pisang. Five artinya lima. Bananas artinya pisang-pisang.",
+     "g": "p3-banana"
+    },
+    {
+     "t": "Lengkapi frasanya.",
+     "c": "🔴 | a … circle",
+     "o": [
+      "yellow",
+      "blue",
+      "red"
+     ],
+     "a": "red",
+     "e": "Lingkarannya berwarna merah. Merah dalam bahasa Inggris adalah red.",
+     "g": "p3-circle"
+    },
+    {
+     "t": "Apa arti frasa ini?",
+     "c": "a small square",
+     "o": [
+      "persegi kecil",
+      "persegi besar",
+      "lingkaran kecil"
+     ],
+     "a": "persegi kecil",
+     "e": "Small artinya kecil. Square artinya persegi. A small square artinya persegi kecil.",
+     "g": "p3-square"
+    },
+    {
+     "t": "Baca frasa ini. Pilih gambar yang cocok.",
+     "c": "a blue heart",
+     "o": [
+      "❤️",
+      "💙",
+      "🔵"
+     ],
+     "a": "💙",
+     "e": "Blue artinya biru. Heart artinya hati. Jadi gambarnya hati berwarna biru.",
+     "g": "p3-heart"
+    },
+    {
+     "t": "Pilih frasa yang cocok dengan gambar.",
+     "c": "📕📕📕",
+     "o": [
+      "three bags",
+      "two books",
+      "three books"
+     ],
+     "a": "three books",
+     "e": "Ada tiga buku. Three artinya tiga. Books artinya buku-buku.",
+     "g": "p3-book"
+    },
+    {
+     "t": "Lengkapi frasanya.",
+     "c": "🍎 | … apple",
+     "o": [
+      "an",
+      "a",
+      "two"
+     ],
+     "a": "an",
+     "e": "Apple diawali bunyi a, jadi kita memakai an: an apple. Gambarnya hanya satu apel.",
+     "g": "p3-apple"
+    },
+    {
+     "t": "Apa arti frasa ini?",
+     "c": "my sister",
+     "o": [
+      "saudara laki-lakiku",
+      "saudara perempuanku",
+      "ibuku"
+     ],
+     "a": "saudara perempuanku",
+     "e": "Sister artinya saudara perempuan. My sister artinya saudara perempuanku.",
+     "g": "p3-sister"
+    },
+    {
+     "t": "Apa arti frasa ini?",
+     "c": "six pencils",
+     "o": [
+      "enam pena",
+      "tujuh pensil",
+      "enam pensil"
+     ],
+     "a": "enam pensil",
+     "e": "Six artinya enam. Pencils artinya pensil-pensil. Pen artinya pena.",
+     "g": "p3-pencil"
+    },
+    {
+     "t": "Pilih frasa yang cocok dengan gambar.",
+     "c": "⭐⭐",
+     "o": [
+      "two stars",
+      "two hearts",
+      "three stars"
+     ],
+     "a": "two stars",
+     "e": "Ada dua bintang. Two artinya dua. Stars artinya bintang-bintang.",
+     "g": "p3-star"
+    },
+    {
+     "t": "Lengkapi frasanya.",
+     "c": "🐄🐄🐄 | … cows",
+     "o": [
+      "two",
+      "three",
+      "four"
+     ],
+     "a": "three",
+     "e": "Ada tiga sapi. Tiga dalam bahasa Inggris adalah three.",
+     "g": "p3-cow"
+    },
+    {
+     "t": "Apa arti frasa ini?",
+     "c": "a yellow banana",
+     "o": [
+      "apel kuning",
+      "pisang hijau",
+      "pisang kuning"
+     ],
+     "a": "pisang kuning",
+     "e": "Yellow artinya kuning. Banana artinya pisang. Jadi artinya pisang kuning.",
+     "g": "p3-banana"
+    },
+    {
+     "t": "Apa arti frasa ini?",
+     "c": "my grandfather",
+     "o": [
+      "kakekku",
+      "nenekku",
+      "ayahku"
+     ],
+     "a": "kakekku",
+     "e": "Grandfather artinya kakek. My grandfather artinya kakekku.",
+     "g": "p3-grandfather"
+    },
+    {
+     "t": "Pilih frasa yang cocok dengan gambar.",
+     "c": "🟦",
+     "o": [
+      "a blue circle",
+      "a blue square",
+      "a red square"
+     ],
+     "a": "a blue square",
+     "e": "Gambarnya persegi berwarna biru. Blue artinya biru. Square artinya persegi.",
+     "g": "p3-square"
+    },
+    {
+     "t": "Lengkapi frasanya.",
+     "c": "🍊 | … orange",
+     "o": [
+      "three",
+      "a",
+      "an"
+     ],
+     "a": "an",
+     "e": "Orange diawali bunyi o, jadi kita memakai an: an orange. Gambarnya hanya satu jeruk.",
+     "g": "p3-orange"
+    },
+    {
+     "t": "Apa arti frasa ini?",
+     "c": "a big dog",
+     "o": [
+      "anjing besar",
+      "anjing kecil",
+      "kucing besar"
+     ],
+     "a": "anjing besar",
+     "e": "Big artinya besar. Dog artinya anjing. A big dog artinya anjing besar.",
+     "g": "p3-dog"
+    },
+    {
+     "t": "Pilih frasa yang cocok dengan gambar.",
+     "c": "🐰🐰🐰",
+     "o": [
+      "two rabbits",
+      "three rabbits",
+      "three birds"
+     ],
+     "a": "three rabbits",
+     "e": "Ada tiga kelinci. Three artinya tiga. Rabbits artinya kelinci-kelinci.",
+     "g": "p3-rabbit"
+    },
+    {
+     "t": "Apa arti frasa ini?",
+     "c": "a black cat",
+     "o": [
+      "anjing hitam",
+      "kucing putih",
+      "kucing hitam"
+     ],
+     "a": "kucing hitam",
+     "e": "Black artinya hitam. Cat artinya kucing. A black cat artinya kucing hitam.",
+     "g": "p3-cat"
+    },
+    {
+     "t": "Lengkapi frasanya.",
+     "c": "🥭🥭 | two …",
+     "o": [
+      "mangoes",
+      "mango",
+      "melons"
+     ],
+     "a": "mangoes",
+     "e": "Ada dua mangga. Kalau lebih dari satu, mango menjadi mangoes: two mangoes.",
+     "g": "p3-mango"
+    },
+    {
+     "t": "Apa arti frasa ini?",
+     "c": "a small white duck",
+     "o": [
+      "bebek putih besar",
+      "bebek putih kecil",
+      "bebek hitam kecil"
+     ],
+     "a": "bebek putih kecil",
+     "e": "Small artinya kecil. White artinya putih. Duck artinya bebek.",
+     "g": "p3-duck"
+    },
+    {
+     "t": "Apa arti frasa ini?",
+     "c": "ten red apples",
+     "o": [
+      "tujuh apel merah",
+      "sepuluh apel hijau",
+      "sepuluh apel merah"
+     ],
+     "a": "sepuluh apel merah",
+     "e": "Ten artinya sepuluh. Red artinya merah. Apples artinya apel-apel.",
+     "g": "p3-apple"
+    }
+   ]
+  },
+  {
+   "id": "en-p4",
+   "title": "Reading 4: Sentences",
+   "hint": "Baca atau dengarkan satu kalimat, lalu pilih artinya.",
+   "icon": "💬",
+   "questions": [
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "This is a cat.",
+     "o": [
+      "Ini seekor kucing.",
+      "Ini seekor anjing.",
+      "Ini seekor sapi."
+     ],
+     "a": "Ini seekor kucing.",
+     "e": "This is artinya ini adalah. Cat artinya kucing. Jadi artinya “Ini seekor kucing.”",
+     "g": "p4-cat"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "This is a dog.",
+     "o": [
+      "🐱",
+      "🐶",
+      "🐦"
+     ],
+     "a": "🐶",
+     "e": "“This is a dog.” artinya “Ini seekor anjing.” Dog artinya anjing.",
+     "g": "p4-dog"
+    },
+    {
+     "t": "Pilih kalimat yang cocok dengan gambar.",
+     "c": "🐄",
+     "o": [
+      "This is a goat.",
+      "This is a duck.",
+      "This is a cow."
+     ],
+     "a": "This is a cow.",
+     "e": "Gambarnya sapi. Cow artinya sapi. Duck artinya bebek. Goat artinya kambing.",
+     "g": "p4-cow"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "I have a bag.",
+     "o": [
+      "Aku punya sebuah tas.",
+      "Aku punya sebuah buku.",
+      "Aku suka tas."
+     ],
+     "a": "Aku punya sebuah tas.",
+     "e": "I have artinya aku punya. Bag artinya tas. Jadi artinya “Aku punya sebuah tas.”",
+     "g": "p4-bag"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "It is red.",
+     "o": [
+      "🔵",
+      "🔴",
+      "🟡"
+     ],
+     "a": "🔴",
+     "e": "“It is red.” artinya “Itu merah.” Red artinya merah.",
+     "g": "p4-red"
+    },
+    {
+     "t": "Pilih kalimat yang cocok dengan gambar.",
+     "c": "📕📕",
+     "o": [
+      "I have two bags.",
+      "I have three books.",
+      "I have two books."
+     ],
+     "a": "I have two books.",
+     "e": "Ada dua buku. Two artinya dua. Books artinya buku-buku.",
+     "g": "p4-book"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "I like bananas.",
+     "o": [
+      "Aku suka pisang.",
+      "Aku suka apel.",
+      "Aku punya pisang."
+     ],
+     "a": "Aku suka pisang.",
+     "e": "I like artinya aku suka. Bananas artinya pisang. Jadi artinya “Aku suka pisang.”",
+     "g": "p4-banana"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "I have a pencil.",
+     "o": [
+      "Aku punya sebuah pena.",
+      "Aku punya sebuah pensil.",
+      "Aku suka pensil."
+     ],
+     "a": "Aku punya sebuah pensil.",
+     "e": "“I have a pencil.” artinya “Aku punya sebuah pensil.” Pencil artinya pensil. Pen artinya pena.",
+     "g": "p4-pencil"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "She is my sister.",
+     "o": [
+      "Dia ibuku.",
+      "Dia saudara laki-lakiku.",
+      "Dia saudara perempuanku."
+     ],
+     "a": "Dia saudara perempuanku.",
+     "e": "She dipakai untuk perempuan. Sister artinya saudara perempuan.",
+     "g": "p4-sister"
+    },
+    {
+     "t": "Pilih kalimat yang cocok dengan gambar.",
+     "c": "👍 🍎",
+     "o": [
+      "I like apples.",
+      "I don't like apples.",
+      "I like mangoes."
+     ],
+     "a": "I like apples.",
+     "e": "Jempol ke atas berarti suka. Gambarnya apel. “I like apples.” artinya “Aku suka apel.”",
+     "g": "p4-apple"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "This is my mother.",
+     "o": [
+      "Ini ayahku.",
+      "Ini ibuku.",
+      "Ini nenekku."
+     ],
+     "a": "Ini ibuku.",
+     "e": "“This is my mother.” artinya “Ini ibuku.” Mother artinya ibu.",
+     "g": "p4-mother"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "It is a big circle.",
+     "o": [
+      "Itu persegi besar.",
+      "Itu lingkaran kecil.",
+      "Itu lingkaran besar."
+     ],
+     "a": "Itu lingkaran besar.",
+     "e": "Big artinya besar. Circle artinya lingkaran. Jadi artinya “Itu lingkaran besar.”",
+     "g": "p4-circle"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "👦 | … is my brother.",
+     "o": [
+      "He",
+      "She",
+      "It"
+     ],
+     "a": "He",
+     "e": "Gambarnya anak laki-laki, jadi kita memakai he. “He is my brother.” artinya “Dia saudara laki-lakiku.”",
+     "g": "p4-brother"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "I have three pens.",
+     "o": [
+      "Aku punya dua pena.",
+      "Aku punya tiga pena.",
+      "Aku punya tiga buku."
+     ],
+     "a": "Aku punya tiga pena.",
+     "e": "“I have three pens.” artinya “Aku punya tiga pena.” Three artinya tiga. Pens artinya pena.",
+     "g": "p4-pen"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "He is my father.",
+     "o": [
+      "Dia kakekku.",
+      "Dia ibuku.",
+      "Dia ayahku."
+     ],
+     "a": "Dia ayahku.",
+     "e": "He dipakai untuk laki-laki. Father artinya ayah. Jadi artinya “Dia ayahku.”",
+     "g": "p4-father"
+    },
+    {
+     "t": "Pilih kalimat yang cocok dengan gambar.",
+     "c": "🦆",
+     "o": [
+      "It is a duck.",
+      "It is a goat.",
+      "It is a horse."
+     ],
+     "a": "It is a duck.",
+     "e": "Gambarnya bebek. Duck artinya bebek. Goat artinya kambing. Horse artinya kuda.",
+     "g": "p4-duck"
+    },
+    {
+     "t": "Dengarkan. Pilih gambar yang cocok.",
+     "say": "I like mangoes.",
+     "o": [
+      "🍌",
+      "🥭",
+      "🍇"
+     ],
+     "a": "🥭",
+     "e": "“I like mangoes.” artinya “Aku suka mangga.” Mangoes artinya mangga.",
+     "g": "p4-mango"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "I don't like carrots.",
+     "o": [
+      "Aku tidak suka apel.",
+      "Aku suka wortel.",
+      "Aku tidak suka wortel."
+     ],
+     "a": "Aku tidak suka wortel.",
+     "e": "I don't like artinya aku tidak suka. Carrots artinya wortel.",
+     "g": "p4-carrot"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "🐱🐱 | I have two …",
+     "o": [
+      "cats",
+      "cat",
+      "dogs"
+     ],
+     "a": "cats",
+     "e": "Ada dua kucing. Kalau lebih dari satu, cat menjadi cats: “I have two cats.”",
+     "g": "p4-cat"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "She is a girl.",
+     "o": [
+      "Dia seorang anak laki-laki.",
+      "Dia seorang anak perempuan.",
+      "Dia seorang guru."
+     ],
+     "a": "Dia seorang anak perempuan.",
+     "e": "“She is a girl.” artinya “Dia seorang anak perempuan.” Girl artinya anak perempuan.",
+     "g": "p4-girl"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "My name is Joshua.",
+     "o": [
+      "Senang bertemu denganmu.",
+      "Siapa namamu?",
+      "Namaku Joshua."
+     ],
+     "a": "Namaku Joshua.",
+     "e": "My name is artinya namaku. Jadi “My name is Joshua.” artinya “Namaku Joshua.”",
+     "g": "p4-name"
+    },
+    {
+     "t": "Pilih kalimat yang cocok dengan gambar.",
+     "c": "👧 🍍",
+     "o": [
+      "She has a pineapple.",
+      "He has a pineapple.",
+      "She has a banana."
+     ],
+     "a": "She has a pineapple.",
+     "e": "Gambarnya anak perempuan dan nanas. She dipakai untuk perempuan. Pineapple artinya nanas.",
+     "g": "p4-pineapple"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "It is a small square.",
+     "o": [
+      "Itu persegi besar.",
+      "Itu persegi kecil.",
+      "Itu lingkaran kecil."
+     ],
+     "a": "Itu persegi kecil.",
+     "e": "“It is a small square.” artinya “Itu persegi kecil.” Small artinya kecil. Square artinya persegi.",
+     "g": "p4-square"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "This is my grandmother.",
+     "o": [
+      "Ini ibuku.",
+      "Ini kakekku.",
+      "Ini nenekku."
+     ],
+     "a": "Ini nenekku.",
+     "e": "Grandmother artinya nenek. Jadi “This is my grandmother.” artinya “Ini nenekku.”",
+     "g": "p4-grandmother"
+    },
+    {
+     "t": "Lengkapi kalimatnya.",
+     "c": "📕 | I … a book.",
+     "o": [
+      "have",
+      "has",
+      "am"
+     ],
+     "a": "have",
+     "e": "Setelah I kita memakai have. “I have a book.” artinya “Aku punya sebuah buku.”",
+     "g": "p4-book"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "He has a banana.",
+     "o": [
+      "Dia punya sebuah apel.",
+      "Dia punya sebuah pisang.",
+      "Dia suka pisang."
+     ],
+     "a": "Dia punya sebuah pisang.",
+     "e": "“He has a banana.” artinya “Dia punya sebuah pisang.” Has artinya punya.",
+     "g": "p4-banana"
+    },
+    {
+     "t": "Apa arti kalimat ini?",
+     "c": "I have five red apples.",
+     "o": [
+      "Aku punya lima apel hijau.",
+      "Aku punya empat apel merah.",
+      "Aku punya lima apel merah."
+     ],
+     "a": "Aku punya lima apel merah.",
+     "e": "Five artinya lima. Red artinya merah. Apples artinya apel-apel.",
+     "g": "p4-apple"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "She has some grapes.",
+     "o": [
+      "Dia punya beberapa anggur.",
+      "Dia punya beberapa apel.",
+      "Dia suka anggur."
+     ],
+     "a": "Dia punya beberapa anggur.",
+     "e": "“She has some grapes.” artinya “Dia punya beberapa anggur.” Some artinya beberapa. Grapes artinya anggur.",
+     "g": "p4-grapes"
+    },
+    {
+     "t": "Pilih kalimat yang cocok dengan gambar.",
+     "c": "👦 🐶",
+     "o": [
+      "She has a dog.",
+      "He has a dog.",
+      "He has a cat."
+     ],
+     "a": "He has a dog.",
+     "e": "Gambarnya anak laki-laki dan anjing. He dipakai untuk laki-laki. Dog artinya anjing.",
+     "g": "p4-dog"
+    },
+    {
+     "t": "Dengarkan. Apa artinya?",
+     "say": "I like apples. I don't like carrots.",
+     "o": [
+      "Suka apel dan suka wortel.",
+      "Suka wortel, tidak suka apel.",
+      "Suka apel, tidak suka wortel."
+     ],
+     "a": "Suka apel, tidak suka wortel.",
+     "e": "I like apples artinya aku suka apel. I don't like carrots artinya aku tidak suka wortel.",
+     "g": "p4-carrot"
+    }
+   ]
+  },
+  {
+   "id": "en-p5",
+   "title": "Reading 5: Short Stories",
+   "hint": "Baca cerita pendek, lalu jawab pertanyaannya.",
+   "icon": "📚",
+   "questions": [
+    {
+     "t": "Siapa nama hewan itu?",
+     "c": "Hi, I am Kimi. | I am a cat. | I am small.",
+     "o": [
+      "Kimi",
+      "Cici",
+      "Made"
+     ],
+     "a": "Kimi",
+     "e": "Di bacaan tertulis “Hi, I am Kimi.” Artinya “Hai, aku Kimi.”",
+     "g": "p5-kimi"
+    },
+    {
+     "t": "Siapa nama anak itu?",
+     "c": "My name is Joshua. | I am a boy. | I have a dog.",
+     "o": [
+      "Made",
+      "Joshua",
+      "Kimi"
+     ],
+     "a": "Joshua",
+     "e": "Di bacaan tertulis “My name is Joshua.” Artinya “Namaku Joshua.”",
+     "g": "p5-joshua"
+    },
+    {
+     "t": "Apa warna tasnya?",
+     "c": "This is my bag. | It is blue. | I have two books.",
+     "o": [
+      "hijau",
+      "merah",
+      "biru"
+     ],
+     "a": "biru",
+     "e": "Di bacaan tertulis “This is my bag. It is blue.” Blue artinya biru.",
+     "g": "p5-bag"
+    },
+    {
+     "t": "Siapa nama anak perempuan itu?",
+     "c": "She is Cici. | She is my sister. | She has a rabbit.",
+     "o": [
+      "Cici",
+      "Aisyah",
+      "Kimi"
+     ],
+     "a": "Cici",
+     "e": "Di bacaan tertulis “She is Cici.” Artinya “Dia Cici.”",
+     "g": "p5-cici"
+    },
+    {
+     "t": "Made itu siapa?",
+     "c": "He is Made. | He is my brother. | He has three mangoes.",
+     "o": [
+      "ayah",
+      "saudara laki-laki",
+      "kakek"
+     ],
+     "a": "saudara laki-laki",
+     "e": "Di bacaan tertulis “He is my brother.” Brother artinya saudara laki-laki.",
+     "g": "p5-made"
+    },
+    {
+     "t": "Siapa nama anak itu?",
+     "c": "I am Aisyah. | I like apples and bananas. | I don't like carrots.",
+     "o": [
+      "Joshua",
+      "Cici",
+      "Aisyah"
+     ],
+     "a": "Aisyah",
+     "e": "Di bacaan tertulis “I am Aisyah.” Artinya “Aku Aisyah.”",
+     "g": "p5-aisyah"
+    },
+    {
+     "t": "Hewan apa yang diceritakan?",
+     "c": "This is a cow. | It is big. | It is black and white.",
+     "o": [
+      "sapi",
+      "kambing",
+      "kuda"
+     ],
+     "a": "sapi",
+     "e": "Di bacaan tertulis “This is a cow.” Cow artinya sapi.",
+     "g": "p5-cow"
+    },
+    {
+     "t": "Bacaan ini bercerita tentang apa?",
+     "c": "This is my father. | This is my mother. | I love my family.",
+     "o": [
+      "sekolah",
+      "keluarga",
+      "buah"
+     ],
+     "a": "keluarga",
+     "e": "Family artinya keluarga. Father (ayah) dan mother (ibu) adalah anggota keluarga.",
+     "g": "p5-family"
+    },
+    {
+     "t": "Berapa banyak krayonnya?",
+     "c": "I have five crayons. | I have two pencils. | I have a green ruler.",
+     "o": [
+      "tiga",
+      "dua",
+      "lima"
+     ],
+     "a": "lima",
+     "e": "Di bacaan tertulis “I have five crayons.” Five artinya lima.",
+     "g": "p5-crayon"
+    },
+    {
+     "t": "Siapa nama teman Made?",
+     "c": "Good morning! I am Made. | This is my friend, Joshua. | He has a blue bag.",
+     "o": [
+      "Joshua",
+      "Kimi",
+      "Cici"
+     ],
+     "a": "Joshua",
+     "e": "“This is my friend, Joshua.” artinya “Ini temanku, Joshua.”",
+     "g": "p5-friend"
+    },
+    {
+     "t": "Kimi itu hewan apa?",
+     "c": "Hi, I am Kimi. | I am a cat. | I am small.",
+     "o": [
+      "anjing",
+      "kucing",
+      "kelinci"
+     ],
+     "a": "kucing",
+     "e": "Di bacaan tertulis “I am a cat.” Cat artinya kucing.",
+     "g": "p5-kimi"
+    },
+    {
+     "t": "Joshua punya hewan apa?",
+     "c": "My name is Joshua. | I am a boy. | I have a dog.",
+     "o": [
+      "burung",
+      "kucing",
+      "anjing"
+     ],
+     "a": "anjing",
+     "e": "Di bacaan tertulis “I have a dog.” Dog artinya anjing.",
+     "g": "p5-joshua"
+    },
+    {
+     "t": "Berapa banyak bukunya?",
+     "c": "This is my bag. | It is blue. | I have two books.",
+     "o": [
+      "dua",
+      "tiga",
+      "empat"
+     ],
+     "a": "dua",
+     "e": "Di bacaan tertulis “I have two books.” Two artinya dua.",
+     "g": "p5-bag"
+    },
+    {
+     "t": "Cici itu siapa?",
+     "c": "She is Cici. | She is my sister. | She has a rabbit.",
+     "o": [
+      "ibu",
+      "saudara perempuan",
+      "nenek"
+     ],
+     "a": "saudara perempuan",
+     "e": "Di bacaan tertulis “She is my sister.” Sister artinya saudara perempuan.",
+     "g": "p5-cici"
+    },
+    {
+     "t": "Made punya buah apa?",
+     "c": "He is Made. | He is my brother. | He has three mangoes.",
+     "o": [
+      "apel",
+      "pisang",
+      "mangga"
+     ],
+     "a": "mangga",
+     "e": "Di bacaan tertulis “He has three mangoes.” Mangoes artinya mangga.",
+     "g": "p5-made"
+    },
+    {
+     "t": "Apa yang tidak disukai Aisyah?",
+     "c": "I am Aisyah. | I like apples and bananas. | I don't like carrots.",
+     "o": [
+      "wortel",
+      "apel",
+      "pisang"
+     ],
+     "a": "wortel",
+     "e": "“I don't like carrots.” artinya “Aku tidak suka wortel.” Carrots artinya wortel.",
+     "g": "p5-aisyah"
+    },
+    {
+     "t": "Sapi itu besar atau kecil?",
+     "c": "This is a cow. | It is big. | It is black and white.",
+     "o": [
+      "kecil",
+      "besar",
+      "kecil sekali"
+     ],
+     "a": "besar",
+     "e": "Di bacaan tertulis “It is big.” Big artinya besar.",
+     "g": "p5-cow"
+    },
+    {
+     "t": "Siapa saja yang diperkenalkan?",
+     "c": "This is my father. | This is my mother. | I love my family.",
+     "o": [
+      "ayah dan kakek",
+      "kakek dan nenek",
+      "ayah dan ibu"
+     ],
+     "a": "ayah dan ibu",
+     "e": "Father artinya ayah. Mother artinya ibu. Jadi yang diperkenalkan ayah dan ibu.",
+     "g": "p5-family"
+    },
+    {
+     "t": "Berapa banyak pensilnya?",
+     "c": "I have five crayons. | I have two pencils. | I have a green ruler.",
+     "o": [
+      "dua",
+      "lima",
+      "enam"
+     ],
+     "a": "dua",
+     "e": "Di bacaan tertulis “I have two pencils.” Two artinya dua.",
+     "g": "p5-crayon"
+    },
+    {
+     "t": "Made menyapa pada waktu apa?",
+     "c": "Good morning! I am Made. | This is my friend, Joshua. | He has a blue bag.",
+     "o": [
+      "siang",
+      "pagi",
+      "malam"
+     ],
+     "a": "pagi",
+     "e": "Made berkata “Good morning!” Artinya “Selamat pagi!”",
+     "g": "p5-friend"
+    },
+    {
+     "t": "Kimi itu besar atau kecil?",
+     "c": "Hi, I am Kimi. | I am a cat. | I am small.",
+     "o": [
+      "besar sekali",
+      "besar",
+      "kecil"
+     ],
+     "a": "kecil",
+     "e": "Di bacaan tertulis “I am small.” Small artinya kecil.",
+     "g": "p5-kimi"
+    },
+    {
+     "t": "Joshua itu siapa?",
+     "c": "My name is Joshua. | I am a boy. | I have a dog.",
+     "o": [
+      "anak laki-laki",
+      "anak perempuan",
+      "guru"
+     ],
+     "a": "anak laki-laki",
+     "e": "Di bacaan tertulis “I am a boy.” Boy artinya anak laki-laki.",
+     "g": "p5-joshua"
+    },
+    {
+     "t": "Benda apa yang berwarna biru?",
+     "c": "This is my bag. | It is blue. | I have two books.",
+     "o": [
+      "buku",
+      "tas",
+      "pena"
+     ],
+     "a": "tas",
+     "e": "“This is my bag. It is blue.” artinya “Ini tasku. Warnanya biru.” Bag artinya tas.",
+     "g": "p5-bag"
+    },
+    {
+     "t": "Cici punya hewan apa?",
+     "c": "She is Cici. | She is my sister. | She has a rabbit.",
+     "o": [
+      "ikan",
+      "kucing",
+      "kelinci"
+     ],
+     "a": "kelinci",
+     "e": "Di bacaan tertulis “She has a rabbit.” Rabbit artinya kelinci.",
+     "g": "p5-cici"
+    },
+    {
+     "t": "Berapa banyak mangga Made?",
+     "c": "He is Made. | He is my brother. | He has three mangoes.",
+     "o": [
+      "tiga",
+      "dua",
+      "lima"
+     ],
+     "a": "tiga",
+     "e": "Di bacaan tertulis “He has three mangoes.” Three artinya tiga.",
+     "g": "p5-made"
+    },
+    {
+     "t": "Buah apa saja yang disukai Aisyah?",
+     "c": "I am Aisyah. | I like apples and bananas. | I don't like carrots.",
+     "o": [
+      "apel dan mangga",
+      "apel dan pisang",
+      "pisang dan wortel"
+     ],
+     "a": "apel dan pisang",
+     "e": "“I like apples and bananas.” artinya “Aku suka apel dan pisang.”",
+     "g": "p5-aisyah"
+    },
+    {
+     "t": "Apa warna sapi itu?",
+     "c": "This is a cow. | It is big. | It is black and white.",
+     "o": [
+      "hitam dan biru",
+      "merah dan putih",
+      "hitam dan putih"
+     ],
+     "a": "hitam dan putih",
+     "e": "“It is black and white.” Black artinya hitam. White artinya putih.",
+     "g": "p5-cow"
+    },
+    {
+     "t": "Kalimat terakhir artinya apa?",
+     "c": "This is my father. | This is my mother. | I love my family.",
+     "o": [
+      "Aku sayang keluargaku.",
+      "Ini keluargaku.",
+      "Aku punya keluarga."
+     ],
+     "a": "Aku sayang keluargaku.",
+     "e": "Kalimat terakhir “I love my family.” artinya “Aku sayang keluargaku.”",
+     "g": "p5-family"
+    },
+    {
+     "t": "Apa warna penggarisnya?",
+     "c": "I have five crayons. | I have two pencils. | I have a green ruler.",
+     "o": [
+      "kuning",
+      "hijau",
+      "biru"
+     ],
+     "a": "hijau",
+     "e": "Di bacaan tertulis “I have a green ruler.” Green artinya hijau. Ruler artinya penggaris.",
+     "g": "p5-crayon"
+    },
+    {
+     "t": "Apa warna tas Joshua?",
+     "c": "Good morning! I am Made. | This is my friend, Joshua. | He has a blue bag.",
+     "o": [
+      "hitam",
+      "merah",
+      "biru"
+     ],
+     "a": "biru",
+     "e": "“He has a blue bag.” artinya “Dia punya tas biru.” Blue artinya biru.",
+     "g": "p5-friend"
+    }
+   ]
+  }
+ ]
+}

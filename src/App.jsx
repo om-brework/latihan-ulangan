@@ -94,7 +94,7 @@ function Home() {
             icon={sub.icon}
             title={sub.title}
             text={`${sub.blurb}.`}
-            meta={`${sub.chapters.length} bab · ${subjectStars(sub, s.bests)}`}
+            meta={`${sub.core.length} bab${sub.extra.length ? ` + ${sub.extra.length} pengembangan` : ""} · ${subjectStars(sub, s.bests)}`}
             c={sub.c}
             cd={sub.cd}
           />
@@ -121,6 +121,21 @@ function Home() {
 
 function SubjectPage({ subject }) {
   const s = useSession();
+  const chapterCard = (ch) => {
+    const p = chapterProgress(subject, ch, s.bests);
+    return (
+      <Card
+        key={ch.id}
+        href={`#/${subject.id}/${ch.id}`}
+        icon={ch.icon}
+        title={ch.title}
+        text={ch.hint}
+        meta={`Level ${p.cleared} dari ${p.levels.length} selesai · ⭐ ${p.stars}/${p.maxStars}`}
+        c={ch.c}
+        cd={ch.cd}
+      />
+    );
+  };
   return (
     <div className="wrap">
       <header className="head">
@@ -131,21 +146,7 @@ function SubjectPage({ subject }) {
       </header>
 
       <section className="group">
-        {subject.chapters.map((ch) => {
-          const p = chapterProgress(subject, ch, s.bests);
-          return (
-            <Card
-              key={ch.id}
-              href={`#/${subject.id}/${ch.id}`}
-              icon={ch.icon}
-              title={ch.title}
-              text={ch.hint}
-              meta={`Level ${p.cleared} dari ${p.levels.length} selesai · ⭐ ${p.stars}/${p.maxStars}`}
-              c={ch.c}
-              cd={ch.cd}
-            />
-          );
-        })}
+        {subject.core.map(chapterCard)}
         <Card
           href={`#/${subject.id}/semua`}
           icon="🎲"
@@ -156,6 +157,14 @@ function SubjectPage({ subject }) {
           cd="#E0A800"
         />
       </section>
+
+      {subject.extra.length > 0 && (
+        <section className="group">
+          <h2 className="group-title">🚀 Pengembangan</h2>
+          <p className="group-note">Latihan tambahan di luar buku, naik sedikit demi sedikit. Kerjakan berurutan dari yang pertama.</p>
+          {subject.extra.map(chapterCard)}
+        </section>
+      )}
     </div>
   );
 }
@@ -172,15 +181,17 @@ function ChapterPage({ subject, chapter }) {
         <h1 className="small">{chapter.icon} {chapter.title}</h1>
         <p className="note">{chapter.hint}</p>
         <p className="star-total">⭐ {p.stars} dari {p.maxStars} bintang</p>
+        {chapter.target && <p className="note">⚡ Coba selesaikan tiap level dengan semua benar dalam {chapter.target / 60} menit.</p>}
         {LESSONS[chapter.id] && <a className="btn ghost" href={`#/${subject.id}/${chapter.id}/belajar`}>📘 Belajar dulu</a>}
       </header>
 
-      <ol className="level-map">
+      <ol className={`level-map${chapter.levelNames ? " named" : ""}`}>
         {p.levels.map((lv) => {
           const inner = (
             <>
               <span className="level-num">{lv.open ? (lv.hard ? "🔥" : lv.n) : "🔒"}</span>
               <span className="level-name">Level {lv.n}</span>
+              {lv.name && <span className="level-topic">{lv.name}</span>}
               <span className="level-stars" aria-label={lv.open ? `${lv.stars} dari 3 bintang` : "Terkunci"}>
                 {[0, 1, 2].map((i) => <span key={i} className={i < lv.stars ? "on" : "off"}>⭐</span>)}
               </span>

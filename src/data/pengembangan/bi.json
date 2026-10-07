@@ -1,0 +1,1583 @@
+{
+  "id": "bi",
+  "title": "Bahasa Indonesia",
+  "chapters": [
+    {
+      "id": "bi-p1",
+      "title": "Membaca 1: Kata dan Gambar",
+      "hint": "Baca katanya pelan-pelan, lalu cocokkan dengan gambarnya.",
+      "icon": "🖼️",
+      "questions": [
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "⚽",
+          "o": [
+            "batu",
+            "buku",
+            "bola"
+          ],
+          "a": "bola",
+          "e": "Gambar itu bola, benda bundar untuk ditendang. Kata bola dieja bo-la."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "buku",
+          "o": [
+            "🐄",
+            "⚽",
+            "📖"
+          ],
+          "a": "📖",
+          "e": "Kata itu dibaca bu-ku. Buku adalah benda yang kita baca, gambarnya 📖."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "🐄",
+          "o": [
+            "sapu",
+            "sapi",
+            "satu"
+          ],
+          "a": "sapi",
+          "e": "Gambar itu sapi, hewan yang memberi kita susu. Kata sapi dieja sa-pi."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "topi",
+          "o": [
+            "🦷",
+            "🧢",
+            "🥛"
+          ],
+          "a": "🧢",
+          "e": "Kata itu dibaca to-pi. Topi adalah benda yang dipakai di kepala, gambarnya 🧢."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "🐴",
+          "o": [
+            "kuda",
+            "kuku",
+            "kaki"
+          ],
+          "a": "kuda",
+          "e": "Gambar itu kuda, hewan yang larinya kencang. Kata kuda dieja ku-da."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "roti",
+          "o": [
+            "🍞",
+            "🐴",
+            "👕"
+          ],
+          "a": "🍞",
+          "e": "Kata itu dibaca ro-ti. Roti adalah makanan yang empuk, gambarnya 🍞."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "🦷",
+          "o": [
+            "gigi",
+            "gula",
+            "guru"
+          ],
+          "a": "gigi",
+          "e": "Gambar itu gigi, bagian mulut untuk mengunyah. Kata gigi dieja gi-gi."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "susu",
+          "o": [
+            "🍞",
+            "⚽",
+            "🥛"
+          ],
+          "a": "🥛",
+          "e": "Kata itu dibaca su-su. Susu adalah minuman berwarna putih, gambarnya 🥛."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "👕",
+          "o": [
+            "baju",
+            "batu",
+            "bola"
+          ],
+          "a": "baju",
+          "e": "Gambar itu baju, pakaian yang dipakai di badan. Kata baju dieja ba-ju."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "nasi",
+          "o": [
+            "👕",
+            "🐄",
+            "🍚"
+          ],
+          "a": "🍚",
+          "e": "Kata itu dibaca na-si. Nasi adalah makanan kita sehari-hari, gambarnya 🍚."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "🐟",
+          "o": [
+            "ikat",
+            "ikan",
+            "ibu"
+          ],
+          "a": "ikan",
+          "e": "Gambar itu ikan, hewan yang berenang di air. Kata ikan dieja i-kan."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "ayam",
+          "o": [
+            "🐟",
+            "🐱",
+            "🐔"
+          ],
+          "a": "🐔",
+          "e": "Kata itu dibaca a-yam. Ayam adalah hewan yang berkokok, gambarnya 🐔."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "🦆",
+          "o": [
+            "becak",
+            "bedak",
+            "bebek"
+          ],
+          "a": "bebek",
+          "e": "Gambar itu bebek, hewan yang bersuara kwek-kwek. Kata bebek dieja be-bek."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "kursi",
+          "o": [
+            "🚪",
+            "🏠",
+            "🪑"
+          ],
+          "a": "🪑",
+          "e": "Kata itu dibaca kur-si. Kursi adalah tempat untuk duduk, gambarnya 🪑."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "🚪",
+          "o": [
+            "pita",
+            "pipi",
+            "pintu"
+          ],
+          "a": "pintu",
+          "e": "Gambar itu pintu, tempat kita masuk dan keluar rumah. Kata pintu dieja pin-tu."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "bunga",
+          "o": [
+            "🍌",
+            "🌙",
+            "🌸"
+          ],
+          "a": "🌸",
+          "e": "Kata itu dibaca bu-nga. Bunga adalah bagian tanaman yang indah dan harum, gambarnya 🌸."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "🌙",
+          "o": [
+            "bunga",
+            "bulu",
+            "bulan"
+          ],
+          "a": "bulan",
+          "e": "Gambar itu bulan, benda langit yang tampak pada malam hari. Kata bulan dieja bu-lan."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "rumah",
+          "o": [
+            "🪑",
+            "🐔",
+            "🏠"
+          ],
+          "a": "🏠",
+          "e": "Kata itu dibaca ru-mah. Rumah adalah tempat kita tinggal, gambarnya 🏠."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "🍌",
+          "o": [
+            "pisang",
+            "piring",
+            "pisau"
+          ],
+          "a": "pisang",
+          "e": "Gambar itu pisang, buah panjang berkulit kuning. Kata pisang dieja pi-sang."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "kucing",
+          "o": [
+            "🐟",
+            "🐔",
+            "🐱"
+          ],
+          "a": "🐱",
+          "e": "Kata itu dibaca ku-cing. Kucing adalah hewan yang bersuara meong, gambarnya 🐱."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "🚲",
+          "o": [
+            "sepatu",
+            "selimut",
+            "sepeda"
+          ],
+          "a": "sepeda",
+          "e": "Gambar itu sepeda, kendaraan beroda dua yang dikayuh. Kata sepeda dieja se-pe-da."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "sepatu",
+          "o": [
+            "👟",
+            "👖",
+            "🚲"
+          ],
+          "a": "👟",
+          "e": "Kata itu dibaca se-pa-tu. Sepatu adalah benda yang dipakai di kaki, gambarnya 👟."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "🐰",
+          "o": [
+            "kelereng",
+            "kelapa",
+            "kelinci"
+          ],
+          "a": "kelinci",
+          "e": "Gambar itu kelinci, hewan bertelinga panjang. Kata kelinci dieja ke-lin-ci."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "semangka",
+          "o": [
+            "🐰",
+            "🍌",
+            "🍉"
+          ],
+          "a": "🍉",
+          "e": "Kata itu dibaca se-mang-ka. Semangka adalah buah besar yang isinya merah, gambarnya 🍉."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "🦒",
+          "o": [
+            "jerami",
+            "jendela",
+            "jerapah"
+          ],
+          "a": "jerapah",
+          "e": "Gambar itu jerapah, hewan yang lehernya sangat panjang. Kata jerapah dieja je-ra-pah."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "kereta",
+          "o": [
+            "🚲",
+            "🚆",
+            "✈️"
+          ],
+          "a": "🚆",
+          "e": "Kata itu dibaca ke-re-ta. Kereta adalah kendaraan panjang yang berjalan di rel, gambarnya 🚆."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "👖",
+          "o": [
+            "cerita",
+            "celengan",
+            "celana"
+          ],
+          "a": "celana",
+          "e": "Gambar itu celana, pakaian untuk menutup kaki. Kata celana dieja ce-la-na."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "pesawat",
+          "o": [
+            "🚆",
+            "✈️",
+            "🦒"
+          ],
+          "a": "✈️",
+          "e": "Kata itu dibaca pe-sa-wat. Pesawat adalah kendaraan yang terbang di langit, gambarnya ✈️."
+        },
+        {
+          "t": "Lihat gambar. Mana kata yang cocok?",
+          "c": "🧸",
+          "o": [
+            "boneka",
+            "botol",
+            "bola"
+          ],
+          "a": "boneka",
+          "e": "Gambar itu boneka, mainan yang lucu untuk dipeluk. Kata boneka dieja bo-ne-ka."
+        },
+        {
+          "t": "Baca kata ini. Mana gambar yang cocok?",
+          "c": "kamera",
+          "o": [
+            "📷",
+            "👟",
+            "🧸"
+          ],
+          "a": "📷",
+          "e": "Kata itu dibaca ka-me-ra. Kamera adalah alat untuk memotret, gambarnya 📷."
+        }
+      ]
+    },
+    {
+      "id": "bi-p2",
+      "title": "Membaca 2: Melengkapi Kata",
+      "hint": "Lihat gambarnya, lalu isi suku kata yang hilang.",
+      "icon": "🧩",
+      "questions": [
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🐄",
+          "pre": "sa –",
+          "a": "pi",
+          "e": "Gambar itu sapi. Sapi dieja sa - pi, jadi suku kata yang hilang adalah “pi”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "⚽",
+          "pre": "bo –",
+          "a": "la",
+          "e": "Gambar itu bola. Bola dieja bo - la, jadi suku kata yang hilang adalah “la”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "📖",
+          "pre": "bu –",
+          "a": "ku",
+          "e": "Gambar itu buku. Buku dieja bu - ku, jadi suku kata yang hilang adalah “ku”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🧢",
+          "pre": "to –",
+          "a": "pi",
+          "e": "Gambar itu topi. Topi dieja to - pi, jadi suku kata yang hilang adalah “pi”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🐴",
+          "pre": "ku –",
+          "a": "da",
+          "e": "Gambar itu kuda. Kuda dieja ku - da, jadi suku kata yang hilang adalah “da”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🍞",
+          "pre": "ro –",
+          "a": "ti",
+          "e": "Gambar itu roti. Roti dieja ro - ti, jadi suku kata yang hilang adalah “ti”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🦷",
+          "pre": "gi –",
+          "a": "gi",
+          "e": "Gambar itu gigi. Gigi dieja gi - gi, jadi suku kata yang hilang adalah “gi”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🥛",
+          "pre": "su –",
+          "a": "su",
+          "e": "Gambar itu susu. Susu dieja su - su, jadi suku kata yang hilang adalah “su”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "👕",
+          "pre": "ba –",
+          "a": "ju",
+          "e": "Gambar itu baju. Baju dieja ba - ju, jadi suku kata yang hilang adalah “ju”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🍚",
+          "pre": "na –",
+          "a": "si",
+          "e": "Gambar itu nasi. Nasi dieja na - si, jadi suku kata yang hilang adalah “si”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🦶",
+          "post": "– ki",
+          "a": "ka",
+          "e": "Gambar itu kaki. Kaki dieja ka - ki, jadi suku kata yang hilang adalah “ka”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "👁️",
+          "post": "– ta",
+          "a": "ma",
+          "e": "Gambar itu mata. Mata dieja ma - ta, jadi suku kata yang hilang adalah “ma”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🔨",
+          "post": "– lu",
+          "a": "pa",
+          "e": "Gambar itu palu. Palu dieja pa - lu, jadi suku kata yang hilang adalah “pa”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🧀",
+          "post": "– ju",
+          "a": "ke",
+          "e": "Gambar itu keju. Keju dieja ke - ju, jadi suku kata yang hilang adalah “ke”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🌽",
+          "post": "– gung",
+          "a": "ja",
+          "e": "Gambar itu jagung. Jagung dieja ja - gung, jadi suku kata yang hilang adalah “ja”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🍯",
+          "post": "– du",
+          "a": "ma",
+          "e": "Gambar itu madu. Madu dieja ma - du, jadi suku kata yang hilang adalah “ma”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🐟",
+          "pre": "i –",
+          "a": "kan",
+          "e": "Gambar itu ikan. Ikan dieja i - kan, jadi suku kata yang hilang adalah “kan”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🌙",
+          "pre": "bu –",
+          "a": "lan",
+          "e": "Gambar itu bulan. Bulan dieja bu - lan, jadi suku kata yang hilang adalah “lan”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🏠",
+          "pre": "ru –",
+          "a": "mah",
+          "e": "Gambar itu rumah. Rumah dieja ru - mah, jadi suku kata yang hilang adalah “mah”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🚪",
+          "post": "– tu",
+          "a": "pin",
+          "e": "Gambar itu pintu. Pintu dieja pin - tu, jadi suku kata yang hilang adalah “pin”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🌸",
+          "pre": "bu –",
+          "a": "nga",
+          "e": "Gambar itu bunga. Bunga dieja bu - nga, jadi suku kata yang hilang adalah “nga”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🐱",
+          "pre": "ku –",
+          "a": "cing",
+          "wide": true,
+          "e": "Gambar itu kucing. Kucing dieja ku - cing, jadi suku kata yang hilang adalah “cing”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🍌",
+          "pre": "pi –",
+          "a": "sang",
+          "wide": true,
+          "e": "Gambar itu pisang. Pisang dieja pi - sang, jadi suku kata yang hilang adalah “sang”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "👟",
+          "pre": "se –",
+          "post": "– tu",
+          "a": "pa",
+          "e": "Gambar itu sepatu. Sepatu dieja se - pa - tu, jadi suku kata yang hilang adalah “pa”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🚲",
+          "pre": "se – pe –",
+          "a": "da",
+          "e": "Gambar itu sepeda. Sepeda dieja se - pe - da, jadi suku kata yang hilang adalah “da”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "📷",
+          "post": "– me – ra",
+          "a": "ka",
+          "e": "Gambar itu kamera. Kamera dieja ka - me - ra, jadi suku kata yang hilang adalah “ka”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "👖",
+          "pre": "ce –",
+          "post": "– na",
+          "a": "la",
+          "e": "Gambar itu celana. Celana dieja ce - la - na, jadi suku kata yang hilang adalah “la”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🐰",
+          "pre": "ke –",
+          "post": "– ci",
+          "a": "lin",
+          "e": "Gambar itu kelinci. Kelinci dieja ke - lin - ci, jadi suku kata yang hilang adalah “lin”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🦒",
+          "pre": "je – ra –",
+          "a": "pah",
+          "e": "Gambar itu jerapah. Jerapah dieja je - ra - pah, jadi suku kata yang hilang adalah “pah”."
+        },
+        {
+          "t": "Lengkapi suku kata yang hilang.",
+          "c": "🍉",
+          "pre": "se –",
+          "post": "– ka",
+          "a": "mang",
+          "wide": true,
+          "e": "Gambar itu semangka. Semangka dieja se - mang - ka, jadi suku kata yang hilang adalah “mang”."
+        }
+      ]
+    },
+    {
+      "id": "bi-p3",
+      "title": "Membaca 3: Kalimat Pendek",
+      "hint": "Baca kalimatnya, lalu pilih kata yang paling cocok.",
+      "icon": "✏️",
+      "questions": [
+        {
+          "t": "Ibu memasak di ...",
+          "o": [
+            "kolam",
+            "dapur",
+            "pohon"
+          ],
+          "a": "dapur",
+          "e": "Dapur adalah tempat untuk memasak. Kolam dan pohon bukan tempat memasak."
+        },
+        {
+          "t": "Adi minum ...",
+          "o": [
+            "susu",
+            "sapu",
+            "batu"
+          ],
+          "a": "susu",
+          "e": "Susu bisa diminum. Batu dan sapu adalah benda, tidak bisa diminum."
+        },
+        {
+          "t": "Sita makan ...",
+          "o": [
+            "kursi",
+            "nasi",
+            "sepatu"
+          ],
+          "a": "nasi",
+          "e": "Nasi adalah makanan. Kursi dan sepatu bukan makanan."
+        },
+        {
+          "t": "Ikan hidup di ...",
+          "o": [
+            "pohon",
+            "air",
+            "awan"
+          ],
+          "a": "air",
+          "e": "Ikan berenang dan bernapas di dalam air, bukan di pohon atau di awan."
+        },
+        {
+          "t": "Burung bisa ...",
+          "o": [
+            "menulis",
+            "memasak",
+            "terbang"
+          ],
+          "a": "terbang",
+          "e": "Burung punya sayap, jadi burung bisa terbang."
+        },
+        {
+          "t": "Ayah naik ...",
+          "o": [
+            "sendok",
+            "sepeda",
+            "buku"
+          ],
+          "a": "sepeda",
+          "e": "Sepeda adalah kendaraan yang bisa dinaiki. Sendok dan buku tidak bisa dinaiki."
+        },
+        {
+          "t": "Aku tidur di ...",
+          "o": [
+            "jalan",
+            "kolam",
+            "kasur"
+          ],
+          "a": "kasur",
+          "e": "Kasur itu empuk dan dipakai untuk tidur. Kolam dan jalan bukan tempat tidur."
+        },
+        {
+          "t": "Gula rasanya ...",
+          "o": [
+            "asin",
+            "manis",
+            "pahit"
+          ],
+          "a": "manis",
+          "e": "Gula membuat makanan dan minuman terasa manis. Yang asin itu garam."
+        },
+        {
+          "t": "Kucing suka makan ...",
+          "o": [
+            "batu",
+            "kertas",
+            "ikan"
+          ],
+          "a": "ikan",
+          "e": "Ikan adalah makanan kesukaan kucing. Batu dan kertas tidak bisa dimakan."
+        },
+        {
+          "t": "Kita melihat dengan ...",
+          "o": [
+            "hidung",
+            "mata",
+            "telinga"
+          ],
+          "a": "mata",
+          "e": "Mata dipakai untuk melihat. Telinga untuk mendengar dan hidung untuk mencium."
+        },
+        {
+          "t": "Kita mendengar dengan ...",
+          "o": [
+            "mata",
+            "telinga",
+            "mulut"
+          ],
+          "a": "telinga",
+          "e": "Telinga dipakai untuk mendengar suara. Mata untuk melihat dan mulut untuk berbicara."
+        },
+        {
+          "t": "Bola itu bentuknya ...",
+          "o": [
+            "segitiga",
+            "kotak",
+            "bundar"
+          ],
+          "a": "bundar",
+          "e": "Bola berbentuk bundar sehingga bisa menggelinding."
+        },
+        {
+          "t": "Wayan menulis dengan ...",
+          "o": [
+            "pensil",
+            "sendok",
+            "sisir"
+          ],
+          "a": "pensil",
+          "e": "Pensil adalah alat tulis. Sendok untuk makan dan sisir untuk merapikan rambut."
+        },
+        {
+          "t": "Buku disimpan di dalam ...",
+          "o": [
+            "gelas",
+            "piring",
+            "tas"
+          ],
+          "a": "tas",
+          "e": "Tas dipakai untuk membawa buku. Gelas dan piring adalah alat makan dan minum."
+        },
+        {
+          "t": "Butet menyapu lantai dengan ...",
+          "o": [
+            "garpu",
+            "gunting",
+            "sapu"
+          ],
+          "a": "sapu",
+          "e": "Sapu adalah alat untuk menyapu lantai. Gunting untuk memotong dan garpu untuk makan."
+        },
+        {
+          "t": "Tono haus, lalu ia ...",
+          "o": [
+            "berlari",
+            "tidur",
+            "minum"
+          ],
+          "a": "minum",
+          "e": "Haus berarti ingin minum. Jadi Tono minum supaya tidak haus lagi."
+        },
+        {
+          "t": "Nina mengantuk, lalu ia ...",
+          "o": [
+            "melompat",
+            "berlari",
+            "tidur"
+          ],
+          "a": "tidur",
+          "e": "Mengantuk berarti ingin tidur. Jadi Nina tidur supaya segar kembali."
+        },
+        {
+          "t": "Badan kotor, maka aku harus ...",
+          "o": [
+            "makan",
+            "bermain",
+            "mandi"
+          ],
+          "a": "mandi",
+          "e": "Mandi membuat badan yang kotor menjadi bersih kembali."
+        },
+        {
+          "t": "Sebelum makan, aku mencuci ...",
+          "o": [
+            "tas",
+            "tangan",
+            "sepatu"
+          ],
+          "a": "tangan",
+          "e": "Kita makan memakai tangan, jadi tangan harus dicuci dulu supaya bersih."
+        },
+        {
+          "t": "Saat hujan, Dewi memakai ...",
+          "o": [
+            "kipas",
+            "kacamata",
+            "payung"
+          ],
+          "a": "payung",
+          "e": "Payung melindungi kita dari air hujan supaya tidak basah."
+        },
+        {
+          "t": "Rudi menggosok gigi dengan ...",
+          "o": [
+            "sikat gigi",
+            "sisir",
+            "sapu"
+          ],
+          "a": "sikat gigi",
+          "e": "Sikat gigi adalah alat untuk membersihkan gigi. Sisir untuk rambut dan sapu untuk lantai."
+        },
+        {
+          "t": "Putu menyiram bunga dengan ...",
+          "o": [
+            "batu",
+            "pasir",
+            "air"
+          ],
+          "a": "air",
+          "e": "Tanaman perlu air supaya tumbuh subur, jadi bunga disiram dengan air."
+        },
+        {
+          "t": "Kelinci suka makan ...",
+          "o": [
+            "daging",
+            "ikan",
+            "wortel"
+          ],
+          "a": "wortel",
+          "e": "Kelinci adalah hewan pemakan tumbuhan. Wortel adalah sayuran kesukaannya."
+        },
+        {
+          "t": "Sapi menghasilkan ...",
+          "o": [
+            "susu",
+            "telur",
+            "madu"
+          ],
+          "a": "susu",
+          "e": "Sapi diperah dan menghasilkan susu. Telur berasal dari ayam dan madu dari lebah."
+        },
+        {
+          "t": "Es krim rasanya manis dan ...",
+          "o": [
+            "dingin",
+            "panas",
+            "pedas"
+          ],
+          "a": "dingin",
+          "e": "Es krim dibuat dengan cara dibekukan, jadi terasa dingin di mulut."
+        },
+        {
+          "t": "Matahari terbit pada ... hari.",
+          "o": [
+            "pagi",
+            "malam",
+            "sore"
+          ],
+          "a": "pagi",
+          "e": "Matahari muncul pada pagi hari. Pada sore hari matahari terbenam."
+        },
+        {
+          "t": "Pada malam hari kita melihat ... di langit.",
+          "o": [
+            "bintang",
+            "matahari",
+            "pelangi"
+          ],
+          "a": "bintang",
+          "e": "Bintang tampak pada malam hari saat langit gelap. Matahari dan pelangi tampak pada siang hari."
+        },
+        {
+          "t": "Di sekolah, kami diajar oleh ...",
+          "o": [
+            "guru",
+            "sopir",
+            "dokter"
+          ],
+          "a": "guru",
+          "e": "Guru bertugas mengajar murid di sekolah. Dokter mengobati orang sakit dan sopir mengemudi."
+        },
+        {
+          "t": "Lampu merah menyala, mobil harus ...",
+          "o": [
+            "melaju",
+            "berbelok",
+            "berhenti"
+          ],
+          "a": "berhenti",
+          "e": "Lampu merah adalah tanda berhenti. Mobil boleh jalan lagi saat lampu hijau."
+        },
+        {
+          "t": "Togar rajin belajar supaya menjadi anak yang ...",
+          "o": [
+            "malas",
+            "nakal",
+            "pintar"
+          ],
+          "a": "pintar",
+          "e": "Anak yang rajin belajar akan tahu banyak hal, jadi ia menjadi pintar."
+        }
+      ]
+    },
+    {
+      "id": "bi-p4",
+      "title": "Membaca 4: Memahami Kalimat",
+      "hint": "Baca kalimatnya dulu, baru jawab pertanyaannya.",
+      "icon": "🔍",
+      "questions": [
+        {
+          "t": "Siapa yang makan roti?",
+          "c": "Budi makan roti.",
+          "o": [
+            "Ayah",
+            "Sita",
+            "Budi"
+          ],
+          "a": "Budi",
+          "e": "Kalimatnya berbunyi “Budi makan roti”. Jadi yang makan roti adalah Budi."
+        },
+        {
+          "t": "Sita membaca apa?",
+          "c": "Sita membaca buku.",
+          "o": [
+            "surat",
+            "buku",
+            "koran"
+          ],
+          "a": "buku",
+          "e": "Di kalimat tertulis Sita membaca buku, bukan koran atau surat."
+        },
+        {
+          "t": "Ayah pergi ke mana?",
+          "c": "Ayah pergi ke pasar.",
+          "o": [
+            "ke sekolah",
+            "ke kantor",
+            "ke pasar"
+          ],
+          "a": "ke pasar",
+          "e": "Di kalimat tertulis “ke pasar”. Itu tempat yang dituju Ayah."
+        },
+        {
+          "t": "Berapa apel yang dibeli Ibu?",
+          "c": "Ibu membeli tiga apel.",
+          "o": [
+            "lima",
+            "dua",
+            "tiga"
+          ],
+          "a": "tiga",
+          "e": "Kata “tiga” ada di depan kata apel. Jadi Ibu membeli tiga apel."
+        },
+        {
+          "t": "Di mana kucing tidur?",
+          "c": "Kucing tidur di kursi.",
+          "o": [
+            "di kursi",
+            "di lantai",
+            "di meja"
+          ],
+          "a": "di kursi",
+          "e": "Kalimatnya menyebut “di kursi”. Itu tempat kucing tidur."
+        },
+        {
+          "t": "Made bermain apa?",
+          "c": "Made bermain bola.",
+          "o": [
+            "bola",
+            "layang-layang",
+            "kelereng"
+          ],
+          "a": "bola",
+          "e": "Di kalimat tertulis Made bermain bola, bukan permainan yang lain."
+        },
+        {
+          "t": "Siapa yang menyiram bunga?",
+          "c": "Nenek menyiram bunga.",
+          "o": [
+            "Kakek",
+            "Ibu",
+            "Nenek"
+          ],
+          "a": "Nenek",
+          "e": "Kalimat itu diawali kata Nenek. Neneklah yang menyiram bunga."
+        },
+        {
+          "t": "Kapan Adik mandi?",
+          "c": "Adik mandi pada pagi hari.",
+          "o": [
+            "malam hari",
+            "siang hari",
+            "pagi hari"
+          ],
+          "a": "pagi hari",
+          "e": "Di kalimat tertulis “pada pagi hari”. Itu waktu Adik mandi."
+        },
+        {
+          "t": "Berapa burung yang hinggap di pohon?",
+          "c": "Dua burung hinggap di pohon.",
+          "o": [
+            "satu",
+            "empat",
+            "dua"
+          ],
+          "a": "dua",
+          "e": "Kalimat itu diawali kata “dua”. Jadi ada dua burung di pohon."
+        },
+        {
+          "t": "Kakak minum apa?",
+          "c": "Kakak minum teh hangat.",
+          "o": [
+            "teh",
+            "jus",
+            "susu"
+          ],
+          "a": "teh",
+          "e": "Di kalimat tertulis Kakak minum teh hangat, bukan susu atau jus."
+        },
+        {
+          "t": "Apa yang digambar Rina?",
+          "c": "Rina menggambar ikan di kertas.",
+          "o": [
+            "ikan",
+            "bunga",
+            "rumah"
+          ],
+          "a": "ikan",
+          "e": "Kalimatnya berbunyi “menggambar ikan”. Jadi gambar yang dibuat Rina adalah ikan."
+        },
+        {
+          "t": "Di mana Pak Joko menanam padi?",
+          "c": "Pak Joko menanam padi di sawah.",
+          "o": [
+            "di sawah",
+            "di kebun",
+            "di halaman"
+          ],
+          "a": "di sawah",
+          "e": "Di akhir kalimat tertulis “di sawah”. Itu tempat Pak Joko menanam padi."
+        },
+        {
+          "t": "Kapan Ucok pulang sekolah?",
+          "c": "Ucok pulang sekolah pada siang hari.",
+          "o": [
+            "malam hari",
+            "pagi hari",
+            "siang hari"
+          ],
+          "a": "siang hari",
+          "e": "Di kalimat tertulis “pada siang hari”. Itu waktu Ucok pulang sekolah."
+        },
+        {
+          "t": "Siapa yang menulis di papan tulis?",
+          "c": "Bu Guru menulis di papan tulis.",
+          "o": [
+            "Ketua kelas",
+            "Pak Guru",
+            "Bu Guru"
+          ],
+          "a": "Bu Guru",
+          "e": "Kalimat itu diawali kata Bu Guru. Bu Gurulah yang menulis di papan tulis."
+        },
+        {
+          "t": "Berapa pensil yang ada di meja?",
+          "c": "Di meja ada empat pensil.",
+          "o": [
+            "empat",
+            "enam",
+            "tiga"
+          ],
+          "a": "empat",
+          "e": "Kata “empat” ada di depan kata pensil. Jadi ada empat pensil di meja."
+        },
+        {
+          "t": "Di mana Komang bermain?",
+          "c": "Sore hari Komang bermain layang-layang di lapangan.",
+          "o": [
+            "di lapangan",
+            "di sekolah",
+            "di rumah"
+          ],
+          "a": "di lapangan",
+          "e": "Di akhir kalimat tertulis “di lapangan”. Itu tempat Komang bermain."
+        },
+        {
+          "t": "Kapan Nyoman menggosok gigi?",
+          "c": "Sebelum tidur, Nyoman menggosok gigi.",
+          "o": [
+            "sesudah mandi",
+            "sebelum makan",
+            "sebelum tidur"
+          ],
+          "a": "sebelum tidur",
+          "e": "Kalimat itu diawali “sebelum tidur”. Itu waktu Nyoman menggosok gigi."
+        },
+        {
+          "t": "Di mana burung membuat sarang?",
+          "c": "Burung itu membuat sarang di pohon mangga.",
+          "o": [
+            "di pohon mangga",
+            "di atap rumah",
+            "di semak"
+          ],
+          "a": "di pohon mangga",
+          "e": "Di akhir kalimat tertulis “di pohon mangga”. Di situlah sarang burung dibuat."
+        },
+        {
+          "t": "Yoga makan apa?",
+          "c": "Yoga lapar. Ia makan nasi goreng.",
+          "o": [
+            "roti bakar",
+            "nasi goreng",
+            "mi rebus"
+          ],
+          "a": "nasi goreng",
+          "e": "Kata “ia” berarti Yoga. Kalimat kedua menyebut ia makan nasi goreng."
+        },
+        {
+          "t": "Apa warna kelinci Dewi?",
+          "c": "Dewi punya kelinci. Kelinci itu berwarna putih.",
+          "o": [
+            "cokelat",
+            "putih",
+            "hitam"
+          ],
+          "a": "putih",
+          "e": "Kalimat kedua menyebut kelinci itu berwarna putih."
+        },
+        {
+          "t": "Siapa yang membantu Ibu?",
+          "c": "Ibu membuat kue. Siti membantu Ibu.",
+          "o": [
+            "Siti",
+            "Ayah",
+            "Kakak"
+          ],
+          "a": "Siti",
+          "e": "Kalimat kedua berbunyi “Siti membantu Ibu”. Jadi yang membantu adalah Siti."
+        },
+        {
+          "t": "Siapa yang mengantar Lani ke dokter?",
+          "c": "Lani sakit gigi. Ibu mengantar Lani ke dokter.",
+          "o": [
+            "Ibu",
+            "Nenek",
+            "Ayah"
+          ],
+          "a": "Ibu",
+          "e": "Kalimat kedua berbunyi “Ibu mengantar Lani”. Jadi yang mengantar adalah Ibu."
+        },
+        {
+          "t": "Kapan Tini ke kebun binatang?",
+          "c": "Hari Minggu Tini ke kebun binatang. Ia melihat gajah.",
+          "o": [
+            "hari Sabtu",
+            "hari Senin",
+            "hari Minggu"
+          ],
+          "a": "hari Minggu",
+          "e": "Kalimat pertama diawali “Hari Minggu”. Itu hari Tini pergi ke kebun binatang."
+        },
+        {
+          "t": "Apa yang dipakai Fajar ke sekolah?",
+          "c": "Pagi ini hujan. Fajar ke sekolah memakai jas hujan.",
+          "o": [
+            "jas hujan",
+            "topi",
+            "jaket"
+          ],
+          "a": "jas hujan",
+          "e": "Kalimat kedua menyebut Fajar memakai jas hujan karena pagi ini hujan."
+        },
+        {
+          "t": "Di mana celengan Meli?",
+          "c": "Meli menabung di celengan. Celengan itu ada di kamar.",
+          "o": [
+            "di dapur",
+            "di teras",
+            "di kamar"
+          ],
+          "a": "di kamar",
+          "e": "Kalimat kedua menyebut celengan itu ada di kamar."
+        },
+        {
+          "t": "Kapan Ayah membacakan cerita?",
+          "c": "Setiap malam Ayah membacakan cerita untuk Dina.",
+          "o": [
+            "setiap malam",
+            "setiap siang",
+            "setiap pagi"
+          ],
+          "a": "setiap malam",
+          "e": "Kalimat itu diawali “setiap malam”. Itu waktu Ayah membacakan cerita."
+        },
+        {
+          "t": "Berapa ikan yang mereka dapat?",
+          "c": "Ayah dan Agus memancing. Mereka mendapat lima ikan.",
+          "o": [
+            "tiga",
+            "lima",
+            "dua"
+          ],
+          "a": "lima",
+          "e": "Kalimat kedua menyebut “lima ikan”. Jadi mereka mendapat lima ikan."
+        },
+        {
+          "t": "Berapa sapi milik Kakek?",
+          "c": "Kakek punya dua sapi dan satu kambing.",
+          "o": [
+            "satu",
+            "dua",
+            "tiga"
+          ],
+          "a": "dua",
+          "e": "Kata “dua” ada di depan kata sapi. Kata “satu” adalah jumlah kambing, bukan sapi."
+        },
+        {
+          "t": "Tas siapa yang berwarna merah?",
+          "c": "Tas Beni berwarna biru. Tas Rara berwarna merah.",
+          "o": [
+            "Ibu",
+            "Beni",
+            "Rara"
+          ],
+          "a": "Rara",
+          "e": "Kalimat kedua menyebut tas Rara berwarna merah. Tas Beni berwarna biru."
+        },
+        {
+          "t": "Berapa kue yang dimakan Adik?",
+          "c": "Ada tiga kue di piring. Adik makan satu kue.",
+          "o": [
+            "tiga",
+            "satu",
+            "lima"
+          ],
+          "a": "satu",
+          "e": "Kalimat kedua menyebut Adik makan satu kue. Angka tiga adalah jumlah kue di piring."
+        }
+      ]
+    },
+    {
+      "id": "bi-p5",
+      "title": "Membaca 5: Bacaan Pendek",
+      "hint": "Baca tiga kalimat sampai selesai, lalu cari jawabannya di bacaan.",
+      "icon": "📚",
+      "questions": [
+        {
+          "t": "Siapa nama kucing Sinta?",
+          "c": "Sinta punya kucing. | Namanya Manis. | Manis suka minum susu.",
+          "o": [
+            "Manis",
+            "Belang",
+            "Putih"
+          ],
+          "a": "Manis",
+          "g": "p5-kucing",
+          "e": "Baris kedua berbunyi “Namanya Manis”. Itu nama kucing milik Sinta."
+        },
+        {
+          "t": "Di mana Bayu dan Anton bermain bola?",
+          "c": "Bayu dan Anton bermain bola. | Mereka bermain di lapangan. | Mereka bermain pada sore hari.",
+          "o": [
+            "di halaman",
+            "di lapangan",
+            "di kelas"
+          ],
+          "a": "di lapangan",
+          "g": "p5-bola",
+          "e": "Baris kedua menyebut mereka bermain di lapangan."
+        },
+        {
+          "t": "Ibu pergi ke mana?",
+          "c": "Ibu pergi ke pasar. | Ibu membeli ikan dan sayur. | Ibu pulang naik becak.",
+          "o": [
+            "ke sekolah",
+            "ke kantor",
+            "ke pasar"
+          ],
+          "a": "ke pasar",
+          "g": "p5-pasar",
+          "e": "Baris pertama berbunyi “Ibu pergi ke pasar”."
+        },
+        {
+          "t": "Siapa yang punya kebun mangga?",
+          "c": "Kakek punya kebun mangga. | Ada lima pohon di kebun itu. | Buah mangganya manis.",
+          "o": [
+            "Paman",
+            "Nenek",
+            "Kakek"
+          ],
+          "a": "Kakek",
+          "g": "p5-kebun",
+          "e": "Baris pertama berbunyi “Kakek punya kebun mangga”."
+        },
+        {
+          "t": "Lina berangkat ke mana?",
+          "c": "Lina berangkat ke sekolah. | Ia berjalan kaki bersama Tari. | Mereka tiba pukul tujuh.",
+          "o": [
+            "ke sekolah",
+            "ke taman",
+            "ke pasar"
+          ],
+          "a": "ke sekolah",
+          "g": "p5-sekolah",
+          "e": "Baris pertama berbunyi “Lina berangkat ke sekolah”."
+        },
+        {
+          "t": "Siapa yang berulang tahun?",
+          "c": "Hari ini Gilang berulang tahun. | Ibu membuat kue cokelat. | Gilang mendapat hadiah buku.",
+          "o": [
+            "Gilang",
+            "Ibu",
+            "Adik"
+          ],
+          "a": "Gilang",
+          "g": "p5-ultah",
+          "e": "Baris pertama menyebut hari ini Gilang berulang tahun."
+        },
+        {
+          "t": "Siapa yang punya ayam?",
+          "c": "Paman Yusuf punya ayam. | Ayam itu bertelur empat butir. | Telurnya ada di kandang.",
+          "o": [
+            "Paman Yusuf",
+            "Pak Guru",
+            "Kakek"
+          ],
+          "a": "Paman Yusuf",
+          "g": "p5-ayam",
+          "e": "Baris pertama berbunyi “Paman Yusuf punya ayam”."
+        },
+        {
+          "t": "Kapan turun hujan?",
+          "c": "Sore ini turun hujan. | Ketut bermain di dalam rumah. | Ia menyusun balok bersama adik.",
+          "o": [
+            "sore ini",
+            "pagi ini",
+            "tadi malam"
+          ],
+          "a": "sore ini",
+          "g": "p5-hujan",
+          "e": "Baris pertama berbunyi “Sore ini turun hujan”."
+        },
+        {
+          "t": "Rani pergi ke mana?",
+          "c": "Hari Minggu Rani ke pantai. | Ia pergi bersama ayah dan ibu. | Rani membuat istana pasir.",
+          "o": [
+            "ke pantai",
+            "ke kebun",
+            "ke gunung"
+          ],
+          "a": "ke pantai",
+          "g": "p5-pantai",
+          "e": "Baris pertama menyebut Rani pergi ke pantai."
+        },
+        {
+          "t": "Siapa yang sarapan pagi ini?",
+          "c": "Pagi ini Dodi sarapan. | Ia makan nasi dan telur. | Sesudah itu Dodi minum air putih.",
+          "o": [
+            "Kakak",
+            "Ayah",
+            "Dodi"
+          ],
+          "a": "Dodi",
+          "g": "p5-sarapan",
+          "e": "Baris pertama berbunyi “Pagi ini Dodi sarapan”."
+        },
+        {
+          "t": "Manis suka minum apa?",
+          "c": "Sinta punya kucing. | Namanya Manis. | Manis suka minum susu.",
+          "o": [
+            "teh",
+            "jus",
+            "susu"
+          ],
+          "a": "susu",
+          "g": "p5-kucing",
+          "e": "Baris ketiga menyebut Manis suka minum susu."
+        },
+        {
+          "t": "Kapan mereka bermain bola?",
+          "c": "Bayu dan Anton bermain bola. | Mereka bermain di lapangan. | Mereka bermain pada sore hari.",
+          "o": [
+            "pagi hari",
+            "malam hari",
+            "sore hari"
+          ],
+          "a": "sore hari",
+          "g": "p5-bola",
+          "e": "Baris ketiga menyebut mereka bermain pada sore hari."
+        },
+        {
+          "t": "Apa yang dibeli Ibu?",
+          "c": "Ibu pergi ke pasar. | Ibu membeli ikan dan sayur. | Ibu pulang naik becak.",
+          "o": [
+            "baju dan topi",
+            "ikan dan sayur",
+            "roti dan susu"
+          ],
+          "a": "ikan dan sayur",
+          "g": "p5-pasar",
+          "e": "Baris kedua menyebut Ibu membeli ikan dan sayur."
+        },
+        {
+          "t": "Berapa pohon di kebun itu?",
+          "c": "Kakek punya kebun mangga. | Ada lima pohon di kebun itu. | Buah mangganya manis.",
+          "o": [
+            "lima",
+            "sepuluh",
+            "tiga"
+          ],
+          "a": "lima",
+          "g": "p5-kebun",
+          "e": "Baris kedua menyebut ada lima pohon di kebun itu."
+        },
+        {
+          "t": "Lina berjalan kaki bersama siapa?",
+          "c": "Lina berangkat ke sekolah. | Ia berjalan kaki bersama Tari. | Mereka tiba pukul tujuh.",
+          "o": [
+            "Tari",
+            "Kakak",
+            "Ibu"
+          ],
+          "a": "Tari",
+          "g": "p5-sekolah",
+          "e": "Kata “ia” berarti Lina. Baris kedua menyebut ia berjalan kaki bersama Tari."
+        },
+        {
+          "t": "Ibu membuat kue apa?",
+          "c": "Hari ini Gilang berulang tahun. | Ibu membuat kue cokelat. | Gilang mendapat hadiah buku.",
+          "o": [
+            "kue keju",
+            "kue cokelat",
+            "kue pisang"
+          ],
+          "a": "kue cokelat",
+          "g": "p5-ultah",
+          "e": "Baris kedua berbunyi “Ibu membuat kue cokelat”."
+        },
+        {
+          "t": "Berapa butir telur ayam itu?",
+          "c": "Paman Yusuf punya ayam. | Ayam itu bertelur empat butir. | Telurnya ada di kandang.",
+          "o": [
+            "empat",
+            "enam",
+            "dua"
+          ],
+          "a": "empat",
+          "g": "p5-ayam",
+          "e": "Baris kedua menyebut ayam itu bertelur empat butir."
+        },
+        {
+          "t": "Di mana Ketut bermain?",
+          "c": "Sore ini turun hujan. | Ketut bermain di dalam rumah. | Ia menyusun balok bersama adik.",
+          "o": [
+            "di lapangan",
+            "di dalam rumah",
+            "di taman"
+          ],
+          "a": "di dalam rumah",
+          "g": "p5-hujan",
+          "e": "Baris kedua menyebut Ketut bermain di dalam rumah karena sedang hujan."
+        },
+        {
+          "t": "Kapan Rani ke pantai?",
+          "c": "Hari Minggu Rani ke pantai. | Ia pergi bersama ayah dan ibu. | Rani membuat istana pasir.",
+          "o": [
+            "hari Senin",
+            "hari Jumat",
+            "hari Minggu"
+          ],
+          "a": "hari Minggu",
+          "g": "p5-pantai",
+          "e": "Baris pertama diawali “Hari Minggu”. Itu hari Rani pergi ke pantai."
+        },
+        {
+          "t": "Dodi makan apa?",
+          "c": "Pagi ini Dodi sarapan. | Ia makan nasi dan telur. | Sesudah itu Dodi minum air putih.",
+          "o": [
+            "nasi dan telur",
+            "mi dan bakso",
+            "roti dan keju"
+          ],
+          "a": "nasi dan telur",
+          "g": "p5-sarapan",
+          "e": "Kata “ia” berarti Dodi. Baris kedua menyebut ia makan nasi dan telur."
+        },
+        {
+          "t": "Siapa yang punya kucing?",
+          "c": "Sinta punya kucing. | Namanya Manis. | Manis suka minum susu.",
+          "o": [
+            "Manis",
+            "Sinta",
+            "Ibu"
+          ],
+          "a": "Sinta",
+          "g": "p5-kucing",
+          "e": "Baris pertama berbunyi “Sinta punya kucing”. Manis adalah nama kucingnya."
+        },
+        {
+          "t": "Siapa teman Bayu bermain bola?",
+          "c": "Bayu dan Anton bermain bola. | Mereka bermain di lapangan. | Mereka bermain pada sore hari.",
+          "o": [
+            "Anton",
+            "Rio",
+            "Dimas"
+          ],
+          "a": "Anton",
+          "g": "p5-bola",
+          "e": "Baris pertama berbunyi “Bayu dan Anton bermain bola”. Jadi teman Bayu adalah Anton."
+        },
+        {
+          "t": "Ibu pulang naik apa?",
+          "c": "Ibu pergi ke pasar. | Ibu membeli ikan dan sayur. | Ibu pulang naik becak.",
+          "o": [
+            "sepeda",
+            "becak",
+            "bus"
+          ],
+          "a": "becak",
+          "g": "p5-pasar",
+          "e": "Baris ketiga berbunyi “Ibu pulang naik becak”."
+        },
+        {
+          "t": "Bagaimana rasa buah mangganya?",
+          "c": "Kakek punya kebun mangga. | Ada lima pohon di kebun itu. | Buah mangganya manis.",
+          "o": [
+            "pahit",
+            "asam",
+            "manis"
+          ],
+          "a": "manis",
+          "g": "p5-kebun",
+          "e": "Baris ketiga berbunyi “Buah mangganya manis”."
+        },
+        {
+          "t": "Pukul berapa mereka tiba?",
+          "c": "Lina berangkat ke sekolah. | Ia berjalan kaki bersama Tari. | Mereka tiba pukul tujuh.",
+          "o": [
+            "pukul tujuh",
+            "pukul enam",
+            "pukul sembilan"
+          ],
+          "a": "pukul tujuh",
+          "g": "p5-sekolah",
+          "e": "Baris ketiga berbunyi “Mereka tiba pukul tujuh”."
+        },
+        {
+          "t": "Gilang mendapat hadiah apa?",
+          "c": "Hari ini Gilang berulang tahun. | Ibu membuat kue cokelat. | Gilang mendapat hadiah buku.",
+          "o": [
+            "sepatu",
+            "buku",
+            "bola"
+          ],
+          "a": "buku",
+          "g": "p5-ultah",
+          "e": "Baris ketiga menyebut Gilang mendapat hadiah buku."
+        },
+        {
+          "t": "Di mana telur ayam itu?",
+          "c": "Paman Yusuf punya ayam. | Ayam itu bertelur empat butir. | Telurnya ada di kandang.",
+          "o": [
+            "di kebun",
+            "di dapur",
+            "di kandang"
+          ],
+          "a": "di kandang",
+          "g": "p5-ayam",
+          "e": "Baris ketiga berbunyi “Telurnya ada di kandang”."
+        },
+        {
+          "t": "Apa yang disusun Ketut?",
+          "c": "Sore ini turun hujan. | Ketut bermain di dalam rumah. | Ia menyusun balok bersama adik.",
+          "o": [
+            "balok",
+            "buku",
+            "kartu"
+          ],
+          "a": "balok",
+          "g": "p5-hujan",
+          "e": "Kata “ia” berarti Ketut. Baris ketiga menyebut ia menyusun balok."
+        },
+        {
+          "t": "Apa yang dibuat Rani?",
+          "c": "Hari Minggu Rani ke pantai. | Ia pergi bersama ayah dan ibu. | Rani membuat istana pasir.",
+          "o": [
+            "perahu kertas",
+            "layang-layang",
+            "istana pasir"
+          ],
+          "a": "istana pasir",
+          "g": "p5-pantai",
+          "e": "Baris ketiga berbunyi “Rani membuat istana pasir”."
+        },
+        {
+          "t": "Dodi minum apa sesudah makan?",
+          "c": "Pagi ini Dodi sarapan. | Ia makan nasi dan telur. | Sesudah itu Dodi minum air putih.",
+          "o": [
+            "air putih",
+            "teh",
+            "susu"
+          ],
+          "a": "air putih",
+          "g": "p5-sarapan",
+          "e": "Baris ketiga menyebut sesudah itu Dodi minum air putih."
+        }
+      ]
+    }
+  ]
+}

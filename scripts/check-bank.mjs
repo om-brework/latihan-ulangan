@@ -13,6 +13,22 @@ for (const f of readdirSync(dir).filter((f) => f.endsWith(".json"))) {
   errors.push(...r.errors);
 }
 
+// 1b. Bank pengembangan (JSON): wajib punya penjelasan
+const devDir = new URL("../src/data/pengembangan/", import.meta.url);
+for (const f of readdirSync(devDir).filter((f) => f.endsWith(".json"))) {
+  errors.push(...validateSubject(JSON.parse(readFileSync(new URL(f, devDir), "utf8")), LEVEL_SIZE * 2, true).errors);
+}
+// 1c. Level berhitung buatan kode: tiap level 10 soal berbeda, kunci cocok dengan hitungannya
+for (const s of ALL_SUBJECTS) for (const ch of s.chapters.filter((c) => c.blocks)) ch.levels.forEach((list, i) => {
+  const where = `${s.id}/${ch.id} level ${i + 1}`;
+  if (list.length !== LEVEL_SIZE || new Set(list.map((q) => q.pre + "|" + q.post)).size !== list.length) errors.push(`${where}: harus 10 soal berbeda`);
+  for (const q of list) {
+    const m = q.pre.match(/^(\d+) ([+–]) (\d+) =$/);
+    if (m && String(m[2] === "+" ? +m[1] + +m[3] : +m[1] - +m[3]) !== q.a) errors.push(`${where}: kunci salah "${q.pre}"`);
+    if (!/^\d{1,4}$/.test(q.a) || !q.e || q.e.length > 180) errors.push(`${where}: soal tidak lengkap "${q.pre}"`);
+  }
+});
+
 // 2. Paket ulangan (bank.js)
 for (const ch of SPECIAL.chapters) {
   const seen = new Set();
