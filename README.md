@@ -1,21 +1,35 @@
 # Latihan Ulangan Kelas 1
 
-Latihan interaktif untuk anak kelas 1 SD. Di halaman depan anak memilih pelajaran, lalu memilih bab; aplikasi mengambil soal secara acak dari bank soal dan menghitung nilai otomatis.
+Permainan belajar untuk anak kelas 1 SD. Anak memilih pelajaran dan bab, lalu menyelesaikan level satu per satu. Soal tampil satu per layar (carousel), langsung dinilai, dan tiap soal punya pembahasan langkah demi langkah.
 
-## Isi bank soal (1.180 soal)
+## Isi (1.180 soal dalam 118 level)
 
-| Pelajaran | Bab | Soal | File |
-|---|---|---|---|
-| Bahasa Indonesia | 8 | 320 | `src/data/mapel/bi.json` |
-| Matematika | 8 | 320 | `src/data/mapel/mtk.json` |
-| Pendidikan Pancasila | 4 | 240 | `src/data/mapel/pp.json` |
-| Ulangan Bahasa Indonesia 5 Oktober 2026 | 5 materi | 300 | `src/data/bank.js` |
+| Pelajaran | Bab | Level | Soal | File |
+|---|---|---|---|---|
+| Bahasa Indonesia | 8 | 32 | 320 | `src/data/mapel/bi.json` |
+| Matematika | 8 | 32 | 320 | `src/data/mapel/mtk.json` |
+| Pendidikan Pancasila | 4 | 24 | 240 | `src/data/mapel/pp.json` |
+| Paket ulangan Bahasa Indonesia | 5 materi | 30 | 300 | `src/data/bank.js` |
 
-Bank soal per bab disusun dari buku siswa Kurikulum Merdeka kelas I. Tiap bab menampilkan 20 soal acak; "Campuran semua bab" sekitar 30 soal.
+Bank soal per bab disusun dari buku siswa Kurikulum Merdeka kelas I.
 
-## Mode Belajar (Matematika)
+## Level dan bintang
 
-Tiap bab Matematika punya tombol **Belajar**: 2 sampai 4 langkah penjelasan konsep dengan alat peraga interaktif (membilang, garis bilangan, pasangan bilangan, kotak sepuluh, bentuk, mengukur, tabel dan diagram gambar), lalu lanjut ke latihan soal. Materinya ada di `src/lessons/mtk.jsx`, alat peraganya di `src/lessons/widgets.jsx`.
+- Tiap bab dibagi menjadi level berisi sekitar 10 soal, mengikuti urutan bank soal (`makeLevels` di `src/data/catalog.js`).
+- Nilai 60 memberi 1 bintang, 80 memberi 2, dan 100 memberi 3. Minimal 1 bintang membuka level berikutnya.
+- "Tantangan campuran" (15 soal acak dari semua bab) selalu terbuka.
+- Nilai terbaik tiap level disimpan di perangkat dan, kalau ada profil anak, di riwayatnya.
+
+## Pembahasan soal
+
+Sesudah soal diperiksa, tombol **Pembahasan** membuka tiga langkah: baca soal, cari jawaban dengan alat peraga, lalu kesimpulan.
+
+- Jenis pembahasan dikenali otomatis dari bentuk soal (`src/lib/explain.js`): hitungan tambah/kurang, bilangan yang hilang, membilang benda, urutan bilangan, melengkapi dan menyusun suku kata, tanda baca, kata ajaib, pilihan ganda, dan isian.
+- Kalimat kesimpulan diambil dari field `e` di tiap soal.
+
+## Mode Belajar
+
+Tiap bab di ketiga pelajaran punya tombol **Belajar dulu**: 2 sampai 4 langkah penjelasan konsep dengan alat peraga interaktif. Materinya ada di `src/lessons/mtk.jsx`, `bi.jsx`, dan `pp.jsx`; alat peraganya di `widgets.jsx` dan `widgets2.jsx`.
 
 ## Profil anak dan riwayat (Firebase)
 
@@ -55,21 +69,22 @@ Import repo ini di Vercel. Framework **Vite** terdeteksi otomatis (build `npm ru
 
 ## Menambah atau mengubah soal
 
-Sunting file JSON di `src/data/mapel/`, lalu jalankan `npm test`.
+Sunting file JSON di `src/data/mapel/`, lalu jalankan `npm test`. Menambah atau mengurutkan ulang soal mengubah isi level.
 
 ```jsonc
 // Pilihan ganda (urutan pilihan diacak, kecuali "keep": true)
-{ "t": "Lambang negara Indonesia adalah …", "o": ["Garuda Pancasila", "Merah Putih", "Indonesia Raya"], "a": "Garuda Pancasila" }
+{ "t": "Lambang negara Indonesia adalah …", "o": ["Garuda Pancasila", "Merah Putih", "Indonesia Raya"], "a": "Garuda Pancasila", "e": "Garuda Pancasila adalah lambang negara Indonesia." }
 // Isian: kunci satu kata huruf kecil atau angka
-{ "t": "Hitung hasilnya.", "pre": "3 + 4 =", "a": "7" }
-{ "t": "Lengkapi katanya.", "c": "Air yang turun dari langit", "post": "– jan", "a": "hu" }
+{ "t": "Hitung hasilnya.", "pre": "3 + 4 =", "a": "7", "e": "Mulai dari 3, lalu hitung maju 4 kali: 4, 5, 6, 7." }
 ```
 
-Field opsional: `c` (petunjuk; ` | ` memisahkan baris), `pre`/`post` (teks sebelum/sesudah kotak isian), `wide` (kotak isian lebar), `g` (soal dengan `g` yang sama tidak muncul bersamaan).
+Field opsional: `c` (petunjuk; ` | ` memisahkan baris), `pre`/`post` (teks sebelum/sesudah kotak isian), `wide` (kotak isian lebar), `g` (soal dengan `g` yang sama disebar ke level berbeda), `e` (penjelasan untuk pembahasan).
 
 ## Struktur
 
-- `src/data/catalog.js`: daftar pelajaran dan bab, penyusun kuis, dan alamat halaman.
-- `src/lib/random.js`, `src/lib/grade.js`: pengacakan dan penilaian.
-- `src/App.jsx`: halaman depan dan pemilihan bab. `src/components/`: kuis, soal, kartu nilai.
-- `scripts/`: validator bank soal.
+- `src/data/catalog.js`: daftar pelajaran, bab, level, bintang, dan alamat halaman.
+- `src/components/Game.jsx`: permainan satu level (carousel). `Explain.jsx`: pembahasan soal. `Question.jsx`: tampilan satu soal.
+- `src/components/Lesson.jsx` dan `src/lessons/`: mode Belajar.
+- `src/components/ParentPage.jsx`, `src/lib/session.jsx`, `src/lib/store.js`: profil anak, riwayat, dan login.
+- `src/lib/explain.js`, `progress.js`, `grade.js`, `random.js`: logika tanpa tampilan (diuji oleh `npm test`).
+- `scripts/`: validator bank soal dan uji.

@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node scripts/check-bank.mjs && node scripts/check-progress.mjs",
+    "test": "node scripts/check-bank.mjs && node scripts/check-progress.mjs && node scripts/check-explain.mjs",
     "test:cloud": "firebase-tools emulators:exec --project demo-latihan --only auth,firestore \"node scripts/test-cloud.mjs\""
   },
   "dependencies": {

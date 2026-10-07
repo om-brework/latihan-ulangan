@@ -53,7 +53,7 @@ function TenFrame({ a = 0, b = 0, crossed = 0 }) {
   );
 }
 
-function Say({ children, sub }) {
+export function Say({ children, sub }) {
   return (
     <div className="say" aria-live="polite">
       <strong>{children}</strong>
@@ -567,7 +567,7 @@ export function DataChart({ start = [3, 5, 2, 4], view = "tabel" }) {
   const hi = Math.max(...counts), lo = Math.min(...counts);
   return (
     <div className="stage">
-      <div className="actions wrap">
+      <div className="actions multi">
         {FRUITS.map(([e, nama], i) => (
           <button type="button" key={nama} className="chunk fruit" onClick={() => add(i)} aria-label={`Tambah satu anak yang suka ${nama}`}>{e} +1</button>
         ))}

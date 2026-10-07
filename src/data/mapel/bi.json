@@ -16,7 +16,8 @@
             "p"
           ],
           "a": "b",
-          "g": "b1-Bb"
+          "g": "b1-Bb",
+          "e": "Huruf B kapital berpasangan dengan b kecil. Huruf b punya perut di sebelah kanan."
         },
         {
           "t": "Huruf kapital dari b adalah …",
@@ -26,7 +27,8 @@
             "P"
           ],
           "a": "B",
-          "g": "b1-Bb"
+          "g": "b1-Bb",
+          "e": "Huruf b kecil berpasangan dengan B kapital. Huruf B punya dua perut."
         },
         {
           "t": "Mana yang huruf kapital?",
@@ -35,7 +37,8 @@
             "b",
             "c"
           ],
-          "a": "A"
+          "a": "A",
+          "e": "Huruf kapital adalah huruf besar. A ditulis besar, sedangkan b dan c ditulis kecil."
         },
         {
           "t": "Mana yang huruf kecil?",
@@ -44,7 +47,8 @@
             "M",
             "B"
           ],
-          "a": "m"
+          "a": "m",
+          "e": "Huruf m ditulis kecil, sedangkan M dan B adalah huruf kapital."
         },
         {
           "t": "Huruf kecil dari A adalah …",
@@ -53,7 +57,8 @@
             "e",
             "o"
           ],
-          "a": "a"
+          "a": "a",
+          "e": "Huruf A kapital berpasangan dengan a kecil. Bunyinya sama, yaitu “a”."
         },
         {
           "t": "Huruf kapital dari e adalah …",
@@ -62,13 +67,15 @@
             "F",
             "B"
           ],
-          "a": "E"
+          "a": "E",
+          "e": "Huruf e kecil berpasangan dengan E kapital. Bunyinya sama, yaitu “e”."
         },
         {
           "t": "Huruf apa yang hilang?",
           "pre": "a,",
           "post": ", c",
-          "a": "b"
+          "a": "b",
+          "e": "Urutan huruf adalah a, b, c. Huruf di antara a dan c adalah b."
         },
         {
           "t": "Mana tulisan nama yang benar?",
@@ -77,7 +84,8 @@
             "boni",
             "bOni"
           ],
-          "a": "Boni"
+          "a": "Boni",
+          "e": "Nama orang selalu diawali huruf kapital, lalu huruf berikutnya kecil: Boni."
         },
         {
           "t": "b + a dibaca …",
@@ -86,7 +94,8 @@
             "bi",
             "bo"
           ],
-          "a": "ba"
+          "a": "ba",
+          "e": "Bunyi “b” digabung dengan “a” menjadi “ba”."
         },
         {
           "t": "b + u dibaca …",
@@ -95,72 +104,83 @@
             "ba",
             "be"
           ],
-          "a": "bu"
+          "a": "bu",
+          "e": "Bunyi “b” digabung dengan “u” menjadi “bu”."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "bo + la =",
           "a": "bola",
-          "g": "b1-bola"
+          "g": "b1-bola",
+          "e": "Suku kata bo dan la digabung menjadi bola."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ba + tu =",
           "a": "batu",
-          "g": "b1-batu"
+          "g": "b1-batu",
+          "e": "Suku kata ba dan tu digabung menjadi batu."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "bu + ku =",
           "a": "buku",
-          "g": "b1-buku"
+          "g": "b1-buku",
+          "e": "Suku kata bu dan ku digabung menjadi buku."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "bi + ru =",
           "a": "biru",
-          "g": "b1-biru"
+          "g": "b1-biru",
+          "e": "Suku kata bi dan ru digabung menjadi biru."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ba + ju =",
           "a": "baju",
-          "g": "b1-baju"
+          "g": "b1-baju",
+          "e": "Suku kata ba dan ju digabung menjadi baju."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Benda bundar untuk ditendang ⚽",
           "post": "– la",
           "a": "bo",
-          "g": "b1-bola"
+          "g": "b1-bola",
+          "e": "Benda bundar yang ditendang adalah bola. Bola dieja bo - la."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Dibaca saat belajar 📖",
           "post": "– ku",
           "a": "bu",
-          "g": "b1-buku"
+          "g": "b1-buku",
+          "e": "Benda yang dibaca saat belajar adalah buku. Buku dieja bu - ku."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Dipakai di badan 👕",
           "post": "– ju",
           "a": "ba",
-          "g": "b1-baju"
+          "g": "b1-baju",
+          "e": "Benda yang dipakai di badan adalah baju. Baju dieja ba - ju."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Warna langit yang cerah",
           "post": "– ru",
           "a": "bi",
-          "g": "b1-biru"
+          "g": "b1-biru",
+          "e": "Warna langit yang cerah adalah biru. Biru dieja bi - ru."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Benda keras, banyak di sungai",
           "post": "– tu",
           "a": "ba",
-          "g": "b1-batu"
+          "g": "b1-batu",
+          "e": "Benda keras yang banyak di sungai adalah batu. Batu dieja ba - tu."
         },
         {
           "t": "Gambar apa ini? 🐊",
@@ -169,7 +189,8 @@
             "bebek",
             "burung"
           ],
-          "a": "buaya"
+          "a": "buaya",
+          "e": "Binatang bermoncong panjang dan bergigi tajam ini adalah buaya."
         },
         {
           "t": "Gambar apa ini? 🐻",
@@ -178,7 +199,8 @@
             "buaya",
             "bebek"
           ],
-          "a": "beruang"
+          "a": "beruang",
+          "e": "Binatang besar berbulu tebal dengan telinga bulat ini adalah beruang."
         },
         {
           "t": "Kata mana yang diawali suku kata bu?",
@@ -187,7 +209,8 @@
             "bola",
             "batu"
           ],
-          "a": "buku"
+          "a": "buku",
+          "e": "Buku dieja bu - ku. Suku kata pertamanya bu."
         },
         {
           "t": "Kata mana yang diawali suku kata bo?",
@@ -196,7 +219,8 @@
             "biru",
             "baju"
           ],
-          "a": "bola"
+          "a": "bola",
+          "e": "Bola dieja bo - la. Suku kata pertamanya bo."
         },
         {
           "t": "Kata mana yang diawali suku kata be?",
@@ -206,7 +230,8 @@
             "balok"
           ],
           "a": "bebek",
-          "g": "b1-bebek"
+          "g": "b1-bebek",
+          "e": "Bebek dieja be - bek. Suku kata pertamanya be."
         },
         {
           "t": "Kata \"batu\" terdiri atas suku kata …",
@@ -216,7 +241,8 @@
             "b – atu"
           ],
           "a": "ba – tu",
-          "g": "b1-batu"
+          "g": "b1-batu",
+          "e": "Batu punya dua suku kata. Kita mengucapkannya ba, lalu tu."
         },
         {
           "t": "Huruf awal kata \"burung\" adalah …",
@@ -225,7 +251,8 @@
             "u",
             "r"
           ],
-          "a": "b"
+          "a": "b",
+          "e": "Burung dieja b - u - r - u - ng. Huruf paling depan adalah b."
         },
         {
           "t": "Binatang apa yang berbunyi \"Meong! Meong!\"?",
@@ -234,7 +261,8 @@
             "anjing",
             "sapi"
           ],
-          "a": "kucing"
+          "a": "kucing",
+          "e": "Kucing bersuara “meong”. Anjing bersuara “guk”, dan sapi bersuara “muuu”."
         },
         {
           "t": "Binatang apa yang berbunyi \"Guk! Guk!\"?",
@@ -243,7 +271,8 @@
             "kucing",
             "ayam"
           ],
-          "a": "anjing"
+          "a": "anjing",
+          "e": "Anjing menggonggong dengan suara “guk guk”."
         },
         {
           "t": "Binatang apa yang berbunyi \"Muuu! Muuu!\"?",
@@ -252,7 +281,8 @@
             "bebek",
             "tikus"
           ],
-          "a": "sapi"
+          "a": "sapi",
+          "e": "Sapi melenguh dengan suara “muuu”."
         },
         {
           "t": "Binatang apa yang berbunyi \"Kukuruyuk!\"?",
@@ -261,7 +291,8 @@
             "bebek",
             "sapi"
           ],
-          "a": "ayam jago"
+          "a": "ayam jago",
+          "e": "Ayam jago berkokok “kukuruyuk”, biasanya pada pagi hari."
         },
         {
           "t": "Binatang apa yang berbunyi \"Cit! Cit!\"?",
@@ -270,7 +301,8 @@
             "sapi",
             "anjing"
           ],
-          "a": "tikus"
+          "a": "tikus",
+          "e": "Tikus mencicit dengan suara “cit cit”."
         },
         {
           "t": "Mana bunyi yang keras?",
@@ -279,7 +311,8 @@
             "bunyi bisikan",
             "bunyi daun jatuh"
           ],
-          "a": "bunyi petir"
+          "a": "bunyi petir",
+          "e": "Petir berbunyi keras sekali. Bisikan dan daun jatuh bunyinya pelan."
         },
         {
           "t": "Mana bunyi yang pelan?",
@@ -288,7 +321,8 @@
             "klakson truk",
             "bunyi drum"
           ],
-          "a": "bisikan teman"
+          "a": "bisikan teman",
+          "e": "Berbisik artinya berbicara pelan sekali. Klakson truk dan drum bunyinya keras."
         },
         {
           "t": "Aku melihat dengan …",
@@ -297,7 +331,8 @@
             "telinga",
             "hidung"
           ],
-          "a": "mata"
+          "a": "mata",
+          "e": "Mata adalah alat untuk melihat. Telinga untuk mendengar, hidung untuk mencium bau."
         },
         {
           "t": "Aku mendengar bunyi dengan …",
@@ -306,7 +341,8 @@
             "mata",
             "lidah"
           ],
-          "a": "telinga"
+          "a": "telinga",
+          "e": "Telinga adalah alat untuk mendengar bunyi."
         },
         {
           "t": "Aku mencium bau dengan …",
@@ -315,7 +351,8 @@
             "telinga",
             "kulit"
           ],
-          "a": "hidung"
+          "a": "hidung",
+          "e": "Hidung adalah alat untuk mencium bau, misalnya bau harum bunga."
         },
         {
           "t": "Aku merasakan manisnya permen dengan …",
@@ -324,7 +361,8 @@
             "telinga",
             "mata"
           ],
-          "a": "lidah"
+          "a": "lidah",
+          "e": "Lidah adalah alat untuk merasakan makanan, seperti manis, asin, dan asam."
         },
         {
           "t": "Pasar yang sibuk adalah pasar yang …",
@@ -333,7 +371,8 @@
             "kosong",
             "tutup"
           ],
-          "a": "ramai orang"
+          "a": "ramai orang",
+          "e": "Sibuk artinya banyak kegiatan. Pasar yang sibuk penuh penjual dan pembeli."
         },
         {
           "t": "Saat berkenalan, kita berkata …",
@@ -342,7 +381,8 @@
             "Bola kena batu.",
             "Aduh, basah!"
           ],
-          "a": "Halo, namaku Boni."
+          "a": "Halo, namaku Boni.",
+          "e": "Saat berkenalan, kita menyapa dengan “Halo” lalu menyebutkan nama kita."
         }
       ]
     },
@@ -359,7 +399,8 @@
             "!"
           ],
           "a": "?",
-          "keep": true
+          "keep": true,
+          "e": "Kalimat ini diawali kata tanya “Apakah”, jadi diakhiri tanda tanya."
         },
         {
           "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Hati-hati …\"",
@@ -368,7 +409,8 @@
             "!"
           ],
           "a": "!",
-          "keep": true
+          "keep": true,
+          "e": "“Hati-hati” adalah peringatan. Peringatan diakhiri tanda seru."
         },
         {
           "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Jangan berlari di tempat ramai …\"",
@@ -377,7 +419,8 @@
             "!"
           ],
           "a": "!",
-          "keep": true
+          "keep": true,
+          "e": "Kalimat ini melarang dengan kata “Jangan”, jadi diakhiri tanda seru."
         },
         {
           "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Siapa namamu …\"",
@@ -386,7 +429,8 @@
             "!"
           ],
           "a": "?",
-          "keep": true
+          "keep": true,
+          "e": "Kalimat ini diawali kata tanya “Siapa”, jadi diakhiri tanda tanya."
         },
         {
           "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Di mana bolaku …\"",
@@ -395,7 +439,8 @@
             "!"
           ],
           "a": "?",
-          "keep": true
+          "keep": true,
+          "e": "“Di mana” dipakai untuk bertanya tempat, jadi kalimatnya diakhiri tanda tanya."
         },
         {
           "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Awas, ada lubang …\"",
@@ -404,7 +449,8 @@
             "!"
           ],
           "a": "!",
-          "keep": true
+          "keep": true,
+          "e": "“Awas” adalah peringatan supaya teman tidak jatuh ke lubang. Peringatan diakhiri tanda seru."
         },
         {
           "t": "Tanda \"?\" bernama …",
@@ -413,7 +459,8 @@
             "tanda seru",
             "tanda titik"
           ],
-          "a": "tanda tanya"
+          "a": "tanda tanya",
+          "e": "Tanda “?” dipakai untuk bertanya, maka namanya tanda tanya."
         },
         {
           "t": "Tanda \"!\" bernama …",
@@ -422,7 +469,8 @@
             "tanda tanya",
             "tanda titik"
           ],
-          "a": "tanda seru"
+          "a": "tanda seru",
+          "e": "Tanda “!” dipakai untuk berseru, maka namanya tanda seru."
         },
         {
           "t": "Tanda tanya dipakai di akhir kalimat …",
@@ -431,7 +479,8 @@
             "perintah",
             "larangan"
           ],
-          "a": "tanya"
+          "a": "tanya",
+          "e": "Kalimat tanya dipakai untuk bertanya, dan di akhirnya diberi tanda tanya."
         },
         {
           "t": "Tanda seru dipakai di akhir kalimat …",
@@ -439,7 +488,8 @@
             "larangan atau perintah",
             "tanya"
           ],
-          "a": "larangan atau perintah"
+          "a": "larangan atau perintah",
+          "e": "Tanda seru dipakai saat menyuruh atau melarang, misalnya “Jangan lari!”"
         },
         {
           "t": "Mana kalimat tanya?",
@@ -448,7 +498,8 @@
             "Jangan berebut!",
             "Tunggu dengan tenang!"
           ],
-          "a": "Apakah kamu mau bermain?"
+          "a": "Apakah kamu mau bermain?",
+          "e": "Kalimat ini diawali “Apakah” dan diakhiri tanda tanya, jadi ini kalimat tanya."
         },
         {
           "t": "Mana kalimat larangan?",
@@ -457,7 +508,8 @@
             "Apakah kamu lelah?",
             "Siapa itu?"
           ],
-          "a": "Jangan dorong temanmu!"
+          "a": "Jangan dorong temanmu!",
+          "e": "Kalimat larangan memakai kata “Jangan” dan diakhiri tanda seru."
         },
         {
           "t": "Kata yang dipakai untuk melarang adalah …",
@@ -466,7 +518,8 @@
             "ayo",
             "halo"
           ],
-          "a": "jangan"
+          "a": "jangan",
+          "e": "Kata “jangan” berarti tidak boleh. Kata “ayo” untuk mengajak, “halo” untuk menyapa."
         },
         {
           "t": "Temanmu jatuh. Kamu bertanya …",
@@ -475,81 +528,93 @@
             "Jangan begitu!",
             "Hore!"
           ],
-          "a": "Apakah kamu terluka?"
+          "a": "Apakah kamu terluka?",
+          "e": "Teman yang jatuh mungkin kesakitan. Kita bertanya dulu apakah ia terluka agar bisa menolong."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "hu + jan =",
           "a": "hujan",
           "wide": true,
-          "g": "b2-hujan"
+          "g": "b2-hujan",
+          "e": "Suku kata hu dan jan digabung menjadi hujan."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ha + ti =",
           "a": "hati",
-          "g": "b2-hati"
+          "g": "b2-hati",
+          "e": "Suku kata ha dan ti digabung menjadi hati."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ho + tel =",
           "a": "hotel",
           "wide": true,
-          "g": "b2-hotel"
+          "g": "b2-hotel",
+          "e": "Suku kata ho dan tel digabung menjadi hotel."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "hi + dung =",
           "a": "hidung",
           "wide": true,
-          "g": "b2-hidung"
+          "g": "b2-hidung",
+          "e": "Suku kata hi dan dung digabung menjadi hidung."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ca + bai =",
           "a": "cabai",
-          "wide": true
+          "wide": true,
+          "e": "Suku kata ca dan bai digabung menjadi cabai."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ce + cak =",
           "a": "cecak",
           "wide": true,
-          "g": "b2-cecak"
+          "g": "b2-cecak",
+          "e": "Suku kata ce dan cak digabung menjadi cecak."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Air yang turun dari langit",
           "post": "– jan",
           "a": "hu",
-          "g": "b2-hujan"
+          "g": "b2-hujan",
+          "e": "Air yang turun dari langit adalah hujan. Hujan dieja hu - jan."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Dipakai untuk mencium bau 👃",
           "post": "– dung",
           "a": "hi",
-          "g": "b2-hidung"
+          "g": "b2-hidung",
+          "e": "Kita mencium bau dengan hidung. Hidung dieja hi - dung."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Diberikan saat ulang tahun 🎁",
           "post": "– di – ah",
-          "a": "ha"
+          "a": "ha",
+          "e": "Yang diberikan saat ulang tahun adalah hadiah. Hadiah dieja ha - di - ah."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Terbang dengan baling-baling 🚁",
           "post": "– li – kop – ter",
           "a": "he",
-          "g": "b2-heli"
+          "g": "b2-heli",
+          "e": "Yang terbang dengan baling-baling adalah helikopter. Dieja he - li - kop - ter."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Tempat menginap saat berlibur 🏨",
           "post": "– tel",
           "a": "ho",
-          "g": "b2-hotel"
+          "g": "b2-hotel",
+          "e": "Tempat menginap saat berlibur adalah hotel. Hotel dieja ho - tel."
         },
         {
           "t": "Gambar apa ini? 🚁",
@@ -559,7 +624,8 @@
             "hadiah"
           ],
           "a": "helikopter",
-          "g": "b2-heli"
+          "g": "b2-heli",
+          "e": "Kendaraan yang terbang dengan baling-baling di atasnya adalah helikopter."
         },
         {
           "t": "Kata mana yang diawali suku kata hi?",
@@ -568,7 +634,8 @@
             "hujan",
             "hati"
           ],
-          "a": "hijau"
+          "a": "hijau",
+          "e": "Hijau dieja hi - jau. Suku kata pertamanya hi."
         },
         {
           "t": "Kata mana yang diawali suku kata ha?",
@@ -577,7 +644,8 @@
             "hotel",
             "hidung"
           ],
-          "a": "hadiah"
+          "a": "hadiah",
+          "e": "Hadiah dieja ha - di - ah. Suku kata pertamanya ha."
         },
         {
           "t": "h + a dibaca …",
@@ -586,7 +654,8 @@
             "hu",
             "ho"
           ],
-          "a": "ha"
+          "a": "ha",
+          "e": "Bunyi “h” digabung dengan “a” menjadi “ha”."
         },
         {
           "t": "Huruf kecil dari H adalah …",
@@ -595,7 +664,8 @@
             "n",
             "b"
           ],
-          "a": "h"
+          "a": "h",
+          "e": "Huruf H kapital berpasangan dengan h kecil. Huruf h punya tongkat yang tinggi."
         },
         {
           "t": "Huruf kapital dari c adalah …",
@@ -604,7 +674,8 @@
             "G",
             "O"
           ],
-          "a": "C"
+          "a": "C",
+          "e": "Huruf c kecil berpasangan dengan C kapital. Bentuknya sama, hanya lebih besar."
         },
         {
           "t": "Mana tulisan nama yang benar?",
@@ -613,7 +684,8 @@
             "caca",
             "cAca"
           ],
-          "a": "Caca"
+          "a": "Caca",
+          "e": "Nama orang selalu diawali huruf kapital, lalu huruf berikutnya kecil: Caca."
         },
         {
           "t": "Nama mana yang diawali huruf C?",
@@ -622,7 +694,8 @@
             "Hana",
             "Boni"
           ],
-          "a": "Cika"
+          "a": "Cika",
+          "e": "Cika diawali huruf C. Hana diawali huruf H, dan Boni diawali huruf B."
         },
         {
           "t": "Binatang mana yang namanya diawali huruf c?",
@@ -632,7 +705,8 @@
             "bebek"
           ],
           "a": "cecak",
-          "g": "b2-cecak"
+          "g": "b2-cecak",
+          "e": "Cecak diawali huruf c. Harimau diawali huruf h, dan bebek diawali huruf b."
         },
         {
           "t": "Binatang mana yang namanya diawali huruf h?",
@@ -641,7 +715,8 @@
             "cecak",
             "kucing"
           ],
-          "a": "harimau"
+          "a": "harimau",
+          "e": "Harimau diawali huruf h. Cecak diawali huruf c, dan kucing diawali huruf k."
         },
         {
           "t": "Kata \"hati\" terdiri atas suku kata …",
@@ -651,7 +726,8 @@
             "h – ati"
           ],
           "a": "ha – ti",
-          "g": "b2-hati"
+          "g": "b2-hati",
+          "e": "Hati punya dua suku kata. Kita mengucapkannya ha, lalu ti."
         },
         {
           "t": "Cara bermain yang aman adalah …",
@@ -660,7 +736,8 @@
             "berebut mainan",
             "mendorong teman"
           ],
-          "a": "bergantian dengan teman"
+          "a": "bergantian dengan teman",
+          "e": "Kalau bergantian, semua teman bisa bermain dan tidak ada yang terluka."
         },
         {
           "t": "Saat antre bermain perosotan, kita …",
@@ -669,7 +746,8 @@
             "mendorong teman di depan",
             "memotong barisan"
           ],
-          "a": "sabar menunggu giliran"
+          "a": "sabar menunggu giliran",
+          "e": "Antre artinya menunggu giliran. Mendorong atau memotong barisan bisa membuat teman jatuh."
         },
         {
           "t": "Tempat yang aman untuk bermain adalah …",
@@ -678,7 +756,8 @@
             "tengah jalan raya",
             "rel kereta"
           ],
-          "a": "taman bermain"
+          "a": "taman bermain",
+          "e": "Taman bermain jauh dari kendaraan. Jalan raya dan rel kereta berbahaya."
         },
         {
           "t": "Caca berlatih naik sepeda setiap hari sampai bisa. Caca anak yang …",
@@ -687,7 +766,8 @@
             "mudah menyerah",
             "pemalas"
           ],
-          "a": "rajin berlatih"
+          "a": "rajin berlatih",
+          "e": "Caca berlatih setiap hari dan tidak menyerah. Itu tandanya ia rajin berlatih."
         }
       ]
     },
@@ -701,92 +781,106 @@
           "t": "Susun suku kata menjadi kata.",
           "pre": "ku + da =",
           "a": "kuda",
-          "g": "b3-kuda"
+          "g": "b3-kuda",
+          "e": "Suku kata ku dan da digabung menjadi kuda."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ku + man =",
           "a": "kuman",
           "wide": true,
-          "g": "b3-kuman"
+          "g": "b3-kuman",
+          "e": "Suku kata ku dan man digabung menjadi kuman."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ka + ca =",
-          "a": "kaca"
+          "a": "kaca",
+          "e": "Suku kata ka dan ca digabung menjadi kaca."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ko + tak =",
           "a": "kotak",
           "wide": true,
-          "g": "b3-kotak"
+          "g": "b3-kotak",
+          "e": "Suku kata ko dan tak digabung menjadi kotak."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ka + tak =",
           "a": "katak",
           "wide": true,
-          "g": "b3-katak"
+          "g": "b3-katak",
+          "e": "Suku kata ka dan tak digabung menjadi katak."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ku + tu =",
-          "a": "kutu"
+          "a": "kutu",
+          "e": "Suku kata ku dan tu digabung menjadi kutu."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Binatang yang suka mengeong 🐱",
           "post": "– cing",
           "a": "ku",
-          "g": "b3-kucing"
+          "g": "b3-kucing",
+          "e": "Binatang yang suka mengeong adalah kucing. Kucing dieja ku - cing."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Binatang yang larinya kencang 🐴",
           "post": "– da",
           "a": "ku",
-          "g": "b3-kuda"
+          "g": "b3-kuda",
+          "e": "Binatang yang larinya kencang adalah kuda. Kuda dieja ku - da."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Binatang kecil yang melompat di kolam 🐸",
           "post": "– tak",
           "a": "ka",
-          "g": "b3-katak"
+          "g": "b3-katak",
+          "e": "Binatang kecil yang melompat di kolam adalah katak. Katak dieja ka - tak."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Binatang bertelinga panjang 🐰",
           "post": "– lin – ci",
           "a": "ke",
-          "g": "b3-kelinci"
+          "g": "b3-kelinci",
+          "e": "Binatang bertelinga panjang adalah kelinci. Kelinci dieja ke - lin - ci."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Tempat menyimpan mainan 📦",
           "post": "– tak",
           "a": "ko",
-          "g": "b3-kotak"
+          "g": "b3-kotak",
+          "e": "Tempat menyimpan mainan adalah kotak. Kotak dieja ko - tak."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Binatang bertanduk, mirip rusa",
           "post": "– jang",
-          "a": "ki"
+          "a": "ki",
+          "e": "Binatang bertanduk yang mirip rusa adalah kijang. Kijang dieja ki - jang."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Buah yang airnya segar 🥥",
           "post": "– la – pa",
-          "a": "ke"
+          "a": "ke",
+          "e": "Buah yang airnya segar adalah kelapa. Kelapa dieja ke - la - pa."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Binatang bersayap indah 🦋",
           "post": "– pu – ku – pu",
           "a": "ku",
-          "g": "b3-kupu"
+          "g": "b3-kupu",
+          "e": "Binatang bersayap indah adalah kupu-kupu. Dieja ku - pu - ku - pu."
         },
         {
           "t": "Gambar apa ini? 🦋",
@@ -796,7 +890,8 @@
             "kuda"
           ],
           "a": "kupu-kupu",
-          "g": "b3-kupu"
+          "g": "b3-kupu",
+          "e": "Serangga bersayap lebar dan berwarna indah ini adalah kupu-kupu."
         },
         {
           "t": "Gambar apa ini? 🐢",
@@ -805,7 +900,8 @@
             "kupu-kupu",
             "katak"
           ],
-          "a": "kura-kura"
+          "a": "kura-kura",
+          "e": "Binatang yang punya tempurung keras di punggungnya adalah kura-kura."
         },
         {
           "t": "Mana tulisan yang benar untuk gambar ini? 🐱",
@@ -815,7 +911,8 @@
             "kucin"
           ],
           "a": "kucing",
-          "g": "b3-kucing"
+          "g": "b3-kucing",
+          "e": "Kucing ditulis k - u - c - i - ng. Tidak pakai huruf h, dan diakhiri ng."
         },
         {
           "t": "k + u dibaca …",
@@ -824,7 +921,8 @@
             "ka",
             "ko"
           ],
-          "a": "ku"
+          "a": "ku",
+          "e": "Bunyi “k” digabung dengan “u” menjadi “ku”."
         },
         {
           "t": "k + e dibaca …",
@@ -833,7 +931,8 @@
             "ki",
             "ku"
           ],
-          "a": "ke"
+          "a": "ke",
+          "e": "Bunyi “k” digabung dengan “e” menjadi “ke”."
         },
         {
           "t": "Kata mana yang diawali suku kata ki?",
@@ -842,7 +941,8 @@
             "kuda",
             "katak"
           ],
-          "a": "kijang"
+          "a": "kijang",
+          "e": "Kijang dieja ki - jang. Suku kata pertamanya ki."
         },
         {
           "t": "Kata mana yang diawali suku kata ko?",
@@ -851,7 +951,8 @@
             "kaca",
             "kutu"
           ],
-          "a": "kotak"
+          "a": "kotak",
+          "e": "Kotak dieja ko - tak. Suku kata pertamanya ko."
         },
         {
           "t": "Kata mana yang diawali suku kata ke?",
@@ -860,7 +961,8 @@
             "kotak",
             "kuman"
           ],
-          "a": "kelapa"
+          "a": "kelapa",
+          "e": "Kelapa dieja ke - la - pa. Suku kata pertamanya ke."
         },
         {
           "t": "Binatang mana yang namanya diawali suku kata ku?",
@@ -870,7 +972,8 @@
             "kelinci"
           ],
           "a": "kucing",
-          "g": "b3-kucing"
+          "g": "b3-kucing",
+          "e": "Kucing dieja ku - cing. Suku kata pertamanya ku."
         },
         {
           "t": "Suku kata awal kata \"kakaktua\" adalah …",
@@ -879,7 +982,8 @@
             "ku",
             "ko"
           ],
-          "a": "ka"
+          "a": "ka",
+          "e": "Kakaktua dieja ka - kak - tu - a. Suku kata pertamanya ka."
         },
         {
           "t": "Kata \"kuman\" terdiri atas suku kata …",
@@ -889,7 +993,8 @@
             "k – uman"
           ],
           "a": "ku – man",
-          "g": "b3-kuman"
+          "g": "b3-kuman",
+          "e": "Kuman punya dua suku kata. Kita mengucapkannya ku, lalu man."
         },
         {
           "t": "Kata \"kelinci\" terdiri atas suku kata …",
@@ -899,7 +1004,8 @@
             "ke – li – nci"
           ],
           "a": "ke – lin – ci",
-          "g": "b3-kelinci"
+          "g": "b3-kelinci",
+          "e": "Kelinci punya tiga suku kata. Kita mengucapkannya ke, lin, lalu ci."
         },
         {
           "t": "Huruf apa saja pada kata \"kuda\"?",
@@ -909,7 +1015,8 @@
             "k – u – b – a"
           ],
           "a": "k – u – d – a",
-          "g": "b3-kuda"
+          "g": "b3-kuda",
+          "e": "Kata kuda ditulis dengan empat huruf berurutan: k, u, d, lalu a."
         },
         {
           "t": "Huruf kecil dari K adalah …",
@@ -918,7 +1025,8 @@
             "h",
             "b"
           ],
-          "a": "k"
+          "a": "k",
+          "e": "Huruf K kapital berpasangan dengan k kecil. Bentuknya mirip, hanya lebih kecil."
         },
         {
           "t": "Kuman itu …",
@@ -927,7 +1035,8 @@
             "sebesar rumah",
             "enak dimakan"
           ],
-          "a": "sangat kecil"
+          "a": "sangat kecil",
+          "e": "Kuman sangat kecil sampai tidak terlihat oleh mata kita."
         },
         {
           "t": "Kuman bisa membuat kita …",
@@ -936,7 +1045,8 @@
             "pintar",
             "tinggi"
           ],
-          "a": "sakit"
+          "a": "sakit",
+          "e": "Kuman yang masuk ke tubuh bisa membuat kita sakit, misalnya sakit perut."
         },
         {
           "t": "Agar kuman hilang, kita mencuci tangan dengan …",
@@ -945,7 +1055,8 @@
             "pasir",
             "debu"
           ],
-          "a": "air dan sabun"
+          "a": "air dan sabun",
+          "e": "Sabun membuat kuman lepas dari tangan, lalu air membilasnya sampai bersih."
         },
         {
           "t": "Saat bersin, kita menutup mulut dengan …",
@@ -954,7 +1065,8 @@
             "buku teman",
             "mainan"
           ],
-          "a": "lengan"
+          "a": "lengan",
+          "e": "Menutup mulut dengan lengan membuat kuman tidak menyebar ke teman dan tangan tetap bersih."
         },
         {
           "t": "Sebelum makan, kita harus …",
@@ -963,7 +1075,8 @@
             "bermain tanah",
             "tidur"
           ],
-          "a": "cuci tangan"
+          "a": "cuci tangan",
+          "e": "Kuman menempel di tangan, jadi tangan dicuci dulu supaya kuman tidak ikut termakan."
         },
         {
           "t": "Sebelum dimakan, buah harus …",
@@ -972,7 +1085,8 @@
             "dibuang",
             "dilempar"
           ],
-          "a": "dicuci"
+          "a": "dicuci",
+          "e": "Di kulit buah bisa ada debu dan kuman. Buah dicuci supaya bersih."
         },
         {
           "t": "Saat pilek, kita sebaiknya memakai …",
@@ -981,7 +1095,8 @@
             "topi",
             "sepatu"
           ],
-          "a": "masker"
+          "a": "masker",
+          "e": "Masker menutup hidung dan mulut, jadi kuman pilek tidak menular ke orang lain."
         },
         {
           "t": "Makanan yang dihinggapi lalat adalah makanan yang …",
@@ -990,7 +1105,8 @@
             "bersih",
             "segar"
           ],
-          "a": "kotor"
+          "a": "kotor",
+          "e": "Lalat suka hinggap di sampah dan membawa kuman, jadi makanannya menjadi kotor."
         },
         {
           "t": "Kapan kita harus cuci tangan?",
@@ -999,7 +1115,8 @@
             "saat sedang tidur",
             "saat menonton televisi"
           ],
-          "a": "setelah dari kamar mandi"
+          "a": "setelah dari kamar mandi",
+          "e": "Di kamar mandi banyak kuman. Tangan dicuci setelah keluar dari kamar mandi."
         },
         {
           "t": "Baca: Dilo sakit pilek. Hidung Dilo gatal. Siapa yang sakit pilek?",
@@ -1008,7 +1125,8 @@
             "Kiki",
             "Bu Guru"
           ],
-          "a": "Dilo"
+          "a": "Dilo",
+          "e": "Kalimat pertama berbunyi “Dilo sakit pilek”. Jadi yang sakit pilek adalah Dilo."
         },
         {
           "t": "Baca: Kiki mencuci apel sebelum makan. Apa yang dicuci Kiki?",
@@ -1017,7 +1135,8 @@
             "baju",
             "piring"
           ],
-          "a": "apel"
+          "a": "apel",
+          "e": "Dalam bacaan tertulis “Kiki mencuci apel”. Jadi yang dicuci adalah apel."
         },
         {
           "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Awas, ada kuman …\"",
@@ -1026,7 +1145,8 @@
             "!"
           ],
           "a": "!",
-          "keep": true
+          "keep": true,
+          "e": "“Awas” adalah peringatan supaya orang berhati-hati terhadap kuman. Peringatan diakhiri tanda seru."
         }
       ]
     },
@@ -1040,47 +1160,54 @@
           "t": "Susun suku kata menjadi kata.",
           "pre": "la + ri =",
           "a": "lari",
-          "g": "b4-lari"
+          "g": "b4-lari",
+          "e": "Suku kata la dan ri digabung menjadi lari."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "la + lat =",
           "a": "lalat",
           "wide": true,
-          "g": "b4-lalat"
+          "g": "b4-lalat",
+          "e": "Suku kata la dan lat digabung menjadi lalat."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "le + bah =",
           "a": "lebah",
           "wide": true,
-          "g": "b4-lebah"
+          "g": "b4-lebah",
+          "e": "Suku kata le dan bah digabung menjadi lebah."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "li + pan =",
           "a": "lipan",
           "wide": true,
-          "g": "b4-lipan"
+          "g": "b4-lipan",
+          "e": "Suku kata li dan pan digabung menjadi lipan."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "le + le =",
           "a": "lele",
-          "g": "b4-lele"
+          "g": "b4-lele",
+          "e": "Suku kata le dan le digabung menjadi lele."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "lom + pat =",
           "a": "lompat",
-          "wide": true
+          "wide": true,
+          "e": "Suku kata lom dan pat digabung menjadi lompat."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Serangga yang membuat madu 🐝",
           "post": "– bah",
           "a": "le",
-          "g": "b4-lebah"
+          "g": "b4-lebah",
+          "e": "Serangga yang membuat madu adalah lebah. Lebah dieja le - bah."
         },
         {
           "t": "Lengkapi katanya.",
@@ -1088,40 +1215,46 @@
           "pre": "ikan",
           "post": "– le",
           "a": "le",
-          "g": "b4-lele"
+          "g": "b4-lele",
+          "e": "Ikan yang berkumis adalah ikan lele. Lele dieja le - le."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Serangga yang suka hinggap di sampah",
           "post": "– lat",
           "a": "la",
-          "g": "b4-lalat"
+          "g": "b4-lalat",
+          "e": "Serangga yang suka hinggap di sampah adalah lalat. Lalat dieja la - lat."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Binatang berkaki banyak",
           "post": "– pan",
           "a": "li",
-          "g": "b4-lipan"
+          "g": "b4-lipan",
+          "e": "Binatang berkaki banyak adalah lipan. Lipan dieja li - pan."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Bergerak cepat dengan kaki 🏃",
           "post": "– ri",
           "a": "la",
-          "g": "b4-lari"
+          "g": "b4-lari",
+          "e": "Bergerak cepat dengan kaki disebut lari. Lari dieja la - ri."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Ada di dalam mulut 👅",
           "post": "– dah",
-          "a": "li"
+          "a": "li",
+          "e": "Yang ada di dalam mulut adalah lidah. Lidah dieja li - dah."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Bagian kaki yang bisa ditekuk",
           "post": "– tut",
-          "a": "lu"
+          "a": "lu",
+          "e": "Bagian kaki yang bisa ditekuk adalah lutut. Lutut dieja lu - tut."
         },
         {
           "t": "Burung bergerak dengan cara …",
@@ -1130,7 +1263,8 @@
             "berenang",
             "merayap"
           ],
-          "a": "terbang"
+          "a": "terbang",
+          "e": "Burung punya sayap. Sayap dikepakkan supaya burung bisa terbang."
         },
         {
           "t": "Ikan bergerak dengan cara …",
@@ -1139,7 +1273,8 @@
             "terbang",
             "melompat"
           ],
-          "a": "berenang"
+          "a": "berenang",
+          "e": "Ikan hidup di air. Ikan berenang dengan sirip dan ekornya."
         },
         {
           "t": "Laba-laba bergerak dengan cara …",
@@ -1149,7 +1284,8 @@
             "berenang"
           ],
           "a": "merayap",
-          "g": "b4-laba"
+          "g": "b4-laba",
+          "e": "Laba-laba berjalan dengan delapan kakinya di tanah atau dinding. Itu disebut merayap."
         },
         {
           "t": "Kelinci bergerak dengan cara …",
@@ -1158,7 +1294,8 @@
             "terbang",
             "berenang"
           ],
-          "a": "melompat"
+          "a": "melompat",
+          "e": "Kaki belakang kelinci panjang dan kuat, jadi kelinci bergerak dengan melompat."
         },
         {
           "t": "Kuda laut bergerak dengan cara …",
@@ -1168,7 +1305,8 @@
             "berlari"
           ],
           "a": "berenang",
-          "g": "b4-kudalaut"
+          "g": "b4-kudalaut",
+          "e": "Kuda laut hidup di dalam laut, jadi ia bergerak dengan berenang."
         },
         {
           "t": "Binatang mana yang bisa terbang?",
@@ -1177,7 +1315,8 @@
             "lele",
             "lipan"
           ],
-          "a": "lalat"
+          "a": "lalat",
+          "e": "Lalat punya sayap sehingga bisa terbang. Lele berenang, dan lipan merayap."
         },
         {
           "t": "Binatang mana yang hidup di air?",
@@ -1186,7 +1325,8 @@
             "lebah",
             "lutung"
           ],
-          "a": "ikan lele"
+          "a": "ikan lele",
+          "e": "Ikan lele hidup di air, misalnya di kolam atau sungai. Lebah dan lutung hidup di darat."
         },
         {
           "t": "Lutung adalah sejenis …",
@@ -1195,7 +1335,8 @@
             "ikan",
             "burung"
           ],
-          "a": "monyet"
+          "a": "monyet",
+          "e": "Lutung berekor panjang dan suka memanjat pohon. Lutung termasuk jenis monyet."
         },
         {
           "t": "l + a dibaca …",
@@ -1204,7 +1345,8 @@
             "li",
             "lu"
           ],
-          "a": "la"
+          "a": "la",
+          "e": "Bunyi “l” digabung dengan “a” menjadi “la”."
         },
         {
           "t": "l + o dibaca …",
@@ -1213,7 +1355,8 @@
             "le",
             "la"
           ],
-          "a": "lo"
+          "a": "lo",
+          "e": "Bunyi “l” digabung dengan “o” menjadi “lo”."
         },
         {
           "t": "Kata mana yang diawali suku kata lu?",
@@ -1222,7 +1365,8 @@
             "lebah",
             "lipan"
           ],
-          "a": "lutung"
+          "a": "lutung",
+          "e": "Lutung dieja lu - tung. Suku kata pertamanya lu."
         },
         {
           "t": "Kata mana yang diawali suku kata li?",
@@ -1231,16 +1375,18 @@
             "lalat",
             "lele"
           ],
-          "a": "lipan"
+          "a": "lipan",
+          "e": "Lipan dieja li - pan. Suku kata pertamanya li."
         },
         {
           "t": "Kata mana yang diawali suku kata lo?",
           "o": [
-            "lompat",
+            "lobak",
             "lalat",
             "lebah"
           ],
-          "a": "lompat"
+          "a": "lobak",
+          "e": "Lobak dieja lo - bak, jadi diawali lo. Lalat diawali la, dan lebah diawali le."
         },
         {
           "t": "Kata \"laba-laba\" terdiri atas suku kata …",
@@ -1250,7 +1396,8 @@
             "l – aba – l – aba"
           ],
           "a": "la – ba – la – ba",
-          "g": "b4-laba"
+          "g": "b4-laba",
+          "e": "Laba-laba punya empat suku kata. Kita mengucapkannya la, ba, la, lalu ba."
         },
         {
           "t": "Huruf kapital dari l adalah …",
@@ -1259,7 +1406,8 @@
             "T",
             "J"
           ],
-          "a": "L"
+          "a": "L",
+          "e": "Huruf l kecil berpasangan dengan L kapital. L kapital punya kaki mendatar di bawah."
         },
         {
           "t": "Huruf pertama kalimat \"Lalat terbang.\" adalah …",
@@ -1268,12 +1416,14 @@
             "t",
             "a"
           ],
-          "a": "L"
+          "a": "L",
+          "e": "Kalimat selalu diawali huruf kapital. Kata pertamanya “Lalat”, jadi huruf pertamanya L."
         },
         {
           "t": "Hitung huruf l pada kata ini, lalu tulis angkanya.",
           "pre": "lalat =",
-          "a": "2"
+          "a": "2",
+          "e": "Lalat dieja l - a - l - a - t. Huruf l muncul dua kali."
         },
         {
           "t": "Gambar apa ini? 🕷️",
@@ -1282,7 +1432,8 @@
             "lebah",
             "lalat"
           ],
-          "a": "laba-laba"
+          "a": "laba-laba",
+          "e": "Binatang berkaki delapan yang pandai membuat jaring ini adalah laba-laba."
         },
         {
           "t": "Dalam permainan ular naga, anak paling depan menjadi …",
@@ -1291,7 +1442,8 @@
             "ekor naga",
             "gerbang"
           ],
-          "a": "kepala naga"
+          "a": "kepala naga",
+          "e": "Bagian paling depan naga adalah kepalanya, jadi anak paling depan menjadi kepala naga."
         },
         {
           "t": "Dalam permainan ular naga, anak paling belakang menjadi …",
@@ -1300,7 +1452,8 @@
             "kepala naga",
             "gerbang"
           ],
-          "a": "ekor naga"
+          "a": "ekor naga",
+          "e": "Bagian paling belakang naga adalah ekornya, jadi anak paling belakang menjadi ekor naga."
         },
         {
           "t": "Urutan kata yang benar untuk bercerita adalah …",
@@ -1309,7 +1462,8 @@
             "akhirnya, lalu, pertama",
             "lalu, akhirnya, pertama"
           ],
-          "a": "pertama, lalu, akhirnya"
+          "a": "pertama, lalu, akhirnya",
+          "e": "Cerita dimulai dengan “pertama”, dilanjutkan dengan “lalu”, dan ditutup dengan “akhirnya”."
         },
         {
           "t": "Saat ingin berbicara di kelas, kita …",
@@ -1318,7 +1472,8 @@
             "berteriak",
             "memukul meja"
           ],
-          "a": "mengangkat tangan dulu"
+          "a": "mengangkat tangan dulu",
+          "e": "Mengangkat tangan adalah cara sopan meminta izin berbicara, supaya kelas tetap tertib."
         },
         {
           "t": "Saat teman sedang berbicara, kita …",
@@ -1327,7 +1482,8 @@
             "memotong ucapannya",
             "pergi keluar"
           ],
-          "a": "menunggu sampai selesai"
+          "a": "menunggu sampai selesai",
+          "e": "Kita mendengarkan teman sampai selesai. Memotong ucapan teman itu tidak sopan."
         },
         {
           "t": "Menggerakkan gerobak dari belakang disebut …",
@@ -1336,7 +1492,8 @@
             "menarik",
             "mengangkat"
           ],
-          "a": "mendorong"
+          "a": "mendorong",
+          "e": "Mendorong artinya menggerakkan benda dari belakang supaya benda itu maju."
         },
         {
           "t": "Kuda berjalan di depan gerobak. Kuda … gerobak.",
@@ -1345,7 +1502,8 @@
             "mendorong",
             "melempar"
           ],
-          "a": "menarik"
+          "a": "menarik",
+          "e": "Menarik artinya membuat benda bergerak mengikuti kita dari depan. Kuda ada di depan gerobak."
         },
         {
           "t": "Susun kata menjadi kalimat: berenang – laut – Kuda",
@@ -1355,7 +1513,8 @@
             "Berenang laut kuda."
           ],
           "a": "Kuda laut berenang.",
-          "g": "b4-kudalaut"
+          "g": "b4-kudalaut",
+          "e": "Kalimat dimulai dari siapa yang melakukan: Kuda laut, lalu apa yang dilakukan: berenang."
         },
         {
           "t": "Baca: Gajah menari. Kelinci melompat. Siapa yang melompat?",
@@ -1364,7 +1523,8 @@
             "Gajah",
             "Burung"
           ],
-          "a": "Kelinci"
+          "a": "Kelinci",
+          "e": "Dalam bacaan tertulis “Kelinci melompat”. Gajah tidak melompat, tetapi menari."
         }
       ]
     },
@@ -1378,99 +1538,114 @@
           "t": "Susun suku kata menjadi kata.",
           "pre": "ma + du =",
           "a": "madu",
-          "g": "b5-madu"
+          "g": "b5-madu",
+          "e": "Suku kata ma dan du digabung menjadi madu."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "mo + bil =",
           "a": "mobil",
           "wide": true,
-          "g": "b5-mobil"
+          "g": "b5-mobil",
+          "e": "Suku kata mo dan bil digabung menjadi mobil."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "me + ja =",
           "a": "meja",
-          "g": "b5-meja"
+          "g": "b5-meja",
+          "e": "Suku kata me dan ja digabung menjadi meja."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "me + rah =",
           "a": "merah",
           "wide": true,
-          "g": "b5-merah"
+          "g": "b5-merah",
+          "e": "Suku kata me dan rah digabung menjadi merah."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "mi + num =",
           "a": "minum",
-          "wide": true
+          "wide": true,
+          "e": "Suku kata mi dan num digabung menjadi minum."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Kendaraan beroda empat 🚗",
           "post": "– bil",
           "a": "mo",
-          "g": "b5-mobil"
+          "g": "b5-mobil",
+          "e": "Kendaraan beroda empat adalah mobil. Mobil dieja mo - bil."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Dipakai untuk makan dan berbicara 👄",
           "post": "– lut",
-          "a": "mu"
+          "a": "mu",
+          "e": "Kita makan dan berbicara dengan mulut. Mulut dieja mu - lut."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Buah bulat yang manis 🍈",
           "post": "– lon",
-          "a": "me"
+          "a": "me",
+          "e": "Buah bulat yang manis itu melon. Melon dieja me - lon."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Tempat menaruh buku saat belajar",
           "post": "– ja",
           "a": "me",
-          "g": "b5-meja"
+          "g": "b5-meja",
+          "e": "Tempat menaruh buku saat belajar adalah meja. Meja dieja me - ja."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Warna cabai dan stroberi",
           "post": "– rah",
           "a": "me",
-          "g": "b5-merah"
+          "g": "b5-merah",
+          "e": "Cabai dan stroberi berwarna merah. Merah dieja me - rah."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Tempat kita tinggal 🌍",
           "pre": "bu –",
-          "a": "mi"
+          "a": "mi",
+          "e": "Tempat kita tinggal adalah bumi. Bumi dieja bu - mi."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Tempat menyimpan baju",
           "pre": "le –",
           "post": "– ri",
-          "a": "ma"
+          "a": "ma",
+          "e": "Tempat menyimpan baju adalah lemari. Lemari dieja le - ma - ri."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Bersinar di siang hari ☀️",
           "post": "– ta – ha – ri",
-          "a": "ma"
+          "a": "ma",
+          "e": "Yang bersinar di siang hari adalah matahari. Dieja ma - ta - ha - ri."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Alat untuk memotret 📷",
           "pre": "ka –",
           "post": "– ra",
-          "a": "me"
+          "a": "me",
+          "e": "Alat untuk memotret adalah kamera. Kamera dieja ka - me - ra."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Manis, dibuat oleh lebah 🍯",
           "post": "– du",
           "a": "ma",
-          "g": "b5-madu"
+          "g": "b5-madu",
+          "e": "Yang manis dan dibuat oleh lebah adalah madu. Madu dieja ma - du."
         },
         {
           "t": "m + i dibaca …",
@@ -1479,7 +1654,8 @@
             "mu",
             "ma"
           ],
-          "a": "mi"
+          "a": "mi",
+          "e": "Bunyi “m” digabung dengan “i” menjadi “mi”."
         },
         {
           "t": "m + o dibaca …",
@@ -1488,7 +1664,8 @@
             "me",
             "mi"
           ],
-          "a": "mo"
+          "a": "mo",
+          "e": "Bunyi “m” digabung dengan “o” menjadi “mo”."
         },
         {
           "t": "Kata mana yang diawali suku kata mu?",
@@ -1497,7 +1674,8 @@
             "madu",
             "meja"
           ],
-          "a": "mulut"
+          "a": "mulut",
+          "e": "Mulut dieja mu - lut. Suku kata pertamanya mu."
         },
         {
           "t": "Kata mana yang diawali suku kata mi?",
@@ -1506,7 +1684,8 @@
             "makan",
             "mobil"
           ],
-          "a": "minum"
+          "a": "minum",
+          "e": "Minum dieja mi - num. Suku kata pertamanya mi."
         },
         {
           "t": "Kata mana yang punya suku kata mo?",
@@ -1516,7 +1695,8 @@
             "madu"
           ],
           "a": "komodo",
-          "g": "b5-komodo"
+          "g": "b5-komodo",
+          "e": "Komodo dieja ko - mo - do. Di tengahnya ada suku kata mo."
         },
         {
           "t": "Kata \"komodo\" terdiri atas suku kata …",
@@ -1526,7 +1706,8 @@
             "ko – mod – o"
           ],
           "a": "ko – mo – do",
-          "g": "b5-komodo"
+          "g": "b5-komodo",
+          "e": "Komodo punya tiga suku kata. Kita mengucapkannya ko, mo, lalu do."
         },
         {
           "t": "Huruf kapital dari m adalah …",
@@ -1535,7 +1716,8 @@
             "N",
             "W"
           ],
-          "a": "M"
+          "a": "M",
+          "e": "Huruf m kecil berpasangan dengan M kapital. Bentuk M seperti dua gunung."
         },
         {
           "t": "Gambar apa ini? 🦑",
@@ -1544,7 +1726,8 @@
             "komodo",
             "rama-rama"
           ],
-          "a": "cumi-cumi"
+          "a": "cumi-cumi",
+          "e": "Binatang laut yang punya banyak lengan panjang ini adalah cumi-cumi."
         },
         {
           "t": "Mana tulisan nama yang benar?",
@@ -1553,7 +1736,8 @@
             "moko",
             "mOko"
           ],
-          "a": "Moko"
+          "a": "Moko",
+          "e": "Nama orang selalu diawali huruf kapital, lalu huruf berikutnya kecil: Moko."
         },
         {
           "t": "Tanda titik dipakai untuk …",
@@ -1562,7 +1746,8 @@
             "bertanya",
             "melarang"
           ],
-          "a": "mengakhiri kalimat"
+          "a": "mengakhiri kalimat",
+          "e": "Tanda titik diletakkan di akhir kalimat berita. Titik menandai kalimat sudah selesai."
         },
         {
           "t": "Tanda \".\" bernama …",
@@ -1571,7 +1756,8 @@
             "tanda tanya",
             "tanda seru"
           ],
-          "a": "tanda titik"
+          "a": "tanda titik",
+          "e": "Tanda “.” berupa satu titik kecil, maka namanya tanda titik."
         },
         {
           "t": "Mana kalimat yang tanda titiknya benar?",
@@ -1580,7 +1766,8 @@
             "Mimi. suka bola",
             "Mimi suka. bola"
           ],
-          "a": "Mimi suka bola."
+          "a": "Mimi suka bola.",
+          "e": "Tanda titik hanya ada di akhir kalimat, yaitu sesudah kata terakhir “bola”."
         },
         {
           "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Baju Moko merah …\"",
@@ -1589,7 +1776,8 @@
             "?"
           ],
           "a": ".",
-          "keep": true
+          "keep": true,
+          "e": "Kalimat ini memberi tahu warna baju Moko, bukan bertanya. Jadi diakhiri tanda titik."
         },
         {
           "t": "Tanda baca apa yang tepat di akhir kalimat ini? \"Siapa nama temanmu …\"",
@@ -1598,7 +1786,8 @@
             "?"
           ],
           "a": "?",
-          "keep": true
+          "keep": true,
+          "e": "Kalimat ini menanyakan nama teman dengan kata tanya “Siapa”, jadi diakhiri tanda tanya."
         },
         {
           "t": "Kamu ingin dibantu mengambil buku. Kamu berkata …",
@@ -1607,7 +1796,8 @@
             "Maaf, ya.",
             "Terima kasih."
           ],
-          "a": "Tolong ambilkan buku itu."
+          "a": "Tolong ambilkan buku itu.",
+          "e": "Kita memakai kata “tolong” saat meminta bantuan orang lain."
         },
         {
           "t": "Kamu tidak sengaja menginjak kaki teman. Kamu berkata …",
@@ -1616,7 +1806,8 @@
             "Terima kasih",
             "Tolong"
           ],
-          "a": "Maaf"
+          "a": "Maaf",
+          "e": "Kita berkata “maaf” saat berbuat salah, walaupun tidak sengaja."
         },
         {
           "t": "Teman memberimu kue. Kamu berkata …",
@@ -1625,7 +1816,8 @@
             "Maaf",
             "Permisi"
           ],
-          "a": "Terima kasih"
+          "a": "Terima kasih",
+          "e": "Kita berkata “terima kasih” saat diberi sesuatu."
         },
         {
           "t": "Kamu ingin lewat di depan Pak Guru. Kamu berkata …",
@@ -1634,7 +1826,8 @@
             "Terima kasih",
             "Selamat tidur"
           ],
-          "a": "Permisi"
+          "a": "Permisi",
+          "e": "Kita berkata “permisi” saat ingin lewat di depan orang lain, apalagi orang yang lebih tua."
         },
         {
           "t": "Empat kata ajaib: tolong, maaf, permisi, dan …",
@@ -1643,7 +1836,8 @@
             "hore",
             "aduh"
           ],
-          "a": "terima kasih"
+          "a": "terima kasih",
+          "e": "Kata ajaib yang keempat adalah “terima kasih”. Kita mengucapkannya saat diberi atau dibantu."
         },
         {
           "t": "Mana kalimat yang sopan?",
@@ -1652,7 +1846,8 @@
             "Ambilkan kue itu, cepat!",
             "Kue itu punyaku!"
           ],
-          "a": "Tolong ambilkan kue itu, Kak."
+          "a": "Tolong ambilkan kue itu, Kak.",
+          "e": "Kalimat yang sopan memakai kata “tolong” dan sapaan “Kak”, tidak membentak."
         },
         {
           "t": "Saat bertemu teman baru, kita sebaiknya …",
@@ -1661,7 +1856,8 @@
             "mengejeknya",
             "diam lalu pergi"
           ],
-          "a": "menyapa dan berkenalan"
+          "a": "menyapa dan berkenalan",
+          "e": "Menyapa dan berkenalan membuat teman baru merasa senang dan diterima."
         },
         {
           "t": "Susun kata menjadi kalimat: suka – Mimi – bola",
@@ -1670,7 +1866,8 @@
             "Suka Mimi bola.",
             "Suka bola Mimi."
           ],
-          "a": "Mimi suka bola."
+          "a": "Mimi suka bola.",
+          "e": "Kalimat dimulai dari siapa: Mimi, lalu apa yang dirasakan: suka, lalu apa yang disukai: bola."
         },
         {
           "t": "Susun kata menjadi kalimat: minum – Maya – madu – teh",
@@ -1679,7 +1876,8 @@
             "Teh Maya madu minum.",
             "Minum madu Maya teh."
           ],
-          "a": "Maya minum teh madu."
+          "a": "Maya minum teh madu.",
+          "e": "Kalimat dimulai dari siapa: Maya, lalu apa yang dilakukan: minum, lalu apa yang diminum: teh madu."
         },
         {
           "t": "Baca: Mimi malu menyapa Maya. Siapa yang malu?",
@@ -1688,7 +1886,8 @@
             "Maya",
             "Moko"
           ],
-          "a": "Mimi"
+          "a": "Mimi",
+          "e": "Dalam bacaan, Mimi yang merasa malu. Maya adalah teman yang ingin disapa."
         },
         {
           "t": "Baca: Baju Moko merah. Apa warna baju Moko?",
@@ -1697,7 +1896,8 @@
             "biru",
             "hijau"
           ],
-          "a": "merah"
+          "a": "merah",
+          "e": "Dalam bacaan tertulis “Baju Moko merah”. Jadi warna bajunya merah."
         }
       ]
     },
@@ -1712,92 +1912,106 @@
           "pre": "ga + jah =",
           "a": "gajah",
           "wide": true,
-          "g": "b6-gajah"
+          "g": "b6-gajah",
+          "e": "Suku kata ga dan jah digabung menjadi gajah."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "gi + gi =",
           "a": "gigi",
-          "g": "b6-gigi"
+          "g": "b6-gigi",
+          "e": "Suku kata gi dan gi digabung menjadi gigi."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "gu + ru =",
           "a": "guru",
-          "g": "b6-guru"
+          "g": "b6-guru",
+          "e": "Suku kata gu dan ru digabung menjadi guru."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ga + ram =",
           "a": "garam",
           "wide": true,
-          "g": "b6-garam"
+          "g": "b6-garam",
+          "e": "Suku kata ga dan ram digabung menjadi garam."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "gar + pu =",
           "a": "garpu",
           "wide": true,
-          "g": "b6-garpu"
+          "g": "b6-garpu",
+          "e": "Suku kata gar dan pu digabung menjadi garpu."
         },
         {
           "t": "Gabungkan huruf menjadi kata.",
           "pre": "g – o – l =",
-          "a": "gol"
+          "a": "gol",
+          "e": "Huruf g, o, dan l dibaca bersambung menjadi gol."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Binatang besar berbelalai 🐘",
           "post": "– jah",
           "a": "ga",
-          "g": "b6-gajah"
+          "g": "b6-gajah",
+          "e": "Binatang besar berbelalai adalah gajah. Gajah dieja ga - jah."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Binatang laut berlengan delapan 🐙",
           "post": "– ri – ta",
-          "a": "gu"
+          "a": "gu",
+          "e": "Binatang laut berlengan delapan adalah gurita. Gurita dieja gu - ri - ta."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Kera besar berbulu hitam 🦍",
           "post": "– ri – la",
-          "a": "go"
+          "a": "go",
+          "e": "Kera besar berbulu hitam adalah gorila. Gorila dieja go - ri - la."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Rasanya manis",
           "post": "– la",
           "a": "gu",
-          "g": "b6-gula"
+          "g": "b6-gula",
+          "e": "Yang rasanya manis adalah gula. Gula dieja gu - la."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Rasanya asin",
           "post": "– ram",
           "a": "ga",
-          "g": "b6-garam"
+          "g": "b6-garam",
+          "e": "Yang rasanya asin adalah garam. Garam dieja ga - ram."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Mengajar murid di sekolah",
           "post": "– ru",
           "a": "gu",
-          "g": "b6-guru"
+          "g": "b6-guru",
+          "e": "Yang mengajar murid di sekolah adalah guru. Guru dieja gu - ru."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Alat makan, teman sendok 🍴",
           "pre": "gar –",
           "a": "pu",
-          "g": "b6-garpu"
+          "g": "b6-garpu",
+          "e": "Alat makan teman sendok adalah garpu. Garpu dieja gar - pu."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Rasa senang sekali",
           "post": "– bi – ra",
           "a": "gem",
-          "g": "b6-gembira"
+          "g": "b6-gembira",
+          "e": "Rasa senang sekali disebut gembira. Gembira dieja gem - bi - ra."
         },
         {
           "t": "g + u dibaca …",
@@ -1806,7 +2020,8 @@
             "ga",
             "go"
           ],
-          "a": "gu"
+          "a": "gu",
+          "e": "Bunyi “g” digabung dengan “u” menjadi “gu”."
         },
         {
           "t": "Kata mana yang diawali suku kata go?",
@@ -1815,7 +2030,8 @@
             "gajah",
             "gurita"
           ],
-          "a": "gorila"
+          "a": "gorila",
+          "e": "Gorila dieja go - ri - la. Suku kata pertamanya go."
         },
         {
           "t": "Kata mana yang diawali suku kata ge?",
@@ -1824,7 +2040,8 @@
             "gagak",
             "gigi"
           ],
-          "a": "gelatik"
+          "a": "gelatik",
+          "e": "Gelatik dieja ge - la - tik. Suku kata pertamanya ge."
         },
         {
           "t": "Kata mana yang diawali suku kata gi?",
@@ -1834,7 +2051,8 @@
             "gajah"
           ],
           "a": "gigi",
-          "g": "b6-gigi"
+          "g": "b6-gigi",
+          "e": "Gigi dieja gi - gi. Suku kata pertamanya gi."
         },
         {
           "t": "Kata \"garpu\" terdiri atas suku kata …",
@@ -1844,7 +2062,8 @@
             "garp – u"
           ],
           "a": "gar – pu",
-          "g": "b6-garpu"
+          "g": "b6-garpu",
+          "e": "Garpu punya dua suku kata. Kita mengucapkannya gar, lalu pu."
         },
         {
           "t": "Kata \"gembira\" terdiri atas suku kata …",
@@ -1854,7 +2073,8 @@
             "gemb – i – ra"
           ],
           "a": "gem – bi – ra",
-          "g": "b6-gembira"
+          "g": "b6-gembira",
+          "e": "Gembira punya tiga suku kata. Kita mengucapkannya gem, bi, lalu ra."
         },
         {
           "t": "Huruf kapital dari g adalah …",
@@ -1863,7 +2083,8 @@
             "C",
             "Q"
           ],
-          "a": "G"
+          "a": "G",
+          "e": "Huruf g kecil berpasangan dengan G kapital. G mirip C, tetapi ada garis kecil di dalamnya."
         },
         {
           "t": "Mana tulisan yang benar untuk gambar ini? 🐘",
@@ -1873,7 +2094,8 @@
             "gajha"
           ],
           "a": "gajah",
-          "g": "b6-gajah"
+          "g": "b6-gajah",
+          "e": "Gajah ditulis g - a - j - a - h. Huruf h ada di paling akhir."
         },
         {
           "t": "Gelatik dan gagak adalah nama …",
@@ -1882,7 +2104,8 @@
             "ikan",
             "buah"
           ],
-          "a": "burung"
+          "a": "burung",
+          "e": "Gelatik dan gagak punya sayap dan paruh. Keduanya adalah burung."
         },
         {
           "t": "Gembira artinya …",
@@ -1892,27 +2115,32 @@
             "marah"
           ],
           "a": "senang",
-          "g": "b6-gembira"
+          "g": "b6-gembira",
+          "e": "Gembira sama artinya dengan senang. Orang yang gembira biasanya tersenyum."
         },
         {
           "t": "Hitung gambarnya, lalu tulis angkanya.",
           "pre": "🍎🍎🍎 =",
-          "a": "3"
+          "a": "3",
+          "e": "Hitung apel satu per satu: satu, dua, tiga. Ada 3 apel."
         },
         {
           "t": "Hitung gambarnya, lalu tulis angkanya.",
           "pre": "⚽⚽⚽⚽⚽ =",
-          "a": "5"
+          "a": "5",
+          "e": "Hitung bola satu per satu: satu, dua, tiga, empat, lima. Ada 5 bola."
         },
         {
           "t": "Hitung gambarnya, lalu tulis angkanya.",
           "pre": "🐰🐰 =",
-          "a": "2"
+          "a": "2",
+          "e": "Hitung kelinci satu per satu: satu, dua. Ada 2 kelinci."
         },
         {
           "t": "Hitung gambarnya, lalu tulis angkanya.",
           "pre": "🐘🐘🐘🐘🐘🐘 =",
-          "a": "6"
+          "a": "6",
+          "e": "Hitung gajah satu per satu dari satu sampai enam. Ada 6 gajah."
         },
         {
           "t": "Angka 3 dibaca …",
@@ -1921,23 +2149,27 @@
             "dua",
             "lima"
           ],
-          "a": "tiga"
+          "a": "tiga",
+          "e": "Angka 3 dibaca “tiga”. Angka 2 dibaca “dua”, dan angka 5 dibaca “lima”."
         },
         {
           "t": "Tulis dengan angka.",
           "pre": "empat =",
-          "a": "4"
+          "a": "4",
+          "e": "Kata “empat” ditulis dengan angka 4. Urutannya: satu, dua, tiga, empat."
         },
         {
           "t": "Tulis dengan angka.",
           "pre": "enam =",
-          "a": "6"
+          "a": "6",
+          "e": "Kata “enam” ditulis dengan angka 6. Angka 6 datang sesudah angka 5."
         },
         {
           "t": "Lengkapi urutan angka.",
           "pre": "3, 4,",
           "post": ", 6",
-          "a": "5"
+          "a": "5",
+          "e": "Angka berurutan bertambah satu: 3, 4, 5, 6. Sesudah 4 adalah 5."
         },
         {
           "t": "Baca: Kiki mendapat enam jambu. Berapa jambu Kiki?",
@@ -1946,7 +2178,8 @@
             "3",
             "5"
           ],
-          "a": "6"
+          "a": "6",
+          "e": "Dalam bacaan tertulis “enam jambu”. Enam ditulis dengan angka 6."
         },
         {
           "t": "Rambut Ani lurus. Rambut Budi keriting. Rambut mereka …",
@@ -1954,7 +2187,8 @@
             "berbeda",
             "sama"
           ],
-          "a": "berbeda"
+          "a": "berbeda",
+          "e": "Lurus dan keriting adalah bentuk rambut yang tidak sama, jadi rambut mereka berbeda."
         },
         {
           "t": "Kalau teman berbeda dengan kita, kita tetap …",
@@ -1963,7 +2197,8 @@
             "mengejeknya",
             "menjauhinya"
           ],
-          "a": "berteman dengannya"
+          "a": "berteman dengannya",
+          "e": "Setiap orang itu berbeda, dan itu tidak apa-apa. Kita tetap berteman dan saling menghargai."
         },
         {
           "t": "Alat bantu untuk melihat lebih jelas adalah …",
@@ -1972,7 +2207,8 @@
             "kursi roda",
             "payung"
           ],
-          "a": "kacamata"
+          "a": "kacamata",
+          "e": "Kacamata dipakai di depan mata supaya kita bisa melihat lebih jelas."
         },
         {
           "t": "Teman yang tidak bisa berjalan dapat memakai …",
@@ -1981,7 +2217,8 @@
             "kacamata",
             "payung"
           ],
-          "a": "kursi roda"
+          "a": "kursi roda",
+          "e": "Kursi roda punya roda, jadi teman yang tidak bisa berjalan tetap bisa berpindah tempat."
         },
         {
           "t": "Gajah mengambil buah di pohon tinggi dengan …",
@@ -1990,7 +2227,8 @@
             "ekor",
             "telinga"
           ],
-          "a": "belalai"
+          "a": "belalai",
+          "e": "Belalai gajah panjang dan kuat, jadi bisa meraih buah di pohon yang tinggi."
         },
         {
           "t": "Baca: Gaga suka berenang. Kiki takut air. Siapa yang takut air?",
@@ -1999,7 +2237,8 @@
             "Gaga",
             "Bu Guru"
           ],
-          "a": "Kiki"
+          "a": "Kiki",
+          "e": "Dalam bacaan tertulis “Kiki takut air”. Gaga justru suka berenang."
         },
         {
           "t": "Susun kata menjadi kalimat: jambu – Kiki – makan",
@@ -2008,7 +2247,8 @@
             "Jambu makan Kiki.",
             "Makan Kiki jambu."
           ],
-          "a": "Kiki makan jambu."
+          "a": "Kiki makan jambu.",
+          "e": "Kalimat dimulai dari siapa: Kiki, lalu apa yang dilakukan: makan, lalu apa yang dimakan: jambu."
         }
       ]
     },
@@ -2022,40 +2262,46 @@
           "t": "Gabungkan huruf menjadi kata.",
           "pre": "s – u – s – u =",
           "a": "susu",
-          "g": "b7-susu"
+          "g": "b7-susu",
+          "e": "Huruf s, u, s, dan u dibaca bersambung menjadi susu."
         },
         {
           "t": "Gabungkan huruf menjadi kata.",
           "pre": "t – a – h – u =",
           "a": "tahu",
-          "g": "b7-tahu"
+          "g": "b7-tahu",
+          "e": "Huruf t, a, h, dan u dibaca bersambung menjadi tahu."
         },
         {
           "t": "Gabungkan huruf menjadi kata.",
           "pre": "r – o – t – i =",
           "a": "roti",
-          "g": "b7-roti"
+          "g": "b7-roti",
+          "e": "Huruf r, o, t, dan i dibaca bersambung menjadi roti."
         },
         {
           "t": "Gabungkan huruf menjadi kata.",
           "pre": "b – a – y – a – m =",
           "a": "bayam",
           "wide": true,
-          "g": "b7-bayam"
+          "g": "b7-bayam",
+          "e": "Huruf b, a, y, a, dan m dibaca bersambung menjadi bayam."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ba + lon =",
           "a": "balon",
           "wide": true,
-          "g": "b7-balon"
+          "g": "b7-balon",
+          "e": "Suku kata ba dan lon digabung menjadi balon."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "je + ruk =",
           "a": "jeruk",
           "wide": true,
-          "g": "b7-jeruk"
+          "g": "b7-jeruk",
+          "e": "Suku kata je dan ruk digabung menjadi jeruk."
         },
         {
           "t": "Lengkapi katanya.",
@@ -2063,68 +2309,78 @@
           "pre": "pe –",
           "post": "– ya",
           "a": "pa",
-          "g": "b7-pepaya"
+          "g": "b7-pepaya",
+          "e": "Buah berdaging jingga dan berbiji hitam adalah pepaya. Pepaya dieja pe - pa - ya."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Mainan berbentuk beruang atau orang 🧸",
           "post": "– ne – ka",
-          "a": "bo"
+          "a": "bo",
+          "e": "Mainan berbentuk beruang atau orang adalah boneka. Boneka dieja bo - ne - ka."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Binatang penghasil susu 🐄",
           "pre": "sa –",
-          "a": "pi"
+          "a": "pi",
+          "e": "Binatang penghasil susu adalah sapi. Sapi dieja sa - pi."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Buah bulat berwarna jingga 🍊",
           "post": "– ruk",
           "a": "je",
-          "g": "b7-jeruk"
+          "g": "b7-jeruk",
+          "e": "Buah bulat berwarna jingga adalah jeruk. Jeruk dieja je - ruk."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Dipakai di kepala 🧢",
           "post": "– pi",
           "a": "to",
-          "g": "b7-topi"
+          "g": "b7-topi",
+          "e": "Yang dipakai di kepala adalah topi. Topi dieja to - pi."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Bisa melayang kalau ditiup 🎈",
           "post": "– lon",
           "a": "ba",
-          "g": "b7-balon"
+          "g": "b7-balon",
+          "e": "Yang bisa melayang kalau ditiup adalah balon. Balon dieja ba - lon."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Minuman putih dari sapi 🥛",
           "pre": "su –",
           "a": "su",
-          "g": "b7-susu"
+          "g": "b7-susu",
+          "e": "Minuman putih dari sapi adalah susu. Susu dieja su - su."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Makanan empuk dari tepung 🍞",
           "pre": "ro –",
           "a": "ti",
-          "g": "b7-roti"
+          "g": "b7-roti",
+          "e": "Makanan empuk dari tepung adalah roti. Roti dieja ro - ti."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Sayur berdaun hijau",
           "pre": "ba –",
           "a": "yam",
-          "g": "b7-bayam"
+          "g": "b7-bayam",
+          "e": "Sayur berdaun hijau itu bayam. Bayam dieja ba - yam."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Rasanya pedas 🌶️",
           "pre": "ca –",
           "a": "bai",
-          "g": "b7-cabai"
+          "g": "b7-cabai",
+          "e": "Yang rasanya pedas adalah cabai. Cabai dieja ca - bai."
         },
         {
           "t": "Kata \"jeruk\" dieja …",
@@ -2134,7 +2390,8 @@
             "g – e – r – u – k"
           ],
           "a": "j – e – r – u – k",
-          "g": "b7-jeruk"
+          "g": "b7-jeruk",
+          "e": "Mengeja artinya menyebut huruf satu per satu sesuai urutannya: j, e, r, u, k."
         },
         {
           "t": "Huruf awal kata \"roti\" adalah …",
@@ -2144,7 +2401,8 @@
             "o"
           ],
           "a": "r",
-          "g": "b7-roti"
+          "g": "b7-roti",
+          "e": "Roti dieja r - o - t - i. Huruf paling depan adalah r."
         },
         {
           "t": "Huruf akhir kata \"balon\" adalah …",
@@ -2154,30 +2412,35 @@
             "l"
           ],
           "a": "n",
-          "g": "b7-balon"
+          "g": "b7-balon",
+          "e": "Balon dieja b - a - l - o - n. Huruf paling belakang adalah n."
         },
         {
           "t": "Huruf apa sesudahnya?",
           "pre": "a, b, c,",
-          "a": "d"
+          "a": "d",
+          "e": "Urutan huruf adalah a, b, c, d. Sesudah c adalah d."
         },
         {
           "t": "Huruf apa yang hilang?",
           "pre": "m,",
           "post": ", o",
-          "a": "n"
+          "a": "n",
+          "e": "Urutan huruf adalah m, n, o. Huruf di antara m dan o adalah n."
         },
         {
           "t": "Hitung hurufnya, lalu tulis angkanya.",
           "pre": "tahu =",
           "a": "4",
-          "g": "b7-tahu"
+          "g": "b7-tahu",
+          "e": "Tahu dieja t - a - h - u. Kalau dihitung, ada 4 huruf."
         },
         {
           "t": "Hitung hurufnya, lalu tulis angkanya.",
           "pre": "pepaya =",
           "a": "6",
-          "g": "b7-pepaya"
+          "g": "b7-pepaya",
+          "e": "Pepaya dieja p - e - p - a - y - a. Kalau dihitung, ada 6 huruf."
         },
         {
           "t": "Mana kata yang ejaannya benar?",
@@ -2187,7 +2450,8 @@
             "cabay"
           ],
           "a": "cabai",
-          "g": "b7-cabai"
+          "g": "b7-cabai",
+          "e": "Tulisan yang baku adalah cabai, diakhiri huruf a dan i."
         },
         {
           "t": "Mana nama buah?",
@@ -2196,7 +2460,8 @@
             "bayam",
             "tahu"
           ],
-          "a": "pepaya"
+          "a": "pepaya",
+          "e": "Pepaya adalah buah. Bayam adalah sayur, dan tahu adalah lauk."
         },
         {
           "t": "Mana nama sayur?",
@@ -2205,7 +2470,8 @@
             "jeruk",
             "roti"
           ],
-          "a": "bayam"
+          "a": "bayam",
+          "e": "Bayam adalah sayur berdaun hijau. Jeruk adalah buah, dan roti adalah makanan dari tepung."
         },
         {
           "t": "Mana yang termasuk kebutuhan?",
@@ -2214,7 +2480,8 @@
             "robot mainan",
             "balon"
           ],
-          "a": "makanan"
+          "a": "makanan",
+          "e": "Kebutuhan adalah hal yang harus ada supaya kita bisa hidup sehat, seperti makanan."
         },
         {
           "t": "Mana yang termasuk keinginan?",
@@ -2223,7 +2490,8 @@
             "air minum",
             "baju seragam"
           ],
-          "a": "mainan baru"
+          "a": "mainan baru",
+          "e": "Keinginan adalah hal yang kita mau, tetapi tidak harus ada. Tanpa mainan baru, kita tetap sehat."
         },
         {
           "t": "Sepatu Bimo sudah kekecilan. Bimo butuh …",
@@ -2232,7 +2500,8 @@
             "truk mainan",
             "balon"
           ],
-          "a": "sepatu baru"
+          "a": "sepatu baru",
+          "e": "Sepatu yang kekecilan membuat kaki sakit. Bimo perlu sepatu baru untuk dipakai ke sekolah."
         },
         {
           "t": "Baca: Bimo ingin truk mainan, tetapi Bimo butuh sepatu. Apa yang diinginkan Bimo?",
@@ -2241,7 +2510,8 @@
             "sepatu",
             "tahu"
           ],
-          "a": "truk mainan"
+          "a": "truk mainan",
+          "e": "Kata “ingin” ada di depan “truk mainan”. Sepatu adalah yang dibutuhkan Bimo."
         },
         {
           "t": "Uang logam disebut juga …",
@@ -2250,7 +2520,8 @@
             "dompet",
             "celengan"
           ],
-          "a": "koin"
+          "a": "koin",
+          "e": "Uang logam berbentuk bulat dan keras. Nama lainnya adalah koin."
         },
         {
           "t": "Uang yang bisa dilipat adalah uang …",
@@ -2258,7 +2529,8 @@
             "kertas",
             "logam"
           ],
-          "a": "kertas"
+          "a": "kertas",
+          "e": "Kertas itu tipis dan lentur, jadi uang kertas bisa dilipat. Uang logam keras."
         },
         {
           "t": "Uang logam seribu dan uang kertas seribu nilainya …",
@@ -2267,7 +2539,8 @@
             "lebih besar uang logam",
             "lebih besar uang kertas"
           ],
-          "a": "sama"
+          "a": "sama",
+          "e": "Keduanya bernilai seribu rupiah. Bahannya berbeda, tetapi nilainya sama."
         },
         {
           "t": "Menyimpan uang sedikit demi sedikit disebut …",
@@ -2276,7 +2549,8 @@
             "berbelanja",
             "meminjam"
           ],
-          "a": "menabung"
+          "a": "menabung",
+          "e": "Menabung artinya menyimpan uang sedikit demi sedikit sampai terkumpul banyak."
         },
         {
           "t": "Tempat menabung uang di rumah adalah …",
@@ -2285,7 +2559,8 @@
             "piring",
             "sepatu"
           ],
-          "a": "celengan"
+          "a": "celengan",
+          "e": "Celengan punya lubang kecil untuk memasukkan uang, jadi uang tersimpan aman di rumah."
         },
         {
           "t": "Tempat orang berjual beli adalah …",
@@ -2294,7 +2569,8 @@
             "sekolah",
             "kamar tidur"
           ],
-          "a": "pasar"
+          "a": "pasar",
+          "e": "Di pasar ada penjual dan pembeli. Mereka berjual beli di sana."
         },
         {
           "t": "Kita tidak bisa membeli semua yang kita inginkan karena …",
@@ -2303,7 +2579,8 @@
             "toko terlalu besar",
             "barangnya berat"
           ],
-          "a": "uang terbatas"
+          "a": "uang terbatas",
+          "e": "Uang kita ada batasnya, jadi kita memilih yang paling dibutuhkan lebih dulu."
         },
         {
           "t": "Lengkapi kalimat: Aku ingin topi itu … aku suka warnanya.",
@@ -2312,7 +2589,8 @@
             "tetapi",
             "atau"
           ],
-          "a": "karena"
+          "a": "karena",
+          "e": "Kata “karena” dipakai untuk menyebutkan alasan. Alasannya: aku suka warnanya."
         },
         {
           "t": "Susun kata menjadi kalimat: ingin – Aku – roti",
@@ -2321,7 +2599,8 @@
             "Roti ingin aku.",
             "Ingin roti aku."
           ],
-          "a": "Aku ingin roti."
+          "a": "Aku ingin roti.",
+          "e": "Kalimat dimulai dari siapa: Aku, lalu apa yang dirasakan: ingin, lalu apa yang diinginkan: roti."
         },
         {
           "t": "Baca: Ayah menabung satu koin setiap hari. Apa yang ditabung Ayah?",
@@ -2330,7 +2609,8 @@
             "roti",
             "balon"
           ],
-          "a": "koin"
+          "a": "koin",
+          "e": "Dalam bacaan tertulis “menabung satu koin”. Jadi yang ditabung Ayah adalah koin."
         }
       ]
     },
@@ -2344,48 +2624,55 @@
           "t": "Susun suku kata menjadi kata.",
           "pre": "a + tas =",
           "a": "atas",
-          "g": "b8-atas"
+          "g": "b8-atas",
+          "e": "Suku kata a dan tas digabung menjadi atas."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ba + wah =",
           "a": "bawah",
           "wide": true,
-          "g": "b8-bawah"
+          "g": "b8-bawah",
+          "e": "Suku kata ba dan wah digabung menjadi bawah."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "da + lam =",
           "a": "dalam",
           "wide": true,
-          "g": "b8-dalam"
+          "g": "b8-dalam",
+          "e": "Suku kata da dan lam digabung menjadi dalam."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "lu + ar =",
           "a": "luar",
-          "g": "b8-luar"
+          "g": "b8-luar",
+          "e": "Suku kata lu dan ar digabung menjadi luar."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "ka + nan =",
           "a": "kanan",
           "wide": true,
-          "g": "b8-kanan"
+          "g": "b8-kanan",
+          "e": "Suku kata ka dan nan digabung menjadi kanan."
         },
         {
           "t": "Susun suku kata menjadi kata.",
           "pre": "sat + pam =",
           "a": "satpam",
           "wide": true,
-          "g": "b8-satpam"
+          "g": "b8-satpam",
+          "e": "Suku kata sat dan pam digabung menjadi satpam."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Lawan kata kanan",
           "pre": "ki –",
           "a": "ri",
-          "g": "b8-kiri"
+          "g": "b8-kiri",
+          "e": "Lawan kata kanan adalah kiri. Kiri dieja ki - ri."
         },
         {
           "t": "Lengkapi katanya.",
@@ -2393,14 +2680,16 @@
           "pre": "po –",
           "post": "– si",
           "a": "li",
-          "g": "b8-polisi"
+          "g": "b8-polisi",
+          "e": "Petugas yang mengatur lalu lintas adalah polisi. Polisi dieja po - li - si."
         },
         {
           "t": "Lengkapi katanya.",
           "c": "Petugas keamanan di sekolah",
           "post": "– pam",
           "a": "sat",
-          "g": "b8-satpam"
+          "g": "b8-satpam",
+          "e": "Petugas keamanan di sekolah adalah satpam. Satpam dieja sat - pam."
         },
         {
           "t": "Lawan kata \"atas\" adalah …",
@@ -2410,7 +2699,8 @@
             "luar"
           ],
           "a": "bawah",
-          "g": "b8-atas"
+          "g": "b8-atas",
+          "e": "Lawan kata artinya kebalikan. Kebalikan dari atas adalah bawah."
         },
         {
           "t": "Lawan kata \"kiri\" adalah …",
@@ -2420,7 +2710,8 @@
             "dalam"
           ],
           "a": "kanan",
-          "g": "b8-kiri"
+          "g": "b8-kiri",
+          "e": "Kita punya tangan kiri dan tangan kanan. Kebalikan dari kiri adalah kanan."
         },
         {
           "t": "Lawan kata \"dalam\" adalah …",
@@ -2430,7 +2721,8 @@
             "kanan"
           ],
           "a": "luar",
-          "g": "b8-dalam"
+          "g": "b8-dalam",
+          "e": "Kebalikan dari dalam adalah luar. Contohnya: di dalam rumah dan di luar rumah."
         },
         {
           "t": "Lawan kata \"ramai\" adalah …",
@@ -2439,7 +2731,8 @@
             "sibuk",
             "bising"
           ],
-          "a": "sepi"
+          "a": "sepi",
+          "e": "Ramai artinya banyak orang. Kebalikannya sepi, yaitu sedikit orang dan tenang."
         },
         {
           "t": "Kata \"bawah\" terdiri atas suku kata …",
@@ -2449,7 +2742,8 @@
             "b – awah"
           ],
           "a": "ba – wah",
-          "g": "b8-bawah"
+          "g": "b8-bawah",
+          "e": "Bawah punya dua suku kata. Kita mengucapkannya ba, lalu wah."
         },
         {
           "t": "Kata \"luar\" terdiri atas suku kata …",
@@ -2459,7 +2753,8 @@
             "lua – r"
           ],
           "a": "lu – ar",
-          "g": "b8-luar"
+          "g": "b8-luar",
+          "e": "Luar punya dua suku kata. Kita mengucapkannya lu, lalu ar."
         },
         {
           "t": "Lihat: 🍎 🐱 ⚽ Apa yang ada di sebelah kiri kucing?",
@@ -2468,7 +2763,8 @@
             "bola",
             "kucing"
           ],
-          "a": "apel"
+          "a": "apel",
+          "e": "Urutannya apel, kucing, bola. Benda di sebelah kiri kucing adalah apel."
         },
         {
           "t": "Lihat: 🚗 🏠 🌳 Apa yang ada di sebelah kanan rumah?",
@@ -2477,7 +2773,8 @@
             "mobil",
             "rumah"
           ],
-          "a": "pohon"
+          "a": "pohon",
+          "e": "Urutannya mobil, rumah, pohon. Benda di sebelah kanan rumah adalah pohon."
         },
         {
           "t": "Lihat: 🐟 🐘 🐰 Binatang apa yang paling kanan?",
@@ -2486,7 +2783,8 @@
             "ikan",
             "gajah"
           ],
-          "a": "kelinci"
+          "a": "kelinci",
+          "e": "Urutannya ikan, gajah, kelinci. Yang berada paling kanan adalah kelinci."
         },
         {
           "t": "Baca: Bantal ada di atas tempat tidur. Di mana bantal?",
@@ -2495,7 +2793,8 @@
             "di bawah tempat tidur",
             "di dalam lemari"
           ],
-          "a": "di atas tempat tidur"
+          "a": "di atas tempat tidur",
+          "e": "Dalam bacaan tertulis “di atas tempat tidur”. Di situlah letak bantal."
         },
         {
           "t": "Baca: Baju ada di dalam lemari. Apa yang ada di dalam lemari?",
@@ -2504,7 +2803,8 @@
             "buku",
             "bola"
           ],
-          "a": "baju"
+          "a": "baju",
+          "e": "Dalam bacaan tertulis “Baju ada di dalam lemari”. Jadi isinya baju."
         },
         {
           "t": "Baca: Buku ada di luar kotak. Apakah buku ada di dalam kotak?",
@@ -2513,7 +2813,8 @@
             "Tidak"
           ],
           "a": "Tidak",
-          "keep": true
+          "keep": true,
+          "e": "Luar adalah kebalikan dari dalam. Buku ada di luar kotak, berarti tidak di dalam kotak."
         },
         {
           "t": "Langit ada di … kita.",
@@ -2522,7 +2823,8 @@
             "bawah",
             "dalam"
           ],
-          "a": "atas"
+          "a": "atas",
+          "e": "Kalau kita mendongak, kita melihat langit. Jadi langit ada di atas kita."
         },
         {
           "t": "Ikan hidup di … air.",
@@ -2530,7 +2832,8 @@
             "dalam",
             "luar"
           ],
-          "a": "dalam"
+          "a": "dalam",
+          "e": "Ikan berenang dan bernapas di dalam air. Di luar air, ikan tidak bisa hidup."
         },
         {
           "t": "Siapa yang mengatur lalu lintas di jalan?",
@@ -2540,7 +2843,8 @@
             "petani"
           ],
           "a": "polisi",
-          "g": "b8-polisi"
+          "g": "b8-polisi",
+          "e": "Polisi lalu lintas mengatur kendaraan di jalan supaya tertib dan aman."
         },
         {
           "t": "Siapa yang memadamkan api?",
@@ -2549,7 +2853,8 @@
             "dokter",
             "satpam"
           ],
-          "a": "pemadam kebakaran"
+          "a": "pemadam kebakaran",
+          "e": "Pemadam kebakaran bertugas memadamkan api dengan menyemprotkan air."
         },
         {
           "t": "Siapa yang memeriksa orang sakit?",
@@ -2558,7 +2863,8 @@
             "polisi",
             "satpam"
           ],
-          "a": "dokter"
+          "a": "dokter",
+          "e": "Dokter memeriksa orang sakit dan memberi obat supaya sembuh."
         },
         {
           "t": "Siapa yang menjaga keamanan sekolah?",
@@ -2568,7 +2874,8 @@
             "petugas kebersihan"
           ],
           "a": "satpam",
-          "g": "b8-satpam"
+          "g": "b8-satpam",
+          "e": "Satpam bertugas menjaga keamanan. Di sekolah, satpam berjaga di dekat gerbang."
         },
         {
           "t": "Siapa yang menyapu jalan?",
@@ -2577,7 +2884,8 @@
             "polisi",
             "dokter"
           ],
-          "a": "petugas kebersihan"
+          "a": "petugas kebersihan",
+          "e": "Petugas kebersihan menyapu jalan supaya lingkungan bersih dari sampah."
         },
         {
           "t": "Polisi lalu lintas meniup …",
@@ -2586,7 +2894,8 @@
             "balon",
             "lilin"
           ],
-          "a": "peluit"
+          "a": "peluit",
+          "e": "Bunyi peluit yang nyaring menjadi tanda bagi kendaraan untuk berhenti atau jalan."
         },
         {
           "t": "Pemadam kebakaran menyemprot air dengan …",
@@ -2595,7 +2904,8 @@
             "sapu",
             "peluit"
           ],
-          "a": "selang"
+          "a": "selang",
+          "e": "Selang adalah pipa panjang yang lentur. Air mengalir lewat selang lalu disemprotkan ke api."
         },
         {
           "t": "Untuk menyeberangi sungai, kita lewat …",
@@ -2604,7 +2914,8 @@
             "gubuk",
             "pohon"
           ],
-          "a": "jembatan"
+          "a": "jembatan",
+          "e": "Jembatan dibangun di atas sungai, jadi kita bisa menyeberang tanpa basah."
         },
         {
           "t": "Rumah kecil di tengah sawah disebut …",
@@ -2613,7 +2924,8 @@
             "jembatan",
             "hotel"
           ],
-          "a": "gubuk"
+          "a": "gubuk",
+          "e": "Gubuk adalah rumah kecil dan sederhana di sawah, tempat petani beristirahat."
         },
         {
           "t": "Gambar yang menunjukkan letak tempat disebut …",
@@ -2622,7 +2934,8 @@
             "kalender",
             "jam"
           ],
-          "a": "peta"
+          "a": "peta",
+          "e": "Peta adalah gambar yang menunjukkan letak tempat, seperti jalan, rumah, dan sekolah."
         },
         {
           "t": "Orang yang tidak kamu kenal mengajakmu pulang. Kamu …",
@@ -2631,7 +2944,8 @@
             "ikut dengannya",
             "naik ke mobilnya"
           ],
-          "a": "menolak dan tetap menunggu"
+          "a": "menolak dan tetap menunggu",
+          "e": "Kita tidak tahu maksud orang asing. Supaya aman, kita menolak dan menunggu penjemput."
         },
         {
           "t": "Kalau belum dijemput, kamu menunggu di …",
@@ -2640,7 +2954,8 @@
             "pinggir jalan raya",
             "tempat yang sepi"
           ],
-          "a": "dalam sekolah"
+          "a": "dalam sekolah",
+          "e": "Di dalam sekolah ada guru dan satpam yang menjaga. Jalan raya dan tempat sepi berbahaya."
         },
         {
           "t": "Kalau tersesat, kamu minta tolong kepada …",
@@ -2649,7 +2964,8 @@
             "orang asing di mobil",
             "tidak kepada siapa pun"
           ],
-          "a": "polisi atau satpam"
+          "a": "polisi atau satpam",
+          "e": "Polisi dan satpam adalah petugas yang bisa dipercaya dan siap menolong anak yang tersesat."
         },
         {
           "t": "Kartu nama berisi …",
@@ -2658,7 +2974,8 @@
             "gambar kartun",
             "daftar belanja"
           ],
-          "a": "nama dan alamat rumah"
+          "a": "nama dan alamat rumah",
+          "e": "Kartu nama berisi nama dan alamat rumah, supaya orang tahu siapa kita dan di mana kita tinggal."
         },
         {
           "t": "Sebaiknya kamu pergi keluar rumah bersama …",
@@ -2666,7 +2983,8 @@
             "orang dewasa yang kamu kenal",
             "orang yang tidak dikenal"
           ],
-          "a": "orang dewasa yang kamu kenal"
+          "a": "orang dewasa yang kamu kenal",
+          "e": "Orang dewasa yang kita kenal, seperti ayah atau ibu, akan menjaga kita supaya aman."
         },
         {
           "t": "Baca: Sekolah sudah sepi. Bayu menunggu Ayah. Siapa yang ditunggu Bayu?",
@@ -2675,7 +2993,8 @@
             "Ibu Guru",
             "satpam"
           ],
-          "a": "Ayah"
+          "a": "Ayah",
+          "e": "Dalam bacaan tertulis “Bayu menunggu Ayah”. Jadi yang ditunggu adalah Ayah."
         },
         {
           "t": "Susun kata menjadi kalimat: dalam – Kucing – kotak – di",
@@ -2684,7 +3003,8 @@
             "Kotak di dalam kucing.",
             "Dalam kucing di kotak."
           ],
-          "a": "Kucing di dalam kotak."
+          "a": "Kucing di dalam kotak.",
+          "e": "Kalimat dimulai dari siapa: Kucing, lalu di mana tempatnya: di dalam kotak."
         }
       ]
     }

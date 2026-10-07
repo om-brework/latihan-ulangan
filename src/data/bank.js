@@ -39,8 +39,9 @@ function buildPool(){
   ];
   twoStep.forEach(function(s,i){
     var base = s[0]+" berkata, "+L+s[1]+R+" ";
-    P.A.push({t:base+"Apa yang dilakukan lebih dulu?", o:[s[2],s[3],s[4]], a:s[2], g:"i"+i});
-    P.A.push({t:base+"Apa yang dilakukan sesudah itu?", o:[s[2],s[3],s[4]], a:s[3], g:"i"+i});
+    var urut = "Kata " + L + "lalu" + R + " berarti sesudah itu. Jadi " + s[2] + " dulu, baru " + s[3] + ".";
+    P.A.push({t:base+"Apa yang dilakukan lebih dulu?", o:[s[2],s[3],s[4]], a:s[2], g:"i"+i, e:urut});
+    P.A.push({t:base+"Apa yang dilakukan sesudah itu?", o:[s[2],s[3],s[4]], a:s[3], g:"i"+i, e:urut});
   });
   var detail = [
     ["Pak guru","Buka buku halaman lima.","Halaman berapa yang dibuka?",["lima","tiga","sepuluh"]],
@@ -59,7 +60,7 @@ function buildPool(){
     ["Bu guru","Bacalah dengan suara pelan.","Bagaimana cara membacanya?",["dengan suara pelan","dengan suara keras","sambil berteriak"]]
   ];
   detail.forEach(function(d,i){
-    P.A.push({t:d[0]+" berkata, "+L+d[1]+R+" "+d[2], o:d[3], a:d[3][0], g:"d"+i});
+    P.A.push({t:d[0]+" berkata, "+L+d[1]+R+" "+d[2], o:d[3], a:d[3][0], g:"d"+i, e:"Dengarkan kata pentingnya. Instruksinya: "+L+d[1]+R});
   });
   [
     ["Saat guru memberi instruksi, kita harus "+DOTS,["mendengarkan","mengobrol","bermain"]],
@@ -68,7 +69,17 @@ function buildPool(){
     ["Saat mendengarkan instruksi, mata melihat ke arah "+DOTS,["orang yang berbicara","luar jendela","mainan"]],
     [L+"Ayo berbaris!"+R+" adalah kalimat "+DOTS,["perintah","tanya","cerita"]],
     ["Ibu berkata, "+L+"Tolong ambilkan sapu."+R+" Yang kamu lakukan adalah "+DOTS,["mengambil sapu","mengambil ember","pergi bermain"]]
-  ].forEach(function(s,i){ P.A.push({t:s[0], o:s[1], a:s[1][0], g:"s"+i}); });
+  ].forEach(function(s,i){
+    var why = [
+      "Kita mendengarkan dulu supaya tahu apa yang harus dilakukan.",
+      "Bertanya dengan sopan membuat kita tidak salah mengerjakan.",
+      "Instruksi dilakukan satu per satu sesuai urutannya supaya hasilnya benar.",
+      "Melihat orang yang berbicara membantu kita memperhatikan instruksinya.",
+      L+"Ayo berbaris!"+R+" menyuruh kita melakukan sesuatu, jadi itu kalimat perintah.",
+      "Ibu meminta sapu, jadi yang diambil adalah sapu."
+    ];
+    P.A.push({t:s[0], o:s[1], a:s[1][0], g:"s"+i, e:why[i]});
+  });
 
   /* ---------- B. Tanda tanya dan tanda seru ---------- */
   var tanya = ["Siapa namamu","Di mana rumahmu","Kapan kamu pergi ke sekolah","Apa warna kesukaanmu","Berapa umurmu",
@@ -153,8 +164,8 @@ function buildPool(){
   KATA.forEach(function(k){
     ajaib[k].forEach(function(s,i){ P.C.push({t:s, o:KATA, a:k, keep:true, g:k+i}); });
   });
-  P.C.push({t:"Mana yang bukan kata ajaib?", o:["awas","tolong","maaf","permisi"], a:"awas", g:"m0"});
-  P.C.push({t:"Mana yang termasuk kata ajaib?", o:["terima kasih","cepat","awas","ayo"], a:"terima kasih", g:"m1"});
+  P.C.push({t:"Mana yang bukan kata ajaib?", o:["awas","tolong","maaf","permisi"], a:"awas", g:"m0", e:"Empat kata ajaib adalah maaf, tolong, terima kasih, dan permisi. Awas adalah kata peringatan."});
+  P.C.push({t:"Mana yang termasuk kata ajaib?", o:["terima kasih","cepat","awas","ayo"], a:"terima kasih", g:"m1", e:"Empat kata ajaib adalah maaf, tolong, terima kasih, dan permisi."});
   P.C.push({t:"Kata ajaib yang diucapkan saat meminta bantuan adalah "+DOTS, o:KATA, a:"tolong", keep:true, g:"m2"});
   P.C.push({t:"Kata ajaib yang diucapkan saat berbuat salah adalah "+DOTS, o:KATA, a:"maaf", keep:true, g:"m3"});
 
@@ -238,20 +249,20 @@ function buildPool(){
     var map = {};
     list.forEach(function(w){
       map[w[0]] = w;
-      var s = w[1], q = {t:"Lengkapi katanya.", c:w[2], g:w[0]};
+      var s = w[1], q = {t:"Lengkapi katanya.", c:w[2], g:w[0], e:"Kata " + w[0] + " dieja " + w[1].join(" - ") + "."};
       if(w[3] === 0){ q.a = s[0]; q.post = DASH+" "+s.slice(1).join(" "+DASH+" "); }
       else { q.a = s[s.length-1]; q.pre = s.slice(0,-1).join(" "+DASH+" ")+" "+DASH; }
       P[sec].push(q);
     });
     awalan.forEach(function(k){
-      P[sec].push({t:"Kata "+L+k+R+" diawali suku kata "+DOTS, a:map[k][1][0], g:k});
+      P[sec].push({t:"Kata "+L+k+R+" diawali suku kata "+DOTS, a:map[k][1][0], g:k, e:"Kata " + k + " dieja " + map[k][1].join(" - ") + ". Suku kata pertamanya " + map[k][1][0] + "."});
     });
     susun.forEach(function(k){
       var s = map[k][1];
-      P[sec].push({t:"Susun suku kata menjadi kata.", pre:s[1]+" + "+s[0]+" =", wide:true, a:k, g:k});
+      P[sec].push({t:"Susun suku kata menjadi kata.", pre:s[1]+" + "+s[0]+" =", wide:true, a:k, g:k, e:"Suku kata " + s[0] + " di depan, lalu " + s[1] + ": " + k + "."});
     });
     pilih.forEach(function(p,i){
-      P[sec].push({t:p[0], o:p[1], a:p[1][0], g:"pilih"+i});
+      P[sec].push({t:p[0], o:p[1], a:p[1][0], g:"pilih"+i, e:"Kata " + p[1][0] + " dieja " + map[p[1][0]][1].join(" - ") + "."});
     });
   }
   function awal(x){ return "Mana kata yang diawali suku kata "+L+x+R+"?"; }

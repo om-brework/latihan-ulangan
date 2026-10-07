@@ -156,7 +156,7 @@ button:disabled{opacity:.45;cursor:default;transform:none}
 .steppers{display:flex;flex-direction:column;gap:8px}
 button.round{width:52px;height:52px;padding:0;border-radius:50%;font-size:30px;line-height:1;background:#FFFFFF;border-color:var(--cd);color:var(--cd);flex:none}
 .actions{display:flex;gap:10px;justify-content:center}
-.actions.wrap{flex-wrap:wrap}
+.actions.multi{flex-wrap:wrap}
 button.chunk{background:#FFFFFF;border-color:var(--cd);color:var(--cd);font-size:19px;padding:6px 14px}
 button.chunk.go{background:var(--cd);color:#FFFFFF}
 .tabs{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
@@ -265,3 +265,145 @@ button.danger-btn{background:var(--bad);border-color:#8E2317;color:#FFFFFF;font-
 .prose{font-size:17px;line-height:1.55}
 .prose ul{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:6px}
 .prose h3{margin-top:8px}
+
+/* ---------- Permainan: satu soal per layar (carousel) ---------- */
+.game{height:100vh;height:100dvh;max-width:720px;margin:0 auto;padding-inline:16px;padding-block:10px 0;display:flex;flex-direction:column;gap:8px;overflow:hidden}
+.game-top{display:flex;align-items:center;gap:10px;flex:none}
+.game-close{flex:none;width:44px;height:44px;border-radius:50%;background:var(--surface);color:var(--ink);display:grid;place-items:center;font-weight:800;font-size:20px;text-decoration:none;box-shadow:0 4px 0 rgba(35,48,74,.15)}
+.game-close:focus-visible{outline:4px solid #FF5FA2;outline-offset:2px}
+.pipbar{flex:1;min-width:0;display:flex;gap:4px}
+.pipbar i{flex:1;height:16px;border-radius:999px;background:var(--surface);border:2px solid rgba(35,48,74,.12)}
+.pipbar i.ok{background:#2DBE7E;border-color:#12804F}
+.pipbar i.no{background:#F2543D;border-color:#B83222}
+.pipbar i.cur{border-color:var(--ink);transform:scaleY(1.25)}
+.game-count{flex:none;background:var(--surface);border-radius:999px;padding:4px 12px;font-weight:800;font-variant-numeric:tabular-nums;box-shadow:0 4px 0 rgba(35,48,74,.15)}
+.game-title{flex:none;font-weight:800;font-size:16px;color:var(--ink)}
+.viewport{flex:1;min-height:0;overflow:hidden;touch-action:pan-y}
+.track{display:flex;height:100%;transition:transform .35s ease}
+.slide{flex:0 0 100%;min-width:0;height:100%;padding:0 2px 8px}
+.qs.solo{height:100%;margin:0;padding:18px;background:var(--surface);border:4px solid var(--c);border-radius:28px;box-shadow:0 6px 0 var(--cd);overflow-y:auto;display:flex;flex-direction:column;gap:0}
+.qs.solo .q{margin-block:auto;gap:18px}
+.qs.solo .q-text{font-size:clamp(21px,5.5vw,26px)}
+.qs.solo .clue{font-size:clamp(18px,5vw,24px);color:var(--ink);margin-top:6px}
+.qs.solo .fb{display:none}
+.qs.solo .opts{gap:12px}
+.qs.solo .opt{flex:1 1 40%}
+.qs.solo .opts.marks .opt{flex:0 1 auto}
+.game-bottom{flex:none;background:var(--surface);border-radius:24px 24px 0 0;margin-inline:-16px;padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:8px;box-shadow:0 -4px 0 rgba(35,48,74,.12)}
+.game-bottom.ok{background:var(--good-bg)}
+.game-bottom.no{background:var(--bad-bg)}
+.verdict{font-weight:800;font-size:18px;line-height:1.35;min-height:1.35em;overflow-wrap:anywhere}
+.game-bottom.ok .verdict{color:var(--good);font-family:var(--display);font-size:24px}
+.game-bottom.no .verdict{color:var(--bad)}
+.game-bottom .btns{display:flex;flex-wrap:nowrap;gap:10px;flex:none}
+.game-bottom .btns button.main{flex:1 1 auto;font-size:22px;padding:8px 12px}
+.game-bottom .btns button.nav{flex:0 0 60px;font-size:22px;padding:8px 0}
+
+.finish{margin:auto;width:100%;background:var(--surface);border:4px solid var(--c);border-radius:28px;box-shadow:0 6px 0 var(--cd);padding:24px 18px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center}
+.big-stars{font-size:clamp(52px,16vw,76px);line-height:1;display:flex;gap:6px}
+.big-stars .off{opacity:.2;filter:grayscale(1)}
+.big-stars .on{animation:pop .5s ease-out backwards}
+.finish-score{font-family:var(--display);font-weight:800;font-size:30px;line-height:1.1}
+.finish-msg{font-size:19px;max-width:32ch}
+.finish-actions{display:flex;flex-direction:column;gap:10px;width:100%;max-width:320px}
+.finish-actions .btn,.finish-actions button{width:100%;font-size:21px}
+.btn.plain{background:transparent;border-color:transparent;color:#0E6FB0;font-family:var(--body);font-size:17px}
+
+/* ---------- Peta level ---------- */
+.star-total{font-family:var(--display);font-weight:800;font-size:22px}
+.level-map{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:16px 12px}
+.level{display:flex;flex-direction:column;align-items:center;gap:4px;background:var(--surface);color:var(--ink);text-decoration:none;border:4px solid var(--c);border-radius:24px;padding:12px 4px 10px;box-shadow:0 6px 0 var(--cd);transition:transform .08s,box-shadow .08s}
+a.level:active{transform:translateY(4px);box-shadow:0 2px 0 var(--cd)}
+a.level:focus-visible{outline:4px solid #FF5FA2;outline-offset:2px}
+.level-num{width:58px;height:58px;border-radius:50%;background:var(--c);color:#FFFFFF;display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:30px;line-height:1;text-shadow:0 2px 0 var(--cd)}
+.level-name{font-weight:800;font-size:15px}
+.level-stars{font-size:16px;line-height:1;letter-spacing:1px}
+.level-stars .off{opacity:.22;filter:grayscale(1)}
+.level.now{animation:bob 1.4s ease-in-out infinite}
+.level.locked{border-color:var(--line);box-shadow:0 6px 0 #B9C9DA;color:var(--muted)}
+.level.locked .level-num{background:#DCE7F2;text-shadow:none;font-size:24px}
+.level-hint{text-align:center;font-size:15px;color:var(--muted);padding-bottom:28px}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@media (prefers-reduced-motion: reduce){.track{transition:none}.level.now,.big-stars .on{animation:none}}
+
+/* ---------- Alat peraga bahasa dan Pancasila ---------- */
+.tile{display:inline-grid;place-items:center;min-width:56px;height:56px;padding:0 12px;border-radius:14px;background:#FFFFFF;border:3px solid var(--cd);border-bottom-width:6px;font-family:var(--display);font-weight:800;font-size:28px;line-height:1;color:var(--ink)}
+.tile.vowel{background:#FFF1BF}
+.tile.result{background:var(--cd);color:#FFFFFF}
+.tile.blank{background:#FFFFFF;border-style:dashed;color:var(--muted)}
+button.tile{cursor:pointer}
+.equation{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;font-family:var(--display);font-weight:800;font-size:28px}
+button.tab.big{font-family:var(--display);font-size:26px;min-width:52px;padding:2px 12px}
+.say .hl{color:#C2256B}
+.say strong span + span::before{content:" - ";color:var(--muted)}
+.word-emoji{font-size:54px;line-height:1}
+.join{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;transition:gap .35s ease;min-height:62px;align-items:center}
+.join.joined{gap:0}
+.join.joined .tile{border-radius:0;border-left-width:0;border-right-width:0;padding:0 4px;min-width:0}
+.join.joined .tile:first-child{border-left-width:3px;border-radius:14px 0 0 14px;padding-left:14px}
+.join.joined .tile:last-child{border-right-width:3px;border-radius:0 14px 14px 0;padding-right:14px}
+.pile.explorer,.pile.sort-card{flex-direction:column;gap:6px;text-align:center;font-size:20px;animation:pop .3s ease-out}
+.pile.sort-card b{font-size:21px;line-height:1.3}
+.counter{text-align:center;font-size:15px;font-weight:800;color:var(--muted)}
+button.chunk.group{flex:1 1 40%;font-size:21px;padding:10px 12px}
+button.chunk.right,.ajaib-card.right,.elim-card.right{background:var(--good-bg);border-color:var(--good);color:var(--good);opacity:1}
+button.chunk.wrong,.elim-card.wrong{background:var(--bad-bg);border-color:var(--bad);color:var(--bad);opacity:1}
+.shake{animation:shake .3s}
+@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.order-slots{flex-direction:column;align-items:stretch;gap:6px;font-size:18px;min-height:64px}
+.order-slots.inline{flex-direction:row;flex-wrap:wrap;align-items:center}
+.slot{display:flex;align-items:center;gap:8px;background:var(--good-bg);color:var(--good);border-radius:12px;padding:6px 10px;font-weight:800;animation:pop .25s ease-out}
+.slot i{flex:none;width:26px;height:26px;border-radius:50%;background:var(--good);color:#FFFFFF;display:grid;place-items:center;font-style:normal;font-size:15px}
+.spot-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;background:#FFFFFF;border-radius:16px;padding:10px;max-width:280px;width:100%;align-self:center}
+.spot{aspect-ratio:1;display:grid;place-items:center;font-size:38px;line-height:1;border-radius:12px}
+.spot.box{background:#FFE9A8;border:3px solid #E0A800}
+.cat{animation:pop .3s ease-out}
+.flag{align-self:center;width:200px;max-width:100%;border:3px solid #23304A;border-radius:6px;overflow:hidden;display:flex;flex-direction:column}
+.flag span{height:60px;transition:background .2s}
+.flag-pick{display:flex;align-items:center;gap:8px;justify-content:center}
+.flag-pick .stepper-label{min-width:3.6em}
+button.swatch{width:46px;height:46px;padding:0;border-radius:50%;border:3px solid #23304A}
+button.swatch.on{outline:4px solid var(--sun);outline-offset:2px}
+
+/* ---------- Pembahasan soal ---------- */
+.game-bottom .btns button.explain-btn{flex:1 1 auto;font-size:18px;padding:8px 8px;white-space:nowrap}
+.explain-btn.nudge{animation:bob 1.2s ease-in-out infinite}
+.explain{position:fixed;inset:0;z-index:20;background:var(--bg);display:flex;flex-direction:column;--c:#9B6BFF;--cd:#6236D6}
+.explain > *{width:100%;max-width:720px;margin-inline:auto;padding-inline:16px}
+.explain-top{flex:none;display:flex;align-items:center;gap:12px;padding-block:10px}
+.explain-top b{font-family:var(--display);font-size:24px;flex:1}
+.explain-body{flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;gap:10px;padding-bottom:12px}
+.explain-step{font-weight:800;font-size:16px;color:var(--cd)}
+.explain-q{flex-direction:column;gap:8px;text-align:center;font-size:22px;line-height:1.35}
+.explain-q b{font-size:21px}
+.explain-blank{font-family:var(--display);font-weight:800;font-size:30px}
+.explain-bottom{flex:none;display:flex;gap:10px;background:var(--surface);border-radius:24px 24px 0 0;padding-block:12px calc(12px + env(safe-area-inset-bottom,0px));max-width:none!important}
+.explain-bottom button{flex:1;max-width:340px;white-space:nowrap;font-size:19px;padding-inline:10px}
+.explain-bottom button.ghost{flex:0 1 170px}
+button.game-close{border:none;padding:0;font-family:var(--body)}
+.explain-bottom{justify-content:center}
+.answer-big b{font-family:var(--display);font-weight:800;font-size:44px;line-height:1.1;color:var(--cd);text-align:center;overflow-wrap:anywhere}
+.cells20{display:grid;grid-template-columns:repeat(10,minmax(0,28px));gap:3px;background:#23304A;padding:3px;border-radius:8px}
+.cells20 .cell{width:auto;aspect-ratio:1;height:auto}
+.pop{animation:pop .3s ease-out}
+.count-pile{gap:10px}
+button.count-btn{position:relative;background:none;border:none;padding:4px;font-size:36px;line-height:1;border-radius:12px}
+button.count-btn.counted{background:#FFE9A8}
+button.count-btn b{position:absolute;right:-4px;bottom:-4px;min-width:24px;height:24px;border-radius:50%;background:var(--cd);color:#FFFFFF;font-family:var(--display);font-size:15px;line-height:24px;text-align:center}
+.pile.seq{gap:0;align-items:flex-end;padding-top:26px}
+.seq-item{display:inline-flex;align-items:flex-end}
+.seq-jump{width:38px;text-align:center;font-style:normal;font-weight:800;font-size:15px;color:var(--cd);opacity:0;transform:translateY(-26px);transition:opacity .3s}
+.seq-jump.show{opacity:1}
+.pile.sentence{font-size:24px;line-height:1.4;text-align:center}
+.sentence mark{background:#FFE9A8;border-radius:6px;padding:0 4px}
+.mark-slot{display:inline-block;min-width:1.2em;color:var(--cd);font-family:var(--display);font-size:32px}
+button.chunk.mark{font-size:36px;line-height:1;padding:8px 30px}
+.ajaib,.elim{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.elim{grid-template-columns:1fr}
+.ajaib-card,.elim-card{display:flex;flex-direction:column;gap:2px;align-items:flex-start;text-align:left;background:#FFFFFF;border-color:var(--line);border-width:3px;border-bottom-width:6px;color:var(--ink);font-family:var(--body);font-size:16px;padding:10px 12px}
+.ajaib-card b,.elim-card b{font-size:19px;font-weight:800}
+.ajaib-card span{font-size:15px;font-weight:700;color:var(--muted)}
+.ajaib-card.open{background:var(--bg)}
+.elim-card{flex-direction:row;align-items:center;gap:12px}
+.elim-mark{flex:none;width:34px;height:34px;border-radius:50%;background:var(--bg);display:grid;place-items:center;font-weight:800}
+@media (prefers-reduced-motion: reduce){.pop,.shake,.explain-btn.nudge,.pile.explorer,.pile.sort-card,.slot,.cat{animation:none}.join{transition:none}}

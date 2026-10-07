@@ -7,6 +7,10 @@ const Ctx = createContext(null);
 export const useSession = () => useContext(Ctx);
 
 const ACTIVE_KEY = "latihan-ulangan.active";
+const bestKey = (childId) => `latihan-ulangan.best.${childId ?? "tamu"}`;
+const readBest = (childId) => {
+  try { return JSON.parse(localStorage.getItem(bestKey(childId)) ?? "{}") ?? {}; } catch { return {}; }
+};
 const readActive = () => {
   try { return localStorage.getItem(ACTIVE_KEY); } catch { return null; }
 };
@@ -29,6 +33,7 @@ export function SessionProvider({ children }) {
   const [kidsLoaded, setKidsLoaded] = useState(false);
   const [activeId, setActiveId] = useState(readActive);
   const [attempts, setAttempts] = useState([]);
+  const [bestCache, setBestCache] = useState({});
   const [error, setError] = useState(null);
 
   const store = useMemo(() => (user ? cloudStore(user.uid) : localStore), [user]);
@@ -72,13 +77,21 @@ export function SessionProvider({ children }) {
     return () => { dead = true; };
   }, [store, active?.id]);
 
+  // Nilai terbaik tiap level: gabungan riwayat dan cadangan di perangkat (dipakai juga tanpa profil)
+  useEffect(() => { setBestCache(readBest(active?.id)); }, [active?.id]);
+  const bests = useMemo(() => {
+    const out = { ...bestCache };
+    for (const a of attempts) out[a.key] = Math.max(out[a.key] ?? 0, a.nilai);
+    return out;
+  }, [bestCache, attempts]);
+
   const chooseChild = useCallback((id) => {
     setActiveId(id);
     try { id ? localStorage.setItem(ACTIVE_KEY, id) : localStorage.removeItem(ACTIVE_KEY); } catch { /* abaikan */ }
   }, []);
 
   const api = useMemo(() => ({
-    cloudEnabled, ready, user, kids, kidsLoaded, active, attempts, error, store,
+    cloudEnabled, ready, user, kids, kidsLoaded, active, attempts, bests, error, store,
     clearError: () => setError(null),
     chooseChild,
     async signIn() {
@@ -112,6 +125,11 @@ export function SessionProvider({ children }) {
     },
     /* Simpan satu latihan untuk anak yang aktif. Mengembalikan "saved", "no-child", atau "failed". */
     async saveAttempt(attempt) {
+      setBestCache((cache) => {
+        const next = { ...cache, [attempt.key]: Math.max(cache[attempt.key] ?? 0, attempt.nilai) };
+        try { localStorage.setItem(bestKey(active?.id), JSON.stringify(next)); } catch { /* abaikan */ }
+        return next;
+      });
       if (!active) return "no-child";
       try {
         const saved = await store.saveAttempt(active.id, attempt);
@@ -130,7 +148,7 @@ export function SessionProvider({ children }) {
         return true;
       } catch (e) { setError(messageFor(e)); return false; }
     },
-  }), [ready, user, kids, kidsLoaded, active, attempts, error, store, activeId, chooseChild]);
+  }), [ready, user, kids, kidsLoaded, active, attempts, bests, error, store, activeId, chooseChild]);
 
   return <Ctx.Provider value={api}>{children}</Ctx.Provider>;
 }

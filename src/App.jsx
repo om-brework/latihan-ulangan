@@ -1,14 +1,13 @@
 import { useEffect, useState } from "react";
-import { CHAPTER_QUIZ_SIZE, MIXED_QUIZ_SIZE, SPECIAL, SUBJECTS, resolveRoute } from "./data/catalog.js";
-import Quiz from "./components/Quiz.jsx";
+import { LEVEL_SIZE, MIXED_SIZE, PASS_SCORE, SPECIAL, SUBJECTS, ALL_SUBJECTS, chapterProgress, resolveRoute } from "./data/catalog.js";
+import Game from "./components/Game.jsx";
 import Lesson from "./components/Lesson.jsx";
-import { LESSONS } from "./lessons/mtk.jsx";
+import { LESSONS } from "./lessons/index.js";
 import ParentPage from "./components/ParentPage.jsx";
 import PrivacyPage from "./components/PrivacyPage.jsx";
 import { useSession } from "./lib/session.jsx";
-import { lastScoreByKey } from "./lib/progress.js";
 
-const TOTAL = SUBJECTS.reduce((n, s) => n + s.total, 0) + SPECIAL.total;
+const TOTAL = ALL_SUBJECTS.reduce((n, s) => n + s.total, 0);
 
 function useHash() {
   const [hash, setHash] = useState(() => window.location.hash);
@@ -32,7 +31,7 @@ function ProfileBar() {
         <p>Mau menyimpan nilai dan melihat perkembangan anak? <a href="#/orangtua">Buat profil anak</a></p>
       ) : (
         <>
-          <b>Siapa yang latihan?</b>
+          <b>Siapa yang main?</b>
           <div className="kid-list">
             {s.kids.map((k) => (
               <button type="button" key={k.id} className={`kid${s.active?.id === k.id ? " on" : ""}`} aria-pressed={s.active?.id === k.id} onClick={() => s.chooseChild(k.id)}>
@@ -61,47 +60,58 @@ function Card({ href, icon, title, text, meta, c, cd }) {
   );
 }
 
+function subjectStars(subject, bests) {
+  let stars = 0, max = 0;
+  for (const ch of subject.chapters) {
+    const p = chapterProgress(subject, ch, bests);
+    stars += p.stars;
+    max += p.maxStars;
+  }
+  return `⭐ ${stars} dari ${max}`;
+}
+
 function Home() {
+  const s = useSession();
   return (
     <div className="wrap">
       <header className="head">
         <p className="mascots" aria-hidden="true">🐯🦎🌧️🍫⭐</p>
         <p className="date">Kelas 1 SD</p>
         <h1>
-          <span>Ayo</span> <span>Latihan</span> <span>Ulangan!</span>
+          <span>Ayo</span> <span>Main</span> <span>dan Belajar!</span>
         </h1>
-        <p className="note">Pilih pelajaran, lalu pilih bab. Ada {TOTAL} soal, dan soalnya selalu diacak.</p>
+        <p className="note">Pilih pelajaran, pilih bab, lalu selesaikan levelnya satu per satu. Kumpulkan bintang dari {TOTAL} soal.</p>
       </header>
 
       <ProfileBar />
 
       <section className="group">
-        <h2 className="group-title">Ulangan terdekat</h2>
+        <h2 className="group-title">Pilih pelajaran</h2>
+        {SUBJECTS.map((sub) => (
+          <Card
+            key={sub.id}
+            href={`#/${sub.id}`}
+            icon={sub.icon}
+            title={sub.title}
+            text={`${sub.blurb}.`}
+            meta={`${sub.chapters.length} bab · ${subjectStars(sub, s.bests)}`}
+            c={sub.c}
+            cd={sub.cd}
+          />
+        ))}
+      </section>
+
+      <section className="group">
+        <h2 className="group-title">Paket ulangan</h2>
         <Card
           href={`#/${SPECIAL.id}`}
           icon={SPECIAL.icon}
           title={SPECIAL.title}
-          text={`${SPECIAL.date}. ${SPECIAL.blurb}.`}
-          meta={`${SPECIAL.total} soal`}
-          c="#FFD23F"
-          cd="#E0A800"
+          text={`${SPECIAL.blurb}.`}
+          meta={`${SPECIAL.chapters.length} materi · ${subjectStars(SPECIAL, s.bests)}`}
+          c={SPECIAL.c}
+          cd={SPECIAL.cd}
         />
-      </section>
-
-      <section className="group">
-        <h2 className="group-title">Pilih pelajaran</h2>
-        {SUBJECTS.map((s) => (
-          <Card
-            key={s.id}
-            href={`#/${s.id}`}
-            icon={s.icon}
-            title={s.title}
-            text={`${s.blurb}.`}
-            meta={`${s.chapters.length} bab · ${s.total} soal`}
-            c={s.c}
-            cd={s.cd}
-          />
-        ))}
       </section>
 
       <p className="foot"><a href="#/privasi">Kebijakan privasi</a></p>
@@ -111,76 +121,101 @@ function Home() {
 
 function SubjectPage({ subject }) {
   const s = useSession();
-  const last = lastScoreByKey(s.attempts);
-  const lastOf = (id) => {
-    const v = last[`#/${subject.id}/${id}`];
-    return v === undefined ? null : <span className={`last ${v >= 80 ? "good" : v >= 60 ? "mid" : "low"}`}>Nilai terakhir {v}</span>;
-  };
   return (
     <div className="wrap">
       <header className="head">
         <a className="back" href="#/">← Pilih pelajaran lain</a>
         <p className="mascots" aria-hidden="true">{subject.icon}</p>
         <h1 className="small">{subject.title}</h1>
-        <p className="note">
-          {subject.chapters.some((ch) => LESSONS[ch.id])
-            ? `Tekan Belajar untuk memahami konsepnya, lalu Latihan untuk ${CHAPTER_QUIZ_SIZE} soal acak.`
-            : `Pilih bab yang mau dilatih. Tiap bab ${CHAPTER_QUIZ_SIZE} soal acak.`}
-        </p>
+        <p className="note">Pilih bab. Tiap bab punya beberapa level berisi sekitar {LEVEL_SIZE} soal.</p>
       </header>
 
       <section className="group">
-        <Card
-          href={`#/${subject.id}/semua`}
-          icon="🎲"
-          title="Campuran semua bab"
-          text={`Sekitar ${MIXED_QUIZ_SIZE} soal dari semua bab.`}
-          meta={`${subject.total} soal`}
-          c="#FFD23F"
-          cd="#E0A800"
-        />
-        {subject.chapters.map((ch) =>
-          LESSONS[ch.id] ? (
-            <div className="card stack" key={ch.id} style={{ "--c": ch.c, "--cd": ch.cd }}>
-              <span className="card-icon" aria-hidden="true">{ch.icon}</span>
-              <span className="card-body">
-                <strong>{ch.title}</strong>
-                <span className="card-text">{ch.hint}</span>
-                {lastOf(ch.id)}
-                <span className="card-actions">
-                  <a className="btn ghost" href={`#/${subject.id}/${ch.id}/belajar`}>📘 Belajar</a>
-                  <a className="btn main" href={`#/${subject.id}/${ch.id}`}>✏️ Latihan</a>
-                </span>
-              </span>
-            </div>
-          ) : (
+        {subject.chapters.map((ch) => {
+          const p = chapterProgress(subject, ch, s.bests);
+          return (
             <Card
               key={ch.id}
               href={`#/${subject.id}/${ch.id}`}
               icon={ch.icon}
               title={ch.title}
               text={ch.hint}
-              meta={last[`#/${subject.id}/${ch.id}`] === undefined ? `${ch.questions.length} soal` : `${ch.questions.length} soal · nilai terakhir ${last[`#/${subject.id}/${ch.id}`]}`}
+              meta={`Level ${p.cleared} dari ${p.levels.length} selesai · ⭐ ${p.stars}/${p.maxStars}`}
               c={ch.c}
               cd={ch.cd}
             />
-          )
-        )}
+          );
+        })}
+        <Card
+          href={`#/${subject.id}/semua`}
+          icon="🎲"
+          title="Tantangan campuran"
+          text={`${MIXED_SIZE} soal acak dari semua bab.`}
+          meta="Selalu terbuka"
+          c="#FFD23F"
+          cd="#E0A800"
+        />
       </section>
+    </div>
+  );
+}
+
+function ChapterPage({ subject, chapter }) {
+  const s = useSession();
+  const p = chapterProgress(subject, chapter, s.bests);
+  const current = p.levels.find((l) => l.open && l.stars === 0) ?? null;
+  return (
+    <div className="wrap" style={{ "--c": chapter.c, "--cd": chapter.cd }}>
+      <header className="head">
+        <a className="back" href={`#/${subject.id}`}>← Pilih bab lain</a>
+        <p className="date">{subject.title}</p>
+        <h1 className="small">{chapter.icon} {chapter.title}</h1>
+        <p className="note">{chapter.hint}</p>
+        <p className="star-total">⭐ {p.stars} dari {p.maxStars} bintang</p>
+        {LESSONS[chapter.id] && <a className="btn ghost" href={`#/${subject.id}/${chapter.id}/belajar`}>📘 Belajar dulu</a>}
+      </header>
+
+      <ol className="level-map">
+        {p.levels.map((lv) => {
+          const inner = (
+            <>
+              <span className="level-num">{lv.open ? lv.n : "🔒"}</span>
+              <span className="level-name">Level {lv.n}</span>
+              <span className="level-stars" aria-label={lv.open ? `${lv.stars} dari 3 bintang` : "Terkunci"}>
+                {[0, 1, 2].map((i) => <span key={i} className={i < lv.stars ? "on" : "off"}>⭐</span>)}
+              </span>
+            </>
+          );
+          return (
+            <li key={lv.n}>
+              {lv.open
+                ? <a className={`level${current?.n === lv.n ? " now" : ""}${lv.stars ? " cleared" : ""}`} href={lv.key}>{inner}</a>
+                : <span className="level locked" aria-disabled="true">{inner}</span>}
+            </li>
+          );
+        })}
+      </ol>
+      <p className="level-hint">Dapatkan minimal 1 bintang (nilai {PASS_SCORE}) untuk membuka level berikutnya.</p>
     </div>
   );
 }
 
 export default function App() {
   const hash = useHash();
+  const s = useSession();
   const route = resolveRoute(hash);
   if (route.page === "parent") return <ParentPage />;
   if (route.page === "privacy") return <PrivacyPage />;
-  if (route.page === "quiz") return <Quiz key={hash} route={route} />;
   if (route.page === "lesson" && LESSONS[route.chapter.id]) {
     return <Lesson key={hash} subject={route.subject} chapter={route.chapter} steps={LESSONS[route.chapter.id]} />;
   }
-  if (route.page === "lesson") return <SubjectPage subject={route.subject} />;
+  if (route.page === "game") {
+    // Level yang masih terkunci dikembalikan ke peta level
+    const locked = route.prev && (s.bests[route.prev] ?? 0) < PASS_SCORE;
+    if (!locked) return <Game key={hash} route={route} />;
+    return <ChapterPage subject={route.subject} chapter={route.chapter} />;
+  }
+  if (route.page === "chapter" || route.page === "lesson") return <ChapterPage subject={route.subject} chapter={route.chapter} />;
   if (route.page === "subject") return <SubjectPage subject={route.subject} />;
   return <Home />;
 }

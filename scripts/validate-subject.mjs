@@ -2,7 +2,7 @@
 // Pakai: node scripts/validate-subject.mjs src/data/mapel/bi.json [min-soal-per-bab]
 import { readFileSync } from "node:fs";
 
-export function validateSubject(subject, minPerChapter = 1) {
+export function validateSubject(subject, minPerChapter = 1, requireExplain = false) {
   const errors = [];
   const counts = [];
   const str = (v) => typeof v === "string" && v.trim() !== "";
@@ -22,7 +22,7 @@ export function validateSubject(subject, minPerChapter = 1) {
       const at = `${where} soal #${i + 1} "${String(q.t).slice(0, 50)}"`;
       if (!str(q.t)) errors.push(`${at}: teks soal (t) kosong`);
       if (!str(q.a)) errors.push(`${at}: kunci (a) kosong`);
-      for (const k of Object.keys(q)) if (!["t", "c", "o", "a", "pre", "post", "wide", "keep", "g"].includes(k)) errors.push(`${at}: field tidak dikenal "${k}"`);
+      for (const k of Object.keys(q)) if (!["t", "c", "o", "a", "pre", "post", "wide", "keep", "g", "e"].includes(k)) errors.push(`${at}: field tidak dikenal "${k}"`);
       if (q.o !== undefined) {
         if (!Array.isArray(q.o) || q.o.length < 2 || q.o.length > 4) errors.push(`${at}: pilihan (o) harus 2-4 butir`);
         else {
@@ -35,6 +35,8 @@ export function validateSubject(subject, minPerChapter = 1) {
       } else if (!/^[a-z0-9]{1,12}$/.test(String(q.a))) {
         errors.push(`${at}: kunci isian harus huruf kecil/angka tanpa spasi, maksimal 12 karakter`);
       }
+      if (q.e !== undefined && (!str(q.e) || q.e.length < 15 || q.e.length > 180)) errors.push(`${at}: penjelasan (e) harus 15-180 karakter`);
+      if (requireExplain && q.e === undefined) errors.push(`${at}: belum ada penjelasan (e)`);
       const key = [q.t, q.c, q.pre, q.post].join("|");
       if (seen.has(key)) errors.push(`${at}: soal ganda`);
       seen.add(key);
@@ -44,12 +46,13 @@ export function validateSubject(subject, minPerChapter = 1) {
 }
 
 if (process.argv[1] && process.argv[1].endsWith("validate-subject.mjs")) {
-  const files = process.argv.slice(2).filter((a) => !/^\d+$/.test(a));
+  const requireExplain = process.argv.includes("--explain");
+  const files = process.argv.slice(2).filter((a) => !/^\d+$/.test(a) && a !== "--explain");
   const min = Number(process.argv.slice(2).find((a) => /^\d+$/.test(a)) ?? 1);
   let bad = false;
   for (const f of files) {
     const subject = JSON.parse(readFileSync(f, "utf8"));
-    const { errors, counts } = validateSubject(subject, min);
+    const { errors, counts } = validateSubject(subject, min, requireExplain);
     console.log(`\n${f}: ${subject.title}`);
     counts.forEach(([id, title, n]) => console.log(`  ${id}  ${n} soal  ${title}`));
     console.log(`  total ${counts.reduce((s, c) => s + c[2], 0)} soal`);

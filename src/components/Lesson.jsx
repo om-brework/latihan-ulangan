@@ -6,13 +6,13 @@ export default function Lesson({ subject, chapter, steps }) {
   const last = i === steps.length - 1;
   const go = (n) => {
     setI(n);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo(0, 0);
   };
 
   return (
     <div className="wrap">
       <header className="head">
-        <a className="back" href={`#/${subject.id}`}>← Pilih bab lain</a>
+        <a className="back" href={`#/${subject.id}/${chapter.id}`}>← Kembali ke level</a>
         <p className="date">{subject.title} · Belajar</p>
         <h1 className="small">{chapter.icon} {chapter.title}</h1>
       </header>
@@ -42,7 +42,7 @@ export default function Lesson({ subject, chapter, steps }) {
         <div className="btns">
           <button type="button" className="ghost" onClick={() => go(i - 1)} disabled={i === 0}>← Kembali</button>
           {last ? (
-            <a className="btn main" href={`#/${subject.id}/${chapter.id}`}>✏️ Latihan soal</a>
+            <a className="btn main" href={`#/${subject.id}/${chapter.id}`}>🎮 Main level</a>
           ) : (
             <button type="button" className="main" onClick={() => go(i + 1)}>Lanjut →</button>
           )}

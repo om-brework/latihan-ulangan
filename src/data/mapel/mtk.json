@@ -12,37 +12,43 @@
      "t": "Ada berapa apel?",
      "c": "🍎🍎🍎🍎🍎",
      "a": "5",
-     "g": "bilang"
+     "g": "bilang",
+     "e": "Hitung satu per satu sampai habis: 1, 2, 3, 4, 5. Jadi ada 5 apel."
     },
     {
      "t": "Ada berapa bola?",
      "c": "⚽⚽⚽⚽⚽⚽⚽⚽",
      "a": "8",
-     "g": "bilang"
+     "g": "bilang",
+     "e": "Hitung satu per satu sampai habis: 1, 2, 3, 4, 5, 6, 7, 8. Jadi ada 8 bola."
     },
     {
      "t": "Ada berapa bintang?",
      "c": "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐",
      "a": "10",
-     "g": "bilang"
+     "g": "bilang",
+     "e": "Hitung satu per satu sampai habis: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Jadi ada 10 bintang."
     },
     {
      "t": "Ada berapa ikan?",
      "c": "🐟🐟🐟",
      "a": "3",
-     "g": "bilang"
+     "g": "bilang",
+     "e": "Hitung satu per satu sampai habis: 1, 2, 3. Jadi ada 3 ikan."
     },
     {
      "t": "Ada berapa bunga?",
      "c": "🌸🌸🌸🌸🌸🌸🌸",
      "a": "7",
-     "g": "bilang"
+     "g": "bilang",
+     "e": "Hitung satu per satu sampai habis: 1, 2, 3, 4, 5, 6, 7. Jadi ada 7 bunga."
     },
     {
      "t": "Ada berapa balon?",
      "c": "🎈🎈🎈🎈🎈🎈🎈🎈🎈",
      "a": "9",
-     "g": "bilang"
+     "g": "bilang",
+     "e": "Hitung satu per satu sampai habis: 1, 2, 3, 4, 5, 6, 7, 8, 9. Jadi ada 9 balon."
     },
     {
      "t": "Keranjang ini kosong. Berapa banyak bola di dalamnya?",
@@ -51,7 +57,8 @@
       "1",
       "10"
      ],
-     "a": "0"
+     "a": "0",
+     "e": "Keranjang kosong berarti tidak ada bola di dalamnya. Tidak ada ditulis dengan bilangan 0."
     },
     {
      "t": "Lambang bilangan 0 dibaca ...",
@@ -60,7 +67,8 @@
       "satu",
       "sepuluh"
      ],
-     "a": "nol"
+     "a": "nol",
+     "e": "Lambang bilangan 0 dibaca nol. Nol artinya tidak ada benda sama sekali."
     },
     {
      "t": "Lambang bilangan untuk \"tujuh\" adalah ...",
@@ -70,7 +78,8 @@
       "9"
      ],
      "a": "7",
-     "g": "lambang"
+     "g": "lambang",
+     "e": "Tujuh ditulis dengan lambang bilangan 7. Hitung sampai tujuh: 1, 2, 3, 4, 5, 6, 7."
     },
     {
      "t": "Bilangan 4 dibaca ...",
@@ -80,7 +89,8 @@
       "delapan"
      ],
      "a": "empat",
-     "g": "nama"
+     "g": "nama",
+     "e": "Urutan membilang: satu, dua, tiga, empat. Jadi bilangan 4 dibaca empat."
     },
     {
      "t": "Bilangan 6 dibaca ...",
@@ -90,28 +100,33 @@
       "sembilan"
      ],
      "a": "enam",
-     "g": "nama"
+     "g": "nama",
+     "e": "Bilangan 6 dibaca enam. Enam datang sesudah lima saat membilang."
     },
     {
      "t": "Tulis dengan angka: sembilan.",
      "a": "9",
-     "g": "lambang"
+     "g": "lambang",
+     "e": "Sembilan ditulis dengan angka 9. Sembilan datang sesudah delapan saat membilang."
     },
     {
      "t": "Tulis dengan angka: sepuluh.",
      "a": "10",
-     "g": "lambang"
+     "g": "lambang",
+     "e": "Sepuluh ditulis dengan angka 10, yaitu angka 1 dan angka 0."
     },
     {
      "t": "Tulis nama bilangan 8 dengan huruf.",
      "a": "delapan",
      "wide": true,
-     "g": "nama"
+     "g": "nama",
+     "e": "Bilangan 8 dibaca delapan. Delapan datang sesudah tujuh saat membilang."
     },
     {
      "t": "Tulis nama bilangan 5 dengan huruf.",
      "a": "lima",
-     "g": "nama"
+     "g": "nama",
+     "e": "Bilangan 5 dibaca lima. Lima sama dengan banyak jari pada satu tangan."
     },
     {
      "t": "Berapa banyak jari pada satu tangan?",
@@ -121,7 +136,8 @@
       "10"
      ],
      "a": "5",
-     "g": "jari"
+     "g": "jari",
+     "e": "Hitung jari satu per satu: 1, 2, 3, 4, 5. Satu tangan punya 5 jari."
     },
     {
      "t": "Berapa banyak jari pada dua tangan?",
@@ -131,7 +147,8 @@
       "8"
      ],
      "a": "10",
-     "g": "jari"
+     "g": "jari",
+     "e": "Satu tangan punya 5 jari. Dua tangan berarti 5 ditambah 5 hasilnya adalah 10 jari."
     },
     {
      "t": "Mana yang lebih banyak?",
@@ -142,7 +159,8 @@
       "sama banyak"
      ],
      "a": "apel",
-     "g": "banding"
+     "g": "banding",
+     "e": "Ada 6 apel dan 4 pisang. 6 lebih dari 4, jadi apel lebih banyak."
     },
     {
      "t": "Mana yang lebih sedikit?",
@@ -153,7 +171,8 @@
       "sama banyak"
      ],
      "a": "ikan",
-     "g": "banding"
+     "g": "banding",
+     "e": "Ada 3 ikan dan 5 kucing. 3 kurang dari 5, jadi ikan lebih sedikit."
     },
     {
      "t": "Bandingkan banyak sepeda dan burung.",
@@ -164,7 +183,8 @@
       "burung lebih banyak"
      ],
      "a": "sama banyak",
-     "g": "banding"
+     "g": "banding",
+     "e": "Ada 4 sepeda dan 4 burung. Bilangannya sama, jadi sepeda dan burung sama banyak."
     },
     {
      "t": "Di taman ada 5 kursi dan 7 layang-layang. Mana yang lebih banyak?",
@@ -173,7 +193,8 @@
       "kursi",
       "sama banyak"
      ],
-     "a": "layang-layang"
+     "a": "layang-layang",
+     "e": "7 lebih dari 5, jadi layang-layang lebih banyak daripada kursi."
     },
     {
      "t": "Kira mempunyai 4 pensil. Tika mempunyai 5 pensil. Siapa yang pensilnya lebih banyak?",
@@ -182,7 +203,8 @@
       "Kira",
       "sama banyak"
      ],
-     "a": "Tika"
+     "a": "Tika",
+     "e": "5 lebih dari 4, jadi pensil Tika lebih banyak daripada pensil Kira."
     },
     {
      "t": "Sari punya 6 kelereng. Budi punya 6 kelereng. Kelereng mereka ...",
@@ -191,7 +213,8 @@
       "Sari lebih banyak",
       "Budi lebih banyak"
      ],
-     "a": "sama banyak"
+     "a": "sama banyak",
+     "e": "Sari punya 6 dan Budi punya 6. Bilangannya sama, jadi kelereng mereka sama banyak."
     },
     {
      "t": "Made punya 8 permen. Ayu punya 3 permen. Siapa yang permennya lebih sedikit?",
@@ -200,7 +223,8 @@
       "Made",
       "sama banyak"
      ],
-     "a": "Ayu"
+     "a": "Ayu",
+     "e": "3 kurang dari 8, jadi permen Ayu lebih sedikit daripada permen Made."
     },
     {
      "t": "Bilangan mana yang paling besar?",
@@ -210,7 +234,8 @@
       "4"
      ],
      "a": "9",
-     "g": "besar"
+     "g": "besar",
+     "e": "Urutannya 4, 6, 9. Bilangan 9 disebut paling akhir saat dihitung maju, jadi 9 paling besar."
     },
     {
      "t": "Bilangan mana yang paling kecil?",
@@ -220,34 +245,39 @@
       "8"
      ],
      "a": "2",
-     "g": "besar"
+     "g": "besar",
+     "e": "Urutannya 2, 5, 8. Bilangan 2 disebut paling dulu saat dihitung maju, jadi 2 paling kecil."
     },
     {
      "t": "Lengkapi urutan bilangan.",
      "pre": "1, 2, 3,",
      "a": "4",
-     "g": "maju"
+     "g": "maju",
+     "e": "Hitung maju, bilangannya bertambah 1: sesudah 3 adalah 4."
     },
     {
      "t": "Lengkapi urutan bilangan.",
      "pre": "6, 7,",
      "post": ", 9",
      "a": "8",
-     "g": "maju"
+     "g": "maju",
+     "e": "Hitung maju, bilangannya bertambah 1: sesudah 7 adalah 8, lalu 9."
     },
     {
      "t": "Lengkapi urutan bilangan.",
      "pre": "10, 9,",
      "post": ", 7",
      "a": "8",
-     "g": "mundur"
+     "g": "mundur",
+     "e": "Hitung mundur, bilangannya berkurang 1: sesudah 9 adalah 8, lalu 7."
     },
     {
      "t": "Lengkapi urutan bilangan.",
      "pre": "5, 4,",
      "post": ", 2",
      "a": "3",
-     "g": "mundur"
+     "g": "mundur",
+     "e": "Hitung mundur, bilangannya berkurang 1: sesudah 4 adalah 3, lalu 2."
     },
     {
      "t": "Menghitung maju dimulai dari bilangan ...",
@@ -255,7 +285,8 @@
       "kecil ke besar",
       "besar ke kecil"
      ],
-     "a": "kecil ke besar"
+     "a": "kecil ke besar",
+     "e": "Menghitung maju contohnya 1, 2, 3. Bilangannya makin besar, jadi dari kecil ke besar."
     },
     {
      "t": "Upe turun tangga sambil menghitung: 10, 9, 8. Upe menghitung ...",
@@ -263,15 +294,18 @@
       "mundur",
       "maju"
      ],
-     "a": "mundur"
+     "a": "mundur",
+     "e": "10, 9, 8 makin lama makin kecil. Itu artinya Upe menghitung mundur."
     },
     {
      "t": "Bilangan sesudah 6 adalah ...",
-     "a": "7"
+     "a": "7",
+     "e": "Sesudah 6 adalah 7. Bilangannya bertambah 1."
     },
     {
      "t": "Bilangan sebelum 10 adalah ...",
-     "a": "9"
+     "a": "9",
+     "e": "Sebelum 10 adalah 9. Bilangannya berkurang 1."
     },
     {
      "t": "Urutan dari kecil ke besar yang benar adalah ...",
@@ -280,19 +314,22 @@
       "5, 3, 4",
       "4, 5, 3"
      ],
-     "a": "3, 4, 5"
+     "a": "3, 4, 5",
+     "e": "Dari kecil ke besar artinya bilangannya makin bertambah: 3, lalu 4, lalu 5."
     },
     {
      "t": "Lengkapi pasangan bilangan.",
      "pre": "5 dipisah menjadi 2 dan",
      "a": "3",
-     "g": "pasangan"
+     "g": "pasangan",
+     "e": "5 dipisah menjadi 2 dan 3, karena 2 ditambah 3 hasilnya adalah 5."
     },
     {
      "t": "Lengkapi pasangan bilangan.",
      "pre": "7 dipisah menjadi 3 dan",
      "a": "4",
-     "g": "pasangan"
+     "g": "pasangan",
+     "e": "7 dipisah menjadi 3 dan 4, karena 3 ditambah 4 hasilnya adalah 7."
     },
     {
      "t": "Ada 5 kue. Dua kue adalah donat. Sisanya kue bolu. Berapa kue bolu?",
@@ -301,7 +338,8 @@
       "2",
       "5"
      ],
-     "a": "3"
+     "a": "3",
+     "e": "5 kue dipisah menjadi 2 donat dan sisanya bolu. 5 dikurangi 2 hasilnya adalah 3 kue bolu."
     },
     {
      "t": "Dua bilangan yang jika digabung menjadi 6 adalah ...",
@@ -310,11 +348,13 @@
       "3 dan 4",
       "5 dan 2"
      ],
-     "a": "4 dan 2"
+     "a": "4 dan 2",
+     "e": "4 ditambah 2 hasilnya adalah 6. Dua pasangan lainnya jika digabung menjadi 7, bukan 6."
     },
     {
      "t": "Upe punya 8 mobil-mobilan. Sebanyak 3 masuk kotak merah. Sisanya masuk kotak biru. Berapa mobil-mobilan di kotak biru?",
-     "a": "5"
+     "a": "5",
+     "e": "8 mobil-mobilan dipisah menjadi 3 dan sisanya. 8 dikurangi 3 hasilnya adalah 5 di kotak biru."
     }
    ]
   },
@@ -331,7 +371,8 @@
       "–",
       "="
      ],
-     "a": "+"
+     "a": "+",
+     "e": "Tanda + dibaca \"ditambah\". Tanda ini dipakai saat menggabungkan benda."
     },
     {
      "t": "Menjumlahkan artinya ...",
@@ -340,7 +381,8 @@
       "mengambil sebagian",
       "membuang"
      ],
-     "a": "menggabungkan"
+     "a": "menggabungkan",
+     "e": "Menjumlahkan artinya menggabungkan dua kelompok benda menjadi satu, lalu menghitung semuanya."
     },
     {
      "t": "\"4 ditambah 2 hasilnya adalah 6\" ditulis ...",
@@ -349,7 +391,8 @@
       "4 – 2 = 6",
       "6 + 2 = 4"
      ],
-     "a": "4 + 2 = 6"
+     "a": "4 + 2 = 6",
+     "e": "\"Ditambah\" ditulis + dan \"hasilnya adalah\" ditulis =. Jadi ditulis 4 + 2 = 6."
     },
     {
      "t": "3 + 4 = 7 dibaca ...",
@@ -358,33 +401,39 @@
       "3 dikurangi 4 hasilnya 7",
       "7 ditambah 4 hasilnya 3"
      ],
-     "a": "3 ditambah 4 hasilnya 7"
+     "a": "3 ditambah 4 hasilnya 7",
+     "e": "Tanda + dibaca ditambah dan tanda = dibaca hasilnya. Jadi 3 + 4 = 7 dibaca 3 ditambah 4 hasilnya 7."
     },
     {
      "t": "Ada 4 anak bermain lompat tali. Datang lagi 2 anak. Berapa anak yang bermain sekarang?",
-     "a": "6"
+     "a": "6",
+     "e": "Anak yang datang digabungkan: 4 ditambah 2 hasilnya adalah 6 anak."
     },
     {
      "t": "Ada 3 pensil merah dan 4 pensil biru. Berapa semua pensil?",
-     "a": "7"
+     "a": "7",
+     "e": "Pensil merah dan pensil biru digabungkan: 3 ditambah 4 hasilnya adalah 7 pensil."
     },
     {
      "t": "Berapa semua mobil?",
      "c": "🚕🚕🚕 dan 🚗🚗",
      "a": "5",
-     "g": "gambar"
+     "g": "gambar",
+     "e": "Ada 3 mobil dan 2 mobil lagi. Gabungkan semuanya: 3 ditambah 2 hasilnya adalah 5 mobil."
     },
     {
      "t": "Berapa semua bola?",
      "c": "⚽⚽⚽⚽⚽ dan 🏀🏀🏀🏀",
      "a": "9",
-     "g": "gambar"
+     "g": "gambar",
+     "e": "Ada 5 bola dan 4 bola lagi. Gabungkan semuanya: 5 ditambah 4 hasilnya adalah 9 bola."
     },
     {
      "t": "Berapa semua buah?",
      "c": "🍎🍎 dan 🍊🍊🍊🍊🍊🍊",
      "a": "8",
-     "g": "gambar"
+     "g": "gambar",
+     "e": "Ada 2 buah dan 6 buah lagi. Gabungkan semuanya: 2 ditambah 6 hasilnya adalah 8 buah."
     },
     {
      "t": "Kalimat penjumlahan yang cocok dengan gambar adalah ...",
@@ -395,7 +444,8 @@
       "4 + 2 = 6"
      ],
      "a": "5 + 2 = 7",
-     "g": "kalimat"
+     "g": "kalimat",
+     "e": "Ada 5 anak ayam dan 2 anak ayam. Digabung menjadi 7, jadi ditulis 5 + 2 = 7."
     },
     {
      "t": "Kalimat penjumlahan yang cocok dengan gambar adalah ...",
@@ -406,7 +456,8 @@
       "2 + 3 = 5"
      ],
      "a": "3 + 3 = 6",
-     "g": "kalimat"
+     "g": "kalimat",
+     "e": "Ada 3 balon dan 3 balon. Digabung menjadi 6, jadi ditulis 3 + 3 = 6."
     },
     {
      "t": "Ada 5 apel: 3 apel merah dan 2 apel hijau. Kalimat penjumlahannya adalah ...",
@@ -415,21 +466,25 @@
       "3 + 5 = 8",
       "5 + 2 = 7"
      ],
-     "a": "3 + 2 = 5"
+     "a": "3 + 2 = 5",
+     "e": "Apel merah dan apel hijau digabungkan: 3 ditambah 2 hasilnya adalah 5. Ditulis 3 + 2 = 5."
     },
     {
      "t": "4 kupu-kupu kuning dan 1 kupu-kupu merah. Berapa semua kupu-kupu?",
-     "a": "5"
+     "a": "5",
+     "e": "Kupu-kupu kuning dan merah digabungkan: 4 ditambah 1 hasilnya adalah 5 kupu-kupu."
     },
     {
      "t": "Halim di angka 5. Ia melompat 3 langkah ke depan. Di angka berapa Halim sekarang?",
      "a": "8",
-     "g": "lompat"
+     "g": "lompat",
+     "e": "Melompat ke depan artinya menghitung maju. Dari 5 maju 3 langkah: 6, 7, 8. Halim di angka 8."
     },
     {
      "t": "Wei di angka 1. Ia melompat 2 langkah ke depan. Di angka berapa Wei sekarang?",
      "a": "3",
-     "g": "lompat"
+     "g": "lompat",
+     "e": "Melompat ke depan artinya menghitung maju. Dari 1 maju 2 langkah: 2, 3. Wei di angka 3."
     },
     {
      "t": "Menghitung 5 + 3 dengan menghitung maju: mulai dari 5, lalu ...",
@@ -438,67 +493,79 @@
       "4, 3, 2",
       "5, 6, 7"
      ],
-     "a": "6, 7, 8"
+     "a": "6, 7, 8",
+     "e": "Hitung maju 3 kali sesudah 5: 6, 7, 8. Bilangan terakhir, yaitu 8, adalah hasil 5 ditambah 3."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "2 + 4 =",
-     "a": "6"
+     "a": "6",
+     "e": "Mulai dari 2, lalu hitung maju 4 kali: 3, 4, 5, 6. Jadi 2 ditambah 4 hasilnya adalah 6."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "4 + 3 =",
-     "a": "7"
+     "a": "7",
+     "e": "Mulai dari 4, lalu hitung maju 3 kali: 5, 6, 7. Jadi 4 ditambah 3 hasilnya adalah 7."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "0 + 1 =",
-     "a": "1"
+     "a": "1",
+     "e": "0 berarti tidak ada. Tidak ada ditambah 1 hasilnya tetap 1. Jadi 0 ditambah 1 hasilnya adalah 1."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "5 + 1 =",
-     "a": "6"
+     "a": "6",
+     "e": "Mulai dari 5, lalu hitung maju 1 kali: 6. Jadi 5 ditambah 1 hasilnya adalah 6."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "6 + 2 =",
-     "a": "8"
+     "a": "8",
+     "e": "Mulai dari 6, lalu hitung maju 2 kali: 7, 8. Jadi 6 ditambah 2 hasilnya adalah 8."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "1 + 8 =",
-     "a": "9"
+     "a": "9",
+     "e": "Mulai dari 1, lalu hitung maju 8 kali: 2, 3, 4, 5, 6, 7, 8, 9. Jadi 1 ditambah 8 hasilnya adalah 9."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "1 + 1 =",
      "a": "2",
-     "g": "kembar"
+     "g": "kembar",
+     "e": "1 dan 1 adalah bilangan kembar. Hitung maju dari 1: 2. Jadi 1 ditambah 1 hasilnya adalah 2."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "2 + 2 =",
      "a": "4",
-     "g": "kembar"
+     "g": "kembar",
+     "e": "2 dan 2 adalah bilangan kembar. Hitung maju dari 2: 3, 4. Jadi 2 ditambah 2 hasilnya adalah 4."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "3 + 3 =",
      "a": "6",
-     "g": "kembar"
+     "g": "kembar",
+     "e": "3 dan 3 adalah bilangan kembar. Hitung maju dari 3: 4, 5, 6. Jadi 3 ditambah 3 hasilnya adalah 6."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "4 + 4 =",
      "a": "8",
-     "g": "kembar"
+     "g": "kembar",
+     "e": "4 dan 4 adalah bilangan kembar. Hitung maju dari 4: 5, 6, 7, 8. Jadi 4 ditambah 4 hasilnya adalah 8."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "5 + 5 =",
      "a": "10",
-     "g": "kembar"
+     "g": "kembar",
+     "e": "5 dan 5 adalah bilangan kembar. Hitung maju dari 5: 6, 7, 8, 9, 10. Jadi 5 ditambah 5 hasilnya adalah 10."
     },
     {
      "t": "Kita tahu 3 + 3 = 6. Jadi 3 + 4 = ...",
@@ -507,27 +574,31 @@
       "6",
       "8"
      ],
-     "a": "7"
+     "a": "7",
+     "e": "3 + 4 lebih 1 dari 3 + 3. Jadi hasilnya 6 ditambah 1, yaitu 7."
     },
     {
      "t": "Isi kotak supaya hasilnya 10.",
      "pre": "8 +",
      "post": "= 10",
      "a": "2",
-     "g": "sepuluh"
+     "g": "sepuluh",
+     "e": "Dari 8, hitung maju sampai 10: 9, 10. Perlu 2 langkah, jadi 8 ditambah 2 hasilnya adalah 10."
     },
     {
      "t": "Isi kotak supaya hasilnya 10.",
      "post": "+ 3 = 10",
      "a": "7",
-     "g": "sepuluh"
+     "g": "sepuluh",
+     "e": "10 dipisah menjadi 7 dan 3. Jadi 7 ditambah 3 hasilnya adalah 10."
     },
     {
      "t": "Isi kotak supaya hasilnya 10.",
      "pre": "5 +",
      "post": "= 10",
      "a": "5",
-     "g": "sepuluh"
+     "g": "sepuluh",
+     "e": "5 dan 5 adalah pasangan 10, seperti jari tangan kiri dan kanan. Jadi 5 ditambah 5 hasilnya adalah 10."
     },
     {
      "t": "Ada 8 jari terbuka dan 2 jari tertutup. Berapa semua jari?",
@@ -536,7 +607,8 @@
       "8",
       "6"
      ],
-     "a": "10"
+     "a": "10",
+     "e": "Jari terbuka dan jari tertutup digabungkan: 8 ditambah 2 hasilnya adalah 10 jari."
     },
     {
      "t": "Penjumlahan yang hasilnya 10 adalah ...",
@@ -546,7 +618,8 @@
       "5 + 4"
      ],
      "a": "6 + 4",
-     "g": "pilih"
+     "g": "pilih",
+     "e": "6 ditambah 4 hasilnya adalah 10. Dua penjumlahan lainnya hasilnya 9, bukan 10."
     },
     {
      "t": "Penjumlahan yang hasilnya 9 adalah ...",
@@ -556,35 +629,42 @@
       "6 + 4"
      ],
      "a": "4 + 5",
-     "g": "pilih"
+     "g": "pilih",
+     "e": "4 ditambah 5 hasilnya adalah 9. Penjumlahan lainnya hasilnya 8 dan 10, bukan 9."
     },
     {
      "t": "Ada 4 burung di pohon. Datang lagi 2 burung. Berapa semua burung?",
-     "a": "6"
+     "a": "6",
+     "e": "Burung yang datang digabungkan: 4 ditambah 2 hasilnya adalah 6 burung."
     },
     {
      "t": "Ada 5 siswa di dalam kelas. Datang lagi 3 siswa. Berapa siswa di kelas sekarang?",
      "a": "8",
-     "g": "siswa"
+     "g": "siswa",
+     "e": "Siswa yang datang digabungkan: 5 ditambah 3 hasilnya adalah 8 siswa."
     },
     {
      "t": "Ada 6 siswa di dalam kelas. Datang lagi 4 siswa. Berapa siswa di kelas sekarang?",
      "a": "10",
-     "g": "siswa"
+     "g": "siswa",
+     "e": "Siswa yang datang digabungkan: 6 ditambah 4 hasilnya adalah 10 siswa."
     },
     {
      "t": "Ada 3 sepeda dan 1 becak. Berapa semua kendaraan?",
      "a": "4",
-     "g": "kendaraan"
+     "g": "kendaraan",
+     "e": "Semua kendaraan dijumlahkan: 3 ditambah 1 hasilnya adalah 4."
     },
     {
      "t": "Ada 3 motor dan 2 mobil. Berapa semua kendaraan?",
      "a": "5",
-     "g": "kendaraan"
+     "g": "kendaraan",
+     "e": "Motor dan mobil sama-sama kendaraan, jadi dijumlahkan: 3 ditambah 2 hasilnya adalah 5."
     },
     {
      "t": "Dewi punya 2 boneka. Ibu memberi 5 boneka lagi. Berapa boneka Dewi sekarang?",
-     "a": "7"
+     "a": "7",
+     "e": "Boneka dari Ibu digabungkan dengan boneka Dewi: 2 ditambah 5 hasilnya adalah 7 boneka."
     }
    ]
   },
@@ -601,7 +681,8 @@
       "+",
       "="
      ],
-     "a": "–"
+     "a": "–",
+     "e": "Tanda – dibaca \"dikurangi\". Tanda ini dipakai saat benda diambil sebagian."
     },
     {
      "t": "\"6 dikurangi 2 hasilnya adalah 4\" ditulis ...",
@@ -610,7 +691,8 @@
       "6 + 2 = 4",
       "4 – 2 = 6"
      ],
-     "a": "6 – 2 = 4"
+     "a": "6 – 2 = 4",
+     "e": "\"Dikurangi\" ditulis – dan \"hasilnya adalah\" ditulis =. Jadi ditulis 6 – 2 = 4."
     },
     {
      "t": "Jika benda diambil sebagian, jumlahnya menjadi ...",
@@ -619,27 +701,33 @@
       "lebih banyak",
       "tetap sama"
      ],
-     "a": "lebih sedikit"
+     "a": "lebih sedikit",
+     "e": "Kalau sebagian benda diambil, yang tersisa berkurang. Jadi jumlahnya menjadi lebih sedikit."
     },
     {
      "t": "Awalnya 6 anak bermain. Sebanyak 2 anak pulang. Berapa anak yang masih bermain?",
-     "a": "4"
+     "a": "4",
+     "e": "Anak yang pulang dikurangkan: 6 dikurangi 2 hasilnya adalah 4 anak."
     },
     {
      "t": "Ibu mempunyai 6 kue. Upe memakan 1 kue. Berapa sisa kue Ibu?",
-     "a": "5"
+     "a": "5",
+     "e": "Kue yang dimakan dikurangkan: 6 dikurangi 1 hasilnya adalah 5 kue."
     },
     {
      "t": "Ada 3 orang di dalam mobil. Sebanyak 3 orang turun. Berapa orang di dalam mobil sekarang?",
-     "a": "0"
+     "a": "0",
+     "e": "Semua orang turun, jadi mobil kosong: 3 dikurangi 3 hasilnya adalah 0."
     },
     {
      "t": "Ada 7 kelereng. Halim mengambil 2 kelereng. Berapa kelereng yang tersisa?",
-     "a": "5"
+     "a": "5",
+     "e": "Kelereng yang diambil dikurangkan: 7 dikurangi 2 hasilnya adalah 5 kelereng."
     },
     {
      "t": "Ada 6 kupu-kupu di bunga. Sebanyak 2 kupu-kupu terbang. Berapa kupu-kupu yang tersisa?",
-     "a": "4"
+     "a": "4",
+     "e": "Kupu-kupu yang terbang dikurangkan: 6 dikurangi 2 hasilnya adalah 4 kupu-kupu."
     },
     {
      "t": "Ada 6 anak bermain. Sebanyak 3 anak laki-laki. Sisanya perempuan. Berapa anak perempuan?",
@@ -648,7 +736,8 @@
       "2",
       "9"
      ],
-     "a": "3"
+     "a": "3",
+     "e": "6 anak dipisah menjadi 3 laki-laki dan sisanya perempuan. 6 dikurangi 3 hasilnya adalah 3."
     },
     {
      "t": "Ada 9 balon. Sebanyak 4 balon pecah. Kalimat pengurangannya adalah ...",
@@ -658,7 +747,8 @@
       "4 – 9 = 5"
      ],
      "a": "9 – 4 = 5",
-     "g": "kalimat"
+     "g": "kalimat",
+     "e": "Balon berkurang karena pecah: 9 dikurangi 4 hasilnya adalah 5. Ditulis 9 – 4 = 5."
     },
     {
      "t": "Ada 8 donat. Sebanyak 2 donat dimakan. Kalimat pengurangannya adalah ...",
@@ -668,17 +758,20 @@
       "8 + 2 = 6"
      ],
      "a": "8 – 2 = 6",
-     "g": "kalimat"
+     "g": "kalimat",
+     "e": "Donat berkurang karena dimakan: 8 dikurangi 2 hasilnya adalah 6. Ditulis 8 – 2 = 6."
     },
     {
      "t": "Ada 7 apel. Apel yang dicoret sudah dimakan. Berapa apel yang tersisa?",
      "c": "🍎🍎🍎🍎 ❌❌❌",
      "a": "4",
-     "g": "coret"
+     "g": "coret",
+     "e": "Dari 7 apel, 3 apel dicoret. 7 dikurangi 3 hasilnya adalah 4 apel yang tersisa."
     },
     {
      "t": "Ada 6 telur di piring. Sebanyak 2 telur pecah. Berapa telur yang masih utuh?",
-     "a": "4"
+     "a": "4",
+     "e": "Telur yang pecah dikurangkan: 6 dikurangi 2 hasilnya adalah 4 telur utuh."
     },
     {
      "t": "Ada 7 balon. Sebanyak 5 balon merah. Sisanya kuning. Berapa balon kuning?",
@@ -687,7 +780,8 @@
       "3",
       "12"
      ],
-     "a": "2"
+     "a": "2",
+     "e": "7 balon dipisah menjadi 5 merah dan sisanya kuning. 7 dikurangi 5 hasilnya adalah 2."
     },
     {
      "t": "4 dan 2 jika digabung menjadi 6. Jadi 6 – 4 = ...",
@@ -696,17 +790,20 @@
       "4",
       "10"
      ],
-     "a": "2"
+     "a": "2",
+     "e": "6 terdiri dari 4 dan 2. Kalau 4 diambil, tersisa 2. Jadi 6 dikurangi 4 hasilnya adalah 2."
     },
     {
      "t": "Upe di angka 3. Ia melompat 2 langkah ke belakang. Di angka berapa Upe sekarang?",
      "a": "1",
-     "g": "lompat"
+     "g": "lompat",
+     "e": "Melompat ke belakang artinya menghitung mundur. Dari 3 mundur 2 langkah: 2, 1. Upe di angka 1."
     },
     {
      "t": "Tika di angka 5. Ia melompat 3 langkah ke belakang. Di angka berapa Tika sekarang?",
      "a": "2",
-     "g": "lompat"
+     "g": "lompat",
+     "e": "Melompat ke belakang artinya menghitung mundur. Dari 5 mundur 3 langkah: 4, 3, 2. Tika di angka 2."
     },
     {
      "t": "Menghitung 5 – 3 dengan menghitung mundur: mulai dari 5, lalu ...",
@@ -715,85 +812,100 @@
       "6, 7, 8",
       "5, 4, 3"
      ],
-     "a": "4, 3, 2"
+     "a": "4, 3, 2",
+     "e": "Hitung mundur 3 kali sesudah 5: 4, 3, 2. Bilangan terakhir, yaitu 2, adalah hasil 5 dikurangi 3."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "5 – 1 =",
-     "a": "4"
+     "a": "4",
+     "e": "Mulai dari 5, lalu hitung mundur 1 kali: 4. Jadi 5 dikurangi 1 hasilnya adalah 4."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "6 – 3 =",
-     "a": "3"
+     "a": "3",
+     "e": "Mulai dari 6, lalu hitung mundur 3 kali: 5, 4, 3. Jadi 6 dikurangi 3 hasilnya adalah 3."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "2 – 0 =",
-     "a": "2"
+     "a": "2",
+     "e": "Dikurangi 0 berarti tidak ada yang diambil. Jadi 2 dikurangi 0 hasilnya tetap 2."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "4 – 4 =",
-     "a": "0"
+     "a": "0",
+     "e": "Semua 4 diambil, jadi tidak ada yang tersisa. 4 dikurangi 4 hasilnya adalah 0."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "7 – 3 =",
-     "a": "4"
+     "a": "4",
+     "e": "Mulai dari 7, lalu hitung mundur 3 kali: 6, 5, 4. Jadi 7 dikurangi 3 hasilnya adalah 4."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "9 – 3 =",
-     "a": "6"
+     "a": "6",
+     "e": "Mulai dari 9, lalu hitung mundur 3 kali: 8, 7, 6. Jadi 9 dikurangi 3 hasilnya adalah 6."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "8 – 4 =",
-     "a": "4"
+     "a": "4",
+     "e": "Mulai dari 8, lalu hitung mundur 4 kali: 7, 6, 5, 4. Jadi 8 dikurangi 4 hasilnya adalah 4."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "10 – 7 =",
      "a": "3",
-     "g": "sepuluh"
+     "g": "sepuluh",
+     "e": "Mulai dari 10, lalu hitung mundur 7 kali: 9, 8, 7, 6, 5, 4, 3. Jadi 10 dikurangi 7 hasilnya adalah 3."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "10 – 4 =",
      "a": "6",
-     "g": "sepuluh"
+     "g": "sepuluh",
+     "e": "Mulai dari 10, lalu hitung mundur 4 kali: 9, 8, 7, 6. Jadi 10 dikurangi 4 hasilnya adalah 6."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "10 – 10 =",
      "a": "0",
-     "g": "sepuluh"
+     "g": "sepuluh",
+     "e": "Semua 10 diambil, jadi tidak ada yang tersisa. 10 dikurangi 10 hasilnya adalah 0."
     },
     {
      "t": "Semua ada 10 kotak. Sebanyak 6 kotak terisi. Berapa kotak yang kosong?",
      "a": "4",
-     "g": "kotak"
+     "g": "kotak",
+     "e": "10 kotak dipisah menjadi 6 terisi dan sisanya kosong. 10 dikurangi 6 hasilnya adalah 4."
     },
     {
      "t": "Isi kotak dengan bilangan yang benar.",
      "pre": "10 –",
      "post": "= 8",
      "a": "2",
-     "g": "isi"
+     "g": "isi",
+     "e": "Dari 10, hitung mundur sampai 8: 9, 8. Perlu 2 langkah, jadi 10 dikurangi 2 hasilnya adalah 8."
     },
     {
      "t": "Isi kotak dengan bilangan yang benar.",
      "pre": "9 –",
      "post": "= 7",
      "a": "2",
-     "g": "isi"
+     "g": "isi",
+     "e": "Dari 9, hitung mundur sampai 7: 8, 7. Perlu 2 langkah, jadi 9 dikurangi 2 hasilnya adalah 7."
     },
     {
      "t": "Isi kotak dengan bilangan yang benar.",
      "post": "– 5 = 2",
      "a": "7",
-     "g": "isi"
+     "g": "isi",
+     "e": "Bilangan awalnya adalah gabungan 5 dan 2, yaitu 7. Periksa: 7 dikurangi 5 hasilnya adalah 2."
     },
     {
      "t": "Kita tahu 3 + 4 = 7. Jadi 7 – 3 = ...",
@@ -803,7 +915,8 @@
       "10"
      ],
      "a": "4",
-     "g": "hubungan"
+     "g": "hubungan",
+     "e": "7 terdiri dari 3 dan 4. Kalau 3 diambil, tersisa 4. Jadi 7 dikurangi 3 hasilnya adalah 4."
     },
     {
      "t": "Ada 4 kelinci cokelat dan 3 kelinci hitam. Semua ada 7 kelinci. Kalimat yang benar adalah ...",
@@ -813,7 +926,8 @@
       "4 – 3 = 7"
      ],
      "a": "7 – 4 = 3",
-     "g": "hubungan"
+     "g": "hubungan",
+     "e": "Dari 7 kelinci, 4 berwarna cokelat. Sisanya kelinci hitam: 7 dikurangi 4 hasilnya adalah 3. Ditulis 7 – 4 = 3."
     },
     {
      "t": "Tanda yang tepat: 4 ... 4 = 8",
@@ -823,7 +937,8 @@
      ],
      "a": "+",
      "keep": true,
-     "g": "tanda"
+     "g": "tanda",
+     "e": "Hasilnya 8 lebih dari 4, jadi bilangannya digabung dengan tanda +: 4 ditambah 4 hasilnya adalah 8."
     },
     {
      "t": "Tanda yang tepat: 10 ... 4 = 6",
@@ -833,7 +948,8 @@
      ],
      "a": "–",
      "keep": true,
-     "g": "tanda"
+     "g": "tanda",
+     "e": "Hasilnya 6 kurang dari 10, jadi ada yang diambil dengan tanda –: 10 dikurangi 4 hasilnya adalah 6."
     },
     {
      "t": "Mana yang hasilnya 5?",
@@ -842,19 +958,23 @@
       "8 – 4",
       "3 + 4"
      ],
-     "a": "9 – 4"
+     "a": "9 – 4",
+     "e": "9 dikurangi 4 hasilnya adalah 5. Dua hitungan lainnya hasilnya 4 dan 7, bukan 5."
     },
     {
      "t": "Ada 10 kepik di atas daun. Sebanyak 2 kepik terbang. Berapa sisa kepik?",
-     "a": "8"
+     "a": "8",
+     "e": "Kepik yang terbang dikurangkan: 10 dikurangi 2 hasilnya adalah 8 kepik."
     },
     {
      "t": "Kira mempunyai 10 bola. Ia memberi Tika beberapa bola. Sisa bola Kira 6. Berapa bola yang diberikan kepada Tika?",
-     "a": "4"
+     "a": "4",
+     "e": "10 bola dipisah menjadi bola yang diberikan dan sisa 6. 10 dikurangi 6 hasilnya adalah 4 bola."
     },
     {
      "t": "Malosi mempunyai 9 kelereng. Ia memberi Kira 2 kelereng dan memberi Upe 4 kelereng. Berapa sisa kelereng Malosi?",
-     "a": "3"
+     "a": "3",
+     "e": "Kurangi dua kali: 9 dikurangi 2 hasilnya 7, lalu 7 dikurangi 4 hasilnya adalah 3 kelereng."
     }
    ]
   },
@@ -873,7 +993,8 @@
       "segi empat"
      ],
      "a": "segitiga",
-     "g": "nama"
+     "g": "nama",
+     "e": "Bentuk ini punya 3 sisi lurus dan 3 sudut, jadi namanya segitiga."
     },
     {
      "t": "Bentuk apa ini?",
@@ -884,7 +1005,8 @@
       "segi empat"
      ],
      "a": "segi empat",
-     "g": "nama"
+     "g": "nama",
+     "e": "Bentuk ini punya 4 sisi lurus dan 4 sudut, jadi namanya segi empat."
     },
     {
      "t": "Bentuk apa ini?",
@@ -895,7 +1017,8 @@
       "segi empat"
      ],
      "a": "bentuk lengkung",
-     "g": "nama"
+     "g": "nama",
+     "e": "Bentuk ini bundar dan tidak punya sisi lurus, jadi termasuk bentuk lengkung."
     },
     {
      "t": "Piring makan berbentuk ...",
@@ -905,7 +1028,8 @@
       "segi empat"
      ],
      "a": "bentuk lengkung",
-     "g": "benda1"
+     "g": "benda1",
+     "e": "Tepi piring makan bundar dan tidak punya sisi lurus, jadi termasuk bentuk lengkung."
     },
     {
      "t": "Pintu kelas berbentuk ...",
@@ -915,7 +1039,8 @@
       "segi empat"
      ],
      "a": "segi empat",
-     "g": "benda2"
+     "g": "benda2",
+     "e": "Pintu kelas punya 4 sisi lurus dan 4 sudut, jadi berbentuk segi empat."
     },
     {
      "t": "Kue lupis berbentuk ...",
@@ -925,7 +1050,8 @@
       "segi empat"
      ],
      "a": "segitiga",
-     "g": "benda3"
+     "g": "benda3",
+     "e": "Kue lupis punya 3 sisi dan 3 sudut, jadi berbentuk segitiga."
     },
     {
      "t": "Buku tulis berbentuk ...",
@@ -935,7 +1061,8 @@
       "segi empat"
      ],
      "a": "segi empat",
-     "g": "benda2"
+     "g": "benda2",
+     "e": "Buku tulis punya 4 sisi lurus dan 4 sudut, jadi berbentuk segi empat."
     },
     {
      "t": "Jam dinding yang bundar berbentuk ...",
@@ -945,7 +1072,8 @@
       "segi empat"
      ],
      "a": "bentuk lengkung",
-     "g": "benda1"
+     "g": "benda1",
+     "e": "Jam dinding yang bundar tidak punya sisi lurus dan sudut, jadi termasuk bentuk lengkung."
     },
     {
      "t": "Uang koin berbentuk ...",
@@ -955,7 +1083,8 @@
       "segi empat"
      ],
      "a": "bentuk lengkung",
-     "g": "benda1"
+     "g": "benda1",
+     "e": "Uang koin tidak punya sisi lurus, jadi termasuk bentuk lengkung."
     },
     {
      "t": "Papan tulis berbentuk ...",
@@ -965,7 +1094,8 @@
       "segi empat"
      ],
      "a": "segi empat",
-     "g": "benda2"
+     "g": "benda2",
+     "e": "Papan tulis punya 4 sisi lurus: atas, bawah, kiri, dan kanan. Jadi berbentuk segi empat."
     },
     {
      "t": "Jendela kelas berbentuk ...",
@@ -975,7 +1105,8 @@
       "segi empat"
      ],
      "a": "segi empat",
-     "g": "benda2"
+     "g": "benda2",
+     "e": "Jendela kelas punya 4 sisi lurus dan 4 sudut, jadi berbentuk segi empat."
     },
     {
      "t": "Mana benda yang berbentuk segitiga?",
@@ -984,7 +1115,8 @@
       "buku",
       "piring"
      ],
-     "a": "penggaris segitiga"
+     "a": "penggaris segitiga",
+     "e": "Penggaris segitiga punya 3 sisi lurus. Buku berbentuk segi empat dan piring berbentuk lengkung."
     },
     {
      "t": "Mana benda yang berbentuk lengkung?",
@@ -993,7 +1125,8 @@
       "pintu",
       "bingkai foto"
      ],
-     "a": "telur"
+     "a": "telur",
+     "e": "Telur tidak punya sisi lurus, jadi bentuk lengkung. Pintu dan bingkai foto berbentuk segi empat."
     },
     {
      "t": "Mana benda yang berbentuk segi empat?",
@@ -1002,7 +1135,8 @@
       "melon",
       "kue lupis"
      ],
-     "a": "bingkai foto"
+     "a": "bingkai foto",
+     "e": "Bingkai foto punya 4 sisi lurus. Melon berbentuk lengkung dan kue lupis berbentuk segitiga."
     },
     {
      "t": "Mana yang BUKAN bentuk lengkung?",
@@ -1011,7 +1145,8 @@
       "piring",
       "uang koin"
      ],
-     "a": "buku"
+     "a": "buku",
+     "e": "Buku punya 4 sisi lurus, jadi segi empat. Piring dan uang koin bundar, termasuk bentuk lengkung."
     },
     {
      "t": "Mana yang bentuknya sama dengan 🔵?",
@@ -1021,7 +1156,8 @@
       "🔺"
      ],
      "a": "🔴",
-     "g": "sama"
+     "g": "sama",
+     "e": "Keduanya bundar dan tidak punya sisi lurus. Warnanya berbeda, tetapi sama-sama bentuk lengkung."
     },
     {
      "t": "Mana yang bentuknya sama dengan 🟥?",
@@ -1031,51 +1167,60 @@
       "🔺"
      ],
      "a": "🟦",
-     "g": "sama"
+     "g": "sama",
+     "e": "Keduanya punya 4 sisi lurus. Warnanya berbeda, tetapi bentuknya sama-sama segi empat."
     },
     {
      "t": "Bentuk yang mempunyai tiga sisi disebut ...",
      "a": "segitiga",
-     "wide": true
+     "wide": true,
+     "e": "Kata \"tiga\" ada di dalam namanya: bentuk dengan 3 sisi dan 3 sudut disebut segitiga."
     },
     {
      "t": "Berapa sisi pada bentuk segi empat?",
      "a": "4",
-     "g": "sisi"
+     "g": "sisi",
+     "e": "Hitung sisinya satu per satu: atas, kanan, bawah, kiri. Segi empat punya 4 sisi."
     },
     {
      "t": "Berapa lidi yang dibutuhkan untuk membuat satu segitiga?",
      "a": "3",
-     "g": "sisi"
+     "g": "sisi",
+     "e": "Segitiga punya 3 sisi. Setiap sisi dibuat dari 1 lidi, jadi perlu 3 lidi."
     },
     {
      "t": "Berapa lidi yang dibutuhkan untuk membuat satu segi empat?",
      "a": "4",
-     "g": "sisi"
+     "g": "sisi",
+     "e": "Segi empat punya 4 sisi. Setiap sisi dibuat dari 1 lidi, jadi perlu 4 lidi."
     },
     {
      "t": "Ada berapa segitiga?",
      "c": "🔺🔵🔺🟦🔺🔵",
      "a": "3",
-     "g": "hitung"
+     "g": "hitung",
+     "e": "Hitung hanya bentuk yang punya 3 sisi: ada 3 segitiga. Bentuk lain tidak ikut dihitung."
     },
     {
      "t": "Ada berapa segi empat?",
      "c": "🟦🔺🟥🔵🟦🟥🔴",
      "a": "4",
-     "g": "hitung"
+     "g": "hitung",
+     "e": "Hitung hanya bentuk yang punya 4 sisi, warnanya boleh berbeda: ada 4 segi empat."
     },
     {
      "t": "Ada berapa bentuk lengkung?",
      "c": "🔴🔺🔵🔴🟦🔵🔴",
      "a": "5",
-     "g": "hitung"
+     "g": "hitung",
+     "e": "Hitung hanya bentuk yang bundar, warnanya boleh berbeda: ada 5 bentuk lengkung."
     },
     {
      "t": "Hitung semua bangun pada gambar.",
      "c": "🟦🔺🔵🔴🔺🟥",
      "a": "6",
-     "g": "hitung"
+     "g": "hitung",
+     "e": "Hitung semua bangun satu per satu, apa pun bentuknya: 1, 2, 3, 4, 5, 6. Jadi ada 6 bangun."
     },
     {
      "t": "Bentuk apa yang paling banyak?",
@@ -1086,7 +1231,8 @@
       "segi empat"
      ],
      "a": "segitiga",
-     "g": "banyak"
+     "g": "banyak",
+     "e": "Ada 4 segitiga, 2 bentuk lengkung, dan 1 segi empat. 4 paling banyak, jadi jawabannya segitiga."
     },
     {
      "t": "Bentuk apa yang paling sedikit?",
@@ -1097,7 +1243,8 @@
       "segi empat"
      ],
      "a": "segi empat",
-     "g": "banyak"
+     "g": "banyak",
+     "e": "Ada 3 bentuk lengkung, 2 segitiga, dan 1 segi empat. 1 paling sedikit, jadi jawabannya segi empat."
     },
     {
      "t": "Kelompok ini dibedakan berdasarkan ...",
@@ -1108,7 +1255,8 @@
       "ukuran"
      ],
      "a": "warna",
-     "g": "kelompok"
+     "g": "kelompok",
+     "e": "Semua bentuknya bundar dan sama besar. Yang berbeda hanya warna: merah dan biru."
     },
     {
      "t": "Kelompok ini dibedakan berdasarkan ...",
@@ -1119,7 +1267,8 @@
       "ukuran"
      ],
      "a": "bentuk",
-     "g": "kelompok"
+     "g": "kelompok",
+     "e": "Semua warnanya merah. Yang berbeda adalah bentuknya: bentuk lengkung dan segi empat."
     },
     {
      "t": "Bola besar disimpan di kotak A. Bola kecil disimpan di kotak B. Bola dikelompokkan berdasarkan ...",
@@ -1129,7 +1278,8 @@
       "bentuk"
      ],
      "a": "ukuran",
-     "g": "kelompok"
+     "g": "kelompok",
+     "e": "Bola besar dan bola kecil dipisah. Besar dan kecil menunjukkan ukuran."
     },
     {
      "t": "Sari memisahkan kancing merah dan kancing kuning. Sari mengelompokkan berdasarkan ...",
@@ -1138,7 +1288,8 @@
       "bentuk",
       "ukuran"
      ],
-     "a": "warna"
+     "a": "warna",
+     "e": "Merah dan kuning adalah nama warna. Jadi kancing dikelompokkan berdasarkan warna."
     },
     {
      "t": "Mana yang warnanya sama dengan 🟥?",
@@ -1147,7 +1298,8 @@
       "🔵",
       "🟦"
      ],
-     "a": "🔴"
+     "a": "🔴",
+     "e": "Keduanya berwarna merah. Bentuknya berbeda, tetapi yang ditanya adalah warnanya."
     },
     {
      "t": "Mana benda yang paling kecil?",
@@ -1157,7 +1309,8 @@
       "semangka"
      ],
      "a": "kelereng",
-     "g": "ukuran"
+     "g": "ukuran",
+     "e": "Kelereng bisa digenggam satu tangan. Bola sepak dan semangka jauh lebih besar."
     },
     {
      "t": "Mana benda yang paling besar?",
@@ -1167,7 +1320,8 @@
       "pensil"
      ],
      "a": "lemari",
-     "g": "ukuran"
+     "g": "ukuran",
+     "e": "Lemari lebih besar dari tubuh kita. Buku dan pensil kecil dan bisa masuk ke dalam tas."
     },
     {
      "t": "Dua segitiga yang sama besar digabungkan. Bentuk baru yang bisa terjadi adalah ...",
@@ -1176,7 +1330,8 @@
       "bentuk lengkung"
      ],
      "a": "segi empat",
-     "g": "gabung"
+     "g": "gabung",
+     "e": "Dua segitiga yang sama besar ditempel pada satu sisinya menjadi bentuk dengan 4 sisi, yaitu segi empat."
     },
     {
      "t": "Kertas segi empat digunting dari sudut ke sudut. Jadilah dua ...",
@@ -1186,7 +1341,8 @@
       "segi empat"
      ],
      "a": "segitiga",
-     "g": "gabung"
+     "g": "gabung",
+     "e": "Guntingan dari sudut ke sudut membelah kertas menjadi 2 bagian. Tiap bagian punya 3 sisi, yaitu segitiga."
     },
     {
      "t": "Dua bangun datar digabungkan. Hasilnya adalah ...",
@@ -1195,7 +1351,8 @@
       "bangun yang hilang",
       "bilangan"
      ],
-     "a": "bangun baru"
+     "a": "bangun baru",
+     "e": "Bangun yang digabung tidak hilang. Keduanya menyatu menjadi bangun baru, misalnya 2 segitiga menjadi segi empat."
     },
     {
      "t": "Gambar rumah: atapnya 🔺 dan dindingnya 🟧. Atap rumah berbentuk ...",
@@ -1205,7 +1362,8 @@
       "segi empat"
      ],
      "a": "segitiga",
-     "g": "susun"
+     "g": "susun",
+     "e": "Atap rumah pada gambar punya 3 sisi dan lancip di atas, jadi berbentuk segitiga."
     },
     {
      "t": "Gambar kereta: gerbongnya 🟦 dan rodanya 🔴. Roda kereta berbentuk ...",
@@ -1215,11 +1373,13 @@
       "segi empat"
      ],
      "a": "bentuk lengkung",
-     "g": "susun"
+     "g": "susun",
+     "e": "Roda kereta bundar supaya bisa berputar. Bundar tidak punya sisi lurus, jadi bentuk lengkung."
     },
     {
      "t": "Gambar rumah disusun dari 1 segitiga dan 2 segi empat. Berapa bangun semuanya?",
-     "a": "3"
+     "a": "3",
+     "e": "Semua bangun dijumlahkan: 1 ditambah 2 hasilnya adalah 3 bangun."
     }
    ]
   },
@@ -1233,31 +1393,36 @@
      "t": "Ada berapa kelereng?",
      "c": "🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵 🔵🔵🔵🔵🔵",
      "a": "15",
-     "g": "bilang"
+     "g": "bilang",
+     "e": "Ada 1 kelompok berisi 10 kelereng dan 5 kelereng lagi. 10 ditambah 5 menjadi 15 kelereng."
     },
     {
      "t": "Ada berapa bintang?",
      "c": "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ ⭐⭐",
      "a": "12",
-     "g": "bilang"
+     "g": "bilang",
+     "e": "Ada 1 kelompok berisi 10 bintang dan 2 bintang lagi. 10 ditambah 2 menjadi 12 bintang."
     },
     {
      "t": "Ada berapa apel?",
      "c": "🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎 🍎🍎🍎🍎🍎🍎🍎🍎",
      "a": "18",
-     "g": "bilang"
+     "g": "bilang",
+     "e": "Ada 1 kelompok berisi 10 apel dan 8 apel lagi. 10 ditambah 8 menjadi 18 apel."
     },
     {
      "t": "Ada berapa bola?",
      "c": "⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽ ⚽⚽⚽⚽⚽⚽⚽⚽⚽⚽",
      "a": "20",
-     "g": "bilang"
+     "g": "bilang",
+     "e": "Ada 2 kelompok yang masing-masing berisi 10 bola. 10 ditambah 10 menjadi 20 bola."
     },
     {
      "t": "Ada berapa bunga?",
      "c": "🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸 🌸",
      "a": "11",
-     "g": "bilang"
+     "g": "bilang",
+     "e": "Ada 1 kelompok berisi 10 bunga dan 1 bunga lagi. 10 ditambah 1 menjadi 11 bunga."
     },
     {
      "t": "Bilangan 13 dibaca ...",
@@ -1267,7 +1432,8 @@
       "sebelas"
      ],
      "a": "tiga belas",
-     "g": "nama"
+     "g": "nama",
+     "e": "13 adalah 10 dan 3. Bilangan belasan dibaca dengan menyebut satuannya dulu: tiga belas."
     },
     {
      "t": "Bilangan 20 dibaca ...",
@@ -1277,7 +1443,8 @@
       "sepuluh"
      ],
      "a": "dua puluh",
-     "g": "nama"
+     "g": "nama",
+     "e": "20 terdiri dari 2 puluhan dan 0 satuan, jadi dibaca dua puluh."
     },
     {
      "t": "Bilangan 17 dibaca ...",
@@ -1287,27 +1454,32 @@
       "sembilan belas"
      ],
      "a": "tujuh belas",
-     "g": "nama"
+     "g": "nama",
+     "e": "17 adalah 10 dan 7. Bilangan belasan dibaca dengan menyebut satuannya dulu: tujuh belas."
     },
     {
      "t": "Tulis dengan angka: empat belas.",
      "a": "14",
-     "g": "lambang"
+     "g": "lambang",
+     "e": "Empat belas adalah 10 dan 4. Ditulis dengan angka 1 dan angka 4, yaitu 14."
     },
     {
      "t": "Tulis dengan angka: sembilan belas.",
      "a": "19",
-     "g": "lambang"
+     "g": "lambang",
+     "e": "Sembilan belas adalah 10 dan 9. Ditulis dengan angka 1 dan angka 9, yaitu 19."
     },
     {
      "t": "Tulis dengan angka: dua belas.",
      "a": "12",
-     "g": "lambang"
+     "g": "lambang",
+     "e": "Dua belas adalah 10 dan 2. Ditulis dengan angka 1 dan angka 2, yaitu 12."
     },
     {
      "t": "Tulis nama bilangan 11 dengan huruf.",
      "a": "sebelas",
-     "wide": true
+     "wide": true,
+     "e": "11 adalah 10 dan 1. Bilangan ini punya nama khusus, yaitu sebelas."
     },
     {
      "t": "Lambang bilangan untuk \"enam belas\" adalah ...",
@@ -1317,74 +1489,86 @@
       "60"
      ],
      "a": "16",
-     "g": "lambang"
+     "g": "lambang",
+     "e": "Enam belas adalah 10 dan 6, jadi lambangnya 16. Bilangan 60 dibaca enam puluh."
     },
     {
      "t": "Lengkapi kalimat.",
      "pre": "10 ditambah 3 menjadi",
      "a": "13",
-     "g": "sepuluh"
+     "g": "sepuluh",
+     "e": "10 dan 3 digabung menjadi 1 puluhan dan 3 satuan, yaitu 13."
     },
     {
      "t": "Lengkapi kalimat.",
      "pre": "10 ditambah 7 menjadi",
      "a": "17",
-     "g": "sepuluh"
+     "g": "sepuluh",
+     "e": "10 dan 7 digabung menjadi 1 puluhan dan 7 satuan, yaitu 17."
     },
     {
      "t": "Lengkapi kalimat.",
      "pre": "10 ditambah",
      "post": "menjadi 18",
      "a": "8",
-     "g": "sepuluh"
+     "g": "sepuluh",
+     "e": "18 terdiri dari 1 puluhan dan 8 satuan. Jadi 10 ditambah 8 menjadi 18."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "10 + 5 =",
-     "a": "15"
+     "a": "15",
+     "e": "10 adalah 1 puluhan. Ditambah 5 satuan menjadi 15. Jadi 10 ditambah 5 hasilnya adalah 15."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "10 + 6 =",
-     "a": "16"
+     "a": "16",
+     "e": "10 adalah 1 puluhan. Ditambah 6 satuan menjadi 16. Jadi 10 ditambah 6 hasilnya adalah 16."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "8 + 10 =",
-     "a": "18"
+     "a": "18",
+     "e": "10 adalah 1 puluhan dan 8 adalah satuannya. Digabung menjadi 18. Jadi 8 ditambah 10 hasilnya adalah 18."
     },
     {
      "t": "Lengkapi urutan bilangan.",
      "pre": "10, 11,",
      "post": ", 13",
      "a": "12",
-     "g": "maju"
+     "g": "maju",
+     "e": "Hitung maju, bilangannya bertambah 1: sesudah 11 adalah 12, lalu 13."
     },
     {
      "t": "Lengkapi urutan bilangan.",
      "pre": "15,",
      "post": ", 17",
      "a": "16",
-     "g": "maju"
+     "g": "maju",
+     "e": "Hitung maju, bilangannya bertambah 1: sesudah 15 adalah 16, lalu 17."
     },
     {
      "t": "Lengkapi urutan bilangan.",
      "pre": "17, 18, 19,",
      "a": "20",
-     "g": "maju"
+     "g": "maju",
+     "e": "Hitung maju, bilangannya bertambah 1: sesudah 19 adalah 20."
     },
     {
      "t": "Lengkapi urutan bilangan.",
      "pre": "15, 14,",
      "a": "13",
-     "g": "mundur"
+     "g": "mundur",
+     "e": "Hitung mundur, bilangannya berkurang 1: sesudah 14 adalah 13."
     },
     {
      "t": "Lengkapi urutan bilangan.",
      "pre": "20,",
      "post": ", 18",
      "a": "19",
-     "g": "mundur"
+     "g": "mundur",
+     "e": "Hitung mundur, bilangannya berkurang 1: sesudah 20 adalah 19, lalu 18."
     },
     {
      "t": "Halim menghitung kelereng: 9, 10, 11. Bilangan berikutnya adalah ...",
@@ -1393,15 +1577,18 @@
       "10",
       "13"
      ],
-     "a": "12"
+     "a": "12",
+     "e": "Halim menghitung maju, bilangannya bertambah 1. Sesudah 11 adalah 12."
     },
     {
      "t": "Bilangan sesudah 14 adalah ...",
-     "a": "15"
+     "a": "15",
+     "e": "Sesudah 14 adalah 15. Bilangannya bertambah 1."
     },
     {
      "t": "Bilangan sebelum 20 adalah ...",
-     "a": "19"
+     "a": "19",
+     "e": "Sebelum 20 adalah 19. Bilangannya berkurang 1."
     },
     {
      "t": "Nilai tempat 15 adalah ...",
@@ -1410,27 +1597,32 @@
       "5 puluhan dan 1 satuan",
       "1 puluhan dan 1 satuan"
      ],
-     "a": "1 puluhan dan 5 satuan"
+     "a": "1 puluhan dan 5 satuan",
+     "e": "15 terdiri dari 1 puluhan dan 5 satuan. Angka 1 di depan adalah puluhan, angka 5 adalah satuan."
     },
     {
      "t": "1 puluhan dan 3 satuan sama dengan ...",
      "a": "13",
-     "g": "nt"
+     "g": "nt",
+     "e": "1 puluhan sama dengan 10. Lalu 10 ditambah 3 satuan menjadi 13."
     },
     {
      "t": "1 puluhan dan 4 satuan sama dengan ...",
      "a": "14",
-     "g": "nt"
+     "g": "nt",
+     "e": "1 puluhan sama dengan 10. Lalu 10 ditambah 4 satuan menjadi 14."
     },
     {
      "t": "Pada bilangan 12, berapa satuannya?",
      "a": "2",
-     "g": "nt2"
+     "g": "nt2",
+     "e": "12 terdiri dari 1 puluhan dan 2 satuan. Angka di belakang adalah satuan, yaitu 2."
     },
     {
      "t": "Pada bilangan 17, berapa puluhannya?",
      "a": "1",
-     "g": "nt2"
+     "g": "nt2",
+     "e": "17 terdiri dari 1 puluhan dan 7 satuan. Angka di depan adalah puluhan, yaitu 1."
     },
     {
      "t": "10 kelereng yang digabungkan dalam satu kantong disebut ...",
@@ -1439,11 +1631,13 @@
       "1 satuan",
       "10 puluhan"
      ],
-     "a": "1 puluhan"
+     "a": "1 puluhan",
+     "e": "10 satuan yang digabung menjadi satu kelompok disebut 1 puluhan."
     },
     {
      "t": "Ada 1 ikat berisi 10 pensil dan 6 pensil lepas. Berapa semua pensil?",
-     "a": "16"
+     "a": "16",
+     "e": "1 ikat berisi 10 pensil adalah 1 puluhan. 10 ditambah 6 pensil lepas menjadi 16 pensil."
     },
     {
      "t": "Halim punya 15 kelereng. Upe punya 11 kelereng. Kelereng siapa yang lebih banyak?",
@@ -1452,7 +1646,8 @@
       "Upe",
       "sama banyak"
      ],
-     "a": "Halim"
+     "a": "Halim",
+     "e": "Puluhannya sama, jadi bandingkan satuannya. 5 lebih dari 1, jadi 15 lebih dari 11. Kelereng Halim lebih banyak."
     },
     {
      "t": "Kira punya 10 jeruk, Tika punya 14 jeruk, dan Wei punya 12 jeruk. Jeruk siapa yang paling banyak?",
@@ -1462,7 +1657,8 @@
       "Wei"
      ],
      "a": "Tika",
-     "g": "jeruk"
+     "g": "jeruk",
+     "e": "Bandingkan 10, 14, dan 12. Bilangan 14 paling besar, jadi jeruk Tika paling banyak."
     },
     {
      "t": "Malosi punya 13 bola, Wei punya 11 bola, dan Kira punya 10 bola. Bola siapa yang paling sedikit?",
@@ -1472,7 +1668,8 @@
       "Malosi"
      ],
      "a": "Kira",
-     "g": "jeruk"
+     "g": "jeruk",
+     "e": "Bandingkan 13, 11, dan 10. Bilangan 10 paling kecil, jadi bola Kira paling sedikit."
     },
     {
      "t": "Urutkan dari yang terkecil: 13, 11, 18.",
@@ -1482,7 +1679,8 @@
       "13, 11, 18"
      ],
      "a": "11, 13, 18",
-     "g": "urut"
+     "g": "urut",
+     "e": "Puluhannya sama, jadi lihat satuannya: 1, 3, 8. Urutan dari yang terkecil adalah 11, 13, 18."
     },
     {
      "t": "Urutkan dari yang terbesar: 14, 11, 10.",
@@ -1492,7 +1690,8 @@
       "11, 14, 10"
      ],
      "a": "14, 11, 10",
-     "g": "urut"
+     "g": "urut",
+     "e": "Dari yang terbesar artinya bilangannya makin kecil: 14, lalu 11, lalu 10."
     },
     {
      "t": "Bilangan mana yang paling besar?",
@@ -1501,7 +1700,8 @@
       "16",
       "12"
      ],
-     "a": "19"
+     "a": "19",
+     "e": "Puluhannya sama, jadi bandingkan satuannya: 9, 6, dan 2. 9 paling besar, jadi 19 paling besar."
     }
    ]
   },
@@ -1519,22 +1719,26 @@
       "sama banyak"
      ],
      "a": "Ibu",
-     "g": "donat"
+     "g": "donat",
+     "e": "7 lebih dari 6, jadi donat Ibu lebih banyak daripada donat Tika."
     },
     {
      "t": "Ibu menghias 7 donat. Tika menghias 6 donat. Berapa selisih banyak donat mereka?",
      "a": "1",
-     "g": "donat"
+     "g": "donat",
+     "e": "Selisih dicari dengan mengurangkan: 7 dikurangi 6 hasilnya adalah 1 donat."
     },
     {
      "t": "Ada 5 bunga dan 7 kupu-kupu. Banyak kupu-kupu berapa lebihnya dari banyak bunga?",
      "a": "2",
-     "g": "bunga"
+     "g": "bunga",
+     "e": "Lebihnya dicari dengan mengurangkan: 7 dikurangi 5 hasilnya adalah 2. Kupu-kupu 2 lebihnya dari bunga."
     },
     {
      "t": "Ada 5 bunga dan 7 kupu-kupu. Banyak bunga berapa kurangnya dari banyak kupu-kupu?",
      "a": "2",
-     "g": "bunga"
+     "g": "bunga",
+     "e": "Kurangnya dicari dengan mengurangkan: 7 dikurangi 5 hasilnya adalah 2. Bunga 2 kurangnya dari kupu-kupu."
     },
     {
      "t": "Selisih dua bilangan dicari dengan cara ...",
@@ -1543,7 +1747,8 @@
       "menjumlahkan",
       "membilang maju"
      ],
-     "a": "mengurangkan"
+     "a": "mengurangkan",
+     "e": "Selisih adalah beda banyaknya dua bilangan. Selisih dicari dengan mengurangkan bilangan kecil dari bilangan besar."
     },
     {
      "t": "Kata lain dari \"selisih\" adalah ...",
@@ -1552,31 +1757,37 @@
       "jumlah",
       "gabungan"
      ],
-     "a": "beda"
+     "a": "beda",
+     "e": "Selisih menunjukkan beda banyaknya dua kelompok. Jadi kata lain dari selisih adalah beda."
     },
     {
      "t": "Wei mempunyai 7 boneka. Kira mempunyai 9 boneka. Berapa selisih banyak boneka mereka?",
-     "a": "2"
+     "a": "2",
+     "e": "Selisih dicari dengan mengurangkan: 9 dikurangi 7 hasilnya adalah 2 boneka."
     },
     {
      "t": "Tika mempunyai 8 gantungan kunci. Kira mempunyai 6 gantungan kunci. Berapa selisihnya?",
-     "a": "2"
+     "a": "2",
+     "e": "Selisih dicari dengan mengurangkan: 8 dikurangi 6 hasilnya adalah 2 gantungan kunci."
     },
     {
      "t": "Malosi mempunyai 5 kelereng. Kelereng Halim 2 lebihnya dari kelereng Malosi. Berapa kelereng Halim?",
-     "a": "7"
+     "a": "7",
+     "e": "2 lebihnya berarti ditambah 2: 5 ditambah 2 hasilnya adalah 7 kelereng."
     },
     {
      "t": "Berapa lebihnya banyak apel dari banyak jeruk?",
      "c": "🍎🍎🍎🍎🍎🍎🍎🍎 dan 🍊🍊🍊🍊🍊",
      "a": "3",
-     "g": "gambar"
+     "g": "gambar",
+     "e": "Ada 8 apel dan 5 jeruk. Lebihnya dicari dengan mengurangkan: 8 dikurangi 5 hasilnya adalah 3."
     },
     {
      "t": "Berapa selisih banyak bola dan banyak boneka?",
      "c": "⚽⚽⚽⚽⚽⚽⚽⚽⚽ dan 🧸🧸🧸🧸🧸",
      "a": "4",
-     "g": "gambar"
+     "g": "gambar",
+     "e": "Ada 9 bola dan 5 boneka. Selisih dicari dengan mengurangkan: 9 dikurangi 5 hasilnya adalah 4."
     },
     {
      "t": "Ada 6 mangga dan 9 apel. Kalimat yang benar adalah ...",
@@ -1585,41 +1796,48 @@
       "Mangga 3 lebihnya dari apel.",
       "Mangga sama banyak dengan apel."
      ],
-     "a": "Mangga 3 kurangnya dari apel."
+     "a": "Mangga 3 kurangnya dari apel.",
+     "e": "9 dikurangi 6 hasilnya adalah 3. Mangga lebih sedikit, jadi mangga 3 kurangnya dari apel."
     },
     {
      "t": "Ada 4 kepik merah. Banyak kepik kuning 2 kurangnya dari kepik merah. Berapa kepik kuning?",
-     "a": "2"
+     "a": "2",
+     "e": "2 kurangnya berarti dikurangi 2: 4 dikurangi 2 hasilnya adalah 2 kepik kuning."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "7 + 6 =",
      "a": "13",
-     "g": "ss"
+     "g": "ss",
+     "e": "6 dipisah menjadi 3 dan 3. 7 ditambah 3 hasilnya 10, lalu 10 ditambah 3 hasilnya adalah 13."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "6 + 5 =",
      "a": "11",
-     "g": "ss"
+     "g": "ss",
+     "e": "5 dipisah menjadi 4 dan 1. 6 ditambah 4 hasilnya 10, lalu 10 ditambah 1 hasilnya adalah 11."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "8 + 4 =",
      "a": "12",
-     "g": "ss"
+     "g": "ss",
+     "e": "4 dipisah menjadi 2 dan 2. 8 ditambah 2 hasilnya 10, lalu 10 ditambah 2 hasilnya adalah 12."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "9 + 3 =",
      "a": "12",
-     "g": "ss"
+     "g": "ss",
+     "e": "3 dipisah menjadi 1 dan 2. 9 ditambah 1 hasilnya 10, lalu 10 ditambah 2 hasilnya adalah 12."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "8 + 8 =",
      "a": "16",
-     "g": "ss"
+     "g": "ss",
+     "e": "8 dipisah menjadi 2 dan 6. 8 ditambah 2 hasilnya 10, lalu 10 ditambah 6 hasilnya adalah 16."
     },
     {
      "t": "Menghitung 7 + 6 dengan menghitung maju: mulai dari 7, lalu ...",
@@ -1628,7 +1846,8 @@
       "6, 5, 4, 3, 2, 1",
       "7, 8, 9, 10, 11, 12"
      ],
-     "a": "8, 9, 10, 11, 12, 13"
+     "a": "8, 9, 10, 11, 12, 13",
+     "e": "Hitung maju 6 kali sesudah 7: 8, 9, 10, 11, 12, 13. Bilangan terakhir, yaitu 13, adalah hasil 7 ditambah 6."
     },
     {
      "t": "7 + 6 dihitung dengan 10: 7 + 3 = 10, lalu 10 + 3 = ...",
@@ -1637,7 +1856,8 @@
       "12",
       "16"
      ],
-     "a": "13"
+     "a": "13",
+     "e": "Buat 10 dulu: 7 ditambah 3 hasilnya 10. Dari 6 masih ada 3 lagi, jadi 10 ditambah 3 hasilnya adalah 13."
     },
     {
      "t": "Kita tahu 6 + 6 = 12. Jadi 7 + 6 = ...",
@@ -1646,37 +1866,43 @@
       "12",
       "14"
      ],
-     "a": "13"
+     "a": "13",
+     "e": "7 + 6 lebih 1 dari 6 + 6. Jadi hasilnya 12 ditambah 1, yaitu 13."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "12 + 3 =",
      "a": "15",
-     "g": "ps"
+     "g": "ps",
+     "e": "12 adalah 10 dan 2. Satuannya 2 ditambah 3 hasilnya 5, lalu 10 ditambah 5 hasilnya adalah 15."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "13 + 4 =",
      "a": "17",
-     "g": "ps"
+     "g": "ps",
+     "e": "13 adalah 10 dan 3. Satuannya 3 ditambah 4 hasilnya 7, lalu 10 ditambah 7 hasilnya adalah 17."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "15 + 3 =",
      "a": "18",
-     "g": "ps"
+     "g": "ps",
+     "e": "15 adalah 10 dan 5. Satuannya 5 ditambah 3 hasilnya 8, lalu 10 ditambah 8 hasilnya adalah 18."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "14 + 5 =",
      "a": "19",
-     "g": "ps"
+     "g": "ps",
+     "e": "14 adalah 10 dan 4. Satuannya 4 ditambah 5 hasilnya 9, lalu 10 ditambah 9 hasilnya adalah 19."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "11 + 6 =",
      "a": "17",
-     "g": "ps"
+     "g": "ps",
+     "e": "11 adalah 10 dan 1. Satuannya 1 ditambah 6 hasilnya 7, lalu 10 ditambah 7 hasilnya adalah 17."
     },
     {
      "t": "12 + 3 dihitung dengan memisah 12 menjadi 10 dan 2. Lalu 2 + 3 = 5 dan 10 + 5 = ...",
@@ -1685,50 +1911,59 @@
       "13",
       "17"
      ],
-     "a": "15"
+     "a": "15",
+     "e": "Satuannya dijumlahkan dulu: 2 ditambah 3 hasilnya 5. Puluhannya tetap 10, lalu 10 ditambah 5 hasilnya adalah 15."
     },
     {
      "t": "Upe mempunyai 12 pensil. Malosi mempunyai 3 pensil. Berapa jumlah pensil mereka?",
-     "a": "15"
+     "a": "15",
+     "e": "Pensil mereka dijumlahkan: 12 ditambah 3 hasilnya adalah 15 pensil."
     },
     {
      "t": "Ada 12 anak ayam mencari makan. Datang lagi 3 anak ayam. Berapa semua anak ayam?",
      "a": "15",
-     "g": "ayam"
+     "g": "ayam",
+     "e": "Anak ayam yang datang digabungkan: 12 ditambah 3 hasilnya adalah 15 anak ayam."
     },
     {
      "t": "Halim mempunyai 11 kelereng. Malosi mempunyai 6 kelereng. Berapa jumlah kelereng mereka?",
-     "a": "17"
+     "a": "17",
+     "e": "Kelereng mereka dijumlahkan: 11 ditambah 6 hasilnya adalah 17 kelereng."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "15 – 3 =",
      "a": "12",
-     "g": "kr"
+     "g": "kr",
+     "e": "15 adalah 10 dan 5. Satuannya 5 dikurangi 3 hasilnya 2, lalu 10 ditambah 2 hasilnya adalah 12."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "17 – 4 =",
      "a": "13",
-     "g": "kr"
+     "g": "kr",
+     "e": "17 adalah 10 dan 7. Satuannya 7 dikurangi 4 hasilnya 3, lalu 10 ditambah 3 hasilnya adalah 13."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "16 – 3 =",
      "a": "13",
-     "g": "kr"
+     "g": "kr",
+     "e": "16 adalah 10 dan 6. Satuannya 6 dikurangi 3 hasilnya 3, lalu 10 ditambah 3 hasilnya adalah 13."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "19 – 6 =",
      "a": "13",
-     "g": "kr"
+     "g": "kr",
+     "e": "19 adalah 10 dan 9. Satuannya 9 dikurangi 6 hasilnya 3, lalu 10 ditambah 3 hasilnya adalah 13."
     },
     {
      "t": "Hitung hasilnya.",
      "pre": "18 – 5 =",
      "a": "13",
-     "g": "kr"
+     "g": "kr",
+     "e": "18 adalah 10 dan 8. Satuannya 8 dikurangi 5 hasilnya 3, lalu 10 ditambah 3 hasilnya adalah 13."
     },
     {
      "t": "Menghitung 15 – 3 dengan menghitung mundur: mulai dari 15, lalu ...",
@@ -1737,7 +1972,8 @@
       "16, 17, 18",
       "15, 14, 13"
      ],
-     "a": "14, 13, 12"
+     "a": "14, 13, 12",
+     "e": "Hitung mundur 3 kali sesudah 15: 14, 13, 12. Bilangan terakhir, yaitu 12, adalah hasil 15 dikurangi 3."
     },
     {
      "t": "15 – 3 dihitung dengan memisah 15 menjadi 10 dan 5. Lalu 5 – 3 = 2. Jadi 15 – 3 = ...",
@@ -1746,19 +1982,23 @@
       "13",
       "18"
      ],
-     "a": "12"
+     "a": "12",
+     "e": "5 dikurangi 3 hasilnya 2. Puluhannya tetap 10, lalu 10 ditambah 2 hasilnya adalah 12."
     },
     {
      "t": "Tika membeli 15 apel. Sebanyak 3 apel dimakan ulat. Berapa apel yang masih bagus?",
-     "a": "12"
+     "a": "12",
+     "e": "Apel yang dimakan ulat dikurangkan: 15 dikurangi 3 hasilnya adalah 12 apel."
     },
     {
      "t": "Ibu membeli 13 bolu kukus. Malosi memakan 2 bolu kukus. Berapa sisa bolu kukus Ibu?",
-     "a": "11"
+     "a": "11",
+     "e": "Bolu kukus yang dimakan dikurangkan: 13 dikurangi 2 hasilnya adalah 11 bolu kukus."
     },
     {
      "t": "Wei mempunyai 11 pensil warna. Pensil warna Kira 3 kurangnya dari pensil warna Wei. Berapa pensil warna Kira?",
-     "a": "8"
+     "a": "8",
+     "e": "3 kurangnya berarti dikurangi 3: 11 dikurangi 3 hasilnya adalah 8 pensil warna."
     }
    ]
   },
@@ -1777,7 +2017,8 @@
       "sama panjang"
      ],
      "a": "pensil A",
-     "g": "kotak"
+     "g": "kotak",
+     "e": "Pensil A panjangnya 6 kotak dan pensil B 4 kotak. 6 lebih dari 4, jadi pensil A lebih panjang."
     },
     {
      "t": "Mana yang lebih pendek?",
@@ -1788,7 +2029,8 @@
       "sama panjang"
      ],
      "a": "pita B",
-     "g": "kotak"
+     "g": "kotak",
+     "e": "Pita A panjangnya 5 kotak dan pita B 2 kotak. 2 kurang dari 5, jadi pita B lebih pendek."
     },
     {
      "t": "Bandingkan panjang tali A dan tali B.",
@@ -1799,7 +2041,8 @@
       "B lebih panjang"
      ],
      "a": "sama panjang",
-     "g": "kotak"
+     "g": "kotak",
+     "e": "Tali A panjangnya 4 kotak dan tali B juga 4 kotak. Jadi keduanya sama panjang."
     },
     {
      "t": "Pensil mana yang paling panjang?",
@@ -1811,7 +2054,8 @@
      ],
      "a": "B",
      "keep": true,
-     "g": "tiga"
+     "g": "tiga",
+     "e": "Pensil A 3 kotak, B 7 kotak, dan C 5 kotak. 7 paling besar, jadi pensil B paling panjang."
     },
     {
      "t": "Pita mana yang paling pendek?",
@@ -1823,7 +2067,8 @@
      ],
      "a": "C",
      "keep": true,
-     "g": "tiga"
+     "g": "tiga",
+     "e": "Pita A 6 kotak, B 4 kotak, dan C 2 kotak. 2 paling kecil, jadi pita C paling pendek."
     },
     {
      "t": "Urutan pensil dari yang paling pendek adalah ...",
@@ -1834,31 +2079,36 @@
       "C, A, B"
      ],
      "a": "A, C, B",
-     "g": "tiga"
+     "g": "tiga",
+     "e": "Pensil A 2 kotak, C 4 kotak, dan B 6 kotak. Urutan dari yang paling pendek adalah A, C, B."
     },
     {
      "t": "Panjang pensil sama dengan berapa kotak?",
      "c": "🟨🟨🟨🟨🟨",
      "a": "5",
-     "g": "ukur"
+     "g": "ukur",
+     "e": "Hitung kotak dari ujung ke ujung pensil: ada 5. Jadi panjang pensil sama dengan 5 kotak."
     },
     {
      "t": "Panjang pensil sama dengan berapa penjepit kertas?",
      "c": "📎📎📎📎",
      "a": "4",
-     "g": "ukur"
+     "g": "ukur",
+     "e": "Hitung penjepit kertas dari ujung ke ujung pensil: ada 4. Jadi panjang pensil sama dengan 4 penjepit kertas."
     },
     {
      "t": "Panjang sisir sama dengan berapa penjepit kertas?",
      "c": "📎📎📎📎📎📎",
      "a": "6",
-     "g": "ukur"
+     "g": "ukur",
+     "e": "Hitung penjepit kertas dari ujung ke ujung sisir: ada 6. Jadi panjang sisir sama dengan 6 penjepit kertas."
     },
     {
      "t": "Panjang buku sama dengan berapa koin?",
      "c": "🟡🟡🟡🟡🟡🟡🟡🟡",
      "a": "8",
-     "g": "ukur"
+     "g": "ukur",
+     "e": "Hitung koin dari ujung ke ujung buku: ada 8. Jadi panjang buku sama dengan 8 koin."
     },
     {
      "t": "Pohon A lebih tinggi dari pohon B. Jadi pohon B ... dari pohon A.",
@@ -1867,7 +2117,8 @@
       "lebih tinggi",
       "sama tinggi"
      ],
-     "a": "lebih pendek"
+     "a": "lebih pendek",
+     "e": "Kalau pohon A lebih tinggi, berarti pohon B kebalikannya, yaitu lebih pendek dari pohon A."
     },
     {
      "t": "Tinggi pohon B sama dengan tinggi pohon C. Pohon B dan pohon C ...",
@@ -1875,7 +2126,8 @@
       "sama tinggi",
       "berbeda tinggi"
      ],
-     "a": "sama tinggi"
+     "a": "sama tinggi",
+     "e": "Tinggi pohon B dan pohon C sama, tidak ada yang lebih. Jadi keduanya sama tinggi."
     },
     {
      "t": "Pohon A lebih tinggi dari pohon B, C, dan D. Pohon A adalah pohon yang ...",
@@ -1885,7 +2137,8 @@
       "sama tinggi"
      ],
      "a": "paling tinggi",
-     "g": "pohon"
+     "g": "pohon",
+     "e": "Pohon A lebih tinggi dari semua pohon lain, yaitu B, C, dan D. Jadi pohon A paling tinggi."
     },
     {
      "t": "Pohon D lebih pendek dari pohon A, B, dan C. Pohon D adalah pohon yang ...",
@@ -1895,7 +2148,8 @@
       "sama tinggi"
      ],
      "a": "paling pendek",
-     "g": "pohon"
+     "g": "pohon",
+     "e": "Pohon D lebih pendek dari semua pohon lain, yaitu A, B, dan C. Jadi pohon D paling pendek."
     },
     {
      "t": "Pensil hijau lebih pendek dari pensil merah. Pensil merah lebih pendek dari pensil biru. Pensil mana yang paling panjang?",
@@ -1905,7 +2159,8 @@
       "hijau"
      ],
      "a": "biru",
-     "g": "pensil"
+     "g": "pensil",
+     "e": "Urutan dari yang pendek: hijau, merah, biru. Pensil biru lebih panjang dari keduanya, jadi paling panjang."
     },
     {
      "t": "Pensil hijau lebih pendek dari pensil merah. Pensil merah lebih pendek dari pensil biru. Pensil mana yang paling pendek?",
@@ -1915,7 +2170,8 @@
       "biru"
      ],
      "a": "hijau",
-     "g": "pensil"
+     "g": "pensil",
+     "e": "Urutan dari yang pendek: hijau, merah, biru. Pensil hijau lebih pendek dari keduanya, jadi paling pendek."
     },
     {
      "t": "Kupu-kupu merah terbang lebih tinggi dari kuning. Kupu-kupu hijau terbang lebih tinggi dari merah. Mana yang terbang paling tinggi?",
@@ -1925,7 +2181,8 @@
       "kuning"
      ],
      "a": "hijau",
-     "g": "kupu"
+     "g": "kupu",
+     "e": "Urutan dari yang rendah: kuning, merah, hijau. Kupu-kupu hijau di atas keduanya, jadi paling tinggi."
     },
     {
      "t": "Kupu-kupu merah terbang lebih tinggi dari kuning. Kupu-kupu hijau terbang lebih tinggi dari merah. Mana yang terbang paling rendah?",
@@ -1935,7 +2192,8 @@
       "hijau"
      ],
      "a": "kuning",
-     "g": "kupu"
+     "g": "kupu",
+     "e": "Urutan dari yang rendah: kuning, merah, hijau. Kupu-kupu kuning di bawah keduanya, jadi paling rendah."
     },
     {
      "t": "Burung terbang di atas pohon. Kucing duduk di tanah. Mana yang posisinya lebih rendah?",
@@ -1943,37 +2201,41 @@
       "kucing",
       "burung"
      ],
-     "a": "kucing"
+     "a": "kucing",
+     "e": "Tanah ada di bawah, sedangkan burung ada di atas pohon. Jadi posisi kucing lebih rendah."
     },
     {
-     "t": "Mana yang lebih tinggi?",
+     "t": "Mana yang paling tinggi?",
      "o": [
       "pohon kelapa",
       "bunga mawar",
       "rumput"
      ],
      "a": "pohon kelapa",
-     "g": "nyata"
+     "g": "nyata",
+     "e": "Pohon kelapa menjulang jauh di atas kepala kita. Bunga mawar dan rumput jauh lebih pendek."
     },
     {
-     "t": "Mana yang lebih panjang?",
+     "t": "Mana yang paling panjang?",
      "o": [
       "kereta api",
       "sepeda",
       "sepatu"
      ],
      "a": "kereta api",
-     "g": "nyata"
+     "g": "nyata",
+     "e": "Kereta api punya banyak gerbong yang bersambung, jadi jauh lebih panjang dari sepeda dan sepatu."
     },
     {
-     "t": "Mana yang lebih pendek?",
+     "t": "Mana yang paling pendek?",
      "o": [
       "penghapus",
       "penggaris",
       "sapu"
      ],
      "a": "penghapus",
-     "g": "nyata"
+     "g": "nyata",
+     "e": "Penghapus kecil dan muat di kotak pensil. Penggaris dan sapu lebih panjang dari penghapus."
     },
     {
      "t": "Mana hewan yang paling tinggi?",
@@ -1983,7 +2245,8 @@
       "kucing"
      ],
      "a": "jerapah",
-     "g": "hewan"
+     "g": "hewan",
+     "e": "Jerapah punya leher dan kaki yang sangat panjang, jadi lebih tinggi dari sapi dan kucing."
     },
     {
      "t": "Tinggi kucing 2 kotak, tinggi sapi 5 kotak, dan tinggi jerapah 9 kotak. Hewan mana yang paling pendek?",
@@ -1993,7 +2256,8 @@
       "jerapah"
      ],
      "a": "kucing",
-     "g": "hewan"
+     "g": "hewan",
+     "e": "Bandingkan 2, 5, dan 9 kotak. Bilangan 2 paling kecil, jadi kucing paling pendek."
     },
     {
      "t": "Budi lebih tinggi dari Andi. Andi lebih tinggi dari Tono. Siapa yang paling tinggi?",
@@ -2002,7 +2266,8 @@
       "Andi",
       "Tono"
      ],
-     "a": "Budi"
+     "a": "Budi",
+     "e": "Urutan dari yang tinggi: Budi, Andi, Tono. Budi lebih tinggi dari keduanya, jadi Budi paling tinggi."
     },
     {
      "t": "Panjang pita Sari 7 kotak. Panjang pita Dewi 5 kotak. Pita siapa yang lebih panjang?",
@@ -2011,11 +2276,13 @@
       "Dewi",
       "sama panjang"
      ],
-     "a": "Sari"
+     "a": "Sari",
+     "e": "7 kotak lebih dari 5 kotak, jadi pita Sari lebih panjang daripada pita Dewi."
     },
     {
      "t": "Panjang pita A 8 kotak. Panjang pita B 5 kotak. Pita A lebih panjang berapa kotak?",
-     "a": "3"
+     "a": "3",
+     "e": "Selisih panjangnya dicari dengan mengurangkan: 8 dikurangi 5 hasilnya adalah 3 kotak."
     },
     {
      "t": "Mana yang bisa dipakai untuk mengukur panjang meja?",
@@ -2025,7 +2292,8 @@
       "warna"
      ],
      "a": "jengkal tangan",
-     "g": "alat"
+     "g": "alat",
+     "e": "Jengkal tangan punya panjang, jadi bisa dipakai mengukur meja. Suara dan warna tidak punya panjang."
     },
     {
      "t": "Mana yang BUKAN alat untuk mengukur panjang?",
@@ -2035,7 +2303,8 @@
       "stik es krim"
      ],
      "a": "air",
-     "g": "alat"
+     "g": "alat",
+     "e": "Air tidak punya panjang yang tetap. Sedotan dan stik es krim panjangnya tetap, jadi bisa dipakai mengukur."
     },
     {
      "t": "Jarak dari ujung ibu jari sampai ujung kelingking saat tangan dibuka lebar disebut ...",
@@ -2045,7 +2314,8 @@
       "langkah"
      ],
      "a": "jengkal",
-     "g": "alat"
+     "g": "alat",
+     "e": "Jengkal adalah jarak dari ujung ibu jari sampai ujung kelingking saat tangan dibuka lebar."
     },
     {
      "t": "Mengukur panjang benda dimulai dari ...",
@@ -2055,7 +2325,8 @@
       "mana saja"
      ],
      "a": "ujung benda",
-     "g": "cara"
+     "g": "cara",
+     "e": "Mengukur dimulai dari ujung benda sampai ujung lainnya supaya seluruh panjangnya terhitung."
     },
     {
      "t": "Saat mengukur dengan sedotan, sedotan harus disusun ...",
@@ -2065,7 +2336,8 @@
       "miring"
      ],
      "a": "rapat dan lurus",
-     "g": "cara"
+     "g": "cara",
+     "e": "Sedotan disusun rapat dan lurus supaya tidak ada bagian yang terlewat atau terhitung dua kali."
     },
     {
      "t": "Kira mengukur dengan koin, tetapi koinnya bertumpuk. Cara Kira ...",
@@ -2074,15 +2346,18 @@
       "benar"
      ],
      "a": "salah",
-     "g": "cara"
+     "g": "cara",
+     "e": "Koin yang bertumpuk membuat ada bagian yang terhitung dua kali. Jadi cara Kira salah, koin harus berjajar."
     },
     {
      "t": "Panjang meja diukur dengan sedotan. Ada 4 sedotan yang disusun rapat. Panjang meja adalah berapa sedotan?",
-     "a": "4"
+     "a": "4",
+     "e": "Hitung sedotan dari ujung ke ujung meja: 1, 2, 3, 4. Panjang meja sama dengan 4 sedotan."
     },
     {
      "t": "Malosi mengukur meja dengan jengkal. Ia menghitung 1, 2, 3, 4, 5 jengkal. Panjang meja adalah berapa jengkal?",
-     "a": "5"
+     "a": "5",
+     "e": "Hitungan terakhir Malosi adalah 5. Jadi panjang meja sama dengan 5 jengkal."
     },
     {
      "t": "Buku diukur dengan stik es krim dan dengan koin. Hasilnya berbeda karena ...",
@@ -2091,7 +2366,8 @@
       "bukunya berubah",
       "salah menghitung"
      ],
-     "a": "panjang stik dan koin berbeda"
+     "a": "panjang stik dan koin berbeda",
+     "e": "Stik es krim lebih panjang dari koin. Alat ukur yang panjangnya berbeda memberi hasil yang berbeda."
     },
     {
      "t": "Meja yang sama diukur dengan sedotan dan dengan koin. Mana yang lebih banyak dipakai?",
@@ -2100,7 +2376,8 @@
       "sedotan",
       "sama banyak"
      ],
-     "a": "koin"
+     "a": "koin",
+     "e": "Koin lebih pendek dari sedotan. Alat ukur yang lebih kecil perlu lebih banyak untuk mengukur meja yang sama."
     },
     {
      "t": "Jarak aman membaca buku adalah sekitar ...",
@@ -2109,7 +2386,8 @@
       "1 jengkal",
       "10 jengkal"
      ],
-     "a": "3 jengkal"
+     "a": "3 jengkal",
+     "e": "Jarak baca yang baik kira-kira 3 jengkal dari mata. 1 jengkal terlalu dekat dan 10 jengkal terlalu jauh."
     },
     {
      "t": "Tebakan Wei: panjang meja 4 jengkal. Setelah diukur, hasilnya 5 jengkal. Apakah tebakan Wei tepat?",
@@ -2117,7 +2395,8 @@
       "tidak",
       "ya"
      ],
-     "a": "tidak"
+     "a": "tidak",
+     "e": "Tebakan Wei 4 jengkal, tetapi hasil ukurnya 5 jengkal. 4 tidak sama dengan 5, jadi tebakannya tidak tepat."
     },
     {
      "t": "Tinggi lemari 6 jengkal. Tinggi meja 3 jengkal. Mana yang lebih tinggi?",
@@ -2126,7 +2405,8 @@
       "meja",
       "sama tinggi"
      ],
-     "a": "lemari"
+     "a": "lemari",
+     "e": "6 jengkal lebih dari 3 jengkal, jadi lemari lebih tinggi daripada meja."
     }
    ]
   },
@@ -2145,7 +2425,8 @@
       "bola"
      ],
      "a": "pesawat",
-     "g": "mainan"
+     "g": "mainan",
+     "e": "Bandingkan 12, 8, 10, dan 6. Bilangan 12 paling besar, jadi pesawat paling banyak."
     },
     {
      "t": "Mainan apa yang paling sedikit?",
@@ -2156,13 +2437,15 @@
       "boneka"
      ],
      "a": "bola",
-     "g": "mainan"
+     "g": "mainan",
+     "e": "Bandingkan 12, 8, 10, dan 6. Bilangan 6 paling kecil, jadi bola paling sedikit."
     },
     {
      "t": "Ada berapa boneka di toko?",
      "c": "Daftar mainan: 12 pesawat, 8 mobil-mobilan, 10 boneka, 6 bola.",
      "a": "10",
-     "g": "mainan"
+     "g": "mainan",
+     "e": "Cari kata boneka di daftar mainan. Di depannya tertulis 10, jadi ada 10 boneka."
     },
     {
      "t": "Mana yang lebih banyak, mobil-mobilan atau boneka?",
@@ -2173,7 +2456,8 @@
       "sama banyak"
      ],
      "a": "boneka",
-     "g": "mainan"
+     "g": "mainan",
+     "e": "Mobil-mobilan ada 8 dan boneka ada 10. 10 lebih dari 8, jadi boneka lebih banyak."
     },
     {
      "t": "Bola warna apa yang paling banyak?",
@@ -2184,7 +2468,8 @@
       "hijau"
      ],
      "a": "merah",
-     "g": "bola"
+     "g": "bola",
+     "e": "Bandingkan 7, 4, dan 6. Bilangan 7 paling besar, jadi bola merah paling banyak."
     },
     {
      "t": "Bola warna apa yang paling sedikit?",
@@ -2195,31 +2480,36 @@
       "hijau"
      ],
      "a": "kuning",
-     "g": "bola"
+     "g": "bola",
+     "e": "Bandingkan 7, 4, dan 6. Bilangan 4 paling kecil, jadi bola kuning paling sedikit."
     },
     {
      "t": "Ada berapa bola hijau?",
      "c": "Tabel bola: merah 7, kuning 4, hijau 6.",
      "a": "6",
-     "g": "bola"
+     "g": "bola",
+     "e": "Cari kata hijau di tabel bola. Di sebelahnya tertulis 6, jadi ada 6 bola hijau."
     },
     {
      "t": "Berapa jumlah bola merah dan bola kuning?",
      "c": "Tabel bola: merah 7, kuning 4, hijau 6.",
      "a": "11",
-     "g": "bola"
+     "g": "bola",
+     "e": "Bola merah ada 7 dan bola kuning ada 4. Dijumlahkan: 7 ditambah 4 hasilnya adalah 11."
     },
     {
      "t": "Berapa selisih banyak bola merah dan bola hijau?",
      "c": "Tabel bola: merah 7, kuning 4, hijau 6.",
      "a": "1",
-     "g": "bola"
+     "g": "bola",
+     "e": "Bola merah ada 7 dan bola hijau ada 6. Selisihnya: 7 dikurangi 6 hasilnya adalah 1."
     },
     {
      "t": "Berapa anak yang suka gasing?",
      "c": "Tabel mainan kesukaan: boneka 3 anak, gasing 5 anak, kelereng 4 anak, bola 6 anak.",
      "a": "5",
-     "g": "suka"
+     "g": "suka",
+     "e": "Cari kata gasing di tabel. Di sebelahnya tertulis 5 anak, jadi 5 anak suka gasing."
     },
     {
      "t": "Mainan apa yang paling disukai?",
@@ -2230,13 +2520,15 @@
       "boneka"
      ],
      "a": "bola",
-     "g": "suka"
+     "g": "suka",
+     "e": "Bandingkan 3, 5, 4, dan 6. Bola dipilih 6 anak, paling banyak dibanding yang lain."
     },
     {
      "t": "Berapa jumlah semua anak?",
      "c": "Tabel mainan kesukaan: boneka 3 anak, gasing 5 anak, kelereng 4 anak, bola 6 anak.",
      "a": "18",
-     "g": "suka"
+     "g": "suka",
+     "e": "Jumlahkan semua anak di tabel: 3 ditambah 5 ditambah 4 ditambah 6 hasilnya adalah 18 anak."
     },
     {
      "t": "Mainan apa yang paling sedikit disukai?",
@@ -2247,7 +2539,8 @@
       "gasing"
      ],
      "a": "boneka",
-     "g": "suka"
+     "g": "suka",
+     "e": "Bandingkan 3, 5, 4, dan 6. Boneka dipilih 3 anak, paling sedikit dibanding yang lain."
     },
     {
      "t": "Kue apa yang paling disukai?",
@@ -2258,7 +2551,8 @@
       "kue cucur"
      ],
      "a": "kue bugis",
-     "g": "kue"
+     "g": "kue",
+     "e": "Bandingkan 5, 3, 5, dan 6. Kue bugis dipilih 6 anak, paling banyak dibanding yang lain."
     },
     {
      "t": "Kue apa yang sama banyak disukai dengan kue talam?",
@@ -2269,25 +2563,29 @@
       "kue bugis"
      ],
      "a": "kue lapis",
-     "g": "kue"
+     "g": "kue",
+     "e": "Kue talam dipilih 5 anak. Kue lapis juga dipilih 5 anak, jadi keduanya sama banyak."
     },
     {
      "t": "Berapa jumlah semua anak?",
      "c": "Tabel kue kesukaan: talam 5 anak, cucur 3 anak, lapis 5 anak, bugis 6 anak.",
      "a": "19",
-     "g": "kue"
+     "g": "kue",
+     "e": "Jumlahkan semua anak di tabel: 5 ditambah 3 ditambah 5 ditambah 6 hasilnya adalah 19 anak."
     },
     {
      "t": "Berapa anak yang suka kue cucur?",
      "c": "Tabel kue kesukaan: talam 5 anak, cucur 3 anak, lapis 5 anak, bugis 6 anak.",
      "a": "3",
-     "g": "kue"
+     "g": "kue",
+     "e": "Cari kata cucur di tabel. Di sebelahnya tertulis 3 anak, jadi 3 anak suka kue cucur."
     },
     {
      "t": "Diagram sayur kesukaan. Satu gambar mewakili 1 anak. Berapa anak yang suka wortel?",
      "c": "Jagung: 🌽🌽🌽 | Wortel: 🥕🥕🥕🥕 | Brokoli: 🥦🥦 | Kol: 🥬",
      "a": "4",
-     "g": "sayur"
+     "g": "sayur",
+     "e": "Hitung gambar wortel satu per satu: 1, 2, 3, 4. Satu gambar mewakili 1 anak, jadi ada 4 anak."
     },
     {
      "t": "Diagram sayur kesukaan. Satu gambar mewakili 1 anak. Sayur apa yang paling disukai?",
@@ -2298,7 +2596,8 @@
       "brokoli"
      ],
      "a": "wortel",
-     "g": "sayur"
+     "g": "sayur",
+     "e": "Wortel dipilih 4 anak, paling banyak dibanding jagung 3 anak, brokoli 2 anak, dan kol 1 anak."
     },
     {
      "t": "Diagram sayur kesukaan. Satu gambar mewakili 1 anak. Sayur apa yang paling sedikit disukai?",
@@ -2309,19 +2608,22 @@
       "jagung"
      ],
      "a": "kol",
-     "g": "sayur"
+     "g": "sayur",
+     "e": "Kol hanya dipilih 1 anak, paling sedikit dibanding brokoli 2 anak, jagung 3 anak, dan wortel 4 anak."
     },
     {
      "t": "Diagram sayur kesukaan. Satu gambar mewakili 1 anak. Berapa jumlah semua anak?",
      "c": "Jagung: 🌽🌽🌽 | Wortel: 🥕🥕🥕🥕 | Brokoli: 🥦🥦 | Kol: 🥬",
      "a": "10",
-     "g": "sayur"
+     "g": "sayur",
+     "e": "Jumlahkan semua gambar: 3 ditambah 4 ditambah 2 ditambah 1 hasilnya adalah 10 anak."
     },
     {
      "t": "Diagram karet gelang. Satu gambar mewakili 1 karet gelang. Berapa karet gelang Upe?",
      "c": "Malosi: ⭕⭕⭕⭕⭕ | Halim: ⭕⭕⭕ | Upe: ⭕⭕⭕⭕",
      "a": "4",
-     "g": "karet"
+     "g": "karet",
+     "e": "Hitung gambar di baris Upe: 1, 2, 3, 4. Jadi Upe punya 4 karet gelang."
     },
     {
      "t": "Diagram karet gelang. Siapa yang karet gelangnya paling banyak?",
@@ -2332,25 +2634,29 @@
       "Upe"
      ],
      "a": "Malosi",
-     "g": "karet"
+     "g": "karet",
+     "e": "Malosi punya 5, Halim 3, dan Upe 4 karet gelang. 5 paling besar, jadi Malosi paling banyak."
     },
     {
      "t": "Diagram karet gelang. Karet gelang Malosi berapa lebihnya dari karet gelang Halim?",
      "c": "Malosi: ⭕⭕⭕⭕⭕ | Halim: ⭕⭕⭕ | Upe: ⭕⭕⭕⭕",
      "a": "2",
-     "g": "karet"
+     "g": "karet",
+     "e": "Malosi punya 5 dan Halim punya 3 karet gelang. Lebihnya: 5 dikurangi 3 hasilnya adalah 2."
     },
     {
      "t": "Diagram karet gelang. Berapa jumlah semua karet gelang?",
      "c": "Malosi: ⭕⭕⭕⭕⭕ | Halim: ⭕⭕⭕ | Upe: ⭕⭕⭕⭕",
      "a": "12",
-     "g": "karet"
+     "g": "karet",
+     "e": "Jumlahkan semua gambar: 5 ditambah 3 ditambah 4 hasilnya adalah 12 karet gelang."
     },
     {
      "t": "Diagram buah yang dibeli Ibu. Berapa banyak mangga?",
      "c": "Jeruk: 🍊🍊🍊🍊🍊🍊 | Apel: 🍎🍎🍎 | Mangga: 🥭🥭🥭🥭 | Pisang: 🍌🍌🍌🍌🍌",
      "a": "4",
-     "g": "buah"
+     "g": "buah",
+     "e": "Hitung gambar mangga satu per satu: 1, 2, 3, 4. Jadi Ibu membeli 4 mangga."
     },
     {
      "t": "Diagram buah yang dibeli Ibu. Buah apa yang paling banyak?",
@@ -2361,7 +2667,8 @@
       "mangga"
      ],
      "a": "jeruk",
-     "g": "buah"
+     "g": "buah",
+     "e": "Jeruk ada 6, paling banyak dibanding pisang 5, mangga 4, dan apel 3."
     },
     {
      "t": "Diagram buah yang dibeli Ibu. Buah apa yang paling sedikit?",
@@ -2372,13 +2679,15 @@
       "pisang"
      ],
      "a": "apel",
-     "g": "buah"
+     "g": "buah",
+     "e": "Apel ada 3, paling sedikit dibanding mangga 4, pisang 5, dan jeruk 6."
     },
     {
      "t": "Diagram buah yang dibeli Ibu. Berapa jumlah semua buah?",
      "c": "Jeruk: 🍊🍊🍊🍊🍊🍊 | Apel: 🍎🍎🍎 | Mangga: 🥭🥭🥭🥭 | Pisang: 🍌🍌🍌🍌🍌",
      "a": "18",
-     "g": "buah"
+     "g": "buah",
+     "e": "Jumlahkan semua gambar buah: 6 ditambah 3 ditambah 4 ditambah 5 hasilnya adalah 18 buah."
     },
     {
      "t": "Pesawat, boneka, bola, dan mobil-mobilan di toko mainan adalah contoh ...",
@@ -2387,7 +2696,8 @@
       "bilangan",
       "bentuk"
      ],
-     "a": "data"
+     "a": "data",
+     "e": "Data adalah kumpulan keterangan tentang benda. Nama-nama mainan di toko adalah contoh data."
     },
     {
      "t": "Mengapa data dikelompokkan dan ditulis dalam daftar?",
@@ -2396,7 +2706,8 @@
       "supaya lebih banyak",
       "supaya hilang"
      ],
-     "a": "supaya mudah dibaca"
+     "a": "supaya mudah dibaca",
+     "e": "Kalau mainan yang sama dikumpulkan dan ditulis dalam daftar, kita cepat tahu banyaknya. Jadi data mudah dibaca."
     },
     {
      "t": "Tabel terdiri dari baris dan ...",
@@ -2405,19 +2716,22 @@
       "garis",
       "gambar"
      ],
-     "a": "kolom"
+     "a": "kolom",
+     "e": "Tabel punya baris yang mendatar dan kolom yang menurun. Jadi tabel terdiri dari baris dan kolom."
     },
     {
      "t": "Bagian tabel yang mendatar disebut ...",
      "a": "baris",
      "wide": true,
-     "g": "tabel"
+     "g": "tabel",
+     "e": "Bagian tabel yang mendatar dari kiri ke kanan disebut baris, seperti anak yang berbaris."
     },
     {
      "t": "Bagian tabel yang menurun disebut ...",
      "a": "kolom",
      "wide": true,
-     "g": "tabel"
+     "g": "tabel",
+     "e": "Bagian tabel yang menurun dari atas ke bawah disebut kolom."
     },
     {
      "t": "Diagram yang memakai gambar untuk menunjukkan banyak data disebut diagram ...",
@@ -2426,7 +2740,8 @@
       "angka",
       "huruf"
      ],
-     "a": "gambar"
+     "a": "gambar",
+     "e": "Diagram gambar memakai gambar untuk menunjukkan banyak data. Makin banyak gambarnya, makin banyak datanya."
     },
     {
      "t": "Pada diagram, satu gambar mewakili 1 anak. Ada 5 gambar kelereng. Berapa anak yang suka kelereng?",
@@ -2435,17 +2750,20 @@
       "1",
       "6"
      ],
-     "a": "5"
+     "a": "5",
+     "e": "Satu gambar mewakili 1 anak. Ada 5 gambar kelereng, jadi 5 anak suka kelereng."
     },
     {
      "t": "Pak Budi punya 4 ayam. Banyak bebek 2 kurangnya dari ayam. Berapa bebek Pak Budi?",
      "a": "2",
-     "g": "budi"
+     "g": "budi",
+     "e": "2 kurangnya berarti dikurangi 2: 4 dikurangi 2 hasilnya adalah 2 bebek."
     },
     {
      "t": "Pak Budi punya 4 ayam. Banyak kelinci 1 lebihnya dari ayam. Berapa kelinci Pak Budi?",
      "a": "5",
-     "g": "budi"
+     "g": "budi",
+     "e": "1 lebihnya berarti ditambah 1: 4 ditambah 1 hasilnya adalah 5 kelinci."
     },
     {
      "t": "Halim menabung 2 kali seminggu. Wei 1 kali. Upe 3 kali. Siapa yang paling sering menabung?",
@@ -2455,12 +2773,14 @@
       "Wei"
      ],
      "a": "Upe",
-     "g": "tabung"
+     "g": "tabung",
+     "e": "Bandingkan 2, 1, dan 3 kali. Bilangan 3 paling besar, jadi Upe paling sering menabung."
     },
     {
      "t": "Halim menabung 2 kali seminggu. Wei 1 kali. Upe 3 kali. Berapa kali mereka menabung semuanya?",
      "a": "6",
-     "g": "tabung"
+     "g": "tabung",
+     "e": "Jumlahkan semua: 2 ditambah 1 ditambah 3 hasilnya adalah 6 kali menabung."
     }
    ]
   }

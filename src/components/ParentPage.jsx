@@ -72,7 +72,7 @@ function Progress({ child }) {
                 <b>{t.title}</b>
                 <small>{t.eyebrow} · {t.count} kali latihan · terbaik {t.best} · rata-rata {t.avg}</small>
               </span>
-              <a className="btn ghost small" href={t.key}>Latihan</a>
+              <a className="btn ghost small" href={t.key}>Main</a>
             </li>
           ))}
         </ul>
