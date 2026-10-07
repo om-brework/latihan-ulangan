@@ -3,6 +3,10 @@ import { CHAPTER_QUIZ_SIZE, MIXED_QUIZ_SIZE, SPECIAL, SUBJECTS, resolveRoute } f
 import Quiz from "./components/Quiz.jsx";
 import Lesson from "./components/Lesson.jsx";
 import { LESSONS } from "./lessons/mtk.jsx";
+import ParentPage from "./components/ParentPage.jsx";
+import PrivacyPage from "./components/PrivacyPage.jsx";
+import { useSession } from "./lib/session.jsx";
+import { lastScoreByKey } from "./lib/progress.js";
 
 const TOTAL = SUBJECTS.reduce((n, s) => n + s.total, 0) + SPECIAL.total;
 
@@ -17,6 +21,30 @@ function useHash() {
     return () => window.removeEventListener("hashchange", onChange);
   }, []);
   return hash;
+}
+
+function ProfileBar() {
+  const s = useSession();
+  if (!s.ready || !s.kidsLoaded) return null;
+  return (
+    <section className="profile-bar">
+      {s.kids.length === 0 ? (
+        <p>Mau menyimpan nilai dan melihat perkembangan anak? <a href="#/orangtua">Buat profil anak</a></p>
+      ) : (
+        <>
+          <b>Siapa yang latihan?</b>
+          <div className="kid-list">
+            {s.kids.map((k) => (
+              <button type="button" key={k.id} className={`kid${s.active?.id === k.id ? " on" : ""}`} aria-pressed={s.active?.id === k.id} onClick={() => s.chooseChild(k.id)}>
+                <span aria-hidden="true">{k.icon}</span> {k.name}
+              </button>
+            ))}
+          </div>
+        </>
+      )}
+      <a className="parent-link" href="#/orangtua">👨‍👩‍👧 Orang tua: lihat perkembangan</a>
+    </section>
+  );
 }
 
 function Card({ href, icon, title, text, meta, c, cd }) {
@@ -44,6 +72,8 @@ function Home() {
         </h1>
         <p className="note">Pilih pelajaran, lalu pilih bab. Ada {TOTAL} soal, dan soalnya selalu diacak.</p>
       </header>
+
+      <ProfileBar />
 
       <section className="group">
         <h2 className="group-title">Ulangan terdekat</h2>
@@ -73,11 +103,19 @@ function Home() {
           />
         ))}
       </section>
+
+      <p className="foot"><a href="#/privasi">Kebijakan privasi</a></p>
     </div>
   );
 }
 
 function SubjectPage({ subject }) {
+  const s = useSession();
+  const last = lastScoreByKey(s.attempts);
+  const lastOf = (id) => {
+    const v = last[`#/${subject.id}/${id}`];
+    return v === undefined ? null : <span className={`last ${v >= 80 ? "good" : v >= 60 ? "mid" : "low"}`}>Nilai terakhir {v}</span>;
+  };
   return (
     <div className="wrap">
       <header className="head">
@@ -108,6 +146,7 @@ function SubjectPage({ subject }) {
               <span className="card-body">
                 <strong>{ch.title}</strong>
                 <span className="card-text">{ch.hint}</span>
+                {lastOf(ch.id)}
                 <span className="card-actions">
                   <a className="btn ghost" href={`#/${subject.id}/${ch.id}/belajar`}>📘 Belajar</a>
                   <a className="btn main" href={`#/${subject.id}/${ch.id}`}>✏️ Latihan</a>
@@ -121,7 +160,7 @@ function SubjectPage({ subject }) {
               icon={ch.icon}
               title={ch.title}
               text={ch.hint}
-              meta={`${ch.questions.length} soal`}
+              meta={last[`#/${subject.id}/${ch.id}`] === undefined ? `${ch.questions.length} soal` : `${ch.questions.length} soal · nilai terakhir ${last[`#/${subject.id}/${ch.id}`]}`}
               c={ch.c}
               cd={ch.cd}
             />
@@ -135,6 +174,8 @@ function SubjectPage({ subject }) {
 export default function App() {
   const hash = useHash();
   const route = resolveRoute(hash);
+  if (route.page === "parent") return <ParentPage />;
+  if (route.page === "privacy") return <PrivacyPage />;
   if (route.page === "quiz") return <Quiz key={hash} route={route} />;
   if (route.page === "lesson" && LESSONS[route.chapter.id]) {
     return <Lesson key={hash} subject={route.subject} chapter={route.chapter} steps={LESSONS[route.chapter.id]} />;

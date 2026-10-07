@@ -7,9 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node scripts/check-bank.mjs"
+    "test": "node scripts/check-bank.mjs && node scripts/check-progress.mjs",
+    "test:cloud": "firebase-tools emulators:exec --project demo-latihan --only auth,firestore \"node scripts/test-cloud.mjs\""
   },
   "dependencies": {
+    "firebase": "^12.19.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

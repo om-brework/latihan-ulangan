@@ -2,6 +2,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { answerValue, isCorrect, toNilai } from "../lib/grade.js";
 import Question from "./Question.jsx";
 import ResultCard from "./ResultCard.jsx";
+import { useSession } from "../lib/session.jsx";
+import { buildAttempt } from "../lib/progress.js";
 
 export default function Quiz({ route }) {
   const [quiz, setQuiz] = useState(route.draw);
@@ -9,6 +11,8 @@ export default function Quiz({ route }) {
   const [checked, setChecked] = useState(false);
   const [warned, setWarned] = useState(false);
   const resultRef = useRef(null);
+  const session = useSession();
+  const [saved, setSaved] = useState(null); // "saved" | "no-child" | "failed"
 
   const all = useMemo(() => quiz.flatMap((s) => s.questions), [quiz]);
   const total = all.length;
@@ -47,6 +51,7 @@ export default function Quiz({ route }) {
       return;
     }
     setChecked(true);
+    session.saveAttempt(buildAttempt(route, quiz, answers)).then(setSaved);
   }
 
   function fresh() {
@@ -54,6 +59,7 @@ export default function Quiz({ route }) {
     setAnswers({});
     setChecked(false);
     setWarned(false);
+    setSaved(null);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -77,6 +83,9 @@ export default function Quiz({ route }) {
       </header>
 
       {score && <ResultCard ref={resultRef} score={score} total={total} sections={quiz} />}
+      {score && saved === "saved" && <p className="notice good">Nilai tersimpan untuk {session.active?.icon} {session.active?.name}.</p>}
+      {score && saved === "no-child" && <p className="notice">Nilai ini tidak disimpan. <a href="#/orangtua">Buat profil anak</a> supaya perkembangannya tercatat.</p>}
+      {score && saved === "failed" && <p className="notice bad">Nilai gagal disimpan. {session.error}</p>}
 
       <form id="quiz" noValidate onSubmit={(e) => e.preventDefault()}>
         {quiz.map((sec) => (

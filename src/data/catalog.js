@@ -79,17 +79,19 @@ export function drawMixed(subject) {
 export function resolveRoute(hash) {
   const [a, b, mode] = hash.replace(/^#\/?/, "").split("/").filter(Boolean);
   if (!a) return { page: "home" };
+  if (a === "orangtua") return { page: "parent" };
+  if (a === "privasi") return { page: "privacy" };
   if (a === SPECIAL.id) {
-    return { page: "quiz", back: "#/", eyebrow: SPECIAL.date, title: SPECIAL.title, pool: SPECIAL.total, draw: drawSpecial, parentNote: true };
+    return { page: "quiz", key: `#/${SPECIAL.id}`, back: "#/", eyebrow: SPECIAL.date, title: SPECIAL.title, pool: SPECIAL.total, draw: drawSpecial, parentNote: true };
   }
   const subject = SUBJECTS.find((s) => s.id === a);
   if (!subject) return { page: "home" };
   if (!b) return { page: "subject", subject };
   if (b === "semua") {
-    return { page: "quiz", back: `#/${subject.id}`, eyebrow: subject.title, title: "Campuran semua bab", pool: subject.total, draw: () => drawMixed(subject) };
+    return { page: "quiz", key: `#/${subject.id}/semua`, back: `#/${subject.id}`, eyebrow: subject.title, title: "Campuran semua bab", pool: subject.total, draw: () => drawMixed(subject) };
   }
   const ch = subject.chapters.find((c) => c.id === b);
   if (!ch) return { page: "subject", subject };
   if (mode === "belajar") return { page: "lesson", subject, chapter: ch };
-  return { page: "quiz", back: `#/${subject.id}`, eyebrow: subject.title, title: ch.title, pool: ch.questions.length, draw: () => drawChapter(ch) };
+  return { page: "quiz", key: `#/${subject.id}/${ch.id}`, back: `#/${subject.id}`, eyebrow: subject.title, title: ch.title, pool: ch.questions.length, draw: () => drawChapter(ch) };
 }

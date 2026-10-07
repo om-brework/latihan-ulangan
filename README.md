@@ -17,6 +17,29 @@ Bank soal per bab disusun dari buku siswa Kurikulum Merdeka kelas I. Tiap bab me
 
 Tiap bab Matematika punya tombol **Belajar**: 2 sampai 4 langkah penjelasan konsep dengan alat peraga interaktif (membilang, garis bilangan, pasangan bilangan, kotak sepuluh, bentuk, mengukur, tabel dan diagram gambar), lalu lanjut ke latihan soal. Materinya ada di `src/lessons/mtk.jsx`, alat peraganya di `src/lessons/widgets.jsx`.
 
+## Profil anak dan riwayat (Firebase)
+
+Orang tua bisa membuat profil anak (nama panggilan + gambar). Tiap kali **Periksa jawaban** ditekan, nilai dan soal yang salah disimpan untuk anak yang sedang dipilih. Halaman `#/orangtua` menampilkan materi yang perlu dilatih lagi, soal yang sering salah, dan riwayat latihan.
+
+- **Tanpa login** (atau tanpa konfigurasi Firebase): data disimpan di browser perangkat itu saja.
+- **Login dengan Google**: data disimpan di Firestore di bawah `users/{uid}/children/{childId}/attempts/{attemptId}`. `firestore.rules` memastikan tiap orang tua hanya bisa membaca dan menulis datanya sendiri.
+
+Data di perangkat tidak dipindahkan otomatis ke akun saat login.
+
+### Menyiapkan Firebase
+
+1. Buat proyek di [Firebase Console](https://console.firebase.google.com), lalu tambahkan **Web app**.
+2. **Authentication > Sign-in method**: aktifkan **Google**.
+3. **Authentication > Settings > Authorized domains**: tambahkan domain Vercel (dan domain sendiri kalau ada).
+4. **Firestore Database**: buat database (mode production), lalu tempel isi `firestore.rules` di tab **Rules** dan Publish. Atau lewat CLI: `npx firebase-tools deploy --only firestore:rules --project <project-id>`.
+5. Isi empat variabel di `.env.example` ke `.env.local` (lokal) dan ke **Vercel > Settings > Environment Variables**, lalu deploy ulang.
+
+Nilai konfigurasi web Firebase bukan rahasia; yang melindungi data adalah `firestore.rules`.
+
+`npm run test:cloud` menjalankan penyimpanan dan aturan keamanan terhadap emulator Firebase (butuh Java dan `firebase-tools`).
+
+Sebelum dibuka untuk umum, isi kontak pengelola di `src/components/PrivacyPage.jsx`.
+
 ## Menjalankan
 
 ```bash
