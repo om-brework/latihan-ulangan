@@ -280,7 +280,7 @@ button.danger-btn{background:var(--bad);border-color:#8E2317;color:#FFFFFF;font-
 .game-title{flex:none;font-weight:800;font-size:16px;color:var(--ink)}
 .viewport{flex:1;min-height:0;overflow:hidden;touch-action:pan-y}
 .track{display:flex;height:100%;transition:transform .35s ease}
-.slide{flex:0 0 100%;min-width:0;height:100%;padding:0 2px 8px;display:flex;flex-direction:column;justify-content:center}
+.slide{flex:0 0 100%;min-width:0;height:100%;padding:0 2px 8px;display:flex;flex-direction:column;justify-content:flex-start}
 .qs.solo{height:auto;max-height:100%;min-height:min(100%,360px);margin:0;padding:18px;background:var(--surface);border:4px solid var(--c);border-radius:28px;box-shadow:0 6px 0 var(--cd);overflow-y:auto;display:flex;flex-direction:column;gap:0}
 .qs.solo .q{margin-block:auto;gap:18px}
 .qs.solo .q-text{font-size:clamp(21px,5.5vw,26px)}
@@ -488,3 +488,11 @@ button.chunk.listen-big{font-size:24px;padding:10px 24px}
 .qs.solo.compact .fill.math{font-size:34px}
 .qs.solo.tiny .fill.math{font-size:28px}
 @media (min-width: 700px){.qs.solo{padding:28px 32px}.qs.solo .q-text{font-size:28px}}
+
+/* Layar tinggi (desktop/tablet): permainan tidak melebar ke seluruh tinggi layar, supaya soal dan tombol tetap berdekatan */
+@media (min-height: 860px) and (min-width: 600px){
+  .game{height:auto;max-height:calc(100dvh - 32px);margin-block:max(16px, 8vh) 16px}
+  .viewport{flex:0 1 auto}
+  .track{align-items:flex-start}
+  .game-bottom{border-radius:24px;margin-inline:0}
+}
