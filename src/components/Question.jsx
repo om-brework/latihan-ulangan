@@ -17,6 +17,8 @@ export default function Question({ q, marks, value, checked, onChange }) {
   const { src } = q;
   const ok = checked && isCorrect(q, value);
   const pictures = Boolean(q.opts) && q.opts.every(isPicture);
+  // Soal hitungan murni (12 + 5 = __, 21, 22, __) ditampilkan besar di tengah
+  const math = !q.opts && Boolean(src.pre || src.post) && /^[\d\s,+–=-]*$/.test(`${src.pre ?? ""}${src.post ?? ""}`);
 
   return (
     <li className="q" id={`row-${q.id}`}>
@@ -51,7 +53,7 @@ export default function Question({ q, marks, value, checked, onChange }) {
           })}
         </div>
       ) : (
-        <div className="fill">
+        <div className={`fill${math ? " math" : ""}`}>
           {src.pre && <span>{src.pre}</span>}
           <input
             type="text"
