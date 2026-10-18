@@ -10,7 +10,7 @@ assert.deepEqual(p.res, [5, 8, 0]);
 assert.deepEqual(p.carry, [0, 1, 0]);
 assert.deepEqual(columnPlan(754, 551).res, [5, 0, 3, 1]);
 assert.deepEqual(columnPlan(754, 551).carry, [0, 0, 1, 1]);
-assert.deepEqual(fillOrder(3), ["d0", "c1", "d1", "c2", "d2"]);
+assert.deepEqual(fillOrder(3), ["d0", "d1", "d2"]); // kotak simpanan diisi manual
 
 assert.equal(columnAnswer({ d: ["5", "8", ""], c: ["", "1", ""] }), "85");
 assert.equal(columnAnswer({ d: ["5", "8", "0"], c: ["", "", ""] }), "85"); // nol di depan diabaikan
