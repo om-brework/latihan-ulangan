@@ -3,6 +3,7 @@ import { useMemo, useState } from "react";
 import { AJAIB, closingText, explainKind } from "../lib/explain.js";
 import { KATA } from "../data/bank.js";
 import { Listen } from "./Question.jsx";
+import { ColumnDemo } from "./Column.jsx";
 
 const range = (n) => Array.from({ length: Math.max(0, n) }, (_, i) => i);
 
@@ -278,10 +279,12 @@ const ASK = {
   ajaib: () => "Kita pilih kata ajaib yang cocok.",
   choice: () => "Kita pilih satu jawaban yang paling tepat.",
   fill: () => "Kita tulis jawabannya di kotak.",
+  column: () => "Kita jumlahkan bersusun, mulai dari kolom paling kanan.",
 };
 
 function Demo({ q, info }) {
   switch (info.kind) {
+    case "column": return <ColumnDemo q={q} />;
     case "calc": return <CalcDemo {...info} />;
     case "missing": return <MissingDemo {...info} />;
     case "chain": return <ChainDemo steps={info.steps} />;

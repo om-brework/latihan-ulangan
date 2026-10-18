@@ -41,7 +41,7 @@ function explainAdd(x, y) {
       ? `Satuan: ${xs} + ${ys} = ${s}. Puluhan: ${xp} + ${yp} = ${xp + yp}. Jadi hasilnya adalah ${r}.`
       : `Satuan: ${xs} + ${ys} = ${s}, tulis ${s % 10} dan simpan 1. Puluhan: ${xp} + ${yp} + 1 = ${xp + yp + 1}. Jadi hasilnya ${r}.`;
   }
-  return `Jumlahkan dari kanan: satuan dulu, lalu puluhan, lalu ratusan. Kalau lebih dari 9, simpan 1. Hasilnya ${r}.`;
+  return `Jumlahkan dari kanan: satuan dulu, lalu puluhan, lalu ratusan. Kalau hasil satu kolom lebih dari 9, tulis satuannya dan simpan 1 di kolom sebelah kiri. Hasilnya ${r}.`;
 }
 
 function explainSub(x, y) {
@@ -70,6 +70,31 @@ const plus = (name, ys, max) => block(name, add, pairs(range(1, max), ys));
 const plusTo = (name, lo, hi) => block(name, add, pairs(range(2, hi), range(2, 10), (x, y) => x + y > lo && x + y <= hi));
 const minus = (name, ys, max) => block(name, sub, pairs(range(2, max), ys, (x, y) => x > y));
 const minusFrom = (name, lo, hi) => block(name, sub, pairs(range(lo, hi), range(2, 10), (x, y) => x - y >= 1));
+
+/* Penjumlahan bersusun: soal ditulis di kotak per kolom, lengkap dengan kotak simpanan */
+function carriesOf(x, y) {
+  let c = 0, n = 0;
+  for (; x || y || c; x = Math.floor(x / 10), y = Math.floor(y / 10)) {
+    c = (x % 10) + (y % 10) + c >= 10 ? 1 : 0;
+    n += c;
+  }
+  return n;
+}
+const column = ([x, y]) => ({ t: "Jumlahkan dengan cara bersusun.", col: [x, y], pre: `${x} + ${y} =`, a: String(x + y), e: explainAdd(x, y) });
+
+/* SIZE pasangan berbeda dengan xDigits dan yDigits angka, banyak simpanan = carries, ok() = syarat tambahan */
+function columnBlock(name, xDigits, yDigits, carries, ok = () => true) {
+  const rand = rng(name), seen = new Set(), out = [];
+  const num = (d) => 10 ** (d - 1) + Math.floor(rand() * 9 * 10 ** (d - 1));
+  for (let tries = 0; out.length < SIZE && tries < 20000; tries++) {
+    const x = num(xDigits), y = num(yDigits);
+    if (seen.has(`${x}+${y}`) || carriesOf(x, y) !== carries || !ok(x, y)) continue;
+    seen.add(`${x}+${y}`);
+    out.push(column([x, y]));
+  }
+  if (out.length < SIZE) throw new Error(`Blok "${name}" hanya punya ${out.length} soal`);
+  return { name, questions: out };
+}
 
 const noCarry = (x, y) => (x % 10) + (y % 10) < 10;
 const noBorrow = (x, y) => x % 10 >= y % 10;
@@ -148,6 +173,22 @@ export const MTK_DEV = [
       block("Dua angka – dua angka, meminjam", sub, pairs(range(31, 95), range(13, 59), (x, y) => !noBorrow(x, y) && x - y > 3)),
       block("Tiga angka – dua angka", sub, pairs(range(120, 480).filter((n) => n % 11 === 0), range(12, 79).filter((n) => n % 4 === 0))),
       block("Tiga angka – tiga angka", sub, pairs(range(400, 990).filter((n) => n % 13 === 0), range(110, 380).filter((n) => n % 17 === 0))),
+    ],
+  },
+  {
+    id: "mtk-bersusun", title: "Penjumlahan Bersusun", short: "Bersusun", icon: "🧮", target: 360,
+    hint: "Tulis angka di kotak, mulai dari satuan. Kalau lebih dari 9, tulis 1 di kotak simpanan.",
+    blocks: [
+      columnBlock("Dua angka, tanpa simpanan", 2, 2, 0, (x, y) => x + y < 100),
+      columnBlock("Dua angka, simpanan di puluhan", 2, 2, 1, (x, y) => x + y < 100),
+      columnBlock("Dua angka, hasil ratusan", 2, 2, 1, (x, y) => x + y >= 100),
+      columnBlock("Dua angka, dua simpanan", 2, 2, 2),
+      columnBlock("Tiga angka + dua angka, tanpa simpanan", 3, 2, 0),
+      columnBlock("Tiga angka + dua angka, satu simpanan", 3, 2, 1, (x, y) => x + y < 1000),
+      columnBlock("Tiga angka + tiga angka, tanpa simpanan", 3, 3, 0),
+      columnBlock("Tiga angka + tiga angka, satu simpanan", 3, 3, 1, (x, y) => x + y < 1000),
+      columnBlock("Tiga angka + tiga angka, dua simpanan", 3, 3, 2, (x, y) => x + y < 1000),
+      columnBlock("Tiga angka + tiga angka, hasil ribuan", 3, 3, 2, (x, y) => x + y >= 1000),
     ],
   },
 ];

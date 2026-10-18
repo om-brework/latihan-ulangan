@@ -25,6 +25,7 @@ Bank soal per bab disusun dari buku siswa Kurikulum Merdeka kelas I.
 Tiap pelajaran bisa punya bagian "Pengembangan": latihan berjenjang di luar bab buku, naik dengan langkah sangat kecil.
 
 - **Matematika, Berhitung Lancar 1–4** (51 level): urutan bilangan, +1, +2, sampai +10, pengurangan, lalu bilangan dua dan tiga angka. Urutan materinya mengikuti pola latihan berhitung bertahap ala Kumon (level 3A sampai B). Soal dibuat oleh kode di `src/data/pengembangan/mtk.js`; tiap level punya nama topik dan target waktu yang tampil di akhir level.
+- **Matematika, Penjumlahan Bersusun** (10 level): soal ditulis bersusun dengan kotak per kolom dan kotak simpanan di atasnya. Anak mengisi dengan keypad di layar (atau papan ketik), mulai dari satuan; kursor pindah otomatis ke kotak simpanan lalu ke kolom berikutnya. Level naik dari dua angka tanpa simpanan sampai tiga angka dengan hasil ribuan. Nilai dihitung dari hasil akhir; kotak simpanan yang keliru ditandai merah sebagai umpan balik. Pembahasannya membuka kolom satu per satu dari kanan. Kode: `src/lib/column.js`, `src/components/Column.jsx`, soal dibuat di `src/data/pengembangan/mtk.js`.
 - **Bahasa Indonesia, Membaca 1–5** (150 soal): kata dan gambar, melengkapi kata, kalimat pendek, memahami kalimat, bacaan pendek. File `src/data/pengembangan/bi.json`.
 - **Bahasa Inggris, Reading 1–5** (150 soal): dengar kata, baca kata, frasa, kalimat, cerita pendek. File `src/data/pengembangan/en.json`.
 

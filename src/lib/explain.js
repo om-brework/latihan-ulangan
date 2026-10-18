@@ -30,6 +30,9 @@ export function explainKind(q) {
   const pre = (s.pre ?? "").trim(), post = (s.post ?? "").trim();
   let m, m2;
 
+  // Penjumlahan bersusun
+  if (s.col) return { kind: "column", x: s.col[0], y: s.col[1] };
+
   if (!s.o) {
     // 3 + 4 =   |   9 – 2 =
     if (!post && (m = pre.match(/^(\d+)\s*([+–-])\s*(\d+)\s*=$/))) {
