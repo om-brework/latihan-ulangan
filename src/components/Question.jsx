@@ -1,5 +1,6 @@
 import { isCorrect } from "../lib/grade.js";
 import { canSpeak, speak } from "../lib/speak.js";
+import { ColumnInput } from "./Column.jsx";
 
 /* Tombol dengar untuk soal menyimak. Tanpa fitur suara, teksnya ditampilkan sebagai tulisan. */
 export function Listen({ text, big = false }) {
@@ -32,7 +33,9 @@ export default function Question({ q, marks, value, checked, onChange }) {
 
       {src.say && <Listen text={src.say} big />}
 
-      {q.opts ? (
+      {src.col ? (
+        <ColumnInput q={q} value={value} checked={checked} onChange={onChange} />
+      ) : q.opts ? (
         <div className={`opts${marks || pictures ? " marks" : ""}${pictures ? " pictures" : ""}`} role="radiogroup" aria-label="Pilihan jawaban">
           {q.opts.map((o, k) => {
             const state = !checked ? "" : o === src.a ? " right" : value === o ? " wrong" : "";
