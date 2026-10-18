@@ -38,4 +38,14 @@ for (const b of ch.blocks) {
     assert.equal(Number(plan.res.slice().reverse().join("")), x + y, `${x} + ${y}`);
   }
 }
+// Soal baru tiap kali level dimainkan, tetap memenuhi syarat levelnya
+import("../src/data/catalog.js").then(({ SUBJECTS, drawLevel }) => {
+  const mtk = SUBJECTS.find((s) => s.id === "mtk").chapters.find((c) => c.id === "mtk-bersusun");
+  for (let n = 1; n <= mtk.levels.length; n++) {
+    const sets = Array.from({ length: 5 }, () => drawLevel(mtk, n).questions.map((q) => q.src.pre).join("|"));
+    assert.ok(new Set(sets).size > 1, `level ${n} selalu sama`);
+    for (const q of drawLevel(mtk, n).questions) assert.equal(q.src.a, String(q.src.col[0] + q.src.col[1]));
+  }
+  console.log("Soal bersusun acak tiap kali level dimainkan.");
+});
 console.log(`Penjumlahan bersusun valid: ${ch.blocks.length} level.`);

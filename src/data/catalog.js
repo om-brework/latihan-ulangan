@@ -81,6 +81,8 @@ function withLevels(subject) {
     // Level biasa dulu, lalu level tantangan (kalau bab punya soal "challenge")
     levels: ch.blocks ? ch.blocks.map((b) => b.questions) : [...makeLevels(ch.questions), ...makeLevels(ch.challenge ?? [])],
     levelNames: ch.blocks ? ch.blocks.map((b) => b.name) : null,
+    // Level yang soalnya dibuat baru tiap kali dimainkan (misalnya penjumlahan bersusun)
+    fresh: ch.blocks ? ch.blocks.map((b) => b.fresh ?? null) : null,
     hardFrom: ch.blocks ? ch.blocks.length : makeLevels(ch.questions).length,
     all: [...ch.questions, ...(ch.challenge ?? [])],
   }));
@@ -166,9 +168,10 @@ function toSection(base, list) {
   };
 }
 
-/* Soal satu level, urutannya diacak tiap kali dimainkan */
+/* Soal satu level, urutannya diacak tiap kali dimainkan. Level dengan generator mendapat soal baru tiap kali. */
 export function drawLevel(ch, n) {
-  return toSection({ id: `${ch.id}-L${n}`, label: `${ch.title} · Level ${n}`, short: `Level ${n}`, icon: ch.icon, c: ch.c, cd: ch.cd, marks: ch.marks }, shuffle(ch.levels[n - 1]));
+  const make = ch.fresh?.[n - 1];
+  return toSection({ id: `${ch.id}-L${n}`, label: `${ch.title} · Level ${n}`, short: `Level ${n}`, icon: ch.icon, c: ch.c, cd: ch.cd, marks: ch.marks }, make ? make() : shuffle(ch.levels[n - 1]));
 }
 
 /* Tantangan campuran: soal acak dari semua bab satu pelajaran */

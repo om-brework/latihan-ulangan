@@ -82,18 +82,22 @@ function carriesOf(x, y) {
 }
 const column = ([x, y]) => ({ t: "Jumlahkan dengan cara bersusun.", col: [x, y], pre: `${x} + ${y} =`, a: String(x + y), e: explainAdd(x, y) });
 
-/* SIZE pasangan berbeda dengan xDigits dan yDigits angka, banyak simpanan = carries, ok() = syarat tambahan */
+/* SIZE pasangan berbeda dengan xDigits dan yDigits angka, banyak simpanan = carries, ok() = syarat tambahan.
+   `questions` = satu set tetap (untuk tes dan hitungan bank soal); `fresh()` = set baru yang acak tiap kali level dimainkan. */
 function columnBlock(name, xDigits, yDigits, carries, ok = () => true) {
-  const rand = rng(name), seen = new Set(), out = [];
-  const num = (d) => 10 ** (d - 1) + Math.floor(rand() * 9 * 10 ** (d - 1));
-  for (let tries = 0; out.length < SIZE && tries < 20000; tries++) {
-    const x = num(xDigits), y = num(yDigits);
-    if (seen.has(`${x}+${y}`) || carriesOf(x, y) !== carries || !ok(x, y)) continue;
-    seen.add(`${x}+${y}`);
-    out.push(column([x, y]));
-  }
-  if (out.length < SIZE) throw new Error(`Blok "${name}" hanya punya ${out.length} soal`);
-  return { name, questions: out };
+  const make = (rand) => {
+    const seen = new Set(), out = [];
+    const num = (d) => 10 ** (d - 1) + Math.floor(rand() * 9 * 10 ** (d - 1));
+    for (let tries = 0; out.length < SIZE && tries < 20000; tries++) {
+      const x = num(xDigits), y = num(yDigits);
+      if (seen.has(`${x}+${y}`) || carriesOf(x, y) !== carries || !ok(x, y)) continue;
+      seen.add(`${x}+${y}`);
+      out.push(column([x, y]));
+    }
+    if (out.length < SIZE) throw new Error(`Blok "${name}" hanya punya ${out.length} soal`);
+    return out;
+  };
+  return { name, questions: make(rng(name)), fresh: () => make(Math.random) };
 }
 
 const noCarry = (x, y) => (x % 10) + (y % 10) < 10;
