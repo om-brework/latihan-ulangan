@@ -49,9 +49,11 @@ export function ColumnInput({ q, value, checked, onChange }) {
     next[kind][i] = ch;
     onChange(next);
   };
+  // Sesudah kotak hasil: pindah ke kotak hasil di kirinya. Sesudah kotak simpanan: ke kotak hasil kolom itu.
   const press = (digit) => {
     if (checked) return;
     setBox(sel, digit);
+    if (sel[0] === "c") return setSel(`d${sel.slice(1)}`);
     const k = order.indexOf(sel);
     if (k < order.length - 1) setSel(order[k + 1]);
   };
@@ -59,6 +61,7 @@ export function ColumnInput({ q, value, checked, onChange }) {
     if (checked) return;
     const kind = sel[0], i = Number(sel.slice(1));
     if (v[kind][i] !== "") return setBox(sel, "");
+    if (kind === "c") return;
     const k = order.indexOf(sel);
     if (k > 0) { setSel(order[k - 1]); setBox(order[k - 1], ""); }
   };
@@ -99,9 +102,9 @@ export function ColumnInput({ q, value, checked, onChange }) {
 function tipFor(sel, plan) {
   const i = Number(sel.slice(1));
   if (sel === "d0") return "Mulai dari satuan. Jumlahkan angka paling kanan.";
-  if (sel[0] === "c") return `Ada simpanan untuk ${PLACE[i]}? Tulis 1. Kalau tidak ada, tulis 0 atau ketuk kotak di bawah.`;
+  if (sel[0] === "c") return `Tulis simpanan untuk ${PLACE[i]}.`;
   if (i === plan.cols - 1) return `Ada simpanan di atas ${PLACE[i]}? Turunkan ke sini. Kalau tidak ada, biarkan kosong.`;
-  return `Jumlahkan ${PLACE[i]}. Jangan lupa simpanan di atasnya.`;
+  return `Jumlahkan ${PLACE[i]}. Kalau ada simpanan, ketuk kotak kecil di atasnya dan tulis dulu.`;
 }
 
 /* Pembahasan: buka kolom satu per satu dari kanan */

@@ -38,12 +38,9 @@ export function columnAnswer(v, minDigits = 1) {
 /* Simpanan anak benar? Kotak kosong dan 0 sama-sama berarti "tidak ada simpanan" */
 export const carryOk = (v, plan, i) => (Number(v?.c?.[i] || 0)) === plan.carry[i];
 
-/* Urutan kotak yang diisi: satuan, simpanan puluhan, puluhan, simpanan ratusan, ... */
-export function fillOrder(cols) {
-  const order = ["d0"];
-  for (let i = 1; i < cols; i++) order.push(`c${i}`, `d${i}`);
-  return order;
-}
+/* Urutan kotak hasil yang diisi otomatis: satuan, puluhan, ratusan, ...
+   Kotak simpanan tidak masuk urutan: anak sendiri yang mengetuk dan mengisinya. */
+export const fillOrder = (cols) => Array.from({ length: cols }, (_, i) => `d${i}`);
 
 /* Kalimat penjelasan per kolom, dipakai di pembahasan */
 export function stepText(step) {
