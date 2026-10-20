@@ -71,6 +71,8 @@ const plusTo = (name, lo, hi) => block(name, add, pairs(range(2, hi), range(2, 1
 const minus = (name, ys, max) => block(name, sub, pairs(range(2, max), ys, (x, y) => x > y));
 const minusFrom = (name, lo, hi) => block(name, sub, pairs(range(lo, hi), range(2, 10), (x, y) => x - y >= 1));
 
+import { borrowsOf, columnPlan, subStepText } from "../../lib/column.js";
+
 /* Penjumlahan bersusun: soal ditulis di kotak per kolom, lengkap dengan kotak simpanan */
 function carriesOf(x, y) {
   let c = 0, n = 0;
@@ -99,6 +101,35 @@ function columnBlock(name, xDigits, yDigits, carries, ok = () => true) {
   };
   return { name, questions: make(rng(name)), fresh: () => make(Math.random) };
 }
+
+/* Pengurangan bersusun: kotak kecil di atas kolom untuk pinjaman */
+const columnSub = ([x, y]) => {
+  const plan = columnPlan(x, y, "-");
+  // penjelasan lengkap per kolom kalau muat; kalau terlalu panjang, ringkasannya (langkah lengkap ada di Pembahasan)
+  const full = `${plan.steps.map((st) => subStepText(st)).join(" ")} Jadi hasilnya ${x - y}.`;
+  const n = plan.steps.filter((st) => st.from !== null).length;
+  const short = `Kurangkan dari kanan, kolom demi kolom.${n ? ` Pinjam 1 dari kiri saat angka atas lebih kecil (${n} kali).` : ""} Jadi ${x} − ${y} = ${x - y}.`;
+  return { t: "Kurangkan dengan cara bersusun.", col: [x, y], op: "-", pre: `${x} – ${y} =`, a: String(x - y), e: full.length <= 180 ? full : short };
+};
+
+/* SIZE pasangan x − y: xDigits dan yDigits angka, banyak pinjaman = borrows, ok() = syarat tambahan */
+function columnSubBlock(name, xDigits, yDigits, borrows, ok = () => true) {
+  const make = (rand) => {
+    const seen = new Set(), out = [];
+    const num = (d) => 10 ** (d - 1) + Math.floor(rand() * 9 * 10 ** (d - 1));
+    for (let tries = 0; out.length < SIZE && tries < 50000; tries++) {
+      const x = num(xDigits), y = num(yDigits);
+      if (y >= x || seen.has(`${x}-${y}`) || borrowsOf(x, y).count !== borrows || !ok(x, y)) continue;
+      seen.add(`${x}-${y}`);
+      out.push(columnSub([x, y]));
+    }
+    if (out.length < SIZE) throw new Error(`Blok "${name}" hanya punya ${out.length} soal`);
+    return out;
+  };
+  return { name, questions: make(rng(name)), fresh: () => make(Math.random) };
+}
+const tens = (n) => Math.floor(n / 10) % 10;
+const acrossZero = (x, y) => borrowsOf(x, y).acrossZero;
 
 const noCarry = (x, y) => (x % 10) + (y % 10) < 10;
 const noBorrow = (x, y) => x % 10 >= y % 10;
@@ -193,6 +224,22 @@ export const MTK_DEV = [
       columnBlock("Tiga angka + tiga angka, satu simpanan", 3, 3, 1, (x, y) => x + y < 1000),
       columnBlock("Tiga angka + tiga angka, dua simpanan", 3, 3, 2, (x, y) => x + y < 1000),
       columnBlock("Tiga angka + tiga angka, hasil ribuan", 3, 3, 2, (x, y) => x + y >= 1000),
+    ],
+  },
+  {
+    id: "mtk-kurang-bersusun", title: "Pengurangan Bersusun", short: "Kurang susun", icon: "➖", target: 360,
+    hint: "Mulai dari satuan: atas dikurangi bawah. Kalau angka atas lebih kecil, pinjam 1 dari kolom kirinya dan tulis angka barunya di kotak kecil.",
+    blocks: [
+      columnSubBlock("Dua angka, tanpa meminjam", 2, 2, 0),
+      columnSubBlock("Dua angka dikurangi satu angka, meminjam", 2, 1, 1),
+      columnSubBlock("Dua angka, meminjam dari puluhan", 2, 2, 1),
+      columnSubBlock("Tiga angka − dua angka, tanpa meminjam", 3, 2, 0),
+      columnSubBlock("Tiga angka − dua angka, meminjam satu kali", 3, 2, 1, (x, y) => !acrossZero(x, y)),
+      columnSubBlock("Tiga angka − tiga angka, meminjam satu kali", 3, 3, 1, (x, y) => !acrossZero(x, y)),
+      columnSubBlock("Tiga angka, meminjam dua kali", 3, 3, 2),
+      columnSubBlock("Meminjam melewati nol", 3, 2, 1, (x, y) => tens(x) === 0 && acrossZero(x, y)),
+      columnSubBlock("Meminjam melewati nol, tiga angka", 3, 3, 1, (x, y) => tens(x) === 0 && acrossZero(x, y)),
+      columnSubBlock("Empat angka, meminjam", 4, 3, 2, (x, y) => x - y >= 100),
     ],
   },
 ];
