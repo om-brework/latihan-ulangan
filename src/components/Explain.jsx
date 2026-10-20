@@ -279,7 +279,7 @@ const ASK = {
   ajaib: () => "Kita pilih kata ajaib yang cocok.",
   choice: () => "Kita pilih satu jawaban yang paling tepat.",
   fill: () => "Kita tulis jawabannya di kotak.",
-  column: () => "Kita jumlahkan bersusun, mulai dari kolom paling kanan.",
+  column: (i) => (i.op === "-" ? "Kita kurangkan bersusun, mulai dari kolom paling kanan. Kalau angka atas lebih kecil, kita pinjam dari kiri." : "Kita jumlahkan bersusun, mulai dari kolom paling kanan."),
 };
 
 function Demo({ q, info }) {

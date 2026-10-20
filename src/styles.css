@@ -528,3 +528,9 @@ button.col-key.erase{grid-column:6;grid-row:1 / span 2;height:auto;color:var(--b
 .qs.solo.compact button.col-key{height:44px;font-size:24px}
 .qs.solo.tiny .col-wrap{--box:clamp(36px,11vw,46px);gap:6px}
 .qs.solo.tiny .col-tip{font-size:14px}
+.col-box.carry.borrow{color:#6D28D9;background:#F5F3FF;border-color:#C4B5FD}
+.col-box.carry.two{font-size:calc(var(--box) * .32);letter-spacing:-.02em}
+.col-num.struck{color:#94A3B8;text-decoration:line-through;text-decoration-thickness:3px;text-decoration-color:#7C3AED}
+.col-box.carry.borrow.sel{border:3px solid var(--cd);background:#E8F5FF;box-shadow:0 0 0 5px rgba(41,168,242,.3)}
+.col-box.carry.borrow.wrong{border:3px solid var(--bad);background:var(--bad-bg);color:var(--bad)}
+.col-box.carry.borrow.right{border:3px solid var(--good);background:var(--good-bg);color:var(--good)}

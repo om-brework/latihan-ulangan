@@ -1,6 +1,6 @@
 // Uji penjumlahan bersusun: rencana per kolom, isian anak, dan bank soalnya.
 import assert from "node:assert/strict";
-import { carryOk, columnAnswer, columnPlan, fillOrder } from "../src/lib/column.js";
+import { auxOk, borrowsOf, carryOk, columnAnswer, columnPlan, fillOrder } from "../src/lib/column.js";
 import { isCorrect } from "../src/lib/grade.js";
 import { MTK_DEV } from "../src/data/pengembangan/mtk.js";
 
@@ -26,6 +26,35 @@ assert.ok(!carryOk({ c: ["", "", ""] }, p, 1));
 const q = { src: { col: [47, 38], a: "85" }, opts: null };
 assert.ok(isCorrect(q, { d: ["5", "8", ""], c: ["", "1", ""] }));
 assert.ok(!isCorrect(q, { d: ["5", "7", ""], c: ["", "", ""] }));
+
+// Pengurangan bersusun
+const k = columnPlan(52, 38, "-");
+assert.deepEqual(k.res, [4, 1]);
+assert.deepEqual(k.borrow, [12, 4]);
+const z = columnPlan(403, 158, "-");
+assert.deepEqual(z.res, [5, 4, 2]);
+assert.deepEqual(z.borrow, [13, 9, 3]); // melewati nol: puluhan 0 menjadi 9
+assert.deepEqual(columnPlan(532, 278, "-").borrow, [12, 12, 4]); // puluhan dipinjam lalu meminjam lagi
+assert.deepEqual(borrowsOf(403, 158), { count: 1, acrossZero: true });
+assert.deepEqual(borrowsOf(95, 23), { count: 0, acrossZero: false });
+assert.ok(auxOk({ c: ["12", "4"] }, k, 0) && auxOk({ c: ["12", "4"] }, k, 1));
+assert.ok(!auxOk({ c: ["", ""] }, k, 0)); // lupa meminjam
+assert.ok(auxOk({ c: ["", ""] }, columnPlan(95, 23, "-"), 1)); // tidak meminjam: kosong boleh
+const qs = { src: { col: [176, 92], op: "-", a: "84" }, opts: null };
+assert.ok(isCorrect(qs, { d: ["4", "8", "0"], c: ["", "", ""] })); // 0 di depan boleh
+assert.equal(columnAnswer({ d: ["4", "8", ""], c: ["", "", ""] }, 3), null); // semua kolom wajib diisi
+assert.ok(!isCorrect({ src: { col: [52, 38], op: "-", a: "14" }, opts: null }, { d: ["6", "2"], c: ["", ""] })); // kurang terbalik
+
+const kc = MTK_DEV.find((c) => c.id === "mtk-kurang-bersusun");
+assert.ok(kc, "bab Pengurangan Bersusun ada");
+for (const b of kc.blocks) {
+  for (const qq of [...b.questions, ...b.fresh()]) {
+    const [x, y] = qq.col;
+    assert.ok(x > y, `${x} − ${y}`);
+    assert.equal(qq.a, String(x - y));
+    assert.equal(Number(columnPlan(x, y, "-").res.slice().reverse().join("")), x - y);
+  }
+}
 
 const ch = MTK_DEV.find((c) => c.id === "mtk-bersusun");
 assert.ok(ch, "bab Penjumlahan Bersusun ada");
